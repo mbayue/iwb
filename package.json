@@ -1,0 +1,24 @@
+{
+  "name": "world-war-bot-indonesia",
+  "version": "1.0.0",
+  "description": "World War Bot for Facebook Pages simulating Indonesian Cities & Regencies warfare",
+  "main": "index.js",
+  "scripts": {
+    "turn": "node index.js turn",
+    "turn:dry": "node index.js dry",
+    "dry": "node index.js dry",
+    "auto": "node index.js auto",
+    "status": "node index.js status",
+    "reset": "node index.js reset",
+    "preview": "node index.js preview",
+    "sim": "node index.js sim"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "dotenv": "^18.0.9"
+  }
+}
