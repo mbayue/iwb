@@ -424,9 +424,9 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   if (state.gameOver && state.winner) {
     const winnerName = escapeXml(state.winner.name);
     battleAlertSvg = `
-      <rect x="50" y="112" width="1405" height="56" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
-      <text x="80" y="146" fill="#86efac" font-size="19" font-family="Segoe UI, sans-serif" font-weight="900">PEMENANG MUTLAK NUSANTARA</text>
-      <text x="380" y="146" fill="#ffffff" font-size="16" font-family="Segoe UI, sans-serif">
+      <rect x="50" y="92" width="1405" height="74" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="70" y="137" fill="#86efac" font-size="20" font-family="Segoe UI, sans-serif" font-weight="900">PEMENANG MUTLAK NUSANTARA</text>
+      <text x="430" y="137" fill="#ffffff" font-size="17" font-family="Segoe UI, sans-serif">
         <tspan font-weight="bold" fill="#facc15">${winnerName}</tspan> telah menaklukkan seluruh 507 kota &amp; kabupaten se-Indonesia!
       </text>
     `;
@@ -435,16 +435,16 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     const defTerrName = escapeXml(battle.defTerritory.name);
     const defFactionName = escapeXml(battle.defFaction.name);
     const rawCasus = battle.warReport ? battle.warReport.casusBelli : 'Sengketa batas wilayah perbatasan';
-    const casusBelli = escapeXml(rawCasus.length > 105 ? rawCasus.slice(0, 102) + '…' : rawCasus);
+    const casusBelli = escapeXml(rawCasus.length > 95 ? rawCasus.slice(0, 92) + '…' : rawCasus);
 
     if (battle.success) {
       const elimText = battle.eliminated
         ? `<tspan fill="${T.defColor}" font-weight="bold"> | ${escapeXml(battle.eliminated.name)} RUNTUH &amp; DIBUBARKAN</tspan>`
         : '';
       battleAlertSvg = `
-        <rect x="50" y="112" width="1405" height="56" rx="8" fill="url(#battleBox)" stroke="${T.battleBoxBorder}" stroke-width="1.2"/>
-        <text x="70" y="133" fill="${T.casusLabelColor}" font-size="12" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
-        <text x="70" y="154" fill="${T.titleColor}" font-size="14.5" font-family="Segoe UI, sans-serif">
+        <rect x="50" y="92" width="1405" height="74" rx="8" fill="url(#battleBox)" stroke="${T.battleBoxBorder}" stroke-width="1.2"/>
+        <text x="70" y="121" fill="${T.casusLabelColor}" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
+        <text x="70" y="151" fill="${T.titleColor}" font-size="18.5" font-family="Segoe UI, sans-serif">
           <tspan font-weight="bold" fill="${T.atkColor}">${atkName}</tspan> menaklukkan sektor pertahanan <tspan font-weight="bold" fill="${T.defColor}">${defTerrName}</tspan>
           <tspan fill="${T.successBadgeColor}" font-weight="bold"> [JATUH &amp; DIANEKSASI]</tspan>
           ${elimText}
@@ -452,9 +452,9 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
       `;
     } else {
       battleAlertSvg = `
-        <rect x="50" y="112" width="1405" height="56" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.2"/>
-        <text x="70" y="133" fill="${T.atkColor}" font-size="12" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
-        <text x="70" y="154" fill="${T.titleColor}" font-size="14.5" font-family="Segoe UI, sans-serif">
+        <rect x="50" y="92" width="1405" height="74" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.2"/>
+        <text x="70" y="121" fill="${T.atkColor}" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
+        <text x="70" y="151" fill="${T.titleColor}" font-size="18.5" font-family="Segoe UI, sans-serif">
           <tspan font-weight="bold" fill="${T.atkColor}">${atkName}</tspan> menyerbu sektor <tspan font-weight="bold" fill="${T.defColor}">${defTerrName}</tspan>
           <tspan fill="#16a34a" font-weight="bold"> [SERANGAN GAGAL: DIPUKUL MUNDUR OLEH GARNISUN ${defFactionName}]</tspan>
         </text>
@@ -462,8 +462,8 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     }
   } else {
     battleAlertSvg = `
-      <rect x="50" y="112" width="1405" height="56" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1"/>
-      <text x="80" y="146" fill="${T.textSecondary}" font-size="16" font-family="Segoe UI, sans-serif">Menunggu ronde pertempuran dimulai...</text>
+      <rect x="50" y="92" width="1405" height="74" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1"/>
+      <text x="70" y="137" fill="${T.textSecondary}" font-size="17" font-family="Segoe UI, sans-serif">Menunggu ronde pertempuran dimulai...</text>
     `;
   }
 
@@ -486,9 +486,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   <!-- Header Section Frame -->
   <rect x="30" y="25" width="1445" height="155" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
 
-  <text x="60" y="66" fill="${T.titleColor}" font-size="28" font-family="Segoe UI, sans-serif" font-weight="900" letter-spacing="1.5">INDONESIA WAR BOT</text>
-  <text x="60" y="92" fill="${T.subTitleColor}" font-size="14" font-family="Segoe UI, sans-serif">SIMULASI PERANG 507 KOTA &amp; KABUPATEN SE-NUSANTARA</text>
-
+  <text x="60" y="68" fill="${T.titleColor}" font-size="30" font-family="Segoe UI, sans-serif" font-weight="900" letter-spacing="1.5">INDONESIA WAR BOT</text>
   <!-- Top Badges -->
   <g transform="translate(1040, 42)">
     <rect x="0" y="0" width="130" height="40" rx="6" fill="#dc2626"/>
