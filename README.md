@@ -75,13 +75,28 @@ POST_INTERVAL_SECONDS=3600
 
 ## ⏰ Menjalankan Otomatis (Penjadwalan)
 
-### Opsi A: Menggunakan Perintah Bawaan
+### Opsi A: Menggunakan GitHub Actions (100% Gratis - Sangat Direkomendasikan)
+Workflow `.github/workflows/warbot.yml` sudah terpasang otomatis:
+1. Buka repo Anda di GitHub: **Settings** → **Secrets and variables** → **Actions**.
+2. Tambahkan dua **Repository Secrets**:
+   - `FB_PAGE_ID`: ID Halaman Facebook Anda.
+   - `FB_PAGE_ACCESS_TOKEN`: Token Akses Halaman Facebook Anda.
+3. Buka **Settings** → **Actions** → **General** → pada bagian **Workflow permissions**, pilih **Read and write permissions** lalu klik **Save**.
+4. Selesai! Bot akan otomatis bangun setiap 1 jam sekali, merender peta, memposting ke Facebook, dan meng-commit perkembangan perang (`data/state.json`) kembali ke repositori Anda.
+
+### Opsi B: Menggunakan Perintah Bawaan Loop
 ```bash
 npm run auto
 ```
 Bot akan otomatis berjalan setiap `POST_INTERVAL_SECONDS` (default: 3600 detik / 1 jam sekali).
 
-### Opsi B: Menggunakan Windows Task Scheduler
+### Opsi C: Menggunakan Crontab (Linux / VPS)
+```cron
+# Jalankan setiap jam tepat (menit 0)
+0 * * * * cd /path/to/iwb && node index.js turn >> /var/log/warbot.log 2>&1
+```
+
+### Opsi D: Menggunakan Windows Task Scheduler
 1. Buka **Task Scheduler** di Windows.
 2. Buat Task baru: `Create Basic Task...` -> Beri nama `World War Bot Indonesia`.
 3. Atur Trigger: `Daily` -> Ulangi setiap 1 jam.
@@ -89,12 +104,6 @@ Bot akan otomatis berjalan setiap `POST_INTERVAL_SECONDS` (default: 3600 detik /
    - Program/script: `node`
    - Add arguments: `index.js turn`
    - Start in: `C:\Users\bayue\Documents\tets\minekampf`
-
-### Opsi C: Menggunakan Crontab (Linux / VPS)
-```cron
-# Jalankan setiap jam tepat (menit 0)
-0 * * * * cd /path/to/minekampf && node index.js turn >> /var/log/warbot.log 2>&1
-```
 
 ---
 

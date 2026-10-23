@@ -4,4 +4,3 @@ output/
 preview.png
 test_map*.png
 test_render*.png
-data/state.json
