@@ -1,8 +1,8 @@
 {
-  "round": 1,
+  "round": 2,
   "year": 2030,
-  "month": 1,
-  "activeFactionsCount": 506,
+  "month": 2,
+  "activeFactionsCount": 505,
   "territoryOwner": [
     0,
     1,
@@ -385,7 +385,7 @@
     378,
     379,
     380,
-    381,
+    393,
     382,
     383,
     384,
@@ -4328,10 +4328,10 @@
       "name": "Kota Makassar",
       "province": "Sulawesi Selatan",
       "color": "#338394",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 2,
+      "eliminatedBy": 393
     },
     {
       "id": 382,
@@ -4448,7 +4448,7 @@
       "name": "Takalar",
       "province": "Sulawesi Selatan",
       "color": "#947533",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 1,
-    "date": "Januari 2030",
-    "monthNumber": 1,
+    "round": 2,
+    "date": "Februari 2030",
+    "monthNumber": 2,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
-      "color": "#384da3",
+      "id": 393,
+      "name": "Takalar",
+      "province": "Sulawesi Selatan",
+      "color": "#947533",
       "count": 2
     },
     "defFaction": {
-      "id": 105,
-      "name": "Banyumas",
-      "province": "Jawa Tengah",
-      "color": "#947133",
+      "id": 381,
+      "name": "Kota Makassar",
+      "province": "Sulawesi Selatan",
+      "color": "#338394",
       "count": 0
     },
     "atkTerritory": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
+      "id": 393,
+      "name": "Takalar",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        476.1,
-        585.7
+        786.4,
+        536.2
       ]
     },
     "defTerritory": {
-      "id": 105,
-      "name": "Banyumas",
-      "province": "Jawa Tengah",
+      "id": 381,
+      "name": "Kota Makassar",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        483.9,
-        597.5
+        786.4,
+        529
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 105,
-      "name": "Banyumas",
-      "province": "Jawa Tengah"
+      "id": 381,
+      "name": "Kota Makassar",
+      "province": "Sulawesi Selatan"
     },
-    "activeFactionsCount": 506,
+    "activeFactionsCount": 505,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah.",
-      "story": "Konvoi pick-up dan motor brong Brebes menerobos gerbang batas teritorial Banyumas saat subuh. Pasukan pertahanan Banyumas tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nFaksi Banyumas resmi BUBAR! Seluruh warga Banyumas kini wajib ganti KTP, bayar retribusi ke dinasti Brebes, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banyumas Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Kurs Rupiah anjlok melemah tembus 17.0...] Brebes menjebol Banyumas! 💀 Banyumas RUNTUH!",
+      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.",
+      "story": "Konvoi pick-up dan motor brong Takalar menerobos gerbang batas teritorial Kota Makassar saat subuh. Pasukan pertahanan Kota Makassar tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Kota Makassar resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Kota Makassar resmi disita dan diubah jadi gerai Mie Gacoan cabang Takalar!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Makassar Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa pembagian beras bansos yang t...] Takalar menjebol Kota Makassar! 💀 Kota Makassar RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 2,
+      "date": "Februari 2030",
+      "atk": "Takalar",
+      "def": "Kota Makassar",
+      "success": true,
+      "elim": "Kota Makassar",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Makassar Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
+    },
     {
       "round": 1,
       "date": "Januari 2030",
