@@ -26,7 +26,20 @@ const GENERAL_CASUS_BELLI = [
   'Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.',
   'Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring.',
   'Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.',
-  'Sengketa hak paten martabak manis vs terang bulan dan soto mana yang paling otentik se-Nusantara.'
+  'Sengketa hak paten martabak manis vs terang bulan dan soto mana yang paling otentik se-Nusantara.',
+  'Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam.',
+  'Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.',
+  'Sengketa pembagian setoran makelar kasus perizinan tambang pasir yang macet di meja panitera.',
+  'Kabut asap karhutla pekat kiriman kebun sawit kabupaten sebelah bikin jarak pandang tinggal 10 meter dan langit berubah oranye.',
+  'Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.',
+  'Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.',
+  'Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah.',
+  'Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis.',
+  'Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.',
+  'IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskan panic selling dengan menyerbu kota sebelah.',
+  'Bupati tekor ratusan miliar akibat nyangkut di saham gorengan yang kena ARB berjilid-jilid setelah kena pompom influencer.',
+  'Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.',
+  'Dana asing kabur (capital outflow) massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan.'
 ];
 
 const STRAIT_CASUS_BELLI = [
@@ -59,6 +72,11 @@ const DEFENSE_STORIES = [
   'Konvoi tempur {atk} dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.',
   'Pasukan {atk} tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.',
   'Pertahanan {def} sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.',
+  'Konvoi penyerbu {atk} tersesat dan saling tabrak sendiri karena terhalang kabut asap karhutla pekat dengan jarak pandang cuma 5 meter.',
+  'Helikopter penyerbu {atk} batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.',
+  'Operasi invasi {atk} macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.',
+  'Pasukan penyerbu {atk} kehilangan semangat tempur dan mogok setelah tahu dana pensiun tentara ludes nyangkut di saham gorengan ARB 7 hari berturut-turut.',
+  'Rencana serbuan {atk} bocor duluan ke garnisun {def} gara-gara pejabat intelijen {atk} menjual dokumen taktik seharga kardus suap makelar kasus.',
   'Serangan {atk} terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.'
 ];
 
@@ -71,6 +89,9 @@ const ELIMINATION_STORIES = [
   'Bupati dan seluruh pejabat {def} resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda {def} resmi disita dan diubah jadi gerai Mie Gacoan cabang {atk}!',
   'Bupati {def} dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi {def} resmi BUBAR!',
   'Gelar kehormatan bupati {def} dicabut kampus, aset rekening dibekukan PPATK, dan wilayah {def} resmi diambil alih oleh {atk}!',
+  'Bupati {def} diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi {def} resmi BUBAR dan disita negara!',
+  'Kas daerah {def} bangkrut total akibat bupati kena margin call di bursa saham IHSG dan tergilas anjloknya kurs Rupiah; seluruh aset dinas resmi disita faksi {atk}!',
+  'Seluruh kantor dinas {def} terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke {atk}!',
   'Faksi {def} resmi BUBAR! Seluruh warga {def} kini wajib ganti KTP, bayar retribusi ke dinasti {atk}, dan dilarang membanggakan kuliner asalnya.',
   'Kantor bupati {def} dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga {atk}, dan nama {def} resmi DIHAPUS DARI PETA NUSANTARA!',
   'Setelah kalah total, seluruh aparatur sipil {def} menyatakan resign massal. Wilayah {def} kini resmi turun derajat menjadi kecamatan bawahan {atk}!'
@@ -132,6 +153,18 @@ function getCasusBelli(atkName, defName, isStrait) {
   }
   if (combined.includes('penajam') || combined.includes('ikn')) {
     return 'Sengketa batas tanah mega-proyek IKN dan perebutan ganti rugi pembebasan lahan perbukitan.';
+  }
+  if (combined.includes('bangka') || combined.includes('belitung')) {
+    return 'Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.';
+  }
+  if (combined.includes('riau') || combined.includes('palangka') || combined.includes('sampit') || combined.includes('jambi') || combined.includes('ogan')) {
+    return 'Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita.';
+  }
+  if (hasWord(combined, 'surabaya')) {
+    return 'Geger vonis bebas perkara sengketa wilayah setelah 3 hakim perbatasan keciduk terima kardus suap dari makelar kasus.';
+  }
+  if (hasWord(combined, 'jakarta') && (combined.includes('selatan') || combined.includes('pusat'))) {
+    return 'Kepanikan di kawasan SCBD setelah IHSG anjlok bebas dan aturan bursa FCA bikin investor ritel demo di depan gedung BEI.';
   }
 
   if (isStrait) {
