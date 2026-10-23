@@ -1,7 +1,7 @@
 {
-  "round": 1,
+  "round": 2,
   "year": 2030,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 507,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 1,
-    "date": "Januari 2030",
-    "monthNumber": 1,
+    "round": 2,
+    "date": "Februari 2030",
+    "monthNumber": 2,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 248,
-      "name": "Lampung Selatan",
-      "province": "Lampung",
-      "color": "#6942ae",
+      "id": 386,
+      "name": "Luwu Utara",
+      "province": "Sulawesi Selatan",
+      "color": "#38b789",
       "count": 1
     },
     "defFaction": {
-      "id": 250,
-      "name": "Lampung Timur",
-      "province": "Lampung",
-      "color": "#34a8a2",
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah",
+      "color": "#34bc9c",
       "count": 1
     },
     "atkTerritory": {
-      "id": 248,
-      "name": "Lampung Selatan",
-      "province": "Lampung",
+      "id": 386,
+      "name": "Luwu Utara",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        373.8,
-        538.3
+        807.1,
+        447
       ]
     },
     "defTerritory": {
-      "id": 250,
-      "name": "Lampung Timur",
-      "province": "Lampung",
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah",
       "cScreen": [
-        377.7,
-        528.3
+        802,
+        419.2
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jalan provinsi yang berlubang parah tapi di laporan pertanggungjawaban diklaim mulus beraspal.",
-      "story": "Serangan mendadak Lampung Selatan gagal total setelah dihadang ormas setempat yang meminta \"uang koordinasi wilayah\" sebesar Rp50.000 per tank tempur.",
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
+      "story": "Upaya pendaratan laut Luwu Utara digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Sigi yang memaksa bayar tunai.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa jalan provinsi yang berlubang...] Lampung Timur sukses menghalau serbuan Lampung Selatan!",
+      "bannerText": "🛡️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Sigi sukses menghalau serbuan Luwu Utara!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 2,
+      "date": "Februari 2030",
+      "atk": "Luwu Utara",
+      "def": "Sigi",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
+    },
     {
       "round": 1,
       "date": "Januari 2030",
