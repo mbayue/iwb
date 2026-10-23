@@ -101,28 +101,29 @@ function renderMapSvg(graph, state, battle) {
     const defTerrName = escapeXml(battle.defTerritory.name);
     const defFactionName = escapeXml(battle.defFaction.name);
 
-    const opName = battle.warReport ? escapeXml(battle.warReport.operationName.toUpperCase()) : 'OPERASI PERBATASAN';
+    const rawCasus = battle.warReport ? battle.warReport.casusBelli : 'Sengketa batas wilayah antar-daerah';
+    const casusBelli = escapeXml(rawCasus.length > 105 ? rawCasus.slice(0, 102) + '…' : rawCasus);
 
     if (battle.success) {
       const elimText = battle.eliminated
-        ? `<tspan fill="#fca5a5" font-weight="bold"> | 💀 ${escapeXml(battle.eliminated.name)} RUNTUH!</tspan>`
+        ? `<tspan fill="#fca5a5" font-weight="bold"> | 💀 ${escapeXml(battle.eliminated.name)} RUNTUH &amp; DIBUBARKAN!</tspan>`
         : '';
       battleAlertSvg = `
-        <rect x="50" y="112" width="1410" height="54" rx="8" fill="url(#battleBox)" stroke="#ef4444" stroke-width="1.2"/>
-        <text x="70" y="146" fill="#f87171" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">⚔️ [${opName}]:</text>
-        <text x="340" y="146" fill="#ffffff" font-size="14.5" font-family="Segoe UI, sans-serif">
-          <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menembus barikade pertahanan <tspan font-weight="bold" fill="#f87171">${defTerrName}</tspan>!
+        <rect x="50" y="112" width="1410" height="56" rx="8" fill="url(#battleBox)" stroke="#ef4444" stroke-width="1.2"/>
+        <text x="70" y="133" fill="#fca5a5" font-size="12.5" font-family="Segoe UI, sans-serif" font-weight="bold">📢 Pemicu Konflik: <tspan fill="#ffffff" font-weight="normal">${casusBelli}</tspan></text>
+        <text x="70" y="154" fill="#ffffff" font-size="14.5" font-family="Segoe UI, sans-serif">
+          ⚔️ <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menyerbu dan menaklukkan sektor <tspan font-weight="bold" fill="#f87171">${defTerrName}</tspan>!
           <tspan fill="#fbbf24" font-weight="bold"> [JATUH &amp; DIANEKSASI]</tspan>
           ${elimText}
         </text>
       `;
     } else {
       battleAlertSvg = `
-        <rect x="50" y="112" width="1410" height="54" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
-        <text x="70" y="146" fill="#60a5fa" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">🛡️ [${opName}]:</text>
-        <text x="340" y="146" fill="#ffffff" font-size="14.5" font-family="Segoe UI, sans-serif">
-          <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menyerbu sektor <tspan font-weight="bold" fill="#93c5fd">${defTerrName}</tspan>
-          <tspan fill="#4ade80" font-weight="bold"> [GAGAL: DIPUKUL MUNDUR OLEH GARNISUN ${defFactionName}]</tspan>
+        <rect x="50" y="112" width="1410" height="56" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+        <text x="70" y="133" fill="#93c5fd" font-size="12.5" font-family="Segoe UI, sans-serif" font-weight="bold">📢 Pemicu Konflik: <tspan fill="#ffffff" font-weight="normal">${casusBelli}</tspan></text>
+        <text x="70" y="154" fill="#ffffff" font-size="14.5" font-family="Segoe UI, sans-serif">
+          🛡️ <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menyerbu sektor <tspan font-weight="bold" fill="#93c5fd">${defTerrName}</tspan>
+          <tspan fill="#4ade80" font-weight="bold"> [SERANGAN GAGAL: DIPUKUL MUNDUR OLEH GARNISUN ${defFactionName}]</tspan>
         </text>
       `;
     }

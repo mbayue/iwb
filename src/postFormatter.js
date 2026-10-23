@@ -37,28 +37,23 @@ Tulis di kolom komentar kota favoritmu yang bertahan paling lama! 🔥
   const defName = defTerritory.name;
   const defOwnerName = defFaction.name;
 
-  const opName = warReport ? warReport.operationName : 'Operasi Kilat Teritorial';
-  const theater = warReport ? warReport.theater : 'Front Garis Depan Perbatasan';
+  const casusBelli = warReport ? warReport.casusBelli : 'Sengketa perbatasan wilayah.';
   const story = warReport ? warReport.story : '';
-  const intensity = warReport ? warReport.intensity : 'Pertempuran Sengit';
-  const casualties = warReport ? warReport.casualties : 'Tinggi';
+  const impact = warReport ? warReport.impact : 'Wilayah Berpindah Tangan';
 
   const statusHeader = success
-    ? (eliminated ? '🔥 [LAPORAN INTELIJEN: PENAKLUKAN TOTAL & ELIMINASI]' : '💥 [LAPORAN INTELIJEN: GARIS DEPAN JEBOL]')
-    : '🛡️ [LAPORAN INTELIJEN: SERANGAN DIPUKUL MUNDUR]';
+    ? (eliminated ? '🔥 [STATUS: PENAKLUKAN TOTAL & KOTA BUBAR]' : '💥 [STATUS: WILAYAH BERHASIL DIANEKSASI]')
+    : '🛡️ [STATUS: SERANGAN GAGAL & DIPUKUL MUNDUR]';
 
   const battleBulletin = `${statusHeader}
-🎖️ Operasi Militer : "${opName}"
-📍 Sektor Front     : ${theater}
-⚔️ Faksi Penyerang : ${atkName}
-🛡️ Faksi Bertahan  : ${defOwnerName} (Wilayah: ${defName})
+⚔️ Pihak Penyerang : ${atkName}
+🛡️ Pihak Bertahan  : ${defOwnerName} (Wilayah: ${defName})
+📢 Pemicu Konflik  : ${casusBelli}
 
-📝 LAPORAN TEMPUR DARI GARIS DEPAN:
+📝 KRONOLOGI LAPANGAN:
 ${story}
 
-⚠️ Evaluasi Taktis:
-• Intensitas Benturan : ${intensity}
-• Estimasi Dampak     : ${casualties}`;
+⚠️ Dampak Insiden   : ${impact}`;
   // Top 5 factions
   const topFactions = [...state.factions]
     .filter(f => !f.eliminated && f.territoryCount > 0)
@@ -77,7 +72,15 @@ ${story}
   const atkSlug = slugify(atkName);
   const defSlug = slugify(defName);
 
-  return `🚨 KAWAT BERITA PERANG NUSANTARA [Ronde ${round} - ${date}] 🚨
+  let prologue = '';
+  if (round === 1) {
+    prologue = `📢 [PROKLAMASI NUSANTARA 2029]
+Ramalan "Indonesia Bubar 2029" resmi terwujud! Pemerintah pusat kolaps, seluruh 507 Kota & Kabupaten serentak memerdekakan diri karena kecewa pada kebijakan pusat. Kini perang saudara antar-daerah resmi dimulai demi supremasi tahta tertinggi Nusantara!
+
+`;
+  }
+
+  return `${prologue}🚨 KAWAT BERITA PERANG NUSANTARA [Ronde ${round} - ${date}] 🚨
 
 ${battleBulletin}
 
@@ -89,7 +92,7 @@ ${leaderboardText.trim()}
 
 💬 Siapa faksi/kota jagoanmu yang masih bertahan? Tulis di komentar! 👇
 
-#WorldWarBot #WorldWarBotIndonesia #IndonesiaWarBot #WarBotIndonesia #${atkSlug} #${defSlug} #PerangNusantara`;
+#WorldWarBot #WorldWarBotIndonesia #IndonesiaBubar2029 #WarBotIndonesia #${atkSlug} #${defSlug} #PerangNusantara`;
 }
 
 module.exports = {

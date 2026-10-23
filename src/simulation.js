@@ -224,8 +224,7 @@ function runBattleTurn(graph, state) {
     success,
     elim: eliminated ? eliminated.name : null,
     shortOutcome: warReport.shortOutcome,
-    operationName: warReport.operationName,
-    theater: warReport.theater
+    casusBelli: warReport.casusBelli
   });
   if (state.history.length > 50) state.history.pop();
 

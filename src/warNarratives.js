@@ -1,123 +1,170 @@
-const OPERATIONS = [
-  'Operasi Badai Gurita', 'Gempuran Cakra Kirana', 'Operasi Rajawali Merah',
-  'Operasi Mandau Terbang', 'Operasi Panah Rimba', 'Gempuran Naga Selatan',
-  'Operasi Benteng Baja', 'Operasi Sabuk Nusantara', 'Operasi Petir Khatulistiwa',
-  'Operasi Trisula Perkasa', 'Gempuran Bukit Barisan', 'Operasi Rawa Samudera',
-  'Operasi Cakar Garuda', 'Gempuran Merapi Merangsek', 'Operasi Badai Pasundan',
-  'Operasi Bintang Mahakam', 'Gempuran Lembah Suropati', 'Operasi Singa Barong',
-  'Operasi Krakatau Gelap', 'Gempuran Seribu Ombak', 'Operasi Elang Khatulistiwa',
-  'Operasi Sambar Samudera', 'Gempuran Benteng Mataram', 'Operasi Mandau Sakti'
+// Generator Alasan Perang & Narasi Satir Kondisi Indonesia Terkini
+
+const GENERAL_CASUS_BELLI = [
+  'Rebutan kuota program Makan Bergizi Gratis (MBG) yang jatah susunya tertukar dengan susu kedelai basi.',
+  'Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.',
+  'Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.',
+  'Warga lokal geram mobil plat B bikin macet total di jalur wisata tiap akhir pekan.',
+  'Preman ormas berseragam loreng oranye saling klaim jatah parkir Indomaret di tugu perbatasan.',
+  'Sengketa hak paten martabak manis vs terang bulan dan soto mana yang paling otentik se-Nusantara.',
+  'Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.',
+  'Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi "Admin#1234".',
+  'Sengketa pembagian beras bansos yang turns out isinya karung pasir dan mie instan kadaluarsa.',
+  'Kabel fiber optic WiFi perbatasan putus tersangkut truk kontainer ODOL (Over Dimension Over Load).',
+  'Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga.',
+  'Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan.',
+  'Saling sindir di grup WhatsApp RT antar-kabupaten berujung pengerahan massa bermotor knalpot brong.',
+  'Rebutan sumber mata air mineral galon dan sengketa hak kelola kelapa muda di bukit perbatasan.',
+  'Konflik jatah rokok tanpa cukai dan razia knalpot brong ilegal di warung remang-remang perbatasan.',
+  'Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring.',
+  'Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.',
+  'Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.'
 ];
 
-const THEATERS_LAND = [
-  'Garis Pertahanan Perbatasan Darat',
-  'Sektor Lembah & Perbukitan Batas',
-  'Koridor Hutan Belantara & Garis Parit',
-  'Front Dataran Tinggi Strategis',
-  'Garis Batas Sungai & Pos Jembatan',
-  'Perlintasan Jalur Logistik Utama'
+const STRAIT_CASUS_BELLI = [
+  'Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.',
+  'Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.',
+  'Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.',
+  'Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut.'
 ];
 
-const THEATERS_WATER = [
-  'Sektor Pesisir Pantai & Dermaga Strategis',
-  'Perlintasan Selat Maritim Antar-Pulau',
-  'Front Pangkalan Laut & Garis Pantai Terluar',
-  'Garis Penyeberangan Armada Perintis'
+const CONQUEST_STORIES = [
+  'Pasukan elit {atk} melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan {def} kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.',
+  'Konvoi pick-up dan motor brong {atk} menerobos gerbang batas teritorial {def} saat subuh. Pasukan pertahanan {def} tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.',
+  'Laskar {atk} memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke {def}. Tanpa stok sambal dan amunisi cadangan, garnisun {def} lumpuh total dan menyatakan menyerah sukarela.',
+  'Mengandalkan serbuan kilat di jalur bypass, divisi komando {atk} sukses merebut tugu perbatasan dan gedung dinas {def}. Bendera {def} diturunkan dan diganti bendera kejayaan {atk}.'
 ];
 
-const LAND_CONQUEST_STORIES = [
-  'Setelah sepekan duel artileri berat melumpuhkan pos radar dan depo amunisi perbatasan, brigade garda depan {atk} melancarkan manuver sapu bersih. Garis parit {def} jebol dan pasukan pertahanan terpaksa mengibarkan bendera putih setelah pos komandonya diduduki.',
-  'Konvoi lapis baja dan infanteri mekanis {atk} menerobos batas teritorial {def} dalam serangan kilat fajar. Pertahanan perimeter {def} kocar-kacir akibat serangan sayap tak terduga, memaksa kompi garnisun mundur tanpa sempat menyelamatkan persenjataan.',
-  'Pasukan elit {atk} berhasil memutus seluruh jalur logistik vital dan jembatan penghubung utama ke {def}. Terisolasi tanpa amunisi cadangan, seluruh benteng pertahanan {def} akhirnya lumpuh dan menyatakan menyerah tanpa syarat.',
-  'Pertempuran sengit berkecamuk di garis perbukitan perbatasan. Mengandalkan superioritas taktis dan gempuran mortir beruntun, batalyon penyerbu {atk} meruntuhkan barikade terakhir {def} dan mengibarkan benderanya di gedung administrasi kota.'
+const STRAIT_CONQUEST_STORIES = [
+  'Armada kapal pendarat {atk} menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan {def}. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.',
+  'Pasukan marinir {atk} menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai {def} berhasil diamankan.'
 ];
 
-const WATER_CONQUEST_STORIES = [
-  'Armada kapal pendarat {atk} berhasil menembus blokade laut di bawah lindungan tembakan artileri pesisir. Pasukan marinir sukses mengamankan dermaga logistik dan merebut seluruh garis pantai {def} setelah baku tembak sengit di dermaga.',
-  'Operasi lintas selat mendadak pada tengah malam oleh divisi amfibi {atk} sukses melumpuhkan pos penjaga pantai {def}. Sebelum garnisun utama sempat merespons, seluruh pangkalan strategis {def} telah dikuasai sepenuhnya.',
-  'Armada patroli tempur {atk} melancarkan serbuan cepat melintasi perairan perbatasan. Pasukan pendarat berhasil mengamankan perimeter pantai dan mendesak mundur pertahanan pesisir {def} ke pedalaman hingga menyerah.'
+const DEFENSE_STORIES = [
+  'Pasukan penyerbu {atk} gagal masuk karena terjebak macet horor dan jalan rusak berlubang yang belum diaspal sejak zaman Daendels.',
+  'Konvoi tempur {atk} dipukul mundur secara memalukan oleh barisan emak-emak naik motor matic sein kiri tapi belok kanan.',
+  'Serangan mendadak {atk} gagal total setelah dihadang ormas setempat yang meminta "uang koordinasi wilayah" sebesar Rp50.000 per tank tempur.',
+  'Tank penyerbu {atk} kehabisan bensin eceran di tengah jalan dan tentaranya malah nongkrong ngopi dan makan gorengan di warkop perbatasan.',
+  'Pasukan {atk} tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.',
+  'Pertahanan {def} sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.',
+  'Serangan {atk} terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.'
 ];
 
-const LAND_DEFENSE_STORIES = [
-  'Garnisun pertahanan {def} memanfaatkan keunggulan kontur medan terjal dan memasang perangkap parit ranjau. Gelombang invasi {atk} terjebak di bawah hujan tembakan senapan mesin dan terpaksa ditarik mundur dengan kerugian taktis besar.',
-  'Serangan kilat {atk} menemui jalan buntu setelah membentur benteng beton dan barikade lapis baja {def}. Setelah baku tembak 72 jam tanpa kemajuan teritorial, komando front {atk} memerintahkan mundur teratur.',
-  'Batalyon infanteri {def} melancarkan serangan balik taktis tepat di sayap kiri musuh. Konvoi penyerbu {atk} tercerai-berai di perbatasan hutan dan garis penyerangan berhasil dipukul mundur ke garis awal.',
-  'Pertahanan garis batas {def} tetap kokoh tak tergoyahkan meski dihujani tembakan mortir tanpa henti. Pasukan penyerbu {atk} gagal mendirikan pos terdepan dan terpaksa membubarkan formasinya.'
-];
-
-const WATER_DEFENSE_STORIES = [
-  'Upaya penyeberangan armada kapal pendarat {atk} digagalkan oleh baterai meriam pesisir dan kapal patroli cepat {def} sebelum sempat merapat ke pantai. Armada penyerbu terpaksa memutar haluan.',
-  'Pasukan penjaga pantai {def} mendeteksi pergerakan amfibi {atk} di tengah kabut fajar. Dengan tembakan artileri pantai terkoordinasi, seluruh gelombang pendaratan musuh berhasil dipukul mundur ke tengah laut.'
+const STRAIT_DEFENSE_STORIES = [
+  'Kapal penyerbu {atk} terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai {def} mengusir mereka dengan mercon.',
+  'Upaya pendaratan laut {atk} digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan {def} yang memaksa bayar tunai.'
 ];
 
 const ELIMINATION_STORIES = [
-  'Ibukota {def} telah jatuh seutuhnya ke tangan musuh. Komandan tertinggi garnisun menandatangani dokumen kapitulasi total. Faksi {def} resmi RUNTUH dan wilayahnya dianeksasi penuh!',
-  'Seluruh pangkalan militer dan pusat pemerintahan {def} kini berada di bawah kendali penuh {atk}. Faksi {def} resmi DINYATAKAN GUGUR dan dihapus dari peta kekuasaan Nusantara!',
-  'Garis pertahanan terakhir {def} hancur lebur tanpa sisa. Seluruh persenjataan disita dan panji kebesaran {atk} kini berkibar di atas seluruh wilayah bekas kekuasaan {def}.'
+  'Bupati dan seluruh pejabat {def} resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda {def} resmi disita dan diubah jadi gerai Mie Gacoan cabang {atk}!',
+  'Faksi {def} resmi BUBAR! Seluruh warga {def} kini wajib ganti KTP, bayar retribusi ke dinasti {atk}, dan dilarang membanggakan kuliner asalnya.',
+  'Kantor bupati {def} dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga {atk}, dan nama {def} resmi DIHAPUS DARI PETA NUSANTARA!',
+  'Setelah kalah total, seluruh aparatur sipil {def} menyatakan resign massal. Wilayah {def} kini resmi turun derajat menjadi kecamatan bawahan {atk}!'
 ];
 
 function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function generateWarReport(atkName, defName, isStrait, success, eliminated) {
-  const operationName = pickRandom(OPERATIONS);
-  const theater = isStrait ? pickRandom(THEATERS_WATER) : pickRandom(THEATERS_LAND);
+function getCasusBelli(atkName, defName, isStrait) {
+  const combined = `${atkName} ${defName}`.toLowerCase();
 
-  let storyTemplate = '';
+  // Regional Easter Eggs & Lore
+  if (combined.includes('jakarta') && combined.includes('bekasi')) {
+    return 'Bekasi membalas dendam setelah bertahun-tahun diejek sebagai planet berbeda di galaksi lain.';
+  }
+  if (combined.includes('jakarta') && combined.includes('bogor')) {
+    return 'Warga Jakarta menyerbu Bogor demi mencari udara segar setelah Jakarta darurat polusi udara.';
+  }
+  if (combined.includes('depok')) {
+    return 'Warga Depok mendeklarasikan aneksasi wilayah setelah seekor babi ngepet kabur melintasi batas kota.';
+  }
+  if (combined.includes('bandung') && (combined.includes('garut') || combined.includes('tasikmalaya') || combined.includes('jakarta'))) {
+    return 'Warga Bandung murka mobil plat B bikin macet total di Dago tiap libur akhir pekan.';
+  }
+  if (combined.includes('surabaya') && (combined.includes('bangkalan') || combined.includes('madura') || combined.includes('sampang'))) {
+    return 'Sengketa tarif tol Suramadu dan perebutan jatah parkir gudang besi tua di pesisir.';
+  }
+  if (combined.includes('malang') && combined.includes('surabaya')) {
+    return 'Rivalitas abadi supporter sepak bola merembet ke sengketa batas teritorial jalur kereta api.';
+  }
+  if ((combined.includes('yogyakarta') || combined.includes('sleman') || combined.includes('bantul')) && (combined.includes('surakarta') || combined.includes('solo') || combined.includes('klaten'))) {
+    return 'Perang gengsi memperebutkan resep Gudeg paling otentik dan debat sengit UMR 2 juta rupiah.';
+  }
+  if (combined.includes('pati') && (combined.includes('kudus') || combined.includes('jepara') || combined.includes('rembang'))) {
+    return 'Pati memerdekakan diri dan menyerang tetangga akibat sengketa perizinan festival Sound Horeg nonstop 24 jam.';
+  }
+  if (combined.includes('lampung')) {
+    return 'Sengketa jalan provinsi yang berlubang parah tapi di laporan pertanggungjawaban diklaim mulus beraspal.';
+  }
+  if (combined.includes('medan') || combined.includes('deli')) {
+    return 'Preman simpang menolak bayar uang koordinasi ke pos perbatasan, memicu perang terbuka antar-lorong.';
+  }
+  if (combined.includes('bali') || combined.includes('banyuwangi') || combined.includes('jembrana')) {
+    return 'Antrean kapal feri Ketapang-Gilimanuk macet 18 jam gara-gara sistem tiket online servernya down.';
+  }
+
+  if (isStrait) {
+    return pickRandom(STRAIT_CASUS_BELLI);
+  }
+  return pickRandom(GENERAL_CASUS_BELLI);
+}
+
+function generateWarReport(atkName, defName, isStrait, success, eliminated) {
+  const casusBelli = getCasusBelli(atkName, defName, isStrait);
+
+  let story = '';
   let shortOutcome = '';
   let bannerText = '';
 
   if (success) {
-    storyTemplate = isStrait ? pickRandom(WATER_CONQUEST_STORIES) : pickRandom(LAND_CONQUEST_STORIES);
-    const story = storyTemplate.replace(/{atk}/g, atkName).replace(/{def}/g, defName);
+    const baseStory = isStrait ? pickRandom(STRAIT_CONQUEST_STORIES) : pickRandom(CONQUEST_STORIES);
+    story = baseStory.replace(/{atk}/g, atkName).replace(/{def}/g, defName);
 
     if (eliminated) {
       const elimStory = pickRandom(ELIMINATION_STORIES).replace(/{atk}/g, atkName).replace(/{def}/g, defName);
-      shortOutcome = `JATUH & DIANEKSASI | 💀 ${defName} Runtuh`;
-      bannerText = `⚔️ ${operationName.toUpperCase()}: ${atkName} menjebol pertahanan ${defName}! 💀 ${defName} RUNTUH & DIANEKSASI!`;
+      shortOutcome = `JATUH & DIANEKSASI | 💀 ${defName} Runtuh & Lenyap dari Peta`;
+      bannerText = `⚔️ [PEMICU: ${casusBelli.slice(0, 38)}...] ${atkName} menjebol ${defName}! 💀 ${defName} RUNTUH!`;
 
       return {
-        operationName,
-        theater,
-        story: `${story}\n\n💀 STATUS AKHIR:\n${elimStory}`,
+        casusBelli,
+        story: `${story}\n\n💀 NASIB AKHIR:\n${elimStory}`,
         shortOutcome,
         bannerText,
-        casualties: 'Sangat Parah (Garnisun Runtuh)',
-        intensity: 'Pertempuran Skala Penuh'
+        impact: 'Kekalahan Total (Bupati Kabur)',
+        atmosphere: 'Dikuasai Penuh'
       };
     } else {
-      shortOutcome = `JATUH & DIANEKSASI (Garis pertahanan jebol)`;
-      bannerText = `⚔️ ${operationName.toUpperCase()}: ${atkName} berhasil menaklukkan sektor ${defName}!`;
+      shortOutcome = `JATUH & DIANEKSASI (Pos batas & pemda diduduki)`;
+      bannerText = `⚔️ [PEMICU: ${casusBelli.slice(0, 38)}...] ${atkName} berhasil menaklukkan sektor ${defName}!`;
 
       return {
-        operationName,
-        theater,
+        casusBelli,
         story,
         shortOutcome,
         bannerText,
-        casualties: 'Tinggi (Wilayah Berpindah Tangan)',
-        intensity: 'Penyerbuan Garis Depan'
+        impact: 'Wilayah Berpindah Tangan',
+        atmosphere: 'Penyerbuan Berhasil'
       };
     }
   } else {
-    storyTemplate = isStrait ? pickRandom(WATER_DEFENSE_STORIES) : pickRandom(LAND_DEFENSE_STORIES);
-    const story = storyTemplate.replace(/{atk}/g, atkName).replace(/{def}/g, defName);
-    shortOutcome = `GAGAL DITEMBUS (Serangan dipukul mundur)`;
-    bannerText = `🛡️ ${operationName.toUpperCase()}: ${defName} berhasil menghalau gempuran ${atkName}!`;
+    const baseStory = isStrait ? pickRandom(STRAIT_DEFENSE_STORIES) : pickRandom(DEFENSE_STORIES);
+    story = baseStory.replace(/{atk}/g, atkName).replace(/{def}/g, defName);
+    shortOutcome = `SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)`;
+    bannerText = `🛡️ [PEMICU: ${casusBelli.slice(0, 38)}...] ${defName} sukses menghalau serbuan ${atkName}!`;
 
     return {
-      operationName,
-      theater,
+      casusBelli,
       story,
       shortOutcome,
       bannerText,
-      casualties: 'Sedang (Serangan Digagalkan)',
-      intensity: 'Baku Tembak Perbatasan'
+      impact: 'Kerugian Logistik Penyerbu',
+      atmosphere: 'Garnisun Sukses Bertahan'
     };
   }
 }
 
 module.exports = {
-  generateWarReport
+  generateWarReport,
+  getCasusBelli
 };
