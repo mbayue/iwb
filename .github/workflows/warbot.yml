@@ -1,0 +1,45 @@
+name: World War Bot Indonesia - Hourly Turn
+
+on:
+  schedule:
+    # Berjalan otomatis setiap 1 jam sekali (pada menit ke-0)
+    - cron: '0 * * * *'
+  # Memungkinkan trigger manual langsung dari tab "Actions" di GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-war-turn:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute War Turn & Post to Facebook
+        run: node index.js turn
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          MAP_THEME: ${{ vars.MAP_THEME || 'light' }}
+
+      - name: Commit & Push War State Update
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/state.json
+          git commit -m "Auto: Update war round state [skip ci]" || echo "No state changes to commit"
+          git push
