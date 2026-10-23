@@ -1,8 +1,8 @@
 {
-  "round": 3,
+  "round": 4,
   "year": 2030,
-  "month": 3,
-  "activeFactionsCount": 505,
+  "month": 4,
+  "activeFactionsCount": 504,
   "territoryOwner": [
     0,
     1,
@@ -331,7 +331,7 @@
     324,
     325,
     326,
-    327,
+    333,
     328,
     329,
     330,
@@ -3788,10 +3788,10 @@
       "name": "Teluk Bintuni",
       "province": "Papua Barat",
       "color": "#9c2b6d",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 4,
+      "eliminatedBy": 333
     },
     {
       "id": 328,
@@ -3848,7 +3848,7 @@
       "name": "Sorong Selatan",
       "province": "Papua Barat Daya",
       "color": "#849433",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 3,
-    "date": "Maret 2030",
-    "monthNumber": 3,
+    "round": 4,
+    "date": "April 2030",
+    "monthNumber": 4,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 306,
-      "name": "Sikka",
-      "province": "Nusa Tenggara Timur",
-      "color": "#982f7a",
-      "count": 1
+      "id": 333,
+      "name": "Sorong Selatan",
+      "province": "Papua Barat Daya",
+      "color": "#849433",
+      "count": 2
     },
     "defFaction": {
-      "id": 294,
-      "name": "Flores Timur",
-      "province": "Nusa Tenggara Timur",
-      "color": "#45982f",
-      "count": 1
+      "id": 327,
+      "name": "Teluk Bintuni",
+      "province": "Papua Barat",
+      "color": "#9c2b6d",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 306,
-      "name": "Sikka",
-      "province": "Nusa Tenggara Timur",
+      "id": 333,
+      "name": "Sorong Selatan",
+      "province": "Papua Barat Daya",
       "cScreen": [
-        867.8,
-        629.6
+        1161.1,
+        426.7
       ]
     },
     "defTerritory": {
-      "id": 294,
-      "name": "Flores Timur",
-      "province": "Nusa Tenggara Timur",
+      "id": 327,
+      "name": "Teluk Bintuni",
+      "province": "Papua Barat",
       "cScreen": [
-        889,
-        624.2
+        1203.9,
+        445.8
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 505,
+    "success": true,
+    "eliminated": {
+      "id": 327,
+      "name": "Teluk Bintuni",
+      "province": "Papua Barat"
+    },
+    "activeFactionsCount": 504,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskannya dengan menyerbu kota sebelah.",
-      "story": "Operasi invasi Sikka macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: IHSG bursa anjlok parah hingga trading...] Flores Timur sukses menghalau serbuan Sikka!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut.",
+      "story": "Pasukan marinir Sorong Selatan menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Teluk Bintuni berhasil diamankan.\n\n💀 NASIB AKHIR:\nKas daerah Teluk Bintuni bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Sorong Selatan!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Teluk Bintuni Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa kepemilikan karang pulau tak ...] Sorong Selatan menjebol Teluk Bintuni! 💀 Teluk Bintuni RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 4,
+      "date": "April 2030",
+      "atk": "Sorong Selatan",
+      "def": "Teluk Bintuni",
+      "success": true,
+      "elim": "Teluk Bintuni",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Teluk Bintuni Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
+    },
     {
       "round": 3,
       "date": "Maret 2030",
