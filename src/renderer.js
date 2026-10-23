@@ -101,26 +101,28 @@ function renderMapSvg(graph, state, battle) {
     const defTerrName = escapeXml(battle.defTerritory.name);
     const defFactionName = escapeXml(battle.defFaction.name);
 
+    const opName = battle.warReport ? escapeXml(battle.warReport.operationName.toUpperCase()) : 'OPERASI PERBATASAN';
+
     if (battle.success) {
       const elimText = battle.eliminated
-        ? `<tspan fill="#fca5a5" font-weight="bold"> 💀 ${escapeXml(battle.eliminated.name)} TERELIMINASI!</tspan>`
+        ? `<tspan fill="#fca5a5" font-weight="bold"> | 💀 ${escapeXml(battle.eliminated.name)} RUNTUH!</tspan>`
         : '';
       battleAlertSvg = `
         <rect x="50" y="112" width="1410" height="54" rx="8" fill="url(#battleBox)" stroke="#ef4444" stroke-width="1.2"/>
-        <text x="75" y="146" fill="#f87171" font-size="18" font-family="Segoe UI, sans-serif" font-weight="bold">⚔️ PERTEMPURAN:</text>
-        <text x="245" y="146" fill="#ffffff" font-size="15.5" font-family="Segoe UI, sans-serif">
-          <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menyerang <tspan font-weight="bold" fill="#f87171">${defTerrName}</tspan>!
-          <tspan fill="#fbbf24" font-weight="bold"> [HASIL: DITAKLUKKAN]</tspan>
+        <text x="70" y="146" fill="#f87171" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">⚔️ [${opName}]:</text>
+        <text x="340" y="146" fill="#ffffff" font-size="14.5" font-family="Segoe UI, sans-serif">
+          <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menembus barikade pertahanan <tspan font-weight="bold" fill="#f87171">${defTerrName}</tspan>!
+          <tspan fill="#fbbf24" font-weight="bold"> [JATUH &amp; DIANEKSASI]</tspan>
           ${elimText}
         </text>
       `;
     } else {
       battleAlertSvg = `
         <rect x="50" y="112" width="1410" height="54" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
-        <text x="75" y="146" fill="#60a5fa" font-size="18" font-family="Segoe UI, sans-serif" font-weight="bold">🛡️ BERTAHAN:</text>
-        <text x="245" y="146" fill="#ffffff" font-size="15.5" font-family="Segoe UI, sans-serif">
-          <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menyerang <tspan font-weight="bold" fill="#93c5fd">${defTerrName}</tspan>!
-          <tspan fill="#4ade80" font-weight="bold"> [HASIL: SERANGAN BERHASIL DIHALAU OLEH ${defFactionName}]</tspan>
+        <text x="70" y="146" fill="#60a5fa" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">🛡️ [${opName}]:</text>
+        <text x="340" y="146" fill="#ffffff" font-size="14.5" font-family="Segoe UI, sans-serif">
+          <tspan font-weight="bold" fill="#38bdf8">${atkName}</tspan> menyerbu sektor <tspan font-weight="bold" fill="#93c5fd">${defTerrName}</tspan>
+          <tspan fill="#4ade80" font-weight="bold"> [GAGAL: DIPUKUL MUNDUR OLEH GARNISUN ${defFactionName}]</tspan>
         </text>
       `;
     }

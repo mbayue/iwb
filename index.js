@@ -76,9 +76,10 @@ function handleStatus() {
   if (state.history && state.history.length > 0) {
     console.log('\n--- 5 PERTEMPURAN TERAKHIR ---');
     state.history.slice(0, 5).forEach(h => {
-      const res = h.success ? 'DITAKLUKKAN' : 'BERTAHAN';
-      const elim = h.elim ? ` | 💀 ${h.elim} tereliminasi` : '';
-      console.log(`  [Ronde ${h.round} - ${h.date}] ${h.atk} vs ${h.def} -> ${res}${elim}`);
+      const op = h.operationName ? `[${h.operationName}] ` : '';
+      const outcome = h.shortOutcome || (h.success ? 'JATUH & DIANEKSASI' : 'GAGAL DITEMBUS');
+      console.log(`  [Ronde ${h.round} - ${h.date}] ${op}${h.atk} vs ${h.def}`);
+      console.log(`    ↳ Status: ${outcome}`);
     });
   }
   console.log('========================================\n');
@@ -113,9 +114,10 @@ function handleSimulate(count) {
       break;
     }
     const battle = runBattleTurn(graph, state);
-    const res = battle.success ? 'MENANG' : 'GAGAL ';
-    const elim = battle.eliminated ? ` | 💀 ${battle.eliminated.name} ELIMINASI` : '';
-    console.log(`[Ronde ${battle.round}] ${battle.atkFaction.name} -> ${battle.defTerritory.name} [${res}]${elim}`);
+    const op = battle.warReport ? `[${battle.warReport.operationName}] ` : '';
+    const outcome = battle.warReport ? battle.warReport.shortOutcome : (battle.success ? 'JATUH & DIANEKSASI' : 'GAGAL DITEMBUS');
+    console.log(`[Ronde ${battle.round} - ${battle.date}] ${op}${battle.atkFaction.name} -> ${battle.defTerritory.name}`);
+    console.log(`  ↳ ${outcome}`);
   }
   console.log(`\nSimulasi selesai. Faksi tersisa: ${state.activeFactionsCount} / ${graph.totalTerritories}.`);
   console.log('Jalankan "npm run preview" untuk melihat peta hasil simulasi.');

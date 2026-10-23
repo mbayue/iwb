@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const config = require('./config');
+const { generateWarReport } = require('./warNarratives');
 
 const MONTH_NAMES = [
   'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
@@ -155,6 +156,20 @@ function runBattleTurn(graph, state) {
     }
   }
 
+  // Check if battle crosses a maritime strait
+  const dx = atkTerritory.cLon - defTerritory.cLon;
+  const dy = atkTerritory.cLat - defTerritory.cLat;
+  const distDeg = Math.sqrt(dx * dx + dy * dy);
+  const isStrait = distDeg > 1.2 || (atkTerritory.province !== defTerritory.province && distDeg > 0.7);
+
+  const warReport = generateWarReport(
+    atkFaction.name,
+    defTerritory.name,
+    isStrait,
+    success,
+    eliminated
+  );
+
   // Check victory condition
   if (state.activeFactionsCount === 1) {
     state.gameOver = true;
@@ -196,7 +211,8 @@ function runBattleTurn(graph, state) {
     eliminated,
     activeFactionsCount: state.activeFactionsCount,
     gameOver: state.gameOver,
-    winner: state.winner ? { id: state.winner.id, name: state.winner.name } : null
+    winner: state.winner ? { id: state.winner.id, name: state.winner.name } : null,
+    warReport
   };
 
   state.lastBattle = battleEvent;
@@ -206,7 +222,10 @@ function runBattleTurn(graph, state) {
     atk: atkFaction.name,
     def: defTerritory.name,
     success,
-    elim: eliminated ? eliminated.name : null
+    elim: eliminated ? eliminated.name : null,
+    shortOutcome: warReport.shortOutcome,
+    operationName: warReport.operationName,
+    theater: warReport.theater
   });
   if (state.history.length > 50) state.history.pop();
 

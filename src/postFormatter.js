@@ -28,32 +28,37 @@ Tulis di kolom komentar kota favoritmu yang bertahan paling lama! 🔥
 #WorldWarBotIndonesia #WorldWarBot #IndonesiaWarBot #${winnerSlug} #PemenangMutlak #NusantaraConquered`;
   }
 
-  const { round, date, atkFaction, defFaction, atkTerritory, defTerritory, success, eliminated, activeFactionsCount } = battle;
+  const {
+    round, date, atkFaction, defFaction, atkTerritory, defTerritory,
+    success, eliminated, activeFactionsCount, warReport
+  } = battle;
 
   const atkName = atkFaction.name;
   const defName = defTerritory.name;
   const defOwnerName = defFaction.name;
 
-  let battleDetails = '';
-  if (success) {
-    battleDetails = `⚔️ PERTEMPURAN TERJADI!
-${atkName} melancarkan serangan terhadap ${defName}!
+  const opName = warReport ? warReport.operationName : 'Operasi Kilat Teritorial';
+  const theater = warReport ? warReport.theater : 'Front Garis Depan Perbatasan';
+  const story = warReport ? warReport.story : '';
+  const intensity = warReport ? warReport.intensity : 'Pertempuran Sengit';
+  const casualties = warReport ? warReport.casualties : 'Tinggi';
 
-Hasil Pertempuran:
-💥 ${defName} BERHASIL DITAKLUKKAN oleh ${atkName}!`;
+  const statusHeader = success
+    ? (eliminated ? '🔥 [LAPORAN INTELIJEN: PENAKLUKAN TOTAL & ELIMINASI]' : '💥 [LAPORAN INTELIJEN: GARIS DEPAN JEBOL]')
+    : '🛡️ [LAPORAN INTELIJEN: SERANGAN DIPUKUL MUNDUR]';
 
-    if (eliminated) {
-      battleDetails += `\n\n💀 ${eliminated.name.toUpperCase()} TELAH TERELIMINASI!
-Wilayah kekuasaan ${eliminated.name} kini resmi diambil alih oleh ${atkName}.`;
-    }
-  } else {
-    battleDetails = `⚔️ PERTEMPURAN TERJADI!
-${atkName} melancarkan serangan terhadap ${defName}!
+  const battleBulletin = `${statusHeader}
+🎖️ Operasi Militer : "${opName}"
+📍 Sektor Front     : ${theater}
+⚔️ Faksi Penyerang : ${atkName}
+🛡️ Faksi Bertahan  : ${defOwnerName} (Wilayah: ${defName})
 
-Hasil Pertempuran:
-🛡️ Serangan berhasil DIHALAU! ${defOwnerName} sukses mempertahankan wilayah ${defName}!`;
-  }
+📝 LAPORAN TEMPUR DARI GARIS DEPAN:
+${story}
 
+⚠️ Evaluasi Taktis:
+• Intensitas Benturan : ${intensity}
+• Estimasi Dampak     : ${casualties}`;
   // Top 5 factions
   const topFactions = [...state.factions]
     .filter(f => !f.eliminated && f.territoryCount > 0)
@@ -72,19 +77,19 @@ Hasil Pertempuran:
   const atkSlug = slugify(atkName);
   const defSlug = slugify(defName);
 
-  return `[Ronde ${round} - ${date}]
+  return `🚨 KAWAT BERITA PERANG NUSANTARA [Ronde ${round} - ${date}] 🚨
 
-${battleDetails}
+${battleBulletin}
 
-📊 STATISTIK SEMENTARA:
-• Sisa Faksi Bertahan: ${activeFactionsCount} / ${N} faksi
-• Pemimpin Wilayah: ${leader.name} (${leader.territoryCount} wilayah - ${leaderPct}%)
+📊 STATUS STRATEGIS NUSANTARA:
+• Sisa Faksi Bertahan : ${activeFactionsCount} / ${N} faksi
+• Faksi Terluas       : ${leader.name} (${leader.territoryCount} wilayah - ${leaderPct}%)
 
 ${leaderboardText.trim()}
 
-Siapa kota jagoanmu yang masih bertahan? Tulis di komentar! 👇
+💬 Siapa faksi/kota jagoanmu yang masih bertahan? Tulis di komentar! 👇
 
-#WorldWarBot #WorldWarBotIndonesia #IndonesiaWarBot #WarBotIndonesia #${atkSlug} #${defSlug} #PerangKota`;
+#WorldWarBot #WorldWarBotIndonesia #IndonesiaWarBot #WarBotIndonesia #${atkSlug} #${defSlug} #PerangNusantara`;
 }
 
 module.exports = {
