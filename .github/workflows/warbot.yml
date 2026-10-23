@@ -2,8 +2,8 @@ name: World War Bot Indonesia - Hourly Turn
 
 on:
   schedule:
-    # Berjalan otomatis setiap 1 jam sekali (pada menit ke-0)
-    - cron: '0 * * * *'
+    # Berjalan otomatis setiap 1 jam sekali pada menit ke-15 (waktu off-peak bebas antrean GitHub)
+    - cron: '15 * * * *'
   # Memungkinkan trigger manual langsung dari tab "Actions" di GitHub
   workflow_dispatch:
     inputs:
