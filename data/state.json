@@ -1,8 +1,8 @@
 {
-  "round": 0,
+  "round": 1,
   "year": 2030,
-  "month": 0,
-  "activeFactionsCount": 507,
+  "month": 1,
+  "activeFactionsCount": 506,
   "territoryOwner": [
     0,
     1,
@@ -109,7 +109,7 @@
     102,
     103,
     104,
-    105,
+    109,
     106,
     107,
     108,
@@ -1568,10 +1568,10 @@
       "name": "Banyumas",
       "province": "Jawa Tengah",
       "color": "#947133",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 1,
+      "eliminatedBy": 109
     },
     {
       "id": 106,
@@ -1608,7 +1608,7 @@
       "name": "Brebes",
       "province": "Jawa Tengah",
       "color": "#384da3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5584,8 +5584,73 @@
       "eliminatedBy": null
     }
   ],
-  "lastBattle": null,
+  "lastBattle": {
+    "round": 1,
+    "date": "Januari 2030",
+    "monthNumber": 1,
+    "yearNumber": 2030,
+    "atkFaction": {
+      "id": 109,
+      "name": "Brebes",
+      "province": "Jawa Tengah",
+      "color": "#384da3",
+      "count": 2
+    },
+    "defFaction": {
+      "id": 105,
+      "name": "Banyumas",
+      "province": "Jawa Tengah",
+      "color": "#947133",
+      "count": 0
+    },
+    "atkTerritory": {
+      "id": 109,
+      "name": "Brebes",
+      "province": "Jawa Tengah",
+      "cScreen": [
+        476.1,
+        585.7
+      ]
+    },
+    "defTerritory": {
+      "id": 105,
+      "name": "Banyumas",
+      "province": "Jawa Tengah",
+      "cScreen": [
+        483.9,
+        597.5
+      ]
+    },
+    "success": true,
+    "eliminated": {
+      "id": 105,
+      "name": "Banyumas",
+      "province": "Jawa Tengah"
+    },
+    "activeFactionsCount": 506,
+    "gameOver": false,
+    "winner": null,
+    "warReport": {
+      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah.",
+      "story": "Konvoi pick-up dan motor brong Brebes menerobos gerbang batas teritorial Banyumas saat subuh. Pasukan pertahanan Banyumas tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nFaksi Banyumas resmi BUBAR! Seluruh warga Banyumas kini wajib ganti KTP, bayar retribusi ke dinasti Brebes, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banyumas Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Kurs Rupiah anjlok melemah tembus 17.0...] Brebes menjebol Banyumas! 💀 Banyumas RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
+    }
+  },
   "gameOver": false,
   "winner": null,
-  "history": []
+  "history": [
+    {
+      "round": 1,
+      "date": "Januari 2030",
+      "atk": "Brebes",
+      "def": "Banyumas",
+      "success": true,
+      "elim": "Banyumas",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banyumas Runtuh & Lenyap dari Peta",
+      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah."
+    }
+  ]
 }
