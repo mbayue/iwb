@@ -84,8 +84,8 @@ function buildGraph() {
     const [cScreenX, cScreenY] = project(cLon, cLat);
 
     const h = (idx * 137.50776405) % 360;
-    const s = 72 + (idx % 4) * 4;
-    const l = 48 + ((idx % 3) - 1) * 6;
+    const s = 45 + (idx % 4) * 4;
+    const l = 43 + ((idx % 3) - 1) * 4;
     const color = hslToHex(h, s, l);
 
     const sampledPts = pts.filter((_, i) => i % Math.max(1, Math.floor(pts.length / 60)) === 0);
