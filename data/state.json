@@ -1,7 +1,7 @@
 {
-  "round": 2,
+  "round": 3,
   "year": 2030,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 505,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 2,
-    "date": "Februari 2030",
-    "monthNumber": 2,
+    "round": 3,
+    "date": "Maret 2030",
+    "monthNumber": 3,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 393,
-      "name": "Takalar",
-      "province": "Sulawesi Selatan",
-      "color": "#947533",
-      "count": 2
+      "id": 306,
+      "name": "Sikka",
+      "province": "Nusa Tenggara Timur",
+      "color": "#982f7a",
+      "count": 1
     },
     "defFaction": {
-      "id": 381,
-      "name": "Kota Makassar",
-      "province": "Sulawesi Selatan",
-      "color": "#338394",
-      "count": 0
+      "id": 294,
+      "name": "Flores Timur",
+      "province": "Nusa Tenggara Timur",
+      "color": "#45982f",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 393,
-      "name": "Takalar",
-      "province": "Sulawesi Selatan",
+      "id": 306,
+      "name": "Sikka",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        786.4,
-        536.2
+        867.8,
+        629.6
       ]
     },
     "defTerritory": {
-      "id": 381,
-      "name": "Kota Makassar",
-      "province": "Sulawesi Selatan",
+      "id": 294,
+      "name": "Flores Timur",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        786.4,
-        529
+        889,
+        624.2
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 381,
-      "name": "Kota Makassar",
-      "province": "Sulawesi Selatan"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 505,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.",
-      "story": "Konvoi pick-up dan motor brong Takalar menerobos gerbang batas teritorial Kota Makassar saat subuh. Pasukan pertahanan Kota Makassar tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Kota Makassar resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Kota Makassar resmi disita dan diubah jadi gerai Mie Gacoan cabang Takalar!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Makassar Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa pembagian beras bansos yang t...] Takalar menjebol Kota Makassar! 💀 Kota Makassar RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskannya dengan menyerbu kota sebelah.",
+      "story": "Operasi invasi Sikka macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: IHSG bursa anjlok parah hingga trading...] Flores Timur sukses menghalau serbuan Sikka!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 3,
+      "date": "Maret 2030",
+      "atk": "Sikka",
+      "def": "Flores Timur",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskannya dengan menyerbu kota sebelah."
+    },
     {
       "round": 2,
       "date": "Februari 2030",
