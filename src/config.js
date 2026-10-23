@@ -12,7 +12,7 @@ module.exports = {
   START_MONTH: parseInt(process.env.START_MONTH || '1', 10),
   ATTACKER_BASE_WIN_RATE: parseFloat(process.env.ATTACKER_BASE_WIN_RATE || '0.62'),
   SIZE_BONUS_FACTOR: parseFloat(process.env.SIZE_BONUS_FACTOR || '0.015'),
-
+  MAP_THEME: (process.env.MAP_THEME || 'light').toLowerCase(),
   // Automation
   DEFAULT_INTERVAL_SECONDS: parseInt(process.env.POST_INTERVAL_SECONDS || '3600', 10),
 
