@@ -8,7 +8,7 @@ module.exports = {
   FB_GRAPH_VERSION: process.env.FB_GRAPH_VERSION || 'v21.0',
 
   // Simulation settings
-  START_YEAR: parseInt(process.env.START_YEAR || '2026', 10),
+  START_YEAR: parseInt(process.env.START_YEAR || '2030', 10),
   START_MONTH: parseInt(process.env.START_MONTH || '1', 10),
   ATTACKER_BASE_WIN_RATE: parseFloat(process.env.ATTACKER_BASE_WIN_RATE || '0.62'),
   SIZE_BONUS_FACTOR: parseFloat(process.env.SIZE_BONUS_FACTOR || '0.015'),

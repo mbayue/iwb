@@ -1,8 +1,8 @@
 {
-  "round": 2,
-  "year": 2026,
-  "month": 3,
-  "activeFactionsCount": 505,
+  "round": 0,
+  "year": 2030,
+  "month": 0,
+  "activeFactionsCount": 507,
   "territoryOwner": [
     0,
     1,
@@ -42,7 +42,7 @@
     35,
     36,
     37,
-    32,
+    38,
     39,
     40,
     41,
@@ -232,7 +232,7 @@
     225,
     226,
     227,
-    221,
+    228,
     229,
     230,
     231,
@@ -838,7 +838,7 @@
       "name": "Kota Cilegon",
       "province": "Banten",
       "color": "#89ae42",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -898,10 +898,10 @@
       "name": "Serang",
       "province": "Banten",
       "color": "#38acb7",
-      "territoryCount": 0,
-      "eliminated": true,
-      "eliminatedInRound": 2,
-      "eliminatedBy": 32
+      "territoryCount": 1,
+      "eliminated": false,
+      "eliminatedInRound": null,
+      "eliminatedBy": null
     },
     {
       "id": 39,
@@ -2728,7 +2728,7 @@
       "name": "Kutai Kartanegara",
       "province": "Kalimantan Timur",
       "color": "#3db376",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2798,10 +2798,10 @@
       "name": "Malinau",
       "province": "Kalimantan Utara",
       "color": "#906637",
-      "territoryCount": 0,
-      "eliminated": true,
-      "eliminatedInRound": 1,
-      "eliminatedBy": 221
+      "territoryCount": 1,
+      "eliminated": false,
+      "eliminatedInRound": null,
+      "eliminatedBy": null
     },
     {
       "id": 229,
@@ -5584,83 +5584,8 @@
       "eliminatedBy": null
     }
   ],
-  "lastBattle": {
-    "round": 2,
-    "date": "Maret 2026",
-    "monthNumber": 3,
-    "yearNumber": 2026,
-    "atkFaction": {
-      "id": 32,
-      "name": "Kota Cilegon",
-      "province": "Banten",
-      "color": "#89ae42",
-      "count": 2
-    },
-    "defFaction": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
-      "color": "#38acb7",
-      "count": 0
-    },
-    "atkTerritory": {
-      "id": 32,
-      "name": "Kota Cilegon",
-      "province": "Banten",
-      "cScreen": [
-        389.8,
-        554
-      ]
-    },
-    "defTerritory": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
-      "cScreen": [
-        393.5,
-        557.5
-      ]
-    },
-    "success": true,
-    "eliminated": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten"
-    },
-    "activeFactionsCount": 505,
-    "gameOver": false,
-    "winner": null,
-    "warReport": {
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
-      "story": "Konvoi pick-up dan motor brong Kota Cilegon menerobos gerbang batas teritorial Serang saat subuh. Pasukan pertahanan Serang tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Serang resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Serang resmi disita dan diubah jadi gerai Mie Gacoan cabang Kota Cilegon!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Serang Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Kota Cilegon menjebol Serang! 💀 Serang RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
-    }
-  },
+  "lastBattle": null,
   "gameOver": false,
   "winner": null,
-  "history": [
-    {
-      "round": 2,
-      "date": "Maret 2026",
-      "atk": "Kota Cilegon",
-      "def": "Serang",
-      "success": true,
-      "elim": "Serang",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Serang Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
-    },
-    {
-      "round": 1,
-      "date": "Februari 2026",
-      "atk": "Kutai Kartanegara",
-      "def": "Malinau",
-      "success": true,
-      "elim": "Malinau",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malinau Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
-    }
-  ]
+  "history": []
 }

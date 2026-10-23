@@ -25,7 +25,7 @@ function initFreshState(graph) {
   return {
     round: 0,
     year: config.START_YEAR,
-    month: config.START_MONTH,
+    month: config.START_MONTH - 1,
     activeFactionsCount: N,
     territoryOwner,
     factions,

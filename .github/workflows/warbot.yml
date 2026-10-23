@@ -6,6 +6,15 @@ on:
     - cron: '0 * * * *'
   # Memungkinkan trigger manual langsung dari tab "Actions" di GitHub
   workflow_dispatch:
+    inputs:
+      action:
+        description: 'Pilih aksi yang ingin dijalankan'
+        required: true
+        default: 'turn'
+        type: choice
+        options:
+          - turn
+          - reset
   # Memicu registrasi workflow saat file di-push ke main
   push:
     paths:
@@ -32,13 +41,18 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Execute War Turn & Post to Facebook
-        run: node index.js turn
+      - name: Execute War Turn or Reset
+        run: |
+          if [ "${{ github.event.inputs.action }}" = "reset" ]; then
+            echo "Mereset status perang kembali ke Ronde 0 (Januari 2030)..."
+            node index.js reset
+          else
+            node index.js turn
+          fi
         env:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           MAP_THEME: ${{ vars.MAP_THEME || 'light' }}
-
       - name: Commit & Push War State Update
         run: |
           git config --global user.name 'github-actions[bot]'
