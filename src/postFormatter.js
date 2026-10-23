@@ -40,20 +40,27 @@ Terima kasih telah mengikuti World War Bot Indonesia!
   const story = warReport ? warReport.story : '';
   const impact = warReport ? warReport.impact : 'Wilayah Berpindah Tangan';
 
-  const statusHeader = success
-    ? (eliminated ? '🔥 [STATUS: PENAKLUKAN TOTAL & KOTA BUBAR]' : '💥 [STATUS: WILAYAH BERHASIL DIANEKSASI]')
-    : '🛡️ [STATUS: SERANGAN GAGAL & DIPUKUL MUNDUR]';
+  let battleResult = '';
+  if (success) {
+    if (eliminated) {
+      battleResult = `Hasil akhir:
+Wilayah ${defName} resmi ditaklukkan dan dianeksasi oleh ${atkName}! Faksi ${eliminated.name} dinyatakan runtuh dan dibubarkan.`;
+    } else {
+      battleResult = `Hasil akhir:
+Wilayah ${defName} berhasil direbut dan kini berada di bawah kendali ${atkName}.`;
+    }
+  } else {
+    battleResult = `Hasil akhir:
+Serangan gagal! Garnisun ${defOwnerName} berhasil memukul mundur agresi ${atkName} dari wilayah ${defName}.`;
+  }
 
-  const battleBulletin = `${statusHeader}
-⚔️ Pihak Penyerang : ${atkName}
-🛡️ Pihak Bertahan  : ${defOwnerName} (Wilayah: ${defName})
-📢 Pemicu Konflik  : ${casusBelli}
+  const battleBulletin = `${atkName} melancarkan agresi militer ke wilayah ${defName} (${defOwnerName})!
+Pemicu konflik: ${casusBelli}
 
-📝 KRONOLOGI LAPANGAN:
+Kronologi lapangan:
 ${story}
 
-⚠️ Dampak Insiden   : ${impact}`;
-  // Top 5 factions
+${battleResult}`;
   const topFactions = [...state.factions]
     .filter(f => !f.eliminated && f.territoryCount > 0)
     .sort((a, b) => b.territoryCount - a.territoryCount)
@@ -62,30 +69,28 @@ ${story}
   const leader = topFactions[0] || atkFaction;
   const leaderPct = ((leader.territoryCount / N) * 100).toFixed(1);
 
-  let leaderboardText = '🏆 5 BESAR WILAYAH TERLUAS:\n';
+  let leaderboardText = 'Klasemen 5 Besar:\n';
   topFactions.forEach((f, idx) => {
-    const medal = idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : '  ';
-    leaderboardText += `${medal} ${idx + 1}. ${f.name} (${f.territoryCount} wilayah)\n`;
+    leaderboardText += `${idx + 1}. ${f.name} (${f.territoryCount} wilayah)\n`;
   });
-
   const atkSlug = slugify(atkName);
   const defSlug = slugify(defName);
 
   let prologue = '';
   if (round === 1) {
-    prologue = `📢 [PROKLAMASI NUSANTARA 2029]
-Ramalan "Indonesia Bubar 2029" resmi terwujud! Pemerintah pusat kolaps, seluruh 507 Kota & Kabupaten serentak memerdekakan diri karena kecewa pada kebijakan pusat. Kini perang saudara antar-daerah resmi dimulai demi supremasi tahta tertinggi Nusantara!
+    prologue = `[Proklamasi Nusantara 2029]
+Ramalan "Indonesia Bubar 2029" resmi terwujud. Pemerintahan pusat kolaps, dan seluruh 507 kota & kabupaten serentak memerdekakan diri karena kecewa pada kebijakan pusat. Perang perebutan supremasi tahta Nusantara resmi dimulai!
 
 `;
   }
 
-  return `${prologue}🚨 KAWAT BERITA PERANG NUSANTARA [Ronde ${round} - ${date}] 🚨
+  return `${prologue}[Warta Perang Nusantara: Ronde ${round} — ${date}]
 
 ${battleBulletin}
 
-📊 STATUS STRATEGIS NUSANTARA:
-• Sisa Faksi Bertahan : ${activeFactionsCount} / ${N} faksi
-• Faksi Terluas       : ${leader.name} (${leader.territoryCount} wilayah - ${leaderPct}%)
+Situasi Teritorial:
+• Sisa faksi bertahan : ${activeFactionsCount} dari ${N} kota/kabupaten
+• Faksi terluas       : ${leader.name} (${leader.territoryCount} wilayah — ${leaderPct}%)
 
 ${leaderboardText.trim()}
 

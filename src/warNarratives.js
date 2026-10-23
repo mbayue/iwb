@@ -8,7 +8,7 @@ const GENERAL_CASUS_BELLI = [
   'Razia iPhone 16 selundupan tanpa sertifikasi TKDN di pos batas yang disita buat dipakai anak camat.',
   'Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah.',
   'Sengketa gelar doktor kilat 1 tahun 8 bulan milik bupati yang mendadak ditangguhkan senat kampus.',
-  'Perang klaim uang donasi pengobatan viral yang turns out dialihkan buat bayar utang wawa dan belanja olshop.',
+  'Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring.',
   'Warga marah postingan lawas akun Kaskus "Fufufafa" terbongkar dan membongkar aib tokoh perbatasan.',
   'Pejabat perbatasan pamer naik jet pribadi sewaan dan makan roti 400 ribu di tengah defisit APBD.',
   'Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.',
@@ -18,7 +18,7 @@ const GENERAL_CASUS_BELLI = [
   'Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.',
   'Preman ormas berseragam loreng oranye saling klaim jatah parkir Indomaret di tugu perbatasan.',
   'Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi "Admin#1234".',
-  'Sengketa pembagian beras bansos yang turns out isinya karung pasir dan mie instan kadaluarsa.',
+  'Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.',
   'Kabel fiber optic WiFi perbatasan putus tersangkut truk kontainer ODOL (Over Dimension Over Load).',
   'Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga.',
   'Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan.',
@@ -36,10 +36,10 @@ const GENERAL_CASUS_BELLI = [
   'Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah.',
   'Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis.',
   'Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.',
-  'IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskan panic selling dengan menyerbu kota sebelah.',
-  'Bupati tekor ratusan miliar akibat nyangkut di saham gorengan yang kena ARB berjilid-jilid setelah kena pompom influencer.',
+  'IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskannya dengan menyerbu kota sebelah.',
+  'Bupati tekor ratusan miliar akibat nyangkut di saham gorengan yang kena ARB berjilid-jilid setelah termakan rekomendasi influencer.',
   'Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.',
-  'Dana asing kabur (capital outflow) massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan.'
+  'Dana investor asing kabur massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan.'
 ];
 
 const STRAIT_CASUS_BELLI = [
@@ -90,7 +90,7 @@ const ELIMINATION_STORIES = [
   'Bupati {def} dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi {def} resmi BUBAR!',
   'Gelar kehormatan bupati {def} dicabut kampus, aset rekening dibekukan PPATK, dan wilayah {def} resmi diambil alih oleh {atk}!',
   'Bupati {def} diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi {def} resmi BUBAR dan disita negara!',
-  'Kas daerah {def} bangkrut total akibat bupati kena margin call di bursa saham IHSG dan tergilas anjloknya kurs Rupiah; seluruh aset dinas resmi disita faksi {atk}!',
+  'Kas daerah {def} bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi {atk}!',
   'Seluruh kantor dinas {def} terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke {atk}!',
   'Faksi {def} resmi BUBAR! Seluruh warga {def} kini wajib ganti KTP, bayar retribusi ke dinasti {atk}, dan dilarang membanggakan kuliner asalnya.',
   'Kantor bupati {def} dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga {atk}, dan nama {def} resmi DIHAPUS DARI PETA NUSANTARA!',

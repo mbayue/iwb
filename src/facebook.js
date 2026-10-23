@@ -13,9 +13,19 @@ async function publishTurn(imageBuffer, captionText, roundNumber, forceDryRun = 
   const imagePath = path.join(config.PATHS.OUTPUT, imageFileName);
   const textPath = path.join(config.PATHS.OUTPUT, textFileName);
 
-  // Always save a local copy to output/
-  fs.writeFileSync(imagePath, imageBuffer);
-  fs.writeFileSync(textPath, captionText, 'utf8');
+  // Always save a local copy to output/ with lock-safe write
+  try {
+    fs.writeFileSync(imagePath, imageBuffer);
+  } catch (err) {
+    const fallbackPath = path.join(config.PATHS.OUTPUT, `round_${paddedRound}_${Date.now()}.png`);
+    fs.writeFileSync(fallbackPath, imageBuffer);
+    console.warn(`Peringatan: ${imagePath} sedang dibuka aplikasi lain, disimpan ke ${fallbackPath}`);
+  }
+  try {
+    fs.writeFileSync(textPath, captionText, 'utf8');
+  } catch {
+    // silent fallback
+  }
 
   const hasCredentials = Boolean(config.FB_PAGE_ID && config.FB_PAGE_ACCESS_TOKEN);
 
