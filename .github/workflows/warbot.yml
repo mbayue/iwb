@@ -6,7 +6,10 @@ on:
     - cron: '0 * * * *'
   # Memungkinkan trigger manual langsung dari tab "Actions" di GitHub
   workflow_dispatch:
-
+  # Memicu registrasi workflow saat file di-push ke main
+  push:
+    paths:
+      - '.github/workflows/**'
 permissions:
   contents: write
 
