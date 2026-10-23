@@ -1,7 +1,7 @@
 {
-  "round": 0,
+  "round": 1,
   "year": 2030,
-  "month": 0,
+  "month": 1,
   "activeFactionsCount": 507,
   "territoryOwner": [
     0,
@@ -5584,8 +5584,69 @@
       "eliminatedBy": null
     }
   ],
-  "lastBattle": null,
+  "lastBattle": {
+    "round": 1,
+    "date": "Januari 2030",
+    "monthNumber": 1,
+    "yearNumber": 2030,
+    "atkFaction": {
+      "id": 248,
+      "name": "Lampung Selatan",
+      "province": "Lampung",
+      "color": "#6942ae",
+      "count": 1
+    },
+    "defFaction": {
+      "id": 250,
+      "name": "Lampung Timur",
+      "province": "Lampung",
+      "color": "#34a8a2",
+      "count": 1
+    },
+    "atkTerritory": {
+      "id": 248,
+      "name": "Lampung Selatan",
+      "province": "Lampung",
+      "cScreen": [
+        373.8,
+        538.3
+      ]
+    },
+    "defTerritory": {
+      "id": 250,
+      "name": "Lampung Timur",
+      "province": "Lampung",
+      "cScreen": [
+        377.7,
+        528.3
+      ]
+    },
+    "success": false,
+    "eliminated": null,
+    "activeFactionsCount": 507,
+    "gameOver": false,
+    "winner": null,
+    "warReport": {
+      "casusBelli": "Sengketa jalan provinsi yang berlubang parah tapi di laporan pertanggungjawaban diklaim mulus beraspal.",
+      "story": "Serangan mendadak Lampung Selatan gagal total setelah dihadang ormas setempat yang meminta \"uang koordinasi wilayah\" sebesar Rp50.000 per tank tempur.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa jalan provinsi yang berlubang...] Lampung Timur sukses menghalau serbuan Lampung Selatan!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
+    }
+  },
   "gameOver": false,
   "winner": null,
-  "history": []
+  "history": [
+    {
+      "round": 1,
+      "date": "Januari 2030",
+      "atk": "Lampung Selatan",
+      "def": "Lampung Timur",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa jalan provinsi yang berlubang parah tapi di laporan pertanggungjawaban diklaim mulus beraspal."
+    }
+  ]
 }
