@@ -56,6 +56,7 @@ async function publishTurn(imageBuffer, captionText, roundNumber, forceDryRun = 
   const formData = new FormData();
   formData.append('access_token', config.FB_PAGE_ACCESS_TOKEN);
   formData.append('caption', captionText);
+  formData.append('published', 'true');
   formData.append(
     'source',
     new Blob([imageBuffer], { type: 'image/png' }),
