@@ -94,7 +94,7 @@ Situasi Teritorial:
 
 ${leaderboardText.trim()}
 
-#WorldWarBot #WorldWarBotIndonesia #IndonesiaBubar2029 #WarBotIndonesia #${atkSlug} #${defSlug} #PerangNusantara`;
+#WorldWarBot #WorldWarBotIndonesia #WarBotIndonesia #${atkSlug} #${defSlug} #PerangNusantara`;
 }
 
 module.exports = {

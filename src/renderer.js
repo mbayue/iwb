@@ -21,7 +21,7 @@ function getThemeTokens(themeName = 'light') {
       oceanDef: `
         <linearGradient id="oceanGlow" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stop-color="#e0f2fe"/>
-          <stop offset="50%" stop-color="#ebf8ff"/>
+          <stop offset="50%" stop-color="#edf8ff"/>
           <stop offset="100%" stop-color="#e2e8f0"/>
         </linearGradient>
       `,
@@ -33,7 +33,6 @@ function getThemeTokens(themeName = 'light') {
       territoryStrokeW: '0.8',
       cardFill: '#ffffff',
       cardBorder: '#cbd5e1',
-      cornerAccent: '#0284c7',
       titleColor: '#0f172a',
       subTitleColor: '#64748b',
       badgeStatusFill: '#f1f5f9',
@@ -46,8 +45,6 @@ function getThemeTokens(themeName = 'light') {
       radarHeaderText: '#0369a1',
       radarWinFill: '#e0f2fe',
       radarSweep: '#0284c7',
-      radarHudFill: '#ffffff',
-      radarHudBorder: '#cbd5e1',
       subCardFill: '#f8fafc',
       subCardBorder: '#e2e8f0',
       metricTitleColor: '#64748b',
@@ -92,7 +89,6 @@ function getThemeTokens(themeName = 'light') {
       territoryStrokeW: '0.6',
       cardFill: '#0d1424',
       cardBorder: '#1e293b',
-      cornerAccent: '#38bdf8',
       titleColor: '#ffffff',
       subTitleColor: '#64748b',
       badgeStatusFill: '#1e293b',
@@ -105,8 +101,6 @@ function getThemeTokens(themeName = 'light') {
       radarHeaderText: '#38bdf8',
       radarWinFill: '#050811',
       radarSweep: '#38bdf8',
-      radarHudFill: '#070d18',
-      radarHudBorder: '#1e293b',
       subCardFill: '#131c30',
       subCardBorder: '#1e293b',
       metricTitleColor: '#64748b',
@@ -180,8 +174,9 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   let battleMarkerSvg = '';
   let radarInsetSvg = '';
 
-  const rBoxX = 50, rBoxY = 740, rBoxW = 460, rBoxH = 295;
-  const rWinX = rBoxX + 15, rWinY = rBoxY + 45, rWinW = rBoxW - 30, rWinH = rBoxH - 60;
+  // Bottom layout baseline: y: 715, height: 330 (ends at 1045)
+  const rBoxX = 40, rBoxY = 715, rBoxW = 480, rBoxH = 330;
+  const rWinX = rBoxX + 15, rWinY = rBoxY + 45, rWinW = rBoxW - 30, rWinH = 215;
   const rCx = rWinX + rWinW / 2;
   const rCy = rWinY + rWinH / 2;
 
@@ -210,13 +205,12 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
       
       <!-- Radar Header -->
       <rect x="${rBoxX}" y="${rBoxY}" width="${rBoxW}" height="36" rx="10" fill="${T.radarHeaderFill}"/>
-      <circle cx="${rBoxX + 22}" cy="${rBoxY + 18}" r="5" fill="#16a34a"/>
-      <text x="${rBoxX + 36}" y="${rBoxY + 23}" fill="${T.radarHeaderText}" font-size="12" font-family="monospace" font-weight="bold">PANTAUAN SATELIT • FOKUS MEDAN TEMPUR</text>
-      <text x="${rBoxX + rBoxW - 15}" y="${rBoxY + 23}" fill="${T.textSecondary}" font-size="11" font-family="monospace" text-anchor="end">ZOOM 3.4X</text>
+      <text x="${rBoxX + 18}" y="${rBoxY + 23}" fill="${T.radarHeaderText}" font-size="12" font-family="monospace" font-weight="bold">PANTAUAN SATELIT • FOKUS MEDAN TEMPUR</text>
+      <text x="${rBoxX + rBoxW - 18}" y="${rBoxY + 23}" fill="${T.textSecondary}" font-size="11" font-family="monospace" text-anchor="end">ZOOM 3.4X</text>
 
-      <!-- Radar Clipped Window -->
+      <!-- Radar Clipped Window (Clean & Unobstructed) -->
       <g clip-path="url(#radarClip)">
-        <rect x="${rWinX}" y="${rWinY}" width="${rWinW}" height="${rWinH}" fill="${T.radarWinFill}"/>
+        <rect x="${rWinX}" y="${rWinY}" width="${rWinW}" height="${rWinH}" rx="6" fill="${T.radarWinFill}"/>
         
         <!-- Scaled Zoomed Map -->
         <g transform="${radarTransform}">
@@ -227,30 +221,35 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
           <circle cx="${dx}" cy="${dy}" r="2" fill="${T.defColor}"/>
         </g>
 
-        <!-- Radar Sweep Rings -->
-        <circle cx="${rCx}" cy="${rCy}" r="40" fill="none" stroke="${T.radarSweep}" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="3,3"/>
-        <circle cx="${rCx}" cy="${rCy}" r="80" fill="none" stroke="${T.radarSweep}" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="3,3"/>
-        <circle cx="${rCx}" cy="${rCy}" r="120" fill="none" stroke="${T.radarSweep}" stroke-width="0.8" stroke-opacity="0.3"/>
-        <line x1="${rCx}" y1="${rWinY}" x2="${rCx}" y2="${rWinY + rWinH}" stroke="${T.radarSweep}" stroke-width="0.6" stroke-opacity="0.3"/>
-        <line x1="${rWinX}" y1="${rCy}" x2="${rWinX + rWinW}" y2="${rCy}" stroke="${T.radarSweep}" stroke-width="0.6" stroke-opacity="0.3"/>
+        <!-- Distance Range Rings -->
+        <circle cx="${rCx}" cy="${rCy}" r="35" fill="none" stroke="${T.radarSweep}" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="3,3"/>
+        <circle cx="${rCx}" cy="${rCy}" r="75" fill="none" stroke="${T.radarSweep}" stroke-width="0.8" stroke-opacity="0.4" stroke-dasharray="3,3"/>
+        <circle cx="${rCx}" cy="${rCy}" r="115" fill="none" stroke="${T.radarSweep}" stroke-width="0.8" stroke-opacity="0.25"/>
+        <line x1="${rCx}" y1="${rWinY}" x2="${rCx}" y2="${rWinY + rWinH}" stroke="${T.radarSweep}" stroke-width="0.6" stroke-opacity="0.25"/>
+        <line x1="${rWinX}" y1="${rCy}" x2="${rWinX + rWinW}" y2="${rCy}" stroke="${T.radarSweep}" stroke-width="0.6" stroke-opacity="0.25"/>
+      </g>
 
-        <!-- Tactical HUD Overlays in Zoom -->
-        <rect x="${rWinX + 8}" y="${rWinY + 8}" width="230" height="44" rx="4" fill="${T.radarHudFill}" fill-opacity="0.95" stroke="${T.radarHudBorder}" stroke-width="1"/>
-        <text x="${rWinX + 16}" y="${rWinY + 24}" fill="${T.atkColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">PENYERANG: ${atkName}</text>
-        <text x="${rWinX + 16}" y="${rWinY + 42}" fill="${T.defColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">SASARAN: ${defName}</text>
+      <!-- Dedicated Bottom Sub-bar (Unobstructed View) -->
+      <g transform="translate(${rWinX}, ${rBoxY + 270})">
+        <rect x="0" y="0" width="${rWinW}" height="48" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+        
+        <text x="14" y="20" fill="${T.atkColor}" font-size="10.5" font-family="Segoe UI, sans-serif" font-weight="bold">PENYERANG</text>
+        <text x="14" y="38" fill="${T.titleColor}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">${atkName.slice(0, 18)}</text>
+        
+        <text x="${rWinW / 2 + 10}" y="20" fill="${T.defColor}" font-size="10.5" font-family="Segoe UI, sans-serif" font-weight="bold">SASARAN</text>
+        <text x="${rWinW / 2 + 10}" y="38" fill="${T.titleColor}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">${defName.slice(0, 18)}</text>
       </g>
     `;
   } else {
     radarInsetSvg = `
       <rect x="${rBoxX}" y="${rBoxY}" width="${rBoxW}" height="${rBoxH}" rx="10" fill="${T.radarBoxFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
       <rect x="${rBoxX}" y="${rBoxY}" width="${rBoxW}" height="36" rx="10" fill="${T.radarHeaderFill}"/>
-      <circle cx="${rBoxX + 22}" cy="${rBoxY + 18}" r="5" fill="${T.atkColor}"/>
-      <text x="${rBoxX + 36}" y="${rBoxY + 23}" fill="${T.textSecondary}" font-size="12" font-family="monospace" font-weight="bold">RADAR SATELIT • STANDBY</text>
+      <text x="${rBoxX + 18}" y="${rBoxY + 23}" fill="${T.textSecondary}" font-size="12" font-family="monospace" font-weight="bold">PANTAUAN SATELIT • STANDBY</text>
       <text x="${rCx}" y="${rCy}" fill="${T.textSecondary}" font-size="14" font-family="Segoe UI, sans-serif" text-anchor="middle">Menunggu Target Pertempuran...</text>
     `;
   }
 
-  // 4. Secondary Tactical Metrics (Center Bottom)
+  // 4. Secondary Tactical Box (Center Bottom, y: 715, height: 330, width: 935)
   const topFactions = [...state.factions]
     .filter(f => !f.eliminated && f.territoryCount > 0)
     .sort((a, b) => b.territoryCount - a.territoryCount);
@@ -258,47 +257,103 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   const topLeader = topFactions[0] || state.factions[0];
   const unifPct = (((N - state.activeFactionsCount) / N) * 100).toFixed(1);
 
+  // Recent 3 battles feed
+  const historyItems = (state.history && state.history.length > 0)
+    ? state.history.slice(0, 3)
+    : [];
+
+  let historyCardsSvg = '';
+  if (historyItems.length > 0) {
+    historyItems.forEach((h, idx) => {
+      const hx = 20 + idx * 300;
+      const resBadge = h.elim
+        ? { text: 'ELIMINASI', fill: T.defColor, sub: `Runtuh: ${escapeXml(h.elim)}` }
+        : h.success
+        ? { text: 'AN EKSASI', fill: T.successBadgeColor, sub: 'Wilayah Ditaklukkan' }
+        : { text: 'DIHALAU', fill: '#16a34a', sub: 'Pertahanan Berhasil' };
+
+      historyCardsSvg += `
+        <g transform="translate(${hx}, 0)">
+          <rect x="0" y="0" width="285" height="78" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+          <text x="12" y="22" fill="${T.textSecondary}" font-size="11" font-family="monospace">Ronde ${h.round} • ${h.date}</text>
+          <rect x="205" y="10" width="68" height="18" rx="3" fill="${resBadge.fill}" fill-opacity="${T.isLight ? '0.15' : '0.25'}"/>
+          <text x="239" y="23" fill="${resBadge.fill}" font-size="9.5" font-family="monospace" font-weight="bold" text-anchor="middle">${resBadge.text}</text>
+          <text x="12" y="46" fill="${T.titleColor}" font-size="12.5" font-family="Segoe UI, sans-serif" font-weight="bold">${escapeXml(h.atk)} vs ${escapeXml(h.def)}</text>
+          <text x="12" y="64" fill="${T.textSecondary}" font-size="11" font-family="Segoe UI, sans-serif">${resBadge.sub}</text>
+        </g>
+      `;
+    });
+  } else {
+    historyCardsSvg = `
+      <rect x="20" y="0" width="885" height="78" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+      <text x="460" y="45" fill="${T.textSecondary}" font-size="13" font-family="Segoe UI, sans-serif" text-anchor="middle">Belum ada catatan perang sebelumnya (Ronde Perdana).</text>
+    `;
+  }
+
   const secondaryBoxSvg = `
-    <g transform="translate(530, 850)">
-      <rect x="0" y="0" width="950" height="185" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
-      <text x="${25}" y="${32}" fill="${T.textSecondary}" font-size="12" font-family="monospace" font-weight="bold">STATUS TERITORIAL NUSANTARA (507 KOTA &amp; KABUPATEN)</text>
-      <!-- Metric 1 -->
-      <g transform="translate(25, 48)">
-        <rect x="0" y="0" width="280" height="115" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
-        <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">FAKSI WILAYAH TERLUAS</text>
-        <text x="16" y="58" fill="${T.metricValueColor}" font-size="17" font-family="Segoe UI, sans-serif" font-weight="bold">${escapeXml(topLeader.name.slice(0, 22))}</text>
-        <text x="16" y="86" fill="${T.atkColor}" font-size="13" font-family="monospace">${topLeader.territoryCount} Wilayah (${((topLeader.territoryCount / N) * 100).toFixed(1)}%)</text>
+    <g transform="translate(540, 715)">
+      <rect x="0" y="0" width="935" height="330" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
+      <text x="25" y="32" fill="${T.textSecondary}" font-size="12" font-family="monospace" font-weight="bold">STATUS TERITORIAL NUSANTARA (507 KOTA &amp; KABUPATEN)</text>
+      
+      <!-- Top Deck: 3 Primary Metrics -->
+      <g transform="translate(20, 50)">
+        <!-- Metric 1 -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="285" height="110" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+          <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">FAKSI WILAYAH TERLUAS</text>
+          <text x="16" y="56" fill="${T.metricValueColor}" font-size="17" font-family="Segoe UI, sans-serif" font-weight="bold">${escapeXml(topLeader.name.slice(0, 20))}</text>
+          <text x="16" y="84" fill="${T.atkColor}" font-size="13" font-family="monospace">${topLeader.territoryCount} Wilayah (${((topLeader.territoryCount / N) * 100).toFixed(1)}%)</text>
+        </g>
+
+        <!-- Metric 2 -->
+        <g transform="translate(300, 0)">
+          <rect x="0" y="0" width="285" height="110" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+          <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">PROGRESS UNIFIKASI</text>
+          <text x="16" y="58" fill="#16a34a" font-size="24" font-family="monospace" font-weight="bold">${unifPct}%</text>
+          <text x="16" y="84" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">${N - state.activeFactionsCount} dari ${N} distrik telah jatuh</text>
+        </g>
+
+        <!-- Metric 3 -->
+        <g transform="translate(600, 0)">
+          <rect x="0" y="0" width="285" height="110" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+          <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">STATUS OPERASI TERAKHIR</text>
+          ${battle && battle.eliminated
+            ? `<text x="16" y="56" fill="${T.defColor}" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold">${escapeXml(battle.eliminated.name)} Tereliminasi</text>
+               <text x="16" y="84" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">Wilayah resmi dianeksasi pemenang</text>`
+            : battle && battle.success
+            ? `<text x="16" y="56" fill="${T.successBadgeColor}" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold">Penaklukan Wilayah</text>
+               <text x="16" y="84" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">Garis perbatasan berhasil ditembus</text>`
+            : `<text x="16" y="56" fill="#16a34a" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold">Pertahanan Sukses</text>
+               <text x="16" y="84" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">Garnisun berhasil memukul mundur musuh</text>`
+          }
+        </g>
       </g>
 
-      <!-- Metric 2 -->
-      <g transform="translate(325, 48)">
-        <rect x="0" y="0" width="280" height="115" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
-        <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">PROGRESS UNIFIKASI</text>
-        <text x="16" y="60" fill="#16a34a" font-size="24" font-family="monospace" font-weight="bold">${unifPct}%</text>
-        <text x="16" y="88" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">${N - state.activeFactionsCount} dari ${N} distrik telah jatuh</text>
-      </g>
-
-      <!-- Metric 3 -->
-      <g transform="translate(625, 48)">
-        <rect x="0" y="0" width="300" height="115" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
-        <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">STATUS OPERASI TERAKHIR</text>
-        ${battle && battle.eliminated
-          ? `<text x="16" y="58" fill="${T.defColor}" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold">💀 ${escapeXml(battle.eliminated.name)} Tereliminasi</text>
-             <text x="16" y="86" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">Wilayah resmi dianeksasi pemenang</text>`
-          : battle && battle.success
-          ? `<text x="16" y="58" fill="${T.successBadgeColor}" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold">💥 Penaklukan Wilayah</text>
-             <text x="16" y="86" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">Garis perbatasan berhasil ditembus</text>`
-          : `<text x="16" y="58" fill="#16a34a" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold">🛡️ Pertahanan Sukses</text>
-             <text x="16" y="86" fill="${T.textSecondary}" font-size="11.5" font-family="Segoe UI, sans-serif">Garnisun bertahan memukul mundur musuh</text>`
-        }
+      <!-- Bottom Deck: Recent Battles Feed -->
+      <g transform="translate(0, 185)">
+        <text x="25" y="22" fill="${T.textSecondary}" font-size="11" font-family="monospace" font-weight="bold">RIWAYAT 3 PERTEMPURAN TERAKHIR</text>
+        <g transform="translate(0, 36)">
+          ${historyCardsSvg}
+        </g>
       </g>
     </g>
   `;
 
-  // 5. Leaderboard Rows
+  // 5. Right Sidebar (x: 1495, y: 25, w: 395, h: 1020)
+  // Calculate distribution tiers
+  let imperialCount = 0, expansionCount = 0, independentCount = 0;
+  state.factions.forEach(f => {
+    if (f.eliminated || f.territoryCount === 0) return;
+    if (f.territoryCount >= 5) imperialCount++;
+    else if (f.territoryCount >= 2) expansionCount++;
+    else independentCount++;
+  });
+  const eliminatedCount = N - state.activeFactionsCount;
+
+  // Render Top 9 factions in table
   let leaderboardRows = '';
-  topFactions.slice(0, 10).forEach((f, idx) => {
-    const y = 285 + idx * 49;
+  topFactions.slice(0, 9).forEach((f, idx) => {
+    const y = 280 + idx * 43;
     const pct = ((f.territoryCount / N) * 100).toFixed(1);
     const rankNum = idx + 1;
     const rankColor = rankNum === 1 ? '#d97706' : rankNum === 2 ? '#64748b' : rankNum === 3 ? '#b45309' : '#64748b';
@@ -306,29 +361,71 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     const nameStr = escapeXml(f.name.length > 20 ? f.name.slice(0, 19) + '…' : f.name);
 
     leaderboardRows += `
-      <g transform="translate(1525, ${y})">
-        <rect x="0" y="0" width="350" height="42" rx="6" fill="${T.rowFill}" stroke="${T.rowBorder}" stroke-width="1"/>
-        <rect x="8" y="9" width="30" height="24" rx="4" fill="${rankColor}" fill-opacity="${T.isLight ? '0.15' : '0.25'}"/>
-        <text x="23" y="26" fill="${rankColor}" font-size="12" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="middle">${rankBadge}</text>
-        <rect x="46" y="11" width="20" height="20" rx="4" fill="${f.color}" stroke="${T.isLight ? '#94a3b8' : '#ffffff'}" stroke-width="1"/>
-        <text x="74" y="26" fill="${T.rowText}" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="600">${nameStr}</text>
-        <text x="338" y="26" fill="${T.rowSubText}" font-size="13.5" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="end">${f.territoryCount} <tspan fill="${T.textSecondary}" font-size="11">(${pct}%)</tspan></text>
+      <g transform="translate(1515, ${y})">
+        <rect x="0" y="0" width="355" height="38" rx="6" fill="${T.rowFill}" stroke="${T.rowBorder}" stroke-width="1"/>
+        <rect x="8" y="8" width="30" height="22" rx="4" fill="${rankColor}" fill-opacity="${T.isLight ? '0.15' : '0.25'}"/>
+        <text x="23" y="23" fill="${rankColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="middle">${rankBadge}</text>
+        <rect x="46" y="9" width="20" height="20" rx="4" fill="${f.color}" stroke="${T.isLight ? '#94a3b8' : '#ffffff'}" stroke-width="1"/>
+        <text x="74" y="24" fill="${T.rowText}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600">${nameStr}</text>
+        <text x="345" y="24" fill="${T.rowSubText}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="end">${f.territoryCount} <tspan fill="${T.textSecondary}" font-size="10.5">(${pct}%)</tspan></text>
       </g>
     `;
   });
 
-  // 6. Header Section
+  // Sidebar Bottom Demographics Box (Fills previous 250px dead space!)
+  const distroCardSvg = `
+    <g transform="translate(1515, 680)">
+      <rect x="0" y="0" width="355" height="295" rx="8" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+      <text x="16" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">SEBARAN KEKUATAN NUSANTARA</text>
+      
+      <!-- Tier 1 -->
+      <g transform="translate(16, 44)">
+        <text x="0" y="14" fill="${T.titleColor}" font-size="12" font-family="Segoe UI, sans-serif">Kekaisaran (&gt;5 Wilayah)</text>
+        <text x="323" y="14" fill="${T.titleColor}" font-size="12" font-family="monospace" font-weight="bold" text-anchor="end">${imperialCount} Faksi</text>
+        <rect x="0" y="22" width="323" height="6" rx="3" fill="${T.isLight ? '#e2e8f0' : '#1e293b'}"/>
+        <rect x="0" y="22" width="${Math.max(4, (imperialCount / N) * 323)}" height="6" rx="3" fill="#8b5cf6"/>
+      </g>
+
+      <!-- Tier 2 -->
+      <g transform="translate(16, 96)">
+        <text x="0" y="14" fill="${T.titleColor}" font-size="12" font-family="Segoe UI, sans-serif">Ekspansi (2-4 Wilayah)</text>
+        <text x="323" y="14" fill="${T.titleColor}" font-size="12" font-family="monospace" font-weight="bold" text-anchor="end">${expansionCount} Faksi</text>
+        <rect x="0" y="22" width="323" height="6" rx="3" fill="${T.isLight ? '#e2e8f0' : '#1e293b'}"/>
+        <rect x="0" y="22" width="${Math.max(4, (expansionCount / N) * 323)}" height="6" rx="3" fill="${T.atkColor}"/>
+      </g>
+
+      <!-- Tier 3 -->
+      <g transform="translate(16, 148)">
+        <text x="0" y="14" fill="${T.titleColor}" font-size="12" font-family="Segoe UI, sans-serif">Independen (1 Wilayah)</text>
+        <text x="323" y="14" fill="${T.titleColor}" font-size="12" font-family="monospace" font-weight="bold" text-anchor="end">${independentCount} Faksi</text>
+        <rect x="0" y="22" width="323" height="6" rx="3" fill="${T.isLight ? '#e2e8f0' : '#1e293b'}"/>
+        <rect x="0" y="22" width="${Math.max(4, (independentCount / N) * 323)}" height="6" rx="3" fill="#16a34a"/>
+      </g>
+
+      <!-- Tier 4 -->
+      <g transform="translate(16, 200)">
+        <text x="0" y="14" fill="${T.titleColor}" font-size="12" font-family="Segoe UI, sans-serif">Gugur / Runtuh (0 Wilayah)</text>
+        <text x="323" y="14" fill="${T.titleColor}" font-size="12" font-family="monospace" font-weight="bold" text-anchor="end">${eliminatedCount} Faksi</text>
+        <rect x="0" y="22" width="323" height="6" rx="3" fill="${T.isLight ? '#e2e8f0' : '#1e293b'}"/>
+        <rect x="0" y="22" width="${Math.max(4, (eliminatedCount / N) * 323)}" height="6" rx="3" fill="${T.defColor}"/>
+      </g>
+
+      <!-- Footer Info inside Box -->
+      <text x="162" y="274" fill="${T.textSecondary}" font-size="11" font-family="Segoe UI, sans-serif" text-anchor="middle">Total Inventaris: 507 Distrik Otonom</text>
+    </g>
+  `;
+
+  // 6. Header Section Frame (x: 30, y: 25, w: 1445, h: 155)
   const roundNum = battle ? battle.round : state.round;
   const dateStr = battle ? battle.date : `${state.month}/${state.year}`;
   const activeCount = state.activeFactionsCount;
-  const eliminatedCount = N - activeCount;
 
   let battleAlertSvg = '';
   if (state.gameOver && state.winner) {
     const winnerName = escapeXml(state.winner.name);
     battleAlertSvg = `
-      <rect x="50" y="112" width="1410" height="56" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
-      <text x="80" y="146" fill="#86efac" font-size="19" font-family="Segoe UI, sans-serif" font-weight="900">👑 PEMENANG MUTLAK NUSANTARA!</text>
+      <rect x="50" y="112" width="1405" height="56" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="80" y="146" fill="#86efac" font-size="19" font-family="Segoe UI, sans-serif" font-weight="900">PEMENANG MUTLAK NUSANTARA</text>
       <text x="380" y="146" fill="#ffffff" font-size="16" font-family="Segoe UI, sans-serif">
         <tspan font-weight="bold" fill="#facc15">${winnerName}</tspan> telah menaklukkan seluruh 507 kota &amp; kabupaten se-Indonesia!
       </text>
@@ -345,7 +442,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
         ? `<tspan fill="${T.defColor}" font-weight="bold"> | ${escapeXml(battle.eliminated.name)} RUNTUH &amp; DIBUBARKAN</tspan>`
         : '';
       battleAlertSvg = `
-        <rect x="50" y="112" width="1410" height="56" rx="8" fill="url(#battleBox)" stroke="${T.battleBoxBorder}" stroke-width="1.2"/>
+        <rect x="50" y="112" width="1405" height="56" rx="8" fill="url(#battleBox)" stroke="${T.battleBoxBorder}" stroke-width="1.2"/>
         <text x="70" y="133" fill="${T.casusLabelColor}" font-size="12" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
         <text x="70" y="154" fill="${T.titleColor}" font-size="14.5" font-family="Segoe UI, sans-serif">
           <tspan font-weight="bold" fill="${T.atkColor}">${atkName}</tspan> menaklukkan sektor pertahanan <tspan font-weight="bold" fill="${T.defColor}">${defTerrName}</tspan>
@@ -355,7 +452,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
       `;
     } else {
       battleAlertSvg = `
-        <rect x="50" y="112" width="1410" height="56" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.2"/>
+        <rect x="50" y="112" width="1405" height="56" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.2"/>
         <text x="70" y="133" fill="${T.atkColor}" font-size="12" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
         <text x="70" y="154" fill="${T.titleColor}" font-size="14.5" font-family="Segoe UI, sans-serif">
           <tspan font-weight="bold" fill="${T.atkColor}">${atkName}</tspan> menyerbu sektor <tspan font-weight="bold" fill="${T.defColor}">${defTerrName}</tspan>
@@ -365,7 +462,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     }
   } else {
     battleAlertSvg = `
-      <rect x="50" y="112" width="1410" height="56" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1"/>
+      <rect x="50" y="112" width="1405" height="56" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1"/>
       <text x="80" y="146" fill="${T.textSecondary}" font-size="16" font-family="Segoe UI, sans-serif">Menunggu ronde pertempuran dimulai...</text>
     `;
   }
@@ -376,7 +473,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     ${T.oceanDef}
     ${T.battleBoxDef}
     <clipPath id="radarClip">
-      <rect x="${rWinX}" y="${rWinY}" width="${rWinW}" height="${rWinH}" rx="8"/>
+      <rect x="${rWinX}" y="${rWinY}" width="${rWinW}" height="${rWinH}" rx="6"/>
     </clipPath>
   </defs>
 
@@ -387,13 +484,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   ${gridSvg}
 
   <!-- Header Section Frame -->
-  <rect x="30" y="25" width="1450" height="155" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
-
-  <!-- Tactical Corner Accents -->
-  <path d="M35,37 L35,27 L45,27" fill="none" stroke="${T.cornerAccent}" stroke-width="2.5"/>
-  <path d="M1475,37 L1475,27 L1465,27" fill="none" stroke="${T.cornerAccent}" stroke-width="2.5"/>
-  <path d="M35,168 L35,178 L45,178" fill="none" stroke="${T.cornerAccent}" stroke-width="2.5"/>
-  <path d="M1475,168 L1475,178 L1465,178" fill="none" stroke="${T.cornerAccent}" stroke-width="2.5"/>
+  <rect x="30" y="25" width="1445" height="155" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
 
   <text x="60" y="66" fill="${T.titleColor}" font-size="28" font-family="Segoe UI, sans-serif" font-weight="900" letter-spacing="1.5">INDONESIA WAR BOT</text>
   <text x="60" y="92" fill="${T.subTitleColor}" font-size="14" font-family="Segoe UI, sans-serif">SIMULASI PERANG 507 KOTA &amp; KABUPATEN SE-NUSANTARA</text>
@@ -430,35 +521,35 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   ${secondaryBoxSvg}
 
   <!-- Leaderboard Panel (Right Sidebar) -->
-  <rect x="1505" y="25" width="385" height="1030" rx="12" fill="${T.sidebarFill}" stroke="${T.sidebarBorder}" stroke-width="1.5"/>
-  <text x="1530" y="66" fill="${T.titleColor}" font-size="20" font-family="Segoe UI, sans-serif" font-weight="bold">KLASEMEN SEMENTARA</text>
-  <text x="1530" y="90" fill="${T.textSecondary}" font-size="13" font-family="Segoe UI, sans-serif">Faksi Dengan Wilayah Terbanyak</text>
+  <rect x="1495" y="25" width="395" height="1020" rx="12" fill="${T.sidebarFill}" stroke="${T.sidebarBorder}" stroke-width="1.5"/>
+  <text x="1520" y="66" fill="${T.titleColor}" font-size="20" font-family="Segoe UI, sans-serif" font-weight="bold">KLASEMEN SEMENTARA</text>
+  <text x="1520" y="90" fill="${T.textSecondary}" font-size="13" font-family="Segoe UI, sans-serif">Faksi Dengan Wilayah Terbanyak</text>
 
   <!-- Counter Summary Cards -->
-  <g transform="translate(1525, 112)">
-    <rect x="0" y="0" width="165" height="66" rx="8" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+  <g transform="translate(1515, 112)">
+    <rect x="0" y="0" width="170" height="66" rx="8" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
     <text x="18" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">SISA FAKSI</text>
-    <text x="18" y="53" fill="#16a34a" font-size="24" font-family="Segoe UI, sans-serif" font-weight="bold">${activeCount}</text>
+    <text x="18" y="53" fill="#16a34a" font-size="24" font-family="monospace" font-weight="bold">${activeCount}</text>
   </g>
-  <g transform="translate(1705, 112)">
-    <rect x="0" y="0" width="165" height="66" rx="8" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
+  <g transform="translate(1700, 112)">
+    <rect x="0" y="0" width="170" height="66" rx="8" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
     <text x="18" y="26" fill="${T.metricTitleColor}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">TERELIMINASI</text>
-    <text x="18" y="53" fill="#dc2626" font-size="24" font-family="Segoe UI, sans-serif" font-weight="bold">${eliminatedCount}</text>
+    <text x="18" y="53" fill="#dc2626" font-size="24" font-family="monospace" font-weight="bold">${eliminatedCount}</text>
   </g>
 
   <!-- Date Pill -->
-  <rect x="1525" y="196" width="345" height="38" rx="6" fill="${T.datePillFill}" stroke="${T.datePillBorder}" stroke-width="1"/>
-  <text x="1697" y="220" fill="${T.datePillText}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600" text-anchor="middle">📅 ${dateStr} • Bulan Ke-${roundNum}</text>
+  <rect x="1515" y="196" width="355" height="38" rx="6" fill="${T.datePillFill}" stroke="${T.datePillBorder}" stroke-width="1"/>
+  <text x="1692" y="220" fill="${T.datePillText}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="600" text-anchor="middle">${dateStr} • Bulan Ke-${roundNum}</text>
 
   <!-- Leaderboard Header Column -->
-  <text x="1535" y="268" fill="${T.textSecondary}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">RANK</text>
-  <text x="1865" y="268" fill="${T.textSecondary}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="end">KONTROL</text>
+  <text x="1525" y="268" fill="${T.textSecondary}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold">RANK</text>
+  <text x="1860" y="268" fill="${T.textSecondary}" font-size="11" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="end">KONTROL</text>
 
   <!-- Leaderboard Rows -->
   ${leaderboardRows}
 
-  <!-- Footer Watermark -->
-  <text x="1697" y="1025" fill="${T.watermarkColor}" font-size="12" font-family="Segoe UI, sans-serif" text-anchor="middle">Facebook Page: World War Bot Indonesia</text>
+  <!-- Demographics Breakdown (Fills bottom sidebar space) -->
+  ${distroCardSvg}
 </svg>
 `;
 }
