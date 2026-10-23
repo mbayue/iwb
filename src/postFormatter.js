@@ -23,7 +23,6 @@ Seluruh wilayah dari Sabang sampai Merauke kini resmi berada di bawah kekuasaan 
 • Total Wilayah Ditaklukkan: 507 / 507 (100%)
 
 Terima kasih telah mengikuti World War Bot Indonesia!
-Tulis di kolom komentar kota favoritmu yang bertahan paling lama! 🔥
 
 #WorldWarBotIndonesia #WorldWarBot #IndonesiaWarBot #${winnerSlug} #PemenangMutlak #NusantaraConquered`;
   }
@@ -89,8 +88,6 @@ ${battleBulletin}
 • Faksi Terluas       : ${leader.name} (${leader.territoryCount} wilayah - ${leaderPct}%)
 
 ${leaderboardText.trim()}
-
-💬 Siapa faksi/kota jagoanmu yang masih bertahan? Tulis di komentar! 👇
 
 #WorldWarBot #WorldWarBotIndonesia #IndonesiaBubar2029 #WarBotIndonesia #${atkSlug} #${defSlug} #PerangNusantara`;
 }
