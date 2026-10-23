@@ -8,10 +8,10 @@ const minLat = -11.0, maxLat = 6.0;
 const dLon = maxLon - minLon;
 const dLat = maxLat - minLat;
 
-const mapX = 30;
-const mapY = 220;
-const mapW = 1480;
-const scale = mapW / dLon;
+const scale = 29.5;
+const mapX = 65;
+const mapY = 200;
+const mapW = dLon * scale;
 const mapH = dLat * scale;
 
 function project(lon, lat) {

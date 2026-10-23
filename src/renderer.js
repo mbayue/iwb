@@ -174,9 +174,9 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   let battleMarkerSvg = '';
   let radarInsetSvg = '';
 
-  // Bottom layout baseline: y: 715, height: 330 (ends at 1045)
-  const rBoxX = 40, rBoxY = 715, rBoxW = 480, rBoxH = 330;
-  const rWinX = rBoxX + 15, rWinY = rBoxY + 45, rWinW = rBoxW - 30, rWinH = 215;
+  // Bottom layout baseline: y: 745, height: 305 (ends at 1050)
+  const rBoxX = 40, rBoxY = 745, rBoxW = 480, rBoxH = 305;
+  const rWinX = rBoxX + 15, rWinY = rBoxY + 42, rWinW = rBoxW - 30, rWinH = 195;
   const rCx = rWinX + rWinW / 2;
   const rCy = rWinY + rWinH / 2;
 
@@ -230,7 +230,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
       </g>
 
       <!-- Dedicated Bottom Sub-bar (Unobstructed View) -->
-      <g transform="translate(${rWinX}, ${rBoxY + 270})">
+      <g transform="translate(${rWinX}, ${rBoxY + 246})">
         <rect x="0" y="0" width="${rWinW}" height="48" rx="6" fill="${T.subCardFill}" stroke="${T.subCardBorder}" stroke-width="1"/>
         
         <text x="14" y="20" fill="${T.atkColor}" font-size="10.5" font-family="Segoe UI, sans-serif" font-weight="bold">PENYERANG</text>
@@ -291,8 +291,8 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   }
 
   const secondaryBoxSvg = `
-    <g transform="translate(540, 715)">
-      <rect x="0" y="0" width="935" height="330" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
+    <g transform="translate(540, 745)">
+      <rect x="0" y="0" width="935" height="305" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
       <text x="25" y="32" fill="${T.textSecondary}" font-size="12" font-family="monospace" font-weight="bold">STATUS TERITORIAL NUSANTARA (507 KOTA &amp; KABUPATEN)</text>
       
       <!-- Top Deck: 3 Primary Metrics -->
@@ -435,16 +435,16 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     const defTerrName = escapeXml(battle.defTerritory.name);
     const defFactionName = escapeXml(battle.defFaction.name);
     const rawCasus = battle.warReport ? battle.warReport.casusBelli : 'Sengketa batas wilayah perbatasan';
-    const casusBelli = escapeXml(rawCasus.length > 95 ? rawCasus.slice(0, 92) + '…' : rawCasus);
+    const casusBelli = escapeXml(rawCasus);
 
     if (battle.success) {
       const elimText = battle.eliminated
         ? `<tspan fill="${T.defColor}" font-weight="bold"> | ${escapeXml(battle.eliminated.name)} RUNTUH &amp; DIBUBARKAN</tspan>`
         : '';
       battleAlertSvg = `
-        <rect x="50" y="92" width="1405" height="74" rx="8" fill="url(#battleBox)" stroke="${T.battleBoxBorder}" stroke-width="1.2"/>
-        <text x="70" y="121" fill="${T.casusLabelColor}" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
-        <text x="70" y="151" fill="${T.titleColor}" font-size="18.5" font-family="Segoe UI, sans-serif">
+        <rect x="48" y="84" width="1409" height="92" rx="8" fill="url(#battleBox)" stroke="${T.battleBoxBorder}" stroke-width="1.2"/>
+        <text x="70" y="116" fill="${T.casusLabelColor}" font-size="14.5" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
+        <text x="70" y="152" fill="${T.titleColor}" font-size="18" font-family="Segoe UI, sans-serif">
           <tspan font-weight="bold" fill="${T.atkColor}">${atkName}</tspan> menaklukkan sektor pertahanan <tspan font-weight="bold" fill="${T.defColor}">${defTerrName}</tspan>
           <tspan fill="${T.successBadgeColor}" font-weight="bold"> [JATUH &amp; DIANEKSASI]</tspan>
           ${elimText}
@@ -452,9 +452,9 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
       `;
     } else {
       battleAlertSvg = `
-        <rect x="50" y="92" width="1405" height="74" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.2"/>
-        <text x="70" y="121" fill="${T.atkColor}" font-size="15" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
-        <text x="70" y="151" fill="${T.titleColor}" font-size="18.5" font-family="Segoe UI, sans-serif">
+        <rect x="48" y="84" width="1409" height="92" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.2"/>
+        <text x="70" y="116" fill="${T.atkColor}" font-size="14.5" font-family="Segoe UI, sans-serif" font-weight="bold">Pemicu Konflik: <tspan fill="${T.casusTextColor}" font-weight="normal">${casusBelli}</tspan></text>
+        <text x="70" y="152" fill="${T.titleColor}" font-size="18" font-family="Segoe UI, sans-serif">
           <tspan font-weight="bold" fill="${T.atkColor}">${atkName}</tspan> menyerbu sektor <tspan font-weight="bold" fill="${T.defColor}">${defTerrName}</tspan>
           <tspan fill="#16a34a" font-weight="bold"> [SERANGAN GAGAL: DIPUKUL MUNDUR OLEH GARNISUN ${defFactionName}]</tspan>
         </text>
@@ -462,7 +462,7 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
     }
   } else {
     battleAlertSvg = `
-      <rect x="50" y="92" width="1405" height="74" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1"/>
+      <rect x="48" y="84" width="1409" height="92" rx="8" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1"/>
       <text x="70" y="137" fill="${T.textSecondary}" font-size="17" font-family="Segoe UI, sans-serif">Menunggu ronde pertempuran dimulai...</text>
     `;
   }
@@ -484,23 +484,23 @@ function renderMapSvg(graph, state, battle, overrideTheme = null) {
   ${gridSvg}
 
   <!-- Header Section Frame -->
-  <rect x="30" y="25" width="1445" height="155" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
+  <rect x="30" y="20" width="1445" height="172" rx="10" fill="${T.cardFill}" stroke="${T.cardBorder}" stroke-width="1.5"/>
 
-  <text x="60" y="68" fill="${T.titleColor}" font-size="30" font-family="Segoe UI, sans-serif" font-weight="900" letter-spacing="1.5">INDONESIA WAR BOT</text>
+  <text x="60" y="60" fill="${T.titleColor}" font-size="28" font-family="Segoe UI, sans-serif" font-weight="900" letter-spacing="1.5">INDONESIA WAR BOT</text>
+
   <!-- Top Badges -->
-  <g transform="translate(1040, 42)">
-    <rect x="0" y="0" width="130" height="40" rx="6" fill="#dc2626"/>
-    <text x="65" y="25" fill="#ffffff" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">RONDE ${roundNum}</text>
+  <g transform="translate(1040, 32)">
+    <rect x="0" y="0" width="130" height="38" rx="6" fill="#dc2626"/>
+    <text x="65" y="24" fill="#ffffff" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">RONDE ${roundNum}</text>
   </g>
-  <g transform="translate(1185, 42)">
-    <rect x="0" y="0" width="130" height="40" rx="6" fill="${T.badgeStatusFill}" stroke="${T.badgeStatusBorder}" stroke-width="1"/>
-    <text x="65" y="25" fill="${T.badgeStatusText}" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">SIAGA 1</text>
+  <g transform="translate(1185, 32)">
+    <rect x="0" y="0" width="130" height="38" rx="6" fill="${T.badgeStatusFill}" stroke="${T.badgeStatusBorder}" stroke-width="1"/>
+    <text x="65" y="24" fill="${T.badgeStatusText}" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">SIAGA 1</text>
   </g>
-  <g transform="translate(1330, 42)">
-    <rect x="0" y="0" width="135" height="40" rx="6" fill="${T.badgeStatusFill}" stroke="${T.badgeStatusBorder}" stroke-width="1"/>
-    <text x="67" y="25" fill="${T.badgeActiveText}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="middle">${activeCount} FAKSI AKTIF</text>
+  <g transform="translate(1330, 32)">
+    <rect x="0" y="0" width="135" height="38" rx="6" fill="${T.badgeStatusFill}" stroke="${T.badgeStatusBorder}" stroke-width="1"/>
+    <text x="67" y="24" fill="${T.badgeActiveText}" font-size="13" font-family="Segoe UI, sans-serif" font-weight="bold" text-anchor="middle">${activeCount} FAKSI AKTIF</text>
   </g>
-
   <!-- Battle Alert Box -->
   ${battleAlertSvg}
 
