@@ -1,8 +1,8 @@
 {
-  "round": 0,
+  "round": 1,
   "year": 2026,
-  "month": 1,
-  "activeFactionsCount": 507,
+  "month": 2,
+  "activeFactionsCount": 506,
   "territoryOwner": [
     0,
     1,
@@ -232,7 +232,7 @@
     225,
     226,
     227,
-    228,
+    221,
     229,
     230,
     231,
@@ -2728,7 +2728,7 @@
       "name": "Kutai Kartanegara",
       "province": "Kalimantan Timur",
       "color": "#3db376",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2798,10 +2798,10 @@
       "name": "Malinau",
       "province": "Kalimantan Utara",
       "color": "#906637",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 1,
+      "eliminatedBy": 221
     },
     {
       "id": 229,
@@ -5584,8 +5584,73 @@
       "eliminatedBy": null
     }
   ],
-  "lastBattle": null,
+  "lastBattle": {
+    "round": 1,
+    "date": "Februari 2026",
+    "monthNumber": 2,
+    "yearNumber": 2026,
+    "atkFaction": {
+      "id": 221,
+      "name": "Kutai Kartanegara",
+      "province": "Kalimantan Timur",
+      "color": "#3db376",
+      "count": 2
+    },
+    "defFaction": {
+      "id": 228,
+      "name": "Malinau",
+      "province": "Kalimantan Utara",
+      "color": "#906637",
+      "count": 0
+    },
+    "atkTerritory": {
+      "id": 221,
+      "name": "Kutai Kartanegara",
+      "province": "Kalimantan Timur",
+      "cScreen": [
+        705.8,
+        379
+      ]
+    },
+    "defTerritory": {
+      "id": 228,
+      "name": "Malinau",
+      "province": "Kalimantan Utara",
+      "cScreen": [
+        674.2,
+        303.2
+      ]
+    },
+    "success": true,
+    "eliminated": {
+      "id": 228,
+      "name": "Malinau",
+      "province": "Kalimantan Utara"
+    },
+    "activeFactionsCount": 506,
+    "gameOver": false,
+    "winner": null,
+    "warReport": {
+      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut.",
+      "story": "Armada kapal pendarat Kutai Kartanegara menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Malinau. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nKas daerah Malinau bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kutai Kartanegara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malinau Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa kepemilikan karang pulau tak ...] Kutai Kartanegara menjebol Malinau! 💀 Malinau RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
+    }
+  },
   "gameOver": false,
   "winner": null,
-  "history": []
+  "history": [
+    {
+      "round": 1,
+      "date": "Februari 2026",
+      "atk": "Kutai Kartanegara",
+      "def": "Malinau",
+      "success": true,
+      "elim": "Malinau",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malinau Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
+    }
+  ]
 }
