@@ -78,8 +78,8 @@ ${battleResult}`;
 
   let prologue = '';
   if (round === 1) {
-    prologue = `[Proklamasi Nusantara 2029]
-Ramalan "Indonesia Bubar 2029" resmi terwujud. Pemerintahan pusat kolaps, dan seluruh 507 kota & kabupaten serentak memerdekakan diri karena kecewa pada kebijakan pusat. Perang perebutan supremasi tahta Nusantara resmi dimulai!
+    prologue = `[Proklamasi Nusantara 2030]
+Ramalan "Indonesia Bubar 2030" resmi terwujud. Pemerintahan pusat kolaps, dan seluruh 507 kota & kabupaten serentak memerdekakan diri karena kecewa pada kebijakan pusat. Perang perebutan supremasi tahta Nusantara resmi dimulai!
 
 `;
   }
