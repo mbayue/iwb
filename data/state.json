@@ -1,7 +1,7 @@
 {
-  "round": 2,
+  "round": 0,
   "year": 2030,
-  "month": 2,
+  "month": 0,
   "activeFactionsCount": 507,
   "territoryOwner": [
     0,
@@ -5584,79 +5584,8 @@
       "eliminatedBy": null
     }
   ],
-  "lastBattle": {
-    "round": 2,
-    "date": "Februari 2030",
-    "monthNumber": 2,
-    "yearNumber": 2030,
-    "atkFaction": {
-      "id": 386,
-      "name": "Luwu Utara",
-      "province": "Sulawesi Selatan",
-      "color": "#38b789",
-      "count": 1
-    },
-    "defFaction": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah",
-      "color": "#34bc9c",
-      "count": 1
-    },
-    "atkTerritory": {
-      "id": 386,
-      "name": "Luwu Utara",
-      "province": "Sulawesi Selatan",
-      "cScreen": [
-        807.1,
-        447
-      ]
-    },
-    "defTerritory": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah",
-      "cScreen": [
-        802,
-        419.2
-      ]
-    },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 507,
-    "gameOver": false,
-    "winner": null,
-    "warReport": {
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
-      "story": "Upaya pendaratan laut Luwu Utara digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Sigi yang memaksa bayar tunai.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Sigi sukses menghalau serbuan Luwu Utara!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
-    }
-  },
+  "lastBattle": null,
   "gameOver": false,
   "winner": null,
-  "history": [
-    {
-      "round": 2,
-      "date": "Februari 2030",
-      "atk": "Luwu Utara",
-      "def": "Sigi",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
-    },
-    {
-      "round": 1,
-      "date": "Januari 2030",
-      "atk": "Lampung Selatan",
-      "def": "Lampung Timur",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Sengketa jalan provinsi yang berlubang parah tapi di laporan pertanggungjawaban diklaim mulus beraspal."
-    }
-  ]
+  "history": []
 }
