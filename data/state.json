@@ -1,8 +1,8 @@
 {
-  "round": 9,
+  "round": 10,
   "year": 2030,
-  "month": 9,
-  "activeFactionsCount": 501,
+  "month": 10,
+  "activeFactionsCount": 500,
   "territoryOwner": [
     0,
     1,
@@ -285,7 +285,7 @@
     278,
     279,
     280,
-    281,
+    283,
     282,
     283,
     284,
@@ -3328,10 +3328,10 @@
       "name": "Bima",
       "province": "Nusa Tenggara Barat",
       "color": "#3eb33d",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 10,
+      "eliminatedBy": 283
     },
     {
       "id": 282,
@@ -3348,7 +3348,7 @@
       "name": "Kota Bima",
       "province": "Nusa Tenggara Barat",
       "color": "#ac772f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 9,
-    "date": "September 2030",
-    "monthNumber": 9,
+    "round": 10,
+    "date": "Oktober 2030",
+    "monthNumber": 10,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 60,
-      "name": "Boalemo",
-      "province": "Gorontalo",
-      "color": "#903763",
-      "count": 1
+      "id": 283,
+      "name": "Kota Bima",
+      "province": "Nusa Tenggara Barat",
+      "color": "#ac772f",
+      "count": 2
     },
     "defFaction": {
-      "id": 65,
-      "name": "Pohuwato",
-      "province": "Gorontalo",
-      "color": "#af3db3",
-      "count": 1
+      "id": 281,
+      "name": "Bima",
+      "province": "Nusa Tenggara Barat",
+      "color": "#3eb33d",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 60,
-      "name": "Boalemo",
-      "province": "Gorontalo",
+      "id": 283,
+      "name": "Kota Bima",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        871.8,
-        357.8
+        766,
+        626.3
       ]
     },
     "defTerritory": {
-      "id": 65,
-      "name": "Pohuwato",
-      "province": "Gorontalo",
+      "id": 281,
+      "name": "Bima",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        850.7,
-        357
+        762.8,
+        626.1
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 501,
+    "success": true,
+    "eliminated": {
+      "id": 281,
+      "name": "Bima",
+      "province": "Nusa Tenggara Barat"
+    },
+    "activeFactionsCount": 500,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.",
-      "story": "Operasi invasi Boalemo macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa pembagian beras bansos yang t...] Pohuwato sukses menghalau serbuan Boalemo!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur.",
+      "story": "Laskar Kota Bima memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Bima. Tanpa stok sambal dan amunisi cadangan, garnisun Bima lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Bima menyatakan resign massal. Wilayah Bima kini resmi turun derajat menjadi kecamatan bawahan Kota Bima!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bima Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pejabat perbatasan dipaksa ikut retret...] Kota Bima menjebol Bima! 💀 Bima RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 10,
+      "date": "Oktober 2030",
+      "atk": "Kota Bima",
+      "def": "Bima",
+      "success": true,
+      "elim": "Bima",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bima Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
+    },
     {
       "round": 9,
       "date": "September 2030",
