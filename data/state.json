@@ -1,8 +1,8 @@
 {
-  "round": 4,
+  "round": 5,
   "year": 2030,
-  "month": 4,
-  "activeFactionsCount": 504,
+  "month": 5,
+  "activeFactionsCount": 503,
   "territoryOwner": [
     0,
     1,
@@ -62,7 +62,7 @@
     55,
     56,
     57,
-    58,
+    124,
     59,
     60,
     61,
@@ -1098,10 +1098,10 @@
       "name": "Kulon Progo",
       "province": "Daerah Istimewa Yogyakarta",
       "color": "#a89f34",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 5,
+      "eliminatedBy": 124
     },
     {
       "id": 59,
@@ -1758,7 +1758,7 @@
       "name": "Magelang",
       "province": "Jawa Tengah",
       "color": "#3c9f4e",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 4,
-    "date": "April 2030",
-    "monthNumber": 4,
+    "round": 5,
+    "date": "Mei 2030",
+    "monthNumber": 5,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 333,
-      "name": "Sorong Selatan",
-      "province": "Papua Barat Daya",
-      "color": "#849433",
+      "id": 124,
+      "name": "Magelang",
+      "province": "Jawa Tengah",
+      "color": "#3c9f4e",
       "count": 2
     },
     "defFaction": {
-      "id": 327,
-      "name": "Teluk Bintuni",
-      "province": "Papua Barat",
-      "color": "#9c2b6d",
+      "id": 58,
+      "name": "Kulon Progo",
+      "province": "Daerah Istimewa Yogyakarta",
+      "color": "#a89f34",
       "count": 0
     },
     "atkTerritory": {
-      "id": 333,
-      "name": "Sorong Selatan",
-      "province": "Papua Barat Daya",
+      "id": 124,
+      "name": "Magelang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        1161.1,
-        426.7
+        515.8,
+        598
       ]
     },
     "defTerritory": {
-      "id": 327,
-      "name": "Teluk Bintuni",
-      "province": "Papua Barat",
+      "id": 58,
+      "name": "Kulon Progo",
+      "province": "Daerah Istimewa Yogyakarta",
       "cScreen": [
-        1203.9,
-        445.8
+        512.2,
+        607.6
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 327,
-      "name": "Teluk Bintuni",
-      "province": "Papua Barat"
+      "id": 58,
+      "name": "Kulon Progo",
+      "province": "Daerah Istimewa Yogyakarta"
     },
-    "activeFactionsCount": 504,
+    "activeFactionsCount": 503,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut.",
-      "story": "Pasukan marinir Sorong Selatan menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Teluk Bintuni berhasil diamankan.\n\n💀 NASIB AKHIR:\nKas daerah Teluk Bintuni bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Sorong Selatan!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Teluk Bintuni Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa kepemilikan karang pulau tak ...] Sorong Selatan menjebol Teluk Bintuni! 💀 Teluk Bintuni RUNTUH!",
+      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Magelang sukses merebut tugu perbatasan dan gedung dinas Kulon Progo. Bendera Kulon Progo diturunkan dan diganti bendera kejayaan Magelang.\n\n💀 NASIB AKHIR:\nFaksi Kulon Progo resmi BUBAR! Seluruh warga Kulon Progo kini wajib ganti KTP, bayar retribusi ke dinasti Magelang, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kulon Progo Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Magelang melancarkan invasi setelah pa...] Magelang menjebol Kulon Progo! 💀 Kulon Progo RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 5,
+      "date": "Mei 2030",
+      "atk": "Magelang",
+      "def": "Kulon Progo",
+      "success": true,
+      "elim": "Kulon Progo",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kulon Progo Runtuh & Lenyap dari Peta",
+      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
+    },
     {
       "round": 4,
       "date": "April 2030",
