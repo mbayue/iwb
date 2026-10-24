@@ -1,7 +1,7 @@
 {
-  "round": 5,
+  "round": 6,
   "year": 2030,
-  "month": 5,
+  "month": 6,
   "activeFactionsCount": 503,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 5,
-    "date": "Mei 2030",
-    "monthNumber": 5,
+    "round": 6,
+    "date": "Juni 2030",
+    "monthNumber": 6,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 124,
-      "name": "Magelang",
-      "province": "Jawa Tengah",
-      "color": "#3c9f4e",
-      "count": 2
+      "id": 254,
+      "name": "Pesisir Barat",
+      "province": "Lampung",
+      "color": "#b74738",
+      "count": 1
     },
     "defFaction": {
-      "id": 58,
-      "name": "Kulon Progo",
-      "province": "Daerah Istimewa Yogyakarta",
-      "color": "#a89f34",
-      "count": 0
+      "id": 256,
+      "name": "Tanggamus",
+      "province": "Lampung",
+      "color": "#813c9f",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 124,
-      "name": "Magelang",
-      "province": "Jawa Tengah",
+      "id": 254,
+      "name": "Pesisir Barat",
+      "province": "Lampung",
       "cScreen": [
-        515.8,
-        598
+        334.7,
+        533.5
       ]
     },
     "defTerritory": {
-      "id": 58,
-      "name": "Kulon Progo",
-      "province": "Daerah Istimewa Yogyakarta",
+      "id": 256,
+      "name": "Tanggamus",
+      "province": "Lampung",
       "cScreen": [
-        512.2,
-        607.6
+        352,
+        540.4
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 58,
-      "name": "Kulon Progo",
-      "province": "Daerah Istimewa Yogyakarta"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 503,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Magelang sukses merebut tugu perbatasan dan gedung dinas Kulon Progo. Bendera Kulon Progo diturunkan dan diganti bendera kejayaan Magelang.\n\n💀 NASIB AKHIR:\nFaksi Kulon Progo resmi BUBAR! Seluruh warga Kulon Progo kini wajib ganti KTP, bayar retribusi ke dinasti Magelang, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kulon Progo Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Magelang melancarkan invasi setelah pa...] Magelang menjebol Kulon Progo! 💀 Kulon Progo RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Rebutan kuota program Makan Bergizi Gratis (MBG) yang jatah susunya tertukar dengan susu kedelai basi.",
+      "story": "Pasukan penyerbu Pesisir Barat dihadang mobil Maung Pindad yang atapnya bocor dan mogok tepat di tengah jembatan perbatasan.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Rebutan kuota program Makan Bergizi Gr...] Tanggamus sukses menghalau serbuan Pesisir Barat!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 6,
+      "date": "Juni 2030",
+      "atk": "Pesisir Barat",
+      "def": "Tanggamus",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Rebutan kuota program Makan Bergizi Gratis (MBG) yang jatah susunya tertukar dengan susu kedelai basi."
+    },
     {
       "round": 5,
       "date": "Mei 2030",
