@@ -1,7 +1,7 @@
 {
-  "round": 8,
+  "round": 9,
   "year": 2030,
-  "month": 8,
+  "month": 9,
   "activeFactionsCount": 501,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 8,
-    "date": "Agustus 2030",
-    "monthNumber": 8,
+    "round": 9,
+    "date": "September 2030",
+    "monthNumber": 9,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 480,
-      "name": "Humbang Hasundutan",
-      "province": "Sumatera Utara",
-      "color": "#37903c",
-      "count": 2
+      "id": 60,
+      "name": "Boalemo",
+      "province": "Gorontalo",
+      "color": "#903763",
+      "count": 1
     },
     "defFaction": {
-      "id": 499,
-      "name": "Pakpak Bharat",
-      "province": "Sumatera Utara",
-      "color": "#2f60ac",
-      "count": 0
+      "id": 65,
+      "name": "Pohuwato",
+      "province": "Gorontalo",
+      "color": "#af3db3",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 480,
-      "name": "Humbang Hasundutan",
-      "province": "Sumatera Utara",
+      "id": 60,
+      "name": "Boalemo",
+      "province": "Gorontalo",
       "cScreen": [
-        170.8,
-        310.1
+        871.8,
+        357.8
       ]
     },
     "defTerritory": {
-      "id": 499,
-      "name": "Pakpak Bharat",
-      "province": "Sumatera Utara",
+      "id": 65,
+      "name": "Pohuwato",
+      "province": "Gorontalo",
       "cScreen": [
-        160.9,
-        302.7
+        850.7,
+        357
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 499,
-      "name": "Pakpak Bharat",
-      "province": "Sumatera Utara"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 501,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.",
-      "story": "Laskar Humbang Hasundutan memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Pakpak Bharat. Tanpa stok sambal dan amunisi cadangan, garnisun Pakpak Bharat lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Pakpak Bharat diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Pakpak Bharat resmi BUBAR dan disita negara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pakpak Bharat Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Helikopter pemadam karhutla salah sasa...] Humbang Hasundutan menjebol Pakpak Bharat! 💀 Pakpak Bharat RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.",
+      "story": "Operasi invasi Boalemo macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa pembagian beras bansos yang t...] Pohuwato sukses menghalau serbuan Boalemo!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 9,
+      "date": "September 2030",
+      "atk": "Boalemo",
+      "def": "Pohuwato",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
+    },
     {
       "round": 8,
       "date": "Agustus 2030",
