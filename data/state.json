@@ -1,8 +1,8 @@
 {
-  "round": 7,
+  "round": 8,
   "year": 2030,
-  "month": 7,
-  "activeFactionsCount": 502,
+  "month": 8,
+  "activeFactionsCount": 501,
   "territoryOwner": [
     0,
     1,
@@ -503,7 +503,7 @@
     496,
     497,
     498,
-    499,
+    480,
     500,
     501,
     502,
@@ -5318,7 +5318,7 @@
       "name": "Humbang Hasundutan",
       "province": "Sumatera Utara",
       "color": "#37903c",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5508,10 +5508,10 @@
       "name": "Pakpak Bharat",
       "province": "Sumatera Utara",
       "color": "#2f60ac",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 8,
+      "eliminatedBy": 480
     },
     {
       "id": 500,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 7,
-    "date": "Juli 2030",
-    "monthNumber": 7,
+    "round": 8,
+    "date": "Agustus 2030",
+    "monthNumber": 8,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 196,
-      "name": "Kota Banjarmasin",
-      "province": "Kalimantan Selatan",
-      "color": "#9f3c8c",
+      "id": 480,
+      "name": "Humbang Hasundutan",
+      "province": "Sumatera Utara",
+      "color": "#37903c",
       "count": 2
     },
     "defFaction": {
-      "id": 190,
-      "name": "Banjar",
-      "province": "Kalimantan Selatan",
-      "color": "#3474a8",
+      "id": 499,
+      "name": "Pakpak Bharat",
+      "province": "Sumatera Utara",
+      "color": "#2f60ac",
       "count": 0
     },
     "atkTerritory": {
-      "id": 196,
-      "name": "Kota Banjarmasin",
-      "province": "Kalimantan Selatan",
+      "id": 480,
+      "name": "Humbang Hasundutan",
+      "province": "Sumatera Utara",
       "cScreen": [
-        642.5,
-        475.2
+        170.8,
+        310.1
       ]
     },
     "defTerritory": {
-      "id": 190,
-      "name": "Banjar",
-      "province": "Kalimantan Selatan",
+      "id": 499,
+      "name": "Pakpak Bharat",
+      "province": "Sumatera Utara",
       "cScreen": [
-        657,
-        474.6
+        160.9,
+        302.7
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 190,
-      "name": "Banjar",
-      "province": "Kalimantan Selatan"
+      "id": 499,
+      "name": "Pakpak Bharat",
+      "province": "Sumatera Utara"
     },
-    "activeFactionsCount": 502,
+    "activeFactionsCount": 501,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.",
-      "story": "Konvoi pick-up dan motor brong Kota Banjarmasin menerobos gerbang batas teritorial Banjar saat subuh. Pasukan pertahanan Banjar tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKantor bupati Banjar dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga Kota Banjarmasin, dan nama Banjar resmi DIHAPUS DARI PETA NUSANTARA!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banjar Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Konflik pecah akibat parade Sound Hore...] Kota Banjarmasin menjebol Banjar! 💀 Banjar RUNTUH!",
+      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.",
+      "story": "Laskar Humbang Hasundutan memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Pakpak Bharat. Tanpa stok sambal dan amunisi cadangan, garnisun Pakpak Bharat lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Pakpak Bharat diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Pakpak Bharat resmi BUBAR dan disita negara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pakpak Bharat Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Helikopter pemadam karhutla salah sasa...] Humbang Hasundutan menjebol Pakpak Bharat! 💀 Pakpak Bharat RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 8,
+      "date": "Agustus 2030",
+      "atk": "Humbang Hasundutan",
+      "def": "Pakpak Bharat",
+      "success": true,
+      "elim": "Pakpak Bharat",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pakpak Bharat Runtuh & Lenyap dari Peta",
+      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan."
+    },
     {
       "round": 7,
       "date": "Juli 2030",
