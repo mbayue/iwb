@@ -1,8 +1,8 @@
 {
-  "round": 6,
+  "round": 7,
   "year": 2030,
-  "month": 6,
-  "activeFactionsCount": 503,
+  "month": 7,
+  "activeFactionsCount": 502,
   "territoryOwner": [
     0,
     1,
@@ -194,7 +194,7 @@
     187,
     188,
     189,
-    190,
+    196,
     191,
     192,
     193,
@@ -2418,10 +2418,10 @@
       "name": "Banjar",
       "province": "Kalimantan Selatan",
       "color": "#3474a8",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 7,
+      "eliminatedBy": 196
     },
     {
       "id": 191,
@@ -2478,7 +2478,7 @@
       "name": "Kota Banjarmasin",
       "province": "Kalimantan Selatan",
       "color": "#9f3c8c",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 6,
-    "date": "Juni 2030",
-    "monthNumber": 6,
+    "round": 7,
+    "date": "Juli 2030",
+    "monthNumber": 7,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 254,
-      "name": "Pesisir Barat",
-      "province": "Lampung",
-      "color": "#b74738",
-      "count": 1
+      "id": 196,
+      "name": "Kota Banjarmasin",
+      "province": "Kalimantan Selatan",
+      "color": "#9f3c8c",
+      "count": 2
     },
     "defFaction": {
-      "id": 256,
-      "name": "Tanggamus",
-      "province": "Lampung",
-      "color": "#813c9f",
-      "count": 1
+      "id": 190,
+      "name": "Banjar",
+      "province": "Kalimantan Selatan",
+      "color": "#3474a8",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 254,
-      "name": "Pesisir Barat",
-      "province": "Lampung",
+      "id": 196,
+      "name": "Kota Banjarmasin",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        334.7,
-        533.5
+        642.5,
+        475.2
       ]
     },
     "defTerritory": {
-      "id": 256,
-      "name": "Tanggamus",
-      "province": "Lampung",
+      "id": 190,
+      "name": "Banjar",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        352,
-        540.4
+        657,
+        474.6
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 503,
+    "success": true,
+    "eliminated": {
+      "id": 190,
+      "name": "Banjar",
+      "province": "Kalimantan Selatan"
+    },
+    "activeFactionsCount": 502,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Rebutan kuota program Makan Bergizi Gratis (MBG) yang jatah susunya tertukar dengan susu kedelai basi.",
-      "story": "Pasukan penyerbu Pesisir Barat dihadang mobil Maung Pindad yang atapnya bocor dan mogok tepat di tengah jembatan perbatasan.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Rebutan kuota program Makan Bergizi Gr...] Tanggamus sukses menghalau serbuan Pesisir Barat!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.",
+      "story": "Konvoi pick-up dan motor brong Kota Banjarmasin menerobos gerbang batas teritorial Banjar saat subuh. Pasukan pertahanan Banjar tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKantor bupati Banjar dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga Kota Banjarmasin, dan nama Banjar resmi DIHAPUS DARI PETA NUSANTARA!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banjar Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Konflik pecah akibat parade Sound Hore...] Kota Banjarmasin menjebol Banjar! 💀 Banjar RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 7,
+      "date": "Juli 2030",
+      "atk": "Kota Banjarmasin",
+      "def": "Banjar",
+      "success": true,
+      "elim": "Banjar",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banjar Runtuh & Lenyap dari Peta",
+      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
+    },
     {
       "round": 6,
       "date": "Juni 2030",
