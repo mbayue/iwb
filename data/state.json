@@ -1,8 +1,8 @@
 {
-  "round": 11,
+  "round": 12,
   "year": 2030,
-  "month": 11,
-  "activeFactionsCount": 500,
+  "month": 12,
+  "activeFactionsCount": 499,
   "territoryOwner": [
     0,
     1,
@@ -329,7 +329,7 @@
     322,
     323,
     324,
-    325,
+    328,
     326,
     333,
     328,
@@ -3768,10 +3768,10 @@
       "name": "Manokwari Selatan",
       "province": "Papua Barat",
       "color": "#a39238",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 12,
+      "eliminatedBy": 328
     },
     {
       "id": 326,
@@ -3798,7 +3798,7 @@
       "name": "Teluk Wondama",
       "province": "Papua Barat",
       "color": "#599f3c",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 11,
-    "date": "November 2030",
-    "monthNumber": 11,
+    "round": 12,
+    "date": "Desember 2030",
+    "monthNumber": 12,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 271,
-      "name": "Halmahera Barat",
-      "province": "Maluku Utara",
-      "color": "#2fa3ac",
-      "count": 1
+      "id": 328,
+      "name": "Teluk Wondama",
+      "province": "Papua Barat",
+      "color": "#599f3c",
+      "count": 2
     },
     "defFaction": {
-      "id": 274,
-      "name": "Halmahera Timur",
-      "province": "Maluku Utara",
-      "color": "#3439a8",
-      "count": 1
+      "id": 325,
+      "name": "Manokwari Selatan",
+      "province": "Papua Barat",
+      "color": "#a39238",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 271,
-      "name": "Halmahera Barat",
-      "province": "Maluku Utara",
+      "id": 328,
+      "name": "Teluk Wondama",
+      "province": "Papua Barat",
       "cScreen": [
-        1026.9,
-        338.9
+        1226.2,
+        453.4
       ]
     },
     "defTerritory": {
-      "id": 274,
-      "name": "Halmahera Timur",
-      "province": "Maluku Utara",
+      "id": 325,
+      "name": "Manokwari Selatan",
+      "province": "Papua Barat",
       "cScreen": [
-        1047.7,
-        349.6
+        1215.7,
+        422
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 500,
+    "success": true,
+    "eliminated": {
+      "id": 325,
+      "name": "Manokwari Selatan",
+      "province": "Papua Barat"
+    },
+    "activeFactionsCount": 499,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur.",
-      "story": "Seluruh komando penyerbu Halmahera Barat lumpuh total karena operator radio sibuk main slot judol di server Komdigi.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pejabat perbatasan dipaksa ikut retret...] Halmahera Timur sukses menghalau serbuan Halmahera Barat!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
+      "story": "Laskar Teluk Wondama memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Manokwari Selatan. Tanpa stok sambal dan amunisi cadangan, garnisun Manokwari Selatan lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nFaksi Manokwari Selatan resmi BUBAR! Seluruh warga Manokwari Selatan kini wajib ganti KTP, bayar retribusi ke dinasti Teluk Wondama, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Manokwari Selatan Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Teluk Wondama menjebol Manokwari Selatan! 💀 Manokwari Selatan RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 12,
+      "date": "Desember 2030",
+      "atk": "Teluk Wondama",
+      "def": "Manokwari Selatan",
+      "success": true,
+      "elim": "Manokwari Selatan",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Manokwari Selatan Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
+    },
     {
       "round": 11,
       "date": "November 2030",
