@@ -1,8 +1,8 @@
 {
-  "round": 12,
-  "year": 2030,
-  "month": 12,
-  "activeFactionsCount": 499,
+  "round": 13,
+  "year": 2031,
+  "month": 1,
+  "activeFactionsCount": 498,
   "territoryOwner": [
     0,
     1,
@@ -418,7 +418,7 @@
     411,
     412,
     413,
-    414,
+    426,
     415,
     416,
     417,
@@ -4658,10 +4658,10 @@
       "name": "Buton Utara",
       "province": "Sulawesi Tenggara",
       "color": "#98832f",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 13,
+      "eliminatedBy": 426
     },
     {
       "id": 415,
@@ -4778,7 +4778,7 @@
       "name": "Wakatobi",
       "province": "Sulawesi Tenggara",
       "color": "#4f2f98",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 12,
-    "date": "Desember 2030",
-    "monthNumber": 12,
-    "yearNumber": 2030,
+    "round": 13,
+    "date": "Januari 2031",
+    "monthNumber": 1,
+    "yearNumber": 2031,
     "atkFaction": {
-      "id": 328,
-      "name": "Teluk Wondama",
-      "province": "Papua Barat",
-      "color": "#599f3c",
+      "id": 426,
+      "name": "Wakatobi",
+      "province": "Sulawesi Tenggara",
+      "color": "#4f2f98",
       "count": 2
     },
     "defFaction": {
-      "id": 325,
-      "name": "Manokwari Selatan",
-      "province": "Papua Barat",
-      "color": "#a39238",
+      "id": 414,
+      "name": "Buton Utara",
+      "province": "Sulawesi Tenggara",
+      "color": "#98832f",
       "count": 0
     },
     "atkTerritory": {
-      "id": 328,
-      "name": "Teluk Wondama",
-      "province": "Papua Barat",
+      "id": 426,
+      "name": "Wakatobi",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        1226.2,
-        453.4
+        915.2,
+        543.3
       ]
     },
     "defTerritory": {
-      "id": 325,
-      "name": "Manokwari Selatan",
-      "province": "Papua Barat",
+      "id": 414,
+      "name": "Buton Utara",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        1215.7,
-        422
+        891.5,
+        518.2
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 325,
-      "name": "Manokwari Selatan",
-      "province": "Papua Barat"
+      "id": 414,
+      "name": "Buton Utara",
+      "province": "Sulawesi Tenggara"
     },
-    "activeFactionsCount": 499,
+    "activeFactionsCount": 498,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
-      "story": "Laskar Teluk Wondama memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Manokwari Selatan. Tanpa stok sambal dan amunisi cadangan, garnisun Manokwari Selatan lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nFaksi Manokwari Selatan resmi BUBAR! Seluruh warga Manokwari Selatan kini wajib ganti KTP, bayar retribusi ke dinasti Teluk Wondama, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Manokwari Selatan Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Teluk Wondama menjebol Manokwari Selatan! 💀 Manokwari Selatan RUNTUH!",
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
+      "story": "Laskar Wakatobi memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Buton Utara. Tanpa stok sambal dan amunisi cadangan, garnisun Buton Utara lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nKas daerah Buton Utara bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Wakatobi!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buton Utara Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Wakatobi menjebol Buton Utara! 💀 Buton Utara RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 13,
+      "date": "Januari 2031",
+      "atk": "Wakatobi",
+      "def": "Buton Utara",
+      "success": true,
+      "elim": "Buton Utara",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buton Utara Runtuh & Lenyap dari Peta",
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
+    },
     {
       "round": 12,
       "date": "Desember 2030",
