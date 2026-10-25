@@ -1,7 +1,7 @@
 {
-  "round": 10,
+  "round": 11,
   "year": 2030,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 500,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 10,
-    "date": "Oktober 2030",
-    "monthNumber": 10,
+    "round": 11,
+    "date": "November 2030",
+    "monthNumber": 11,
     "yearNumber": 2030,
     "atkFaction": {
-      "id": 283,
-      "name": "Kota Bima",
-      "province": "Nusa Tenggara Barat",
-      "color": "#ac772f",
-      "count": 2
+      "id": 271,
+      "name": "Halmahera Barat",
+      "province": "Maluku Utara",
+      "color": "#2fa3ac",
+      "count": 1
     },
     "defFaction": {
-      "id": 281,
-      "name": "Bima",
-      "province": "Nusa Tenggara Barat",
-      "color": "#3eb33d",
-      "count": 0
+      "id": 274,
+      "name": "Halmahera Timur",
+      "province": "Maluku Utara",
+      "color": "#3439a8",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 283,
-      "name": "Kota Bima",
-      "province": "Nusa Tenggara Barat",
+      "id": 271,
+      "name": "Halmahera Barat",
+      "province": "Maluku Utara",
       "cScreen": [
-        766,
-        626.3
+        1026.9,
+        338.9
       ]
     },
     "defTerritory": {
-      "id": 281,
-      "name": "Bima",
-      "province": "Nusa Tenggara Barat",
+      "id": 274,
+      "name": "Halmahera Timur",
+      "province": "Maluku Utara",
       "cScreen": [
-        762.8,
-        626.1
+        1047.7,
+        349.6
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 281,
-      "name": "Bima",
-      "province": "Nusa Tenggara Barat"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 500,
     "gameOver": false,
     "winner": null,
     "warReport": {
       "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur.",
-      "story": "Laskar Kota Bima memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Bima. Tanpa stok sambal dan amunisi cadangan, garnisun Bima lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Bima menyatakan resign massal. Wilayah Bima kini resmi turun derajat menjadi kecamatan bawahan Kota Bima!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bima Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pejabat perbatasan dipaksa ikut retret...] Kota Bima menjebol Bima! 💀 Bima RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "story": "Seluruh komando penyerbu Halmahera Barat lumpuh total karena operator radio sibuk main slot judol di server Komdigi.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Pejabat perbatasan dipaksa ikut retret...] Halmahera Timur sukses menghalau serbuan Halmahera Barat!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 11,
+      "date": "November 2030",
+      "atk": "Halmahera Barat",
+      "def": "Halmahera Timur",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
+    },
     {
       "round": 10,
       "date": "Oktober 2030",
