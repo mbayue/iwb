@@ -1,8 +1,8 @@
 {
-  "round": 14,
+  "round": 15,
   "year": 2031,
-  "month": 2,
-  "activeFactionsCount": 498,
+  "month": 3,
+  "activeFactionsCount": 497,
   "territoryOwner": [
     0,
     1,
@@ -500,7 +500,7 @@
     493,
     494,
     495,
-    496,
+    494,
     497,
     498,
     480,
@@ -5458,7 +5458,7 @@
       "name": "Nias Barat",
       "province": "Sumatera Utara",
       "color": "#4b38b7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5478,10 +5478,10 @@
       "name": "Nias Utara",
       "province": "Sumatera Utara",
       "color": "#3c9f84",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 15,
+      "eliminatedBy": 494
     },
     {
       "id": 497,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 14,
-    "date": "Februari 2031",
-    "monthNumber": 2,
+    "round": 15,
+    "date": "Maret 2031",
+    "monthNumber": 3,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 211,
-      "name": "Lamandau",
-      "province": "Kalimantan Tengah",
-      "color": "#2f65ac",
-      "count": 1
+      "id": 494,
+      "name": "Nias Barat",
+      "province": "Sumatera Utara",
+      "color": "#4b38b7",
+      "count": 2
     },
     "defFaction": {
-      "id": 183,
-      "name": "Melawi",
-      "province": "Kalimantan Barat",
-      "color": "#9c2b6f",
-      "count": 1
+      "id": 496,
+      "name": "Nias Utara",
+      "province": "Sumatera Utara",
+      "color": "#3c9f84",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 211,
-      "name": "Lamandau",
-      "province": "Kalimantan Tengah",
+      "id": 494,
+      "name": "Nias Barat",
+      "province": "Sumatera Utara",
       "cScreen": [
-        548.9,
-        430.2
+        138.3,
+        346.3
       ]
     },
     "defTerritory": {
-      "id": 183,
-      "name": "Melawi",
-      "province": "Kalimantan Barat",
+      "id": 496,
+      "name": "Nias Utara",
+      "province": "Sumatera Utara",
       "cScreen": [
-        558.8,
-        397.2
+        134.6,
+        338.1
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 498,
+    "success": true,
+    "eliminated": {
+      "id": 496,
+      "name": "Nias Utara",
+      "province": "Sumatera Utara"
+    },
+    "activeFactionsCount": 497,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
-      "story": "Upaya pendaratan laut Lamandau digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Melawi yang memaksa bayar tunai.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Melawi sukses menghalau serbuan Lamandau!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Preman ormas berseragam loreng oranye saling klaim jatah parkir Indomaret di tugu perbatasan.",
+      "story": "Konvoi pick-up dan motor brong Nias Barat menerobos gerbang batas teritorial Nias Utara saat subuh. Pasukan pertahanan Nias Utara tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Nias Utara dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Nias Utara resmi diambil alih oleh Nias Barat!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Nias Utara Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Preman ormas berseragam loreng oranye ...] Nias Barat menjebol Nias Utara! 💀 Nias Utara RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 15,
+      "date": "Maret 2031",
+      "atk": "Nias Barat",
+      "def": "Nias Utara",
+      "success": true,
+      "elim": "Nias Utara",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Nias Utara Runtuh & Lenyap dari Peta",
+      "casusBelli": "Preman ormas berseragam loreng oranye saling klaim jatah parkir Indomaret di tugu perbatasan."
+    },
     {
       "round": 14,
       "date": "Februari 2031",
