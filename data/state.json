@@ -1,7 +1,7 @@
 {
-  "round": 13,
+  "round": 14,
   "year": 2031,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 498,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 13,
-    "date": "Januari 2031",
-    "monthNumber": 1,
+    "round": 14,
+    "date": "Februari 2031",
+    "monthNumber": 2,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 426,
-      "name": "Wakatobi",
-      "province": "Sulawesi Tenggara",
-      "color": "#4f2f98",
-      "count": 2
+      "id": 211,
+      "name": "Lamandau",
+      "province": "Kalimantan Tengah",
+      "color": "#2f65ac",
+      "count": 1
     },
     "defFaction": {
-      "id": 414,
-      "name": "Buton Utara",
-      "province": "Sulawesi Tenggara",
-      "color": "#98832f",
-      "count": 0
+      "id": 183,
+      "name": "Melawi",
+      "province": "Kalimantan Barat",
+      "color": "#9c2b6f",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 426,
-      "name": "Wakatobi",
-      "province": "Sulawesi Tenggara",
+      "id": 211,
+      "name": "Lamandau",
+      "province": "Kalimantan Tengah",
       "cScreen": [
-        915.2,
-        543.3
+        548.9,
+        430.2
       ]
     },
     "defTerritory": {
-      "id": 414,
-      "name": "Buton Utara",
-      "province": "Sulawesi Tenggara",
+      "id": 183,
+      "name": "Melawi",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        891.5,
-        518.2
+        558.8,
+        397.2
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 414,
-      "name": "Buton Utara",
-      "province": "Sulawesi Tenggara"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 498,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
-      "story": "Laskar Wakatobi memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Buton Utara. Tanpa stok sambal dan amunisi cadangan, garnisun Buton Utara lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nKas daerah Buton Utara bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Wakatobi!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buton Utara Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Wakatobi menjebol Buton Utara! 💀 Buton Utara RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
+      "story": "Upaya pendaratan laut Lamandau digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Melawi yang memaksa bayar tunai.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Melawi sukses menghalau serbuan Lamandau!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 14,
+      "date": "Februari 2031",
+      "atk": "Lamandau",
+      "def": "Melawi",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
+    },
     {
       "round": 13,
       "date": "Januari 2031",
