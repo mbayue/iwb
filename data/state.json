@@ -1,7 +1,7 @@
 {
-  "round": 17,
+  "round": 18,
   "year": 2031,
-  "month": 5,
+  "month": 6,
   "activeFactionsCount": 496,
   "territoryOwner": [
     0,
@@ -285,7 +285,7 @@
     278,
     279,
     280,
-    283,
+    300,
     282,
     283,
     284,
@@ -3348,7 +3348,7 @@
       "name": "Kota Bima",
       "province": "Nusa Tenggara Barat",
       "color": "#ac772f",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -3518,7 +3518,7 @@
       "name": "Manggarai Barat",
       "province": "Nusa Tenggara Timur",
       "color": "#376090",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 17,
-    "date": "Mei 2031",
-    "monthNumber": 5,
+    "round": 18,
+    "date": "Juni 2031",
+    "monthNumber": 6,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 88,
-      "name": "Kota Banjar",
-      "province": "Jawa Barat",
-      "color": "#3c5c9f",
+      "id": 300,
+      "name": "Manggarai Barat",
+      "province": "Nusa Tenggara Timur",
+      "color": "#376090",
       "count": 2
     },
     "defFaction": {
-      "id": 110,
-      "name": "Cilacap",
-      "province": "Jawa Tengah",
-      "color": "#b74538",
-      "count": 0
+      "id": 283,
+      "name": "Kota Bima",
+      "province": "Nusa Tenggara Barat",
+      "color": "#ac772f",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 88,
-      "name": "Kota Banjar",
-      "province": "Jawa Barat",
+      "id": 300,
+      "name": "Manggarai Barat",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        465.4,
-        594.4
+        798,
+        631
       ]
     },
     "defTerritory": {
-      "id": 110,
-      "name": "Cilacap",
-      "province": "Jawa Tengah",
+      "id": 281,
+      "name": "Bima",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        475.2,
-        598.6
+        762.8,
+        626.1
       ]
     },
     "success": true,
-    "eliminated": {
-      "id": 110,
-      "name": "Cilacap",
-      "province": "Jawa Tengah"
-    },
+    "eliminated": null,
     "activeFactionsCount": 496,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Kota Banjar sukses merebut tugu perbatasan dan gedung dinas Cilacap. Bendera Cilacap diturunkan dan diganti bendera kejayaan Kota Banjar.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Cilacap terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Kota Banjar!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Cilacap Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pegawai Komdigi perbatasan ketahuan me...] Kota Banjar menjebol Cilacap! 💀 Cilacap RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Armada kapal pendarat Manggarai Barat menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Bima. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Manggarai Barat berhasil menaklukkan sektor Bima!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 18,
+      "date": "Juni 2031",
+      "atk": "Manggarai Barat",
+      "def": "Bima",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 17,
       "date": "Mei 2031",
