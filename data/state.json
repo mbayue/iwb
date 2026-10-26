@@ -1,8 +1,8 @@
 {
-  "round": 18,
+  "round": 19,
   "year": 2031,
-  "month": 6,
-  "activeFactionsCount": 496,
+  "month": 7,
+  "activeFactionsCount": 495,
   "territoryOwner": [
     0,
     1,
@@ -156,7 +156,7 @@
     149,
     150,
     151,
-    152,
+    165,
     153,
     154,
     155,
@@ -2038,10 +2038,10 @@
       "name": "Kota Pasuruan",
       "province": "Jawa Timur",
       "color": "#ae6842",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 19,
+      "eliminatedBy": 165
     },
     {
       "id": 153,
@@ -2168,7 +2168,7 @@
       "name": "Pasuruan",
       "province": "Jawa Timur",
       "color": "#944133",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 18,
-    "date": "Juni 2031",
-    "monthNumber": 6,
+    "round": 19,
+    "date": "Juli 2031",
+    "monthNumber": 7,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 300,
-      "name": "Manggarai Barat",
-      "province": "Nusa Tenggara Timur",
-      "color": "#376090",
+      "id": 165,
+      "name": "Pasuruan",
+      "province": "Jawa Timur",
+      "color": "#944133",
       "count": 2
     },
     "defFaction": {
-      "id": 283,
-      "name": "Kota Bima",
-      "province": "Nusa Tenggara Barat",
-      "color": "#ac772f",
-      "count": 1
+      "id": 152,
+      "name": "Kota Pasuruan",
+      "province": "Jawa Timur",
+      "color": "#ae6842",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 300,
-      "name": "Manggarai Barat",
-      "province": "Nusa Tenggara Timur",
+      "id": 165,
+      "name": "Pasuruan",
+      "province": "Jawa Timur",
       "cScreen": [
-        798,
-        631
+        591.2,
+        604.7
       ]
     },
     "defTerritory": {
-      "id": 281,
-      "name": "Bima",
-      "province": "Nusa Tenggara Barat",
+      "id": 152,
+      "name": "Kota Pasuruan",
+      "province": "Jawa Timur",
       "cScreen": [
-        762.8,
-        626.1
+        593.4,
+        602.5
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 496,
+    "eliminated": {
+      "id": 152,
+      "name": "Kota Pasuruan",
+      "province": "Jawa Timur"
+    },
+    "activeFactionsCount": 495,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Armada kapal pendarat Manggarai Barat menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Bima. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Manggarai Barat berhasil menaklukkan sektor Bima!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Pasuruan sukses merebut tugu perbatasan dan gedung dinas Kota Pasuruan. Bendera Kota Pasuruan diturunkan dan diganti bendera kejayaan Pasuruan.\n\n💀 NASIB AKHIR:\nBupati Kota Pasuruan diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Kota Pasuruan resmi BUBAR dan disita negara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Pasuruan Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Pasuruan menjebol Kota Pasuruan! 💀 Kota Pasuruan RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 19,
+      "date": "Juli 2031",
+      "atk": "Pasuruan",
+      "def": "Kota Pasuruan",
+      "success": true,
+      "elim": "Kota Pasuruan",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Pasuruan Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
+    },
     {
       "round": 18,
       "date": "Juni 2031",
