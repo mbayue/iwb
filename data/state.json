@@ -1,8 +1,8 @@
 {
-  "round": 19,
+  "round": 20,
   "year": 2031,
-  "month": 7,
-  "activeFactionsCount": 495,
+  "month": 8,
+  "activeFactionsCount": 494,
   "territoryOwner": [
     0,
     1,
@@ -338,7 +338,7 @@
     331,
     332,
     333,
-    334,
+    333,
     335,
     336,
     337,
@@ -3848,7 +3848,7 @@
       "name": "Sorong Selatan",
       "province": "Papua Barat Daya",
       "color": "#849433",
-      "territoryCount": 2,
+      "territoryCount": 3,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -3858,10 +3858,10 @@
       "name": "Tambrauw",
       "province": "Papua Barat Daya",
       "color": "#3472a8",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 20,
+      "eliminatedBy": 333
     },
     {
       "id": 335,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 19,
-    "date": "Juli 2031",
-    "monthNumber": 7,
+    "round": 20,
+    "date": "Agustus 2031",
+    "monthNumber": 8,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 165,
-      "name": "Pasuruan",
-      "province": "Jawa Timur",
-      "color": "#944133",
-      "count": 2
+      "id": 333,
+      "name": "Sorong Selatan",
+      "province": "Papua Barat Daya",
+      "color": "#849433",
+      "count": 3
     },
     "defFaction": {
-      "id": 152,
-      "name": "Kota Pasuruan",
-      "province": "Jawa Timur",
-      "color": "#ae6842",
+      "id": 334,
+      "name": "Tambrauw",
+      "province": "Papua Barat Daya",
+      "color": "#3472a8",
       "count": 0
     },
     "atkTerritory": {
-      "id": 165,
-      "name": "Pasuruan",
-      "province": "Jawa Timur",
+      "id": 327,
+      "name": "Teluk Bintuni",
+      "province": "Papua Barat",
       "cScreen": [
-        591.2,
-        604.7
+        1203.9,
+        445.8
       ]
     },
     "defTerritory": {
-      "id": 152,
-      "name": "Kota Pasuruan",
-      "province": "Jawa Timur",
+      "id": 334,
+      "name": "Tambrauw",
+      "province": "Papua Barat Daya",
       "cScreen": [
-        593.4,
-        602.5
+        1176.5,
+        401.2
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 152,
-      "name": "Kota Pasuruan",
-      "province": "Jawa Timur"
+      "id": 334,
+      "name": "Tambrauw",
+      "province": "Papua Barat Daya"
     },
-    "activeFactionsCount": 495,
+    "activeFactionsCount": 494,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Pasuruan sukses merebut tugu perbatasan dan gedung dinas Kota Pasuruan. Bendera Kota Pasuruan diturunkan dan diganti bendera kejayaan Pasuruan.\n\n💀 NASIB AKHIR:\nBupati Kota Pasuruan diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Kota Pasuruan resmi BUBAR dan disita negara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Pasuruan Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Pasuruan menjebol Kota Pasuruan! 💀 Kota Pasuruan RUNTUH!",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Armada kapal pendarat Sorong Selatan menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Tambrauw. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nBupati Tambrauw diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Tambrauw resmi BUBAR dan disita negara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tambrauw Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Sorong Selatan menjebol Tambrauw! 💀 Tambrauw RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 20,
+      "date": "Agustus 2031",
+      "atk": "Sorong Selatan",
+      "def": "Tambrauw",
+      "success": true,
+      "elim": "Tambrauw",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tambrauw Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 19,
       "date": "Juli 2031",
