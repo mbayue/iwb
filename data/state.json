@@ -1,8 +1,8 @@
 {
-  "round": 16,
+  "round": 17,
   "year": 2031,
-  "month": 4,
-  "activeFactionsCount": 497,
+  "month": 5,
+  "activeFactionsCount": 496,
   "territoryOwner": [
     0,
     1,
@@ -114,7 +114,7 @@
     107,
     108,
     109,
-    110,
+    88,
     111,
     112,
     113,
@@ -1398,7 +1398,7 @@
       "name": "Kota Banjar",
       "province": "Jawa Barat",
       "color": "#3c5c9f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1618,10 +1618,10 @@
       "name": "Cilacap",
       "province": "Jawa Tengah",
       "color": "#b74538",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 17,
+      "eliminatedBy": 88
     },
     {
       "id": 111,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 16,
-    "date": "April 2031",
-    "monthNumber": 4,
+    "round": 17,
+    "date": "Mei 2031",
+    "monthNumber": 5,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
-      "color": "#384da3",
+      "id": 88,
+      "name": "Kota Banjar",
+      "province": "Jawa Barat",
+      "color": "#3c5c9f",
       "count": 2
     },
     "defFaction": {
-      "id": 83,
-      "name": "Cirebon",
-      "province": "Jawa Barat",
-      "color": "#5134bc",
-      "count": 1
+      "id": 110,
+      "name": "Cilacap",
+      "province": "Jawa Tengah",
+      "color": "#b74538",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
-      "cScreen": [
-        476.1,
-        585.7
-      ]
-    },
-    "defTerritory": {
-      "id": 83,
-      "name": "Cirebon",
+      "id": 88,
+      "name": "Kota Banjar",
       "province": "Jawa Barat",
       "cScreen": [
         465.4,
-        576.9
+        594.4
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 497,
+    "defTerritory": {
+      "id": 110,
+      "name": "Cilacap",
+      "province": "Jawa Tengah",
+      "cScreen": [
+        475.2,
+        598.6
+      ]
+    },
+    "success": true,
+    "eliminated": {
+      "id": 110,
+      "name": "Cilacap",
+      "province": "Jawa Tengah"
+    },
+    "activeFactionsCount": 496,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Ormas Cirebon merazia warung nasi padang murah berujung perang dingin bumbu rendang antar-daerah.",
-      "story": "Pasukan penyerbu Brebes gagal masuk karena terjebak macet horor dan jalan rusak berlubang yang belum diaspal sejak zaman Daendels.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Ormas Cirebon merazia warung nasi pada...] Cirebon sukses menghalau serbuan Brebes!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Kota Banjar sukses merebut tugu perbatasan dan gedung dinas Cilacap. Bendera Cilacap diturunkan dan diganti bendera kejayaan Kota Banjar.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Cilacap terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Kota Banjar!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Cilacap Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pegawai Komdigi perbatasan ketahuan me...] Kota Banjar menjebol Cilacap! 💀 Cilacap RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 17,
+      "date": "Mei 2031",
+      "atk": "Kota Banjar",
+      "def": "Cilacap",
+      "success": true,
+      "elim": "Cilacap",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Cilacap Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah."
+    },
     {
       "round": 16,
       "date": "April 2031",
