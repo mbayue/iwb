@@ -1,8 +1,8 @@
 {
-  "round": 24,
-  "year": 2031,
-  "month": 12,
-  "activeFactionsCount": 493,
+  "round": 25,
+  "year": 2032,
+  "month": 1,
+  "activeFactionsCount": 492,
   "territoryOwner": [
     0,
     1,
@@ -295,7 +295,7 @@
     288,
     289,
     290,
-    291,
+    292,
     292,
     293,
     294,
@@ -3428,17 +3428,17 @@
       "name": "Alor",
       "province": "Nusa Tenggara Timur",
       "color": "#9c922b",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 25,
+      "eliminatedBy": 292
     },
     {
       "id": 292,
       "name": "Belu",
       "province": "Nusa Tenggara Timur",
       "color": "#3c8b9f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 24,
-    "date": "Desember 2031",
-    "monthNumber": 12,
-    "yearNumber": 2031,
+    "round": 25,
+    "date": "Januari 2032",
+    "monthNumber": 1,
+    "yearNumber": 2032,
     "atkFaction": {
-      "id": 82,
-      "name": "Cianjur",
-      "province": "Jawa Barat",
-      "color": "#3ca834",
+      "id": 292,
+      "name": "Belu",
+      "province": "Nusa Tenggara Timur",
+      "color": "#3c8b9f",
       "count": 2
     },
     "defFaction": {
-      "id": 84,
-      "name": "Garut",
-      "province": "Jawa Barat",
-      "color": "#906437",
+      "id": 291,
+      "name": "Alor",
+      "province": "Nusa Tenggara Timur",
+      "color": "#9c922b",
       "count": 0
     },
     "atkTerritory": {
-      "id": 82,
-      "name": "Cianjur",
-      "province": "Jawa Barat",
+      "id": 292,
+      "name": "Belu",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        423.3,
-        585.9
+        948.8,
+        647.7
       ]
     },
     "defTerritory": {
-      "id": 84,
-      "name": "Garut",
-      "province": "Jawa Barat",
+      "id": 291,
+      "name": "Alor",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        442.8,
-        593.2
+        933.7,
+        622.5
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 84,
-      "name": "Garut",
-      "province": "Jawa Barat"
+      "id": 291,
+      "name": "Alor",
+      "province": "Nusa Tenggara Timur"
     },
-    "activeFactionsCount": 493,
+    "activeFactionsCount": 492,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
-      "story": "Konvoi pick-up dan motor brong Cianjur menerobos gerbang batas teritorial Garut saat subuh. Pasukan pertahanan Garut tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nFaksi Garut resmi BUBAR! Seluruh warga Garut kini wajib ganti KTP, bayar retribusi ke dinasti Cianjur, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Garut Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Cianjur menjebol Garut! 💀 Garut RUNTUH!",
+      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.",
+      "story": "Konvoi pick-up dan motor brong Belu menerobos gerbang batas teritorial Alor saat subuh. Pasukan pertahanan Alor tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Alor menyatakan resign massal. Wilayah Alor kini resmi turun derajat menjadi kecamatan bawahan Belu!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Alor Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa jalur zonasi PPDB sekolah fav...] Belu menjebol Alor! 💀 Alor RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 25,
+      "date": "Januari 2032",
+      "atk": "Belu",
+      "def": "Alor",
+      "success": true,
+      "elim": "Alor",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Alor Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
+    },
     {
       "round": 24,
       "date": "Desember 2031",
