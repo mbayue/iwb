@@ -1,7 +1,7 @@
 {
-  "round": 22,
+  "round": 23,
   "year": 2031,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 494,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 22,
-    "date": "Oktober 2031",
-    "monthNumber": 10,
+    "round": 23,
+    "date": "November 2031",
+    "monthNumber": 11,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 130,
-      "name": "Rembang",
-      "province": "Jawa Tengah",
-      "color": "#343ba8",
+      "id": 338,
+      "name": "Nduga",
+      "province": "Papua Pegunungan",
+      "color": "#b78838",
       "count": 1
     },
     "defFaction": {
-      "id": 125,
-      "name": "Pati",
-      "province": "Jawa Tengah",
-      "color": "#753db3",
+      "id": 353,
+      "name": "Puncak",
+      "province": "Papua Tengah",
+      "color": "#b33db2",
       "count": 1
     },
     "atkTerritory": {
-      "id": 130,
-      "name": "Rembang",
-      "province": "Jawa Tengah",
+      "id": 338,
+      "name": "Nduga",
+      "province": "Papua Pegunungan",
       "cScreen": [
-        550.4,
-        577.6
+        1344.8,
+        507.6
       ]
     },
     "defTerritory": {
-      "id": 125,
-      "name": "Pati",
-      "province": "Jawa Tengah",
+      "id": 353,
+      "name": "Puncak",
+      "province": "Papua Tengah",
       "cScreen": [
-        537.5,
-        576.9
+        1316.3,
+        484.2
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pati memerdekakan diri dan menyerang tetangga akibat sengketa perizinan festival Sound Horeg nonstop 24 jam.",
-      "story": "Seluruh komando penyerbu Rembang lumpuh total karena operator radio sibuk main slot judol di server Komdigi.",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
+      "story": "Upaya pendaratan laut Nduga digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Puncak yang memaksa bayar tunai.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pati memerdekakan diri dan menyerang t...] Pati sukses menghalau serbuan Rembang!",
+      "bannerText": "🛡️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Puncak sukses menghalau serbuan Nduga!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 23,
+      "date": "November 2031",
+      "atk": "Nduga",
+      "def": "Puncak",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
+    },
     {
       "round": 22,
       "date": "Oktober 2031",
