@@ -1,7 +1,7 @@
 {
-  "round": 21,
+  "round": 22,
   "year": 2031,
-  "month": 9,
+  "month": 10,
   "activeFactionsCount": 494,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 21,
-    "date": "September 2031",
-    "monthNumber": 9,
+    "round": 22,
+    "date": "Oktober 2031",
+    "monthNumber": 10,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 179,
-      "name": "Kota Pontianak",
-      "province": "Kalimantan Barat",
-      "color": "#34bc53",
+      "id": 130,
+      "name": "Rembang",
+      "province": "Jawa Tengah",
+      "color": "#343ba8",
       "count": 1
     },
     "defFaction": {
-      "id": 184,
-      "name": "Mempawah",
-      "province": "Kalimantan Barat",
-      "color": "#5b9f3c",
+      "id": 125,
+      "name": "Pati",
+      "province": "Jawa Tengah",
+      "color": "#753db3",
       "count": 1
     },
     "atkTerritory": {
-      "id": 179,
-      "name": "Kota Pontianak",
-      "province": "Kalimantan Barat",
+      "id": 130,
+      "name": "Rembang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        487.3,
-        377.5
+        550.4,
+        577.6
       ]
     },
     "defTerritory": {
-      "id": 184,
-      "name": "Mempawah",
-      "province": "Kalimantan Barat",
+      "id": 125,
+      "name": "Pati",
+      "province": "Jawa Tengah",
       "cScreen": [
-        482.7,
-        366.1
+        537.5,
+        576.9
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin.",
-      "story": "Pertahanan Mempawah sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
+      "casusBelli": "Pati memerdekakan diri dan menyerang tetangga akibat sengketa perizinan festival Sound Horeg nonstop 24 jam.",
+      "story": "Seluruh komando penyerbu Rembang lumpuh total karena operator radio sibuk main slot judol di server Komdigi.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa proyek tanggul Giant Sea Wall...] Mempawah sukses menghalau serbuan Kota Pontianak!",
+      "bannerText": "🛡️ [PEMICU: Pati memerdekakan diri dan menyerang t...] Pati sukses menghalau serbuan Rembang!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 22,
+      "date": "Oktober 2031",
+      "atk": "Rembang",
+      "def": "Pati",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pati memerdekakan diri dan menyerang tetangga akibat sengketa perizinan festival Sound Horeg nonstop 24 jam."
+    },
     {
       "round": 21,
       "date": "September 2031",
