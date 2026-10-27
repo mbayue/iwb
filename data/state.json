@@ -1,8 +1,8 @@
 {
-  "round": 23,
+  "round": 24,
   "year": 2031,
-  "month": 11,
-  "activeFactionsCount": 494,
+  "month": 12,
+  "activeFactionsCount": 493,
   "territoryOwner": [
     0,
     1,
@@ -88,7 +88,7 @@
     81,
     82,
     83,
-    84,
+    82,
     85,
     86,
     87,
@@ -1338,7 +1338,7 @@
       "name": "Cianjur",
       "province": "Jawa Barat",
       "color": "#3ca834",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1358,10 +1358,10 @@
       "name": "Garut",
       "province": "Jawa Barat",
       "color": "#906437",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 24,
+      "eliminatedBy": 82
     },
     {
       "id": 85,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 23,
-    "date": "November 2031",
-    "monthNumber": 11,
+    "round": 24,
+    "date": "Desember 2031",
+    "monthNumber": 12,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 338,
-      "name": "Nduga",
-      "province": "Papua Pegunungan",
-      "color": "#b78838",
-      "count": 1
+      "id": 82,
+      "name": "Cianjur",
+      "province": "Jawa Barat",
+      "color": "#3ca834",
+      "count": 2
     },
     "defFaction": {
-      "id": 353,
-      "name": "Puncak",
-      "province": "Papua Tengah",
-      "color": "#b33db2",
-      "count": 1
+      "id": 84,
+      "name": "Garut",
+      "province": "Jawa Barat",
+      "color": "#906437",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 338,
-      "name": "Nduga",
-      "province": "Papua Pegunungan",
+      "id": 82,
+      "name": "Cianjur",
+      "province": "Jawa Barat",
       "cScreen": [
-        1344.8,
-        507.6
+        423.3,
+        585.9
       ]
     },
     "defTerritory": {
-      "id": 353,
-      "name": "Puncak",
-      "province": "Papua Tengah",
+      "id": 84,
+      "name": "Garut",
+      "province": "Jawa Barat",
       "cScreen": [
-        1316.3,
-        484.2
+        442.8,
+        593.2
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 494,
+    "success": true,
+    "eliminated": {
+      "id": 84,
+      "name": "Garut",
+      "province": "Jawa Barat"
+    },
+    "activeFactionsCount": 493,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
-      "story": "Upaya pendaratan laut Nduga digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Puncak yang memaksa bayar tunai.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Puncak sukses menghalau serbuan Nduga!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
+      "story": "Konvoi pick-up dan motor brong Cianjur menerobos gerbang batas teritorial Garut saat subuh. Pasukan pertahanan Garut tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nFaksi Garut resmi BUBAR! Seluruh warga Garut kini wajib ganti KTP, bayar retribusi ke dinasti Cianjur, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Garut Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Cianjur menjebol Garut! 💀 Garut RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 24,
+      "date": "Desember 2031",
+      "atk": "Cianjur",
+      "def": "Garut",
+      "success": true,
+      "elim": "Garut",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Garut Runtuh & Lenyap dari Peta",
+      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
+    },
     {
       "round": 23,
       "date": "November 2031",
