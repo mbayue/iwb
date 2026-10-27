@@ -1,7 +1,7 @@
 {
-  "round": 20,
+  "round": 21,
   "year": 2031,
-  "month": 8,
+  "month": 9,
   "activeFactionsCount": 494,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 20,
-    "date": "Agustus 2031",
-    "monthNumber": 8,
+    "round": 21,
+    "date": "September 2031",
+    "monthNumber": 9,
     "yearNumber": 2031,
     "atkFaction": {
-      "id": 333,
-      "name": "Sorong Selatan",
-      "province": "Papua Barat Daya",
-      "color": "#849433",
-      "count": 3
+      "id": 179,
+      "name": "Kota Pontianak",
+      "province": "Kalimantan Barat",
+      "color": "#34bc53",
+      "count": 1
     },
     "defFaction": {
-      "id": 334,
-      "name": "Tambrauw",
-      "province": "Papua Barat Daya",
-      "color": "#3472a8",
-      "count": 0
+      "id": 184,
+      "name": "Mempawah",
+      "province": "Kalimantan Barat",
+      "color": "#5b9f3c",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 327,
-      "name": "Teluk Bintuni",
-      "province": "Papua Barat",
+      "id": 179,
+      "name": "Kota Pontianak",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        1203.9,
-        445.8
+        487.3,
+        377.5
       ]
     },
     "defTerritory": {
-      "id": 334,
-      "name": "Tambrauw",
-      "province": "Papua Barat Daya",
+      "id": 184,
+      "name": "Mempawah",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        1176.5,
-        401.2
+        482.7,
+        366.1
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 334,
-      "name": "Tambrauw",
-      "province": "Papua Barat Daya"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 494,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Armada kapal pendarat Sorong Selatan menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Tambrauw. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nBupati Tambrauw diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Tambrauw resmi BUBAR dan disita negara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tambrauw Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Sorong Selatan menjebol Tambrauw! 💀 Tambrauw RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin.",
+      "story": "Pertahanan Mempawah sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa proyek tanggul Giant Sea Wall...] Mempawah sukses menghalau serbuan Kota Pontianak!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 21,
+      "date": "September 2031",
+      "atk": "Kota Pontianak",
+      "def": "Mempawah",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
+    },
     {
       "round": 20,
       "date": "Agustus 2031",
