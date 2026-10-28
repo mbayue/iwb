@@ -1,7 +1,7 @@
 {
-  "round": 26,
+  "round": 27,
   "year": 2032,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 491,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 26,
-    "date": "Februari 2032",
-    "monthNumber": 2,
+    "round": 27,
+    "date": "Maret 2032",
+    "monthNumber": 3,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 373,
-      "name": "Bantaeng",
-      "province": "Sulawesi Selatan",
-      "color": "#38a392",
-      "count": 2
+      "id": 178,
+      "name": "Ketapang",
+      "province": "Kalimantan Barat",
+      "color": "#a8343b",
+      "count": 1
     },
     "defFaction": {
-      "id": 379,
-      "name": "Jeneponto",
-      "province": "Sulawesi Selatan",
-      "color": "#792fac",
-      "count": 0
+      "id": 181,
+      "name": "Kubu Raya",
+      "province": "Kalimantan Barat",
+      "color": "#a39038",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 373,
-      "name": "Bantaeng",
-      "province": "Sulawesi Selatan",
+      "id": 178,
+      "name": "Ketapang",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        801.9,
-        538.7
+        523.9,
+        424.4
       ]
     },
     "defTerritory": {
-      "id": 379,
-      "name": "Jeneponto",
-      "province": "Sulawesi Selatan",
+      "id": 181,
+      "name": "Kubu Raya",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        794.1,
-        540.3
+        492.1,
+        390.6
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 379,
-      "name": "Jeneponto",
-      "province": "Sulawesi Selatan"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 491,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Bantaeng sukses merebut tugu perbatasan dan gedung dinas Jeneponto. Bendera Jeneponto diturunkan dan diganti bendera kejayaan Bantaeng.\n\n💀 NASIB AKHIR:\nKas daerah Jeneponto bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Bantaeng!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Jeneponto Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Bantaeng menjebol Jeneponto! 💀 Jeneponto RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
+      "story": "Upaya pendaratan laut Ketapang digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Kubu Raya yang memaksa bayar tunai.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Kubu Raya sukses menghalau serbuan Ketapang!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 27,
+      "date": "Maret 2032",
+      "atk": "Ketapang",
+      "def": "Kubu Raya",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
+    },
     {
       "round": 26,
       "date": "Februari 2032",
