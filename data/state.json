@@ -1,7 +1,7 @@
 {
-  "round": 27,
+  "round": 28,
   "year": 2032,
-  "month": 3,
+  "month": 4,
   "activeFactionsCount": 491,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 27,
-    "date": "Maret 2032",
-    "monthNumber": 3,
+    "round": 28,
+    "date": "April 2032",
+    "monthNumber": 4,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 178,
-      "name": "Ketapang",
-      "province": "Kalimantan Barat",
-      "color": "#a8343b",
+      "id": 448,
+      "name": "Kota Sawahlunto",
+      "province": "Sumatera Barat",
+      "color": "#9f843c",
       "count": 1
     },
     "defFaction": {
-      "id": 181,
-      "name": "Kubu Raya",
-      "province": "Kalimantan Barat",
-      "color": "#a39038",
+      "id": 455,
+      "name": "Sijunjung",
+      "province": "Sumatera Barat",
+      "color": "#9c34bc",
       "count": 1
     },
     "atkTerritory": {
-      "id": 178,
-      "name": "Ketapang",
-      "province": "Kalimantan Barat",
+      "id": 448,
+      "name": "Kota Sawahlunto",
+      "province": "Sumatera Barat",
       "cScreen": [
-        523.9,
-        424.4
+        234.5,
+        396.2
       ]
     },
     "defTerritory": {
-      "id": 181,
-      "name": "Kubu Raya",
-      "province": "Kalimantan Barat",
+      "id": 455,
+      "name": "Sijunjung",
+      "province": "Sumatera Barat",
       "cScreen": [
-        492.1,
-        390.6
+        245.2,
+        396.6
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
-      "story": "Upaya pendaratan laut Ketapang digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Kubu Raya yang memaksa bayar tunai.",
+      "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam.",
+      "story": "Rencana serbuan Kota Sawahlunto bocor duluan ke garnisun Sijunjung gara-gara pejabat intelijen Kota Sawahlunto menjual dokumen taktik seharga kardus suap makelar kasus.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Kubu Raya sukses menghalau serbuan Ketapang!",
+      "bannerText": "🛡️ [PEMICU: Gegara tergiur skandal Zarof Ricar, bu...] Sijunjung sukses menghalau serbuan Kota Sawahlunto!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 28,
+      "date": "April 2032",
+      "atk": "Kota Sawahlunto",
+      "def": "Sijunjung",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam."
+    },
     {
       "round": 27,
       "date": "Maret 2032",
