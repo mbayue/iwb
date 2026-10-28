@@ -1,7 +1,7 @@
 {
-  "round": 28,
+  "round": 29,
   "year": 2032,
-  "month": 4,
+  "month": 5,
   "activeFactionsCount": 491,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 28,
-    "date": "April 2032",
-    "monthNumber": 4,
+    "round": 29,
+    "date": "Mei 2032",
+    "monthNumber": 5,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 448,
-      "name": "Kota Sawahlunto",
-      "province": "Sumatera Barat",
-      "color": "#9f843c",
+      "id": 237,
+      "name": "Kota Pangkal Pinang",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#338594",
       "count": 1
     },
     "defFaction": {
-      "id": 455,
-      "name": "Sijunjung",
-      "province": "Sumatera Barat",
-      "color": "#9c34bc",
+      "id": 231,
+      "name": "Bangka",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#6e9c2b",
       "count": 1
     },
     "atkTerritory": {
-      "id": 448,
-      "name": "Kota Sawahlunto",
-      "province": "Sumatera Barat",
+      "id": 237,
+      "name": "Kota Pangkal Pinang",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        234.5,
-        396.2
+        392.5,
+        439.1
       ]
     },
     "defTerritory": {
-      "id": 455,
-      "name": "Sijunjung",
-      "province": "Sumatera Barat",
+      "id": 231,
+      "name": "Bangka",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        245.2,
-        396.6
+        387,
+        434.5
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam.",
-      "story": "Rencana serbuan Kota Sawahlunto bocor duluan ke garnisun Sijunjung gara-gara pejabat intelijen Kota Sawahlunto menjual dokumen taktik seharga kardus suap makelar kasus.",
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
+      "story": "Pertahanan Bangka sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Gegara tergiur skandal Zarof Ricar, bu...] Sijunjung sukses menghalau serbuan Kota Sawahlunto!",
+      "bannerText": "🛡️ [PEMICU: Sengketa pembagian royalti tambang tim...] Bangka sukses menghalau serbuan Kota Pangkal Pinang!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 29,
+      "date": "Mei 2032",
+      "atk": "Kota Pangkal Pinang",
+      "def": "Bangka",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
+    },
     {
       "round": 28,
       "date": "April 2032",
