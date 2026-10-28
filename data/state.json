@@ -1,8 +1,8 @@
 {
-  "round": 25,
+  "round": 26,
   "year": 2032,
-  "month": 1,
-  "activeFactionsCount": 492,
+  "month": 2,
+  "activeFactionsCount": 491,
   "territoryOwner": [
     0,
     1,
@@ -383,7 +383,7 @@
     376,
     377,
     378,
-    379,
+    373,
     380,
     393,
     382,
@@ -4248,7 +4248,7 @@
       "name": "Bantaeng",
       "province": "Sulawesi Selatan",
       "color": "#38a392",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4308,10 +4308,10 @@
       "name": "Jeneponto",
       "province": "Sulawesi Selatan",
       "color": "#792fac",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 26,
+      "eliminatedBy": 373
     },
     {
       "id": 380,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 25,
-    "date": "Januari 2032",
-    "monthNumber": 1,
+    "round": 26,
+    "date": "Februari 2032",
+    "monthNumber": 2,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 292,
-      "name": "Belu",
-      "province": "Nusa Tenggara Timur",
-      "color": "#3c8b9f",
+      "id": 373,
+      "name": "Bantaeng",
+      "province": "Sulawesi Selatan",
+      "color": "#38a392",
       "count": 2
     },
     "defFaction": {
-      "id": 291,
-      "name": "Alor",
-      "province": "Nusa Tenggara Timur",
-      "color": "#9c922b",
+      "id": 379,
+      "name": "Jeneponto",
+      "province": "Sulawesi Selatan",
+      "color": "#792fac",
       "count": 0
     },
     "atkTerritory": {
-      "id": 292,
-      "name": "Belu",
-      "province": "Nusa Tenggara Timur",
+      "id": 373,
+      "name": "Bantaeng",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        948.8,
-        647.7
+        801.9,
+        538.7
       ]
     },
     "defTerritory": {
-      "id": 291,
-      "name": "Alor",
-      "province": "Nusa Tenggara Timur",
+      "id": 379,
+      "name": "Jeneponto",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        933.7,
-        622.5
+        794.1,
+        540.3
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 291,
-      "name": "Alor",
-      "province": "Nusa Tenggara Timur"
+      "id": 379,
+      "name": "Jeneponto",
+      "province": "Sulawesi Selatan"
     },
-    "activeFactionsCount": 492,
+    "activeFactionsCount": 491,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.",
-      "story": "Konvoi pick-up dan motor brong Belu menerobos gerbang batas teritorial Alor saat subuh. Pasukan pertahanan Alor tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Alor menyatakan resign massal. Wilayah Alor kini resmi turun derajat menjadi kecamatan bawahan Belu!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Alor Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa jalur zonasi PPDB sekolah fav...] Belu menjebol Alor! 💀 Alor RUNTUH!",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Bantaeng sukses merebut tugu perbatasan dan gedung dinas Jeneponto. Bendera Jeneponto diturunkan dan diganti bendera kejayaan Bantaeng.\n\n💀 NASIB AKHIR:\nKas daerah Jeneponto bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Bantaeng!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Jeneponto Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Bantaeng menjebol Jeneponto! 💀 Jeneponto RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 26,
+      "date": "Februari 2032",
+      "atk": "Bantaeng",
+      "def": "Jeneponto",
+      "success": true,
+      "elim": "Jeneponto",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Jeneponto Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 25,
       "date": "Januari 2032",
