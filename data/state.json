@@ -1,8 +1,8 @@
 {
-  "round": 29,
+  "round": 30,
   "year": 2032,
-  "month": 5,
-  "activeFactionsCount": 491,
+  "month": 6,
+  "activeFactionsCount": 490,
   "territoryOwner": [
     0,
     1,
@@ -471,7 +471,7 @@
     464,
     465,
     466,
-    467,
+    469,
     468,
     469,
     470,
@@ -5188,10 +5188,10 @@
       "name": "Musi Banyuasin",
       "province": "Sumatera Selatan",
       "color": "#34bc58",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 30,
+      "eliminatedBy": 469
     },
     {
       "id": 468,
@@ -5208,7 +5208,7 @@
       "name": "Musi Rawas Utara",
       "province": "Sumatera Selatan",
       "color": "#a39438",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 29,
-    "date": "Mei 2032",
-    "monthNumber": 5,
+    "round": 30,
+    "date": "Juni 2032",
+    "monthNumber": 6,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 237,
-      "name": "Kota Pangkal Pinang",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#338594",
-      "count": 1
+      "id": 469,
+      "name": "Musi Rawas Utara",
+      "province": "Sumatera Selatan",
+      "color": "#a39438",
+      "count": 2
     },
     "defFaction": {
-      "id": 231,
-      "name": "Bangka",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#6e9c2b",
-      "count": 1
+      "id": 467,
+      "name": "Musi Banyuasin",
+      "province": "Sumatera Selatan",
+      "color": "#34bc58",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 237,
-      "name": "Kota Pangkal Pinang",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 469,
+      "name": "Musi Rawas Utara",
+      "province": "Sumatera Selatan",
       "cScreen": [
-        392.5,
-        439.1
+        292.4,
+        456.7
       ]
     },
     "defTerritory": {
-      "id": 231,
-      "name": "Bangka",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 467,
+      "name": "Musi Banyuasin",
+      "province": "Sumatera Selatan",
       "cScreen": [
-        387,
-        434.5
+        324.5,
+        450.7
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 491,
+    "success": true,
+    "eliminated": {
+      "id": 467,
+      "name": "Musi Banyuasin",
+      "province": "Sumatera Selatan"
+    },
+    "activeFactionsCount": 490,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
-      "story": "Pertahanan Bangka sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa pembagian royalti tambang tim...] Bangka sukses menghalau serbuan Kota Pangkal Pinang!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan.",
+      "story": "Laskar Musi Rawas Utara memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Musi Banyuasin. Tanpa stok sambal dan amunisi cadangan, garnisun Musi Banyuasin lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Musi Banyuasin terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Musi Rawas Utara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Musi Banyuasin Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Debt collector pinjol salah sita motor...] Musi Rawas Utara menjebol Musi Banyuasin! 💀 Musi Banyuasin RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 30,
+      "date": "Juni 2032",
+      "atk": "Musi Rawas Utara",
+      "def": "Musi Banyuasin",
+      "success": true,
+      "elim": "Musi Banyuasin",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Musi Banyuasin Runtuh & Lenyap dari Peta",
+      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan."
+    },
     {
       "round": 29,
       "date": "Mei 2032",
