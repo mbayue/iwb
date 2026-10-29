@@ -1,8 +1,8 @@
 {
-  "round": 32,
+  "round": 33,
   "year": 2032,
-  "month": 8,
-  "activeFactionsCount": 489,
+  "month": 9,
+  "activeFactionsCount": 488,
   "territoryOwner": [
     0,
     1,
@@ -163,7 +163,7 @@
     156,
     157,
     158,
-    159,
+    160,
     160,
     161,
     162,
@@ -2108,17 +2108,17 @@
       "name": "Malang",
       "province": "Jawa Timur",
       "color": "#582b9c",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 33,
+      "eliminatedBy": 160
     },
     {
       "id": 160,
       "name": "Mojokerto",
       "province": "Jawa Timur",
       "color": "#9f803c",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 32,
-    "date": "Agustus 2032",
-    "monthNumber": 8,
+    "round": 33,
+    "date": "September 2032",
+    "monthNumber": 9,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 370,
-      "name": "Mamuju Tengah",
-      "province": "Sulawesi Barat",
-      "color": "#38a834",
-      "count": 1
-    },
-    "defFaction": {
-      "id": 371,
-      "name": "Pasangkayu",
-      "province": "Sulawesi Barat",
-      "color": "#5734bc",
+      "id": 160,
+      "name": "Mojokerto",
+      "province": "Jawa Timur",
+      "color": "#9f803c",
       "count": 2
     },
+    "defFaction": {
+      "id": 159,
+      "name": "Malang",
+      "province": "Jawa Timur",
+      "color": "#582b9c",
+      "count": 0
+    },
     "atkTerritory": {
-      "id": 370,
-      "name": "Mamuju Tengah",
-      "province": "Sulawesi Barat",
+      "id": 160,
+      "name": "Mojokerto",
+      "province": "Jawa Timur",
       "cScreen": [
-        788.1,
-        436.7
+        580.4,
+        599.7
       ]
     },
     "defTerritory": {
-      "id": 371,
-      "name": "Pasangkayu",
-      "province": "Sulawesi Barat",
+      "id": 159,
+      "name": "Malang",
+      "province": "Jawa Timur",
       "cScreen": [
-        788.3,
-        418.1
+        584.7,
+        614.8
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 489,
+    "success": true,
+    "eliminated": {
+      "id": 159,
+      "name": "Malang",
+      "province": "Jawa Timur"
+    },
+    "activeFactionsCount": 488,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.",
-      "story": "Pasukan Mamuju Tengah tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa jatah impor gula dan kuota be...] Pasangkayu sukses menghalau serbuan Mamuju Tengah!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Mojokerto sukses merebut tugu perbatasan dan gedung dinas Malang. Bendera Malang diturunkan dan diganti bendera kejayaan Mojokerto.\n\n💀 NASIB AKHIR:\nBupati Malang dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Malang resmi BUBAR!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malang Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Investor ritel mengamuk aturan papan F...] Mojokerto menjebol Malang! 💀 Malang RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 33,
+      "date": "September 2032",
+      "atk": "Mojokerto",
+      "def": "Malang",
+      "success": true,
+      "elim": "Malang",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malang Runtuh & Lenyap dari Peta",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
+    },
     {
       "round": 32,
       "date": "Agustus 2032",
