@@ -1,8 +1,8 @@
 {
-  "round": 30,
+  "round": 31,
   "year": 2032,
-  "month": 6,
-  "activeFactionsCount": 490,
+  "month": 7,
+  "activeFactionsCount": 489,
   "territoryOwner": [
     0,
     1,
@@ -411,7 +411,7 @@
     404,
     405,
     406,
-    407,
+    371,
     408,
     409,
     410,
@@ -4228,7 +4228,7 @@
       "name": "Pasangkayu",
       "province": "Sulawesi Barat",
       "color": "#5734bc",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4588,10 +4588,10 @@
       "name": "Sigi",
       "province": "Sulawesi Tengah",
       "color": "#34bc9c",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 31,
+      "eliminatedBy": 371
     },
     {
       "id": 408,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 30,
-    "date": "Juni 2032",
-    "monthNumber": 6,
+    "round": 31,
+    "date": "Juli 2032",
+    "monthNumber": 7,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 469,
-      "name": "Musi Rawas Utara",
-      "province": "Sumatera Selatan",
-      "color": "#a39438",
+      "id": 371,
+      "name": "Pasangkayu",
+      "province": "Sulawesi Barat",
+      "color": "#5734bc",
       "count": 2
     },
     "defFaction": {
-      "id": 467,
-      "name": "Musi Banyuasin",
-      "province": "Sumatera Selatan",
-      "color": "#34bc58",
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah",
+      "color": "#34bc9c",
       "count": 0
     },
     "atkTerritory": {
-      "id": 469,
-      "name": "Musi Rawas Utara",
-      "province": "Sumatera Selatan",
+      "id": 371,
+      "name": "Pasangkayu",
+      "province": "Sulawesi Barat",
       "cScreen": [
-        292.4,
-        456.7
+        788.3,
+        418.1
       ]
     },
     "defTerritory": {
-      "id": 467,
-      "name": "Musi Banyuasin",
-      "province": "Sumatera Selatan",
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah",
       "cScreen": [
-        324.5,
-        450.7
+        802,
+        419.2
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 467,
-      "name": "Musi Banyuasin",
-      "province": "Sumatera Selatan"
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah"
     },
-    "activeFactionsCount": 490,
+    "activeFactionsCount": 489,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan.",
-      "story": "Laskar Musi Rawas Utara memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Musi Banyuasin. Tanpa stok sambal dan amunisi cadangan, garnisun Musi Banyuasin lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Musi Banyuasin terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Musi Rawas Utara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Musi Banyuasin Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Debt collector pinjol salah sita motor...] Musi Rawas Utara menjebol Musi Banyuasin! 💀 Musi Banyuasin RUNTUH!",
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Pasangkayu sukses merebut tugu perbatasan dan gedung dinas Sigi. Bendera Sigi diturunkan dan diganti bendera kejayaan Pasangkayu.\n\n💀 NASIB AKHIR:\nKas daerah Sigi bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Pasangkayu!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sigi Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Pasangkayu menjebol Sigi! 💀 Sigi RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 31,
+      "date": "Juli 2032",
+      "atk": "Pasangkayu",
+      "def": "Sigi",
+      "success": true,
+      "elim": "Sigi",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sigi Runtuh & Lenyap dari Peta",
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
+    },
     {
       "round": 30,
       "date": "Juni 2032",
