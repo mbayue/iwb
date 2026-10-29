@@ -1,7 +1,7 @@
 {
-  "round": 31,
+  "round": 32,
   "year": 2032,
-  "month": 7,
+  "month": 8,
   "activeFactionsCount": 489,
   "territoryOwner": [
     0,
@@ -5585,25 +5585,34 @@
     }
   ],
   "lastBattle": {
-    "round": 31,
-    "date": "Juli 2032",
-    "monthNumber": 7,
+    "round": 32,
+    "date": "Agustus 2032",
+    "monthNumber": 8,
     "yearNumber": 2032,
     "atkFaction": {
+      "id": 370,
+      "name": "Mamuju Tengah",
+      "province": "Sulawesi Barat",
+      "color": "#38a834",
+      "count": 1
+    },
+    "defFaction": {
       "id": 371,
       "name": "Pasangkayu",
       "province": "Sulawesi Barat",
       "color": "#5734bc",
       "count": 2
     },
-    "defFaction": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah",
-      "color": "#34bc9c",
-      "count": 0
-    },
     "atkTerritory": {
+      "id": 370,
+      "name": "Mamuju Tengah",
+      "province": "Sulawesi Barat",
+      "cScreen": [
+        788.1,
+        436.7
+      ]
+    },
+    "defTerritory": {
       "id": 371,
       "name": "Pasangkayu",
       "province": "Sulawesi Barat",
@@ -5612,36 +5621,33 @@
         418.1
       ]
     },
-    "defTerritory": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah",
-      "cScreen": [
-        802,
-        419.2
-      ]
-    },
-    "success": true,
-    "eliminated": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 489,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Pasangkayu sukses merebut tugu perbatasan dan gedung dinas Sigi. Bendera Sigi diturunkan dan diganti bendera kejayaan Pasangkayu.\n\n💀 NASIB AKHIR:\nKas daerah Sigi bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Pasangkayu!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sigi Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Pasangkayu menjebol Sigi! 💀 Sigi RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.",
+      "story": "Pasukan Mamuju Tengah tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa jatah impor gula dan kuota be...] Pasangkayu sukses menghalau serbuan Mamuju Tengah!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 32,
+      "date": "Agustus 2032",
+      "atk": "Mamuju Tengah",
+      "def": "Pasangkayu",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati."
+    },
     {
       "round": 31,
       "date": "Juli 2032",
