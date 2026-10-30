@@ -1,8 +1,8 @@
 {
-  "round": 37,
+  "round": 38,
   "year": 2033,
-  "month": 1,
-  "activeFactionsCount": 488,
+  "month": 2,
+  "activeFactionsCount": 487,
   "territoryOwner": [
     0,
     1,
@@ -278,7 +278,7 @@
     271,
     272,
     273,
-    274,
+    279,
     275,
     276,
     277,
@@ -3258,10 +3258,10 @@
       "name": "Halmahera Timur",
       "province": "Maluku Utara",
       "color": "#3439a8",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 38,
+      "eliminatedBy": 279
     },
     {
       "id": 275,
@@ -3308,7 +3308,7 @@
       "name": "Pulau Morotai",
       "province": "Maluku Utara",
       "color": "#2b6e9c",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 37,
-    "date": "Januari 2033",
-    "monthNumber": 1,
+    "round": 38,
+    "date": "Februari 2033",
+    "monthNumber": 2,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 396,
-      "name": "Wajo",
-      "province": "Sulawesi Selatan",
-      "color": "#5f9037",
-      "count": 1
+      "id": 279,
+      "name": "Pulau Morotai",
+      "province": "Maluku Utara",
+      "color": "#2b6e9c",
+      "count": 2
     },
     "defFaction": {
-      "id": 392,
-      "name": "Soppeng",
-      "province": "Sulawesi Selatan",
-      "color": "#6b42ae",
-      "count": 1
+      "id": 274,
+      "name": "Halmahera Timur",
+      "province": "Maluku Utara",
+      "color": "#3439a8",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 396,
-      "name": "Wajo",
-      "province": "Sulawesi Selatan",
+      "id": 279,
+      "name": "Pulau Morotai",
+      "province": "Maluku Utara",
       "cScreen": [
-        806.8,
-        495.2
+        1049.9,
+        308.8
       ]
     },
     "defTerritory": {
-      "id": 392,
-      "name": "Soppeng",
-      "province": "Sulawesi Selatan",
+      "id": 274,
+      "name": "Halmahera Timur",
+      "province": "Maluku Utara",
       "cScreen": [
-        800.4,
-        504.3
+        1047.7,
+        349.6
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 488,
+    "success": true,
+    "eliminated": {
+      "id": 274,
+      "name": "Halmahera Timur",
+      "province": "Maluku Utara"
+    },
+    "activeFactionsCount": 487,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.",
-      "story": "Serangan mendadak Wajo batal total setelah seluruh pejabat penyerbu mendadak dipanggil KPK untuk klarifikasi LHKPN.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Bupati tersinggung karena anggaran per...] Soppeng sukses menghalau serbuan Wajo!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
+      "story": "Pasukan marinir Pulau Morotai menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Halmahera Timur berhasil diamankan.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Halmahera Timur terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Pulau Morotai!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Halmahera Timur Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Pulau Morotai menjebol Halmahera Timur! 💀 Halmahera Timur RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 38,
+      "date": "Februari 2033",
+      "atk": "Pulau Morotai",
+      "def": "Halmahera Timur",
+      "success": true,
+      "elim": "Halmahera Timur",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Halmahera Timur Runtuh & Lenyap dari Peta",
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
+    },
     {
       "round": 37,
       "date": "Januari 2033",
