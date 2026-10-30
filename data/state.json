@@ -1,7 +1,7 @@
 {
-  "round": 34,
+  "round": 35,
   "year": 2032,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 488,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 34,
-    "date": "Oktober 2032",
-    "monthNumber": 10,
+    "round": 35,
+    "date": "November 2032",
+    "monthNumber": 11,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 422,
-      "name": "Kota Bau Bau",
-      "province": "Sulawesi Tenggara",
-      "color": "#a6b738",
+      "id": 166,
+      "name": "Ponorogo",
+      "province": "Jawa Timur",
+      "color": "#34a866",
       "count": 1
     },
     "defFaction": {
-      "id": 411,
-      "name": "Buton",
-      "province": "Sulawesi Tenggara",
-      "color": "#9c2b33",
+      "id": 174,
+      "name": "Tulungagung",
+      "province": "Jawa Timur",
+      "color": "#2f9880",
       "count": 1
     },
     "atkTerritory": {
-      "id": 422,
-      "name": "Kota Bau Bau",
-      "province": "Sulawesi Tenggara",
+      "id": 166,
+      "name": "Ponorogo",
+      "province": "Jawa Timur",
       "cScreen": [
-        880.8,
-        537.4
+        552.2,
+        611.9
       ]
     },
     "defTerritory": {
-      "id": 411,
-      "name": "Buton",
-      "province": "Sulawesi Tenggara",
+      "id": 174,
+      "name": "Tulungagung",
+      "province": "Jawa Timur",
       "cScreen": [
-        888.1,
-        534.3
+        562.8,
+        615.8
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
-      "story": "Seluruh komando penyerbu Kota Bau Bau lumpuh total karena operator radio sibuk main slot judol di server Komdigi.",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
+      "story": "Pertahanan Tulungagung sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Buton sukses menghalau serbuan Kota Bau Bau!",
+      "bannerText": "🛡️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Tulungagung sukses menghalau serbuan Ponorogo!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 35,
+      "date": "November 2032",
+      "atk": "Ponorogo",
+      "def": "Tulungagung",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
+    },
     {
       "round": 34,
       "date": "Oktober 2032",
