@@ -1,7 +1,7 @@
 {
-  "round": 33,
+  "round": 34,
   "year": 2032,
-  "month": 9,
+  "month": 10,
   "activeFactionsCount": 488,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 33,
-    "date": "September 2032",
-    "monthNumber": 9,
+    "round": 34,
+    "date": "Oktober 2032",
+    "monthNumber": 10,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 160,
-      "name": "Mojokerto",
-      "province": "Jawa Timur",
-      "color": "#9f803c",
-      "count": 2
+      "id": 422,
+      "name": "Kota Bau Bau",
+      "province": "Sulawesi Tenggara",
+      "color": "#a6b738",
+      "count": 1
     },
     "defFaction": {
-      "id": 159,
-      "name": "Malang",
-      "province": "Jawa Timur",
-      "color": "#582b9c",
-      "count": 0
+      "id": 411,
+      "name": "Buton",
+      "province": "Sulawesi Tenggara",
+      "color": "#9c2b33",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 160,
-      "name": "Mojokerto",
-      "province": "Jawa Timur",
+      "id": 422,
+      "name": "Kota Bau Bau",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        580.4,
-        599.7
+        880.8,
+        537.4
       ]
     },
     "defTerritory": {
-      "id": 159,
-      "name": "Malang",
-      "province": "Jawa Timur",
+      "id": 411,
+      "name": "Buton",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        584.7,
-        614.8
+        888.1,
+        534.3
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 159,
-      "name": "Malang",
-      "province": "Jawa Timur"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 488,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Mojokerto sukses merebut tugu perbatasan dan gedung dinas Malang. Bendera Malang diturunkan dan diganti bendera kejayaan Mojokerto.\n\n💀 NASIB AKHIR:\nBupati Malang dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Malang resmi BUBAR!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malang Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Investor ritel mengamuk aturan papan F...] Mojokerto menjebol Malang! 💀 Malang RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
+      "story": "Seluruh komando penyerbu Kota Bau Bau lumpuh total karena operator radio sibuk main slot judol di server Komdigi.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Buton sukses menghalau serbuan Kota Bau Bau!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 34,
+      "date": "Oktober 2032",
+      "atk": "Kota Bau Bau",
+      "def": "Buton",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
+    },
     {
       "round": 33,
       "date": "September 2032",
