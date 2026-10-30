@@ -1,7 +1,7 @@
 {
-  "round": 35,
+  "round": 36,
   "year": 2032,
-  "month": 11,
+  "month": 12,
   "activeFactionsCount": 488,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 35,
-    "date": "November 2032",
-    "monthNumber": 11,
+    "round": 36,
+    "date": "Desember 2032",
+    "monthNumber": 12,
     "yearNumber": 2032,
     "atkFaction": {
-      "id": 166,
-      "name": "Ponorogo",
-      "province": "Jawa Timur",
-      "color": "#34a866",
+      "id": 256,
+      "name": "Tanggamus",
+      "province": "Lampung",
+      "color": "#813c9f",
       "count": 1
     },
     "defFaction": {
-      "id": 174,
-      "name": "Tulungagung",
-      "province": "Jawa Timur",
-      "color": "#2f9880",
+      "id": 255,
+      "name": "Pringsewu",
+      "province": "Lampung",
+      "color": "#2b9c59",
       "count": 1
     },
     "atkTerritory": {
-      "id": 166,
-      "name": "Ponorogo",
-      "province": "Jawa Timur",
+      "id": 256,
+      "name": "Tanggamus",
+      "province": "Lampung",
       "cScreen": [
-        552.2,
-        611.9
+        352,
+        540.4
       ]
     },
     "defTerritory": {
-      "id": 174,
-      "name": "Tulungagung",
-      "province": "Jawa Timur",
+      "id": 255,
+      "name": "Pringsewu",
+      "province": "Lampung",
       "cScreen": [
-        562.8,
-        615.8
+        357.8,
+        534.6
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
-      "story": "Pertahanan Tulungagung sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
+      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring.",
+      "story": "Operasi invasi Tanggamus macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Tulungagung sukses menghalau serbuan Ponorogo!",
+      "bannerText": "🛡️ [PEMICU: Bupati merasa tidak dihargai karena fo...] Pringsewu sukses menghalau serbuan Tanggamus!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 36,
+      "date": "Desember 2032",
+      "atk": "Tanggamus",
+      "def": "Pringsewu",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring."
+    },
     {
       "round": 35,
       "date": "November 2032",
