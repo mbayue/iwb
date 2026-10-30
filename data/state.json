@@ -1,7 +1,7 @@
 {
-  "round": 36,
-  "year": 2032,
-  "month": 12,
+  "round": 37,
+  "year": 2033,
+  "month": 1,
   "activeFactionsCount": 488,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 36,
-    "date": "Desember 2032",
-    "monthNumber": 12,
-    "yearNumber": 2032,
+    "round": 37,
+    "date": "Januari 2033",
+    "monthNumber": 1,
+    "yearNumber": 2033,
     "atkFaction": {
-      "id": 256,
-      "name": "Tanggamus",
-      "province": "Lampung",
-      "color": "#813c9f",
+      "id": 396,
+      "name": "Wajo",
+      "province": "Sulawesi Selatan",
+      "color": "#5f9037",
       "count": 1
     },
     "defFaction": {
-      "id": 255,
-      "name": "Pringsewu",
-      "province": "Lampung",
-      "color": "#2b9c59",
+      "id": 392,
+      "name": "Soppeng",
+      "province": "Sulawesi Selatan",
+      "color": "#6b42ae",
       "count": 1
     },
     "atkTerritory": {
-      "id": 256,
-      "name": "Tanggamus",
-      "province": "Lampung",
+      "id": 396,
+      "name": "Wajo",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        352,
-        540.4
+        806.8,
+        495.2
       ]
     },
     "defTerritory": {
-      "id": 255,
-      "name": "Pringsewu",
-      "province": "Lampung",
+      "id": 392,
+      "name": "Soppeng",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        357.8,
-        534.6
+        800.4,
+        504.3
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring.",
-      "story": "Operasi invasi Tanggamus macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
+      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.",
+      "story": "Serangan mendadak Wajo batal total setelah seluruh pejabat penyerbu mendadak dipanggil KPK untuk klarifikasi LHKPN.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Bupati merasa tidak dihargai karena fo...] Pringsewu sukses menghalau serbuan Tanggamus!",
+      "bannerText": "🛡️ [PEMICU: Bupati tersinggung karena anggaran per...] Soppeng sukses menghalau serbuan Wajo!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 37,
+      "date": "Januari 2033",
+      "atk": "Wajo",
+      "def": "Soppeng",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman."
+    },
     {
       "round": 36,
       "date": "Desember 2032",
