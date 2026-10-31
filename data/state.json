@@ -1,8 +1,8 @@
 {
-  "round": 41,
+  "round": 42,
   "year": 2033,
-  "month": 5,
-  "activeFactionsCount": 485,
+  "month": 6,
+  "activeFactionsCount": 484,
   "territoryOwner": [
     0,
     1,
@@ -208,7 +208,7 @@
     201,
     202,
     203,
-    204,
+    206,
     205,
     206,
     207,
@@ -2558,10 +2558,10 @@
       "name": "Barito Utara",
       "province": "Kalimantan Tengah",
       "color": "#903761",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 42,
+      "eliminatedBy": 206
     },
     {
       "id": 205,
@@ -2578,7 +2578,7 @@
       "name": "Kapuas",
       "province": "Kalimantan Tengah",
       "color": "#4638b7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 41,
-    "date": "Mei 2033",
-    "monthNumber": 5,
+    "round": 42,
+    "date": "Juni 2033",
+    "monthNumber": 6,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 418,
-      "name": "Konawe",
-      "province": "Sulawesi Tenggara",
-      "color": "#3437a8",
+      "id": 206,
+      "name": "Kapuas",
+      "province": "Kalimantan Tengah",
+      "color": "#4638b7",
       "count": 2
     },
     "defFaction": {
-      "id": 385,
-      "name": "Luwu Timur",
-      "province": "Sulawesi Selatan",
-      "color": "#a35d38",
+      "id": 204,
+      "name": "Barito Utara",
+      "province": "Kalimantan Tengah",
+      "color": "#903761",
       "count": 0
     },
     "atkTerritory": {
-      "id": 418,
-      "name": "Konawe",
-      "province": "Sulawesi Tenggara",
+      "id": 206,
+      "name": "Kapuas",
+      "province": "Kalimantan Tengah",
       "cScreen": [
-        859,
-        481.7
+        634.8,
+        433.8
       ]
     },
     "defTerritory": {
-      "id": 385,
-      "name": "Luwu Timur",
-      "province": "Sulawesi Selatan",
+      "id": 204,
+      "name": "Barito Utara",
+      "province": "Kalimantan Tengah",
       "cScreen": [
-        834.2,
-        451.4
+        660.1,
+        403.4
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 385,
-      "name": "Luwu Timur",
-      "province": "Sulawesi Selatan"
+      "id": 204,
+      "name": "Barito Utara",
+      "province": "Kalimantan Tengah"
     },
-    "activeFactionsCount": 485,
+    "activeFactionsCount": 484,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut.",
-      "story": "Armada kapal pendarat Konawe menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Luwu Timur. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nFaksi Luwu Timur resmi BUBAR! Seluruh warga Luwu Timur kini wajib ganti KTP, bayar retribusi ke dinasti Konawe, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Timur Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa kepemilikan karang pulau tak ...] Konawe menjebol Luwu Timur! 💀 Luwu Timur RUNTUH!",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
+      "story": "Armada kapal pendarat Kapuas menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Barito Utara. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nKas daerah Barito Utara bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kapuas!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Barito Utara Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Kapuas menjebol Barito Utara! 💀 Barito Utara RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 42,
+      "date": "Juni 2033",
+      "atk": "Kapuas",
+      "def": "Barito Utara",
+      "success": true,
+      "elim": "Barito Utara",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Barito Utara Runtuh & Lenyap dari Peta",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
+    },
     {
       "round": 41,
       "date": "Mei 2033",
