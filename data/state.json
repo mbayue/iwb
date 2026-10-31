@@ -1,8 +1,8 @@
 {
-  "round": 39,
+  "round": 40,
   "year": 2033,
-  "month": 3,
-  "activeFactionsCount": 487,
+  "month": 4,
+  "activeFactionsCount": 486,
   "territoryOwner": [
     0,
     1,
@@ -17,7 +17,7 @@
     10,
     11,
     12,
-    13,
+    491,
     14,
     15,
     16,
@@ -648,10 +648,10 @@
       "name": "Gayo Lues",
       "province": "Aceh",
       "color": "#a3384e",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 40,
+      "eliminatedBy": 491
     },
     {
       "id": 14,
@@ -5428,7 +5428,7 @@
       "name": "Langkat",
       "province": "Sumatera Utara",
       "color": "#3497bc",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 39,
-    "date": "Maret 2033",
-    "monthNumber": 3,
+    "round": 40,
+    "date": "April 2033",
+    "monthNumber": 4,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 429,
-      "name": "Bolaang Mongondow Timur",
-      "province": "Sulawesi Utara",
-      "color": "#943383",
-      "count": 1
+      "id": 491,
+      "name": "Langkat",
+      "province": "Sumatera Utara",
+      "color": "#3497bc",
+      "count": 2
     },
     "defFaction": {
-      "id": 439,
-      "name": "Minahasa Selatan",
-      "province": "Sulawesi Utara",
-      "color": "#3b2fac",
-      "count": 1
+      "id": 13,
+      "name": "Gayo Lues",
+      "province": "Aceh",
+      "color": "#a3384e",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 429,
-      "name": "Bolaang Mongondow Timur",
-      "province": "Sulawesi Utara",
+      "id": 491,
+      "name": "Langkat",
+      "province": "Sumatera Utara",
       "cScreen": [
-        935.4,
-        356.1
+        160.4,
+        266.3
       ]
     },
     "defTerritory": {
-      "id": 439,
-      "name": "Minahasa Selatan",
-      "province": "Sulawesi Utara",
+      "id": 13,
+      "name": "Gayo Lues",
+      "province": "Aceh",
       "cScreen": [
-        936.4,
-        345.1
+        133.5,
+        257.8
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 487,
+    "success": true,
+    "eliminated": {
+      "id": 13,
+      "name": "Gayo Lues",
+      "province": "Aceh"
+    },
+    "activeFactionsCount": 486,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.",
-      "story": "Helikopter penyerbu Bolaang Mongondow Timur batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa jalur zonasi PPDB sekolah fav...] Minahasa Selatan sukses menghalau serbuan Bolaang Mongondow Timur!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Pasukan marinir Langkat menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Gayo Lues berhasil diamankan.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Gayo Lues terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Langkat!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Gayo Lues Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Langkat menjebol Gayo Lues! 💀 Gayo Lues RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 40,
+      "date": "April 2033",
+      "atk": "Langkat",
+      "def": "Gayo Lues",
+      "success": true,
+      "elim": "Gayo Lues",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Gayo Lues Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 39,
       "date": "Maret 2033",
