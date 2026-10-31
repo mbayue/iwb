@@ -1,7 +1,7 @@
 {
-  "round": 38,
+  "round": 39,
   "year": 2033,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 487,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 38,
-    "date": "Februari 2033",
-    "monthNumber": 2,
+    "round": 39,
+    "date": "Maret 2033",
+    "monthNumber": 3,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 279,
-      "name": "Pulau Morotai",
-      "province": "Maluku Utara",
-      "color": "#2b6e9c",
-      "count": 2
+      "id": 429,
+      "name": "Bolaang Mongondow Timur",
+      "province": "Sulawesi Utara",
+      "color": "#943383",
+      "count": 1
     },
     "defFaction": {
-      "id": 274,
-      "name": "Halmahera Timur",
-      "province": "Maluku Utara",
-      "color": "#3439a8",
-      "count": 0
+      "id": 439,
+      "name": "Minahasa Selatan",
+      "province": "Sulawesi Utara",
+      "color": "#3b2fac",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 279,
-      "name": "Pulau Morotai",
-      "province": "Maluku Utara",
+      "id": 429,
+      "name": "Bolaang Mongondow Timur",
+      "province": "Sulawesi Utara",
       "cScreen": [
-        1049.9,
-        308.8
+        935.4,
+        356.1
       ]
     },
     "defTerritory": {
-      "id": 274,
-      "name": "Halmahera Timur",
-      "province": "Maluku Utara",
+      "id": 439,
+      "name": "Minahasa Selatan",
+      "province": "Sulawesi Utara",
       "cScreen": [
-        1047.7,
-        349.6
+        936.4,
+        345.1
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 274,
-      "name": "Halmahera Timur",
-      "province": "Maluku Utara"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 487,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
-      "story": "Pasukan marinir Pulau Morotai menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Halmahera Timur berhasil diamankan.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Halmahera Timur terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Pulau Morotai!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Halmahera Timur Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Pulau Morotai menjebol Halmahera Timur! 💀 Halmahera Timur RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.",
+      "story": "Helikopter penyerbu Bolaang Mongondow Timur batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa jalur zonasi PPDB sekolah fav...] Minahasa Selatan sukses menghalau serbuan Bolaang Mongondow Timur!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 39,
+      "date": "Maret 2033",
+      "atk": "Bolaang Mongondow Timur",
+      "def": "Minahasa Selatan",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
+    },
     {
       "round": 38,
       "date": "Februari 2033",
