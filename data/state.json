@@ -1,8 +1,8 @@
 {
-  "round": 40,
+  "round": 41,
   "year": 2033,
-  "month": 4,
-  "activeFactionsCount": 486,
+  "month": 5,
+  "activeFactionsCount": 485,
   "territoryOwner": [
     0,
     1,
@@ -389,7 +389,7 @@
     382,
     383,
     384,
-    385,
+    418,
     386,
     387,
     388,
@@ -4368,10 +4368,10 @@
       "name": "Luwu Timur",
       "province": "Sulawesi Selatan",
       "color": "#a35d38",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 41,
+      "eliminatedBy": 418
     },
     {
       "id": 386,
@@ -4698,7 +4698,7 @@
       "name": "Konawe",
       "province": "Sulawesi Tenggara",
       "color": "#3437a8",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 40,
-    "date": "April 2033",
-    "monthNumber": 4,
+    "round": 41,
+    "date": "Mei 2033",
+    "monthNumber": 5,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 491,
-      "name": "Langkat",
-      "province": "Sumatera Utara",
-      "color": "#3497bc",
+      "id": 418,
+      "name": "Konawe",
+      "province": "Sulawesi Tenggara",
+      "color": "#3437a8",
       "count": 2
     },
     "defFaction": {
-      "id": 13,
-      "name": "Gayo Lues",
-      "province": "Aceh",
-      "color": "#a3384e",
+      "id": 385,
+      "name": "Luwu Timur",
+      "province": "Sulawesi Selatan",
+      "color": "#a35d38",
       "count": 0
     },
     "atkTerritory": {
-      "id": 491,
-      "name": "Langkat",
-      "province": "Sumatera Utara",
+      "id": 418,
+      "name": "Konawe",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        160.4,
-        266.3
+        859,
+        481.7
       ]
     },
     "defTerritory": {
-      "id": 13,
-      "name": "Gayo Lues",
-      "province": "Aceh",
+      "id": 385,
+      "name": "Luwu Timur",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        133.5,
-        257.8
+        834.2,
+        451.4
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 13,
-      "name": "Gayo Lues",
-      "province": "Aceh"
+      "id": 385,
+      "name": "Luwu Timur",
+      "province": "Sulawesi Selatan"
     },
-    "activeFactionsCount": 486,
+    "activeFactionsCount": 485,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Pasukan marinir Langkat menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Gayo Lues berhasil diamankan.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Gayo Lues terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Langkat!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Gayo Lues Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Langkat menjebol Gayo Lues! 💀 Gayo Lues RUNTUH!",
+      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut.",
+      "story": "Armada kapal pendarat Konawe menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Luwu Timur. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nFaksi Luwu Timur resmi BUBAR! Seluruh warga Luwu Timur kini wajib ganti KTP, bayar retribusi ke dinasti Konawe, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Timur Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa kepemilikan karang pulau tak ...] Konawe menjebol Luwu Timur! 💀 Luwu Timur RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 41,
+      "date": "Mei 2033",
+      "atk": "Konawe",
+      "def": "Luwu Timur",
+      "success": true,
+      "elim": "Luwu Timur",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Timur Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
+    },
     {
       "round": 40,
       "date": "April 2033",
