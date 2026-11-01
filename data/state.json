@@ -1,7 +1,7 @@
 {
-  "round": 45,
+  "round": 46,
   "year": 2033,
-  "month": 9,
+  "month": 10,
   "activeFactionsCount": 482,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 45,
-    "date": "September 2033",
-    "monthNumber": 9,
+    "round": 46,
+    "date": "Oktober 2033",
+    "monthNumber": 10,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 101,
-      "name": "Sukabumi",
-      "province": "Jawa Barat",
-      "color": "#3d7bb3",
-      "count": 2
+      "id": 161,
+      "name": "Nganjuk",
+      "province": "Jawa Timur",
+      "color": "#3db3b0",
+      "count": 1
     },
     "defFaction": {
-      "id": 36,
-      "name": "Lebak",
-      "province": "Banten",
-      "color": "#643790",
-      "count": 0
+      "id": 157,
+      "name": "Madiun",
+      "province": "Jawa Timur",
+      "color": "#a3384c",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 101,
-      "name": "Sukabumi",
-      "province": "Jawa Barat",
+      "id": 161,
+      "name": "Nganjuk",
+      "province": "Jawa Timur",
       "cScreen": [
-        410.5,
-        584.2
+        564.6,
+        601.4
       ]
     },
     "defTerritory": {
-      "id": 36,
-      "name": "Lebak",
-      "province": "Banten",
+      "id": 157,
+      "name": "Madiun",
+      "province": "Jawa Timur",
       "cScreen": [
-        395.2,
-        572.9
+        555,
+        602.4
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 36,
-      "name": "Lebak",
-      "province": "Banten"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 482,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian setoran makelar kasus perizinan tambang pasir yang macet di meja panitera.",
-      "story": "Konvoi pick-up dan motor brong Sukabumi menerobos gerbang batas teritorial Lebak saat subuh. Pasukan pertahanan Lebak tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati Lebak dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Lebak resmi BUBAR!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lebak Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa pembagian setoran makelar kas...] Sukabumi menjebol Lebak! 💀 Lebak RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring.",
+      "story": "Konvoi tempur Nganjuk dipukul mundur secara memalukan oleh barisan emak-emak naik motor matic sein kiri tapi belok kanan.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Perang klaim uang donasi pengobatan vi...] Madiun sukses menghalau serbuan Nganjuk!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 46,
+      "date": "Oktober 2033",
+      "atk": "Nganjuk",
+      "def": "Madiun",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring."
+    },
     {
       "round": 45,
       "date": "September 2033",
