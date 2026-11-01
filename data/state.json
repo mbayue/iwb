@@ -1,7 +1,7 @@
 {
-  "round": 42,
+  "round": 43,
   "year": 2033,
-  "month": 6,
+  "month": 7,
   "activeFactionsCount": 484,
   "territoryOwner": [
     0,
@@ -5585,31 +5585,31 @@
     }
   ],
   "lastBattle": {
-    "round": 42,
-    "date": "Juni 2033",
-    "monthNumber": 6,
+    "round": 43,
+    "date": "Juli 2033",
+    "monthNumber": 7,
     "yearNumber": 2033,
     "atkFaction": {
+      "id": 198,
+      "name": "Tabalong",
+      "province": "Kalimantan Selatan",
+      "color": "#2f4698",
+      "count": 1
+    },
+    "defFaction": {
       "id": 206,
       "name": "Kapuas",
       "province": "Kalimantan Tengah",
       "color": "#4638b7",
       "count": 2
     },
-    "defFaction": {
-      "id": 204,
-      "name": "Barito Utara",
-      "province": "Kalimantan Tengah",
-      "color": "#903761",
-      "count": 0
-    },
     "atkTerritory": {
-      "id": 206,
-      "name": "Kapuas",
-      "province": "Kalimantan Tengah",
+      "id": 198,
+      "name": "Tabalong",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        634.8,
-        433.8
+        669.5,
+        432.3
       ]
     },
     "defTerritory": {
@@ -5621,27 +5621,33 @@
         403.4
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 204,
-      "name": "Barito Utara",
-      "province": "Kalimantan Tengah"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 484,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
-      "story": "Armada kapal pendarat Kapuas menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Barito Utara. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nKas daerah Barito Utara bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kapuas!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Barito Utara Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Kapuas menjebol Barito Utara! 💀 Barito Utara RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Kapal penyerbu Tabalong terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai Barito Utara mengusir mereka dengan mercon.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Barito Utara sukses menghalau serbuan Tabalong!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 43,
+      "date": "Juli 2033",
+      "atk": "Tabalong",
+      "def": "Barito Utara",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 42,
       "date": "Juni 2033",
