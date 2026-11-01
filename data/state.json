@@ -1,8 +1,8 @@
 {
-  "round": 46,
+  "round": 47,
   "year": 2033,
-  "month": 10,
-  "activeFactionsCount": 482,
+  "month": 11,
+  "activeFactionsCount": 481,
   "territoryOwner": [
     0,
     1,
@@ -190,7 +190,7 @@
     183,
     184,
     185,
-    186,
+    178,
     187,
     188,
     189,
@@ -2298,7 +2298,7 @@
       "name": "Ketapang",
       "province": "Kalimantan Barat",
       "color": "#a8343b",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2378,10 +2378,10 @@
       "name": "Sanggau",
       "province": "Kalimantan Barat",
       "color": "#984c2f",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 47,
+      "eliminatedBy": 178
     },
     {
       "id": 187,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 46,
-    "date": "Oktober 2033",
-    "monthNumber": 10,
+    "round": 47,
+    "date": "November 2033",
+    "monthNumber": 11,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 161,
-      "name": "Nganjuk",
-      "province": "Jawa Timur",
-      "color": "#3db3b0",
-      "count": 1
+      "id": 178,
+      "name": "Ketapang",
+      "province": "Kalimantan Barat",
+      "color": "#a8343b",
+      "count": 2
     },
     "defFaction": {
-      "id": 157,
-      "name": "Madiun",
-      "province": "Jawa Timur",
-      "color": "#a3384c",
-      "count": 1
+      "id": 186,
+      "name": "Sanggau",
+      "province": "Kalimantan Barat",
+      "color": "#984c2f",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 161,
-      "name": "Nganjuk",
-      "province": "Jawa Timur",
+      "id": 178,
+      "name": "Ketapang",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        564.6,
-        601.4
+        523.9,
+        424.4
       ]
     },
     "defTerritory": {
-      "id": 157,
-      "name": "Madiun",
-      "province": "Jawa Timur",
+      "id": 186,
+      "name": "Sanggau",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        555,
-        602.4
+        519.7,
+        367.3
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 482,
+    "success": true,
+    "eliminated": {
+      "id": 186,
+      "name": "Sanggau",
+      "province": "Kalimantan Barat"
+    },
+    "activeFactionsCount": 481,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring.",
-      "story": "Konvoi tempur Nganjuk dipukul mundur secara memalukan oleh barisan emak-emak naik motor matic sein kiri tapi belok kanan.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Perang klaim uang donasi pengobatan vi...] Madiun sukses menghalau serbuan Nganjuk!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
+      "story": "Pasukan marinir Ketapang menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Sanggau berhasil diamankan.\n\n💀 NASIB AKHIR:\nFaksi Sanggau resmi BUBAR! Seluruh warga Sanggau kini wajib ganti KTP, bayar retribusi ke dinasti Ketapang, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sanggau Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Ketapang menjebol Sanggau! 💀 Sanggau RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 47,
+      "date": "November 2033",
+      "atk": "Ketapang",
+      "def": "Sanggau",
+      "success": true,
+      "elim": "Sanggau",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sanggau Runtuh & Lenyap dari Peta",
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
+    },
     {
       "round": 46,
       "date": "Oktober 2033",
