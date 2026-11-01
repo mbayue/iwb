@@ -1,8 +1,8 @@
 {
-  "round": 43,
+  "round": 44,
   "year": 2033,
-  "month": 7,
-  "activeFactionsCount": 484,
+  "month": 8,
+  "activeFactionsCount": 483,
   "territoryOwner": [
     0,
     1,
@@ -272,7 +272,7 @@
     265,
     266,
     267,
-    268,
+    265,
     269,
     270,
     271,
@@ -3168,7 +3168,7 @@
       "name": "Kota Tual",
       "province": "Maluku",
       "color": "#80a338",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -3198,10 +3198,10 @@
       "name": "Maluku Tenggara",
       "province": "Maluku",
       "color": "#3c9f50",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 44,
+      "eliminatedBy": 265
     },
     {
       "id": 269,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 43,
-    "date": "Juli 2033",
-    "monthNumber": 7,
+    "round": 44,
+    "date": "Agustus 2033",
+    "monthNumber": 8,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 198,
-      "name": "Tabalong",
-      "province": "Kalimantan Selatan",
-      "color": "#2f4698",
-      "count": 1
-    },
-    "defFaction": {
-      "id": 206,
-      "name": "Kapuas",
-      "province": "Kalimantan Tengah",
-      "color": "#4638b7",
+      "id": 265,
+      "name": "Kota Tual",
+      "province": "Maluku",
+      "color": "#80a338",
       "count": 2
     },
+    "defFaction": {
+      "id": 268,
+      "name": "Maluku Tenggara",
+      "province": "Maluku",
+      "color": "#3c9f50",
+      "count": 0
+    },
     "atkTerritory": {
-      "id": 198,
-      "name": "Tabalong",
-      "province": "Kalimantan Selatan",
+      "id": 265,
+      "name": "Kota Tual",
+      "province": "Maluku",
       "cScreen": [
-        669.5,
-        432.3
+        1169.1,
+        540.1
       ]
     },
     "defTerritory": {
-      "id": 204,
-      "name": "Barito Utara",
-      "province": "Kalimantan Tengah",
+      "id": 268,
+      "name": "Maluku Tenggara",
+      "province": "Maluku",
       "cScreen": [
-        660.1,
-        403.4
+        1182.3,
+        546
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 484,
+    "success": true,
+    "eliminated": {
+      "id": 268,
+      "name": "Maluku Tenggara",
+      "province": "Maluku"
+    },
+    "activeFactionsCount": 483,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Kapal penyerbu Tabalong terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai Barito Utara mengusir mereka dengan mercon.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Barito Utara sukses menghalau serbuan Tabalong!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Sengketa gelar doktor kilat 1 tahun 8 bulan milik bupati yang mendadak ditangguhkan senat kampus.",
+      "story": "Pasukan elit Kota Tual melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Maluku Tenggara kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Maluku Tenggara bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kota Tual!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tenggara Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa gelar doktor kilat 1 tahun 8 ...] Kota Tual menjebol Maluku Tenggara! 💀 Maluku Tenggara RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 44,
+      "date": "Agustus 2033",
+      "atk": "Kota Tual",
+      "def": "Maluku Tenggara",
+      "success": true,
+      "elim": "Maluku Tenggara",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tenggara Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa gelar doktor kilat 1 tahun 8 bulan milik bupati yang mendadak ditangguhkan senat kampus."
+    },
     {
       "round": 43,
       "date": "Juli 2033",
