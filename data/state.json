@@ -1,8 +1,8 @@
 {
-  "round": 44,
+  "round": 45,
   "year": 2033,
-  "month": 8,
-  "activeFactionsCount": 483,
+  "month": 9,
+  "activeFactionsCount": 482,
   "territoryOwner": [
     0,
     1,
@@ -40,7 +40,7 @@
     33,
     34,
     35,
-    36,
+    101,
     37,
     38,
     39,
@@ -878,10 +878,10 @@
       "name": "Lebak",
       "province": "Banten",
       "color": "#643790",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 45,
+      "eliminatedBy": 101
     },
     {
       "id": 37,
@@ -1528,7 +1528,7 @@
       "name": "Sukabumi",
       "province": "Jawa Barat",
       "color": "#3d7bb3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 44,
-    "date": "Agustus 2033",
-    "monthNumber": 8,
+    "round": 45,
+    "date": "September 2033",
+    "monthNumber": 9,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 265,
-      "name": "Kota Tual",
-      "province": "Maluku",
-      "color": "#80a338",
+      "id": 101,
+      "name": "Sukabumi",
+      "province": "Jawa Barat",
+      "color": "#3d7bb3",
       "count": 2
     },
     "defFaction": {
-      "id": 268,
-      "name": "Maluku Tenggara",
-      "province": "Maluku",
-      "color": "#3c9f50",
+      "id": 36,
+      "name": "Lebak",
+      "province": "Banten",
+      "color": "#643790",
       "count": 0
     },
     "atkTerritory": {
-      "id": 265,
-      "name": "Kota Tual",
-      "province": "Maluku",
+      "id": 101,
+      "name": "Sukabumi",
+      "province": "Jawa Barat",
       "cScreen": [
-        1169.1,
-        540.1
+        410.5,
+        584.2
       ]
     },
     "defTerritory": {
-      "id": 268,
-      "name": "Maluku Tenggara",
-      "province": "Maluku",
+      "id": 36,
+      "name": "Lebak",
+      "province": "Banten",
       "cScreen": [
-        1182.3,
-        546
+        395.2,
+        572.9
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 268,
-      "name": "Maluku Tenggara",
-      "province": "Maluku"
+      "id": 36,
+      "name": "Lebak",
+      "province": "Banten"
     },
-    "activeFactionsCount": 483,
+    "activeFactionsCount": 482,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa gelar doktor kilat 1 tahun 8 bulan milik bupati yang mendadak ditangguhkan senat kampus.",
-      "story": "Pasukan elit Kota Tual melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Maluku Tenggara kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Maluku Tenggara bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kota Tual!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tenggara Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa gelar doktor kilat 1 tahun 8 ...] Kota Tual menjebol Maluku Tenggara! 💀 Maluku Tenggara RUNTUH!",
+      "casusBelli": "Sengketa pembagian setoran makelar kasus perizinan tambang pasir yang macet di meja panitera.",
+      "story": "Konvoi pick-up dan motor brong Sukabumi menerobos gerbang batas teritorial Lebak saat subuh. Pasukan pertahanan Lebak tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati Lebak dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Lebak resmi BUBAR!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lebak Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa pembagian setoran makelar kas...] Sukabumi menjebol Lebak! 💀 Lebak RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 45,
+      "date": "September 2033",
+      "atk": "Sukabumi",
+      "def": "Lebak",
+      "success": true,
+      "elim": "Lebak",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lebak Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa pembagian setoran makelar kasus perizinan tambang pasir yang macet di meja panitera."
+    },
     {
       "round": 44,
       "date": "Agustus 2033",
