@@ -1,7 +1,7 @@
 {
-  "round": 49,
+  "round": 50,
   "year": 2034,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 480,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 49,
-    "date": "Januari 2034",
-    "monthNumber": 1,
+    "round": 50,
+    "date": "Februari 2034",
+    "monthNumber": 2,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 231,
-      "name": "Bangka",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#6e9c2b",
-      "count": 2
+      "id": 99,
+      "name": "Purwakarta",
+      "province": "Jawa Barat",
+      "color": "#8f2b9c",
+      "count": 1
     },
     "defFaction": {
-      "id": 234,
-      "name": "Bangka Tengah",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#2f984c",
-      "count": 0
+      "id": 80,
+      "name": "Bogor",
+      "province": "Jawa Barat",
+      "color": "#4289ae",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 231,
-      "name": "Bangka",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 99,
+      "name": "Purwakarta",
+      "province": "Jawa Barat",
       "cScreen": [
-        387,
-        434.5
+        432,
+        572.2
       ]
     },
     "defTerritory": {
-      "id": 234,
-      "name": "Bangka Tengah",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 80,
+      "name": "Bogor",
+      "province": "Jawa Barat",
       "cScreen": [
-        396.5,
-        449.5
+        412.9,
+        570.5
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 234,
-      "name": "Bangka Tengah",
-      "province": "Kepulauan Bangka Belitung"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 480,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Bangka sukses merebut tugu perbatasan dan gedung dinas Bangka Tengah. Bendera Bangka Tengah diturunkan dan diganti bendera kejayaan Bangka.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Bangka Tengah resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Bangka Tengah resmi disita dan diubah jadi gerai Mie Gacoan cabang Bangka!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bangka Tengah Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa pembagian royalti tambang tim...] Bangka menjebol Bangka Tengah! 💀 Bangka Tengah RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.",
+      "story": "Helikopter penyerbu Purwakarta batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Pengadaan suku cadang senjata dan bens...] Bogor sukses menghalau serbuan Purwakarta!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 50,
+      "date": "Februari 2034",
+      "atk": "Purwakarta",
+      "def": "Bogor",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai."
+    },
     {
       "round": 49,
       "date": "Januari 2034",
