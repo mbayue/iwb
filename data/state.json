@@ -1,7 +1,7 @@
 {
-  "round": 47,
+  "round": 48,
   "year": 2033,
-  "month": 11,
+  "month": 12,
   "activeFactionsCount": 481,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 47,
-    "date": "November 2033",
-    "monthNumber": 11,
+    "round": 48,
+    "date": "Desember 2033",
+    "monthNumber": 12,
     "yearNumber": 2033,
     "atkFaction": {
-      "id": 178,
-      "name": "Ketapang",
-      "province": "Kalimantan Barat",
-      "color": "#a8343b",
-      "count": 2
+      "id": 149,
+      "name": "Kota Kediri",
+      "province": "Jawa Timur",
+      "color": "#b33d7a",
+      "count": 1
     },
     "defFaction": {
-      "id": 186,
-      "name": "Sanggau",
-      "province": "Kalimantan Barat",
-      "color": "#984c2f",
-      "count": 0
+      "id": 146,
+      "name": "Kediri",
+      "province": "Jawa Timur",
+      "color": "#8538b7",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 178,
-      "name": "Ketapang",
-      "province": "Kalimantan Barat",
+      "id": 149,
+      "name": "Kota Kediri",
+      "province": "Jawa Timur",
       "cScreen": [
-        523.9,
-        424.4
+        567.1,
+        608.2
       ]
     },
     "defTerritory": {
-      "id": 186,
-      "name": "Sanggau",
-      "province": "Kalimantan Barat",
+      "id": 146,
+      "name": "Kediri",
+      "province": "Jawa Timur",
       "cScreen": [
-        519.7,
-        367.3
+        569.3,
+        607.6
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 186,
-      "name": "Sanggau",
-      "province": "Kalimantan Barat"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 481,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
-      "story": "Pasukan marinir Ketapang menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Sanggau berhasil diamankan.\n\n💀 NASIB AKHIR:\nFaksi Sanggau resmi BUBAR! Seluruh warga Sanggau kini wajib ganti KTP, bayar retribusi ke dinasti Ketapang, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sanggau Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Ketapang menjebol Sanggau! 💀 Sanggau RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
+      "story": "Rencana serbuan Kota Kediri bocor duluan ke garnisun Kediri gara-gara pejabat intelijen Kota Kediri menjual dokumen taktik seharga kardus suap makelar kasus.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Investor ritel mengamuk aturan papan F...] Kediri sukses menghalau serbuan Kota Kediri!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 48,
+      "date": "Desember 2033",
+      "atk": "Kota Kediri",
+      "def": "Kediri",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
+    },
     {
       "round": 47,
       "date": "November 2033",
