@@ -1,8 +1,8 @@
 {
-  "round": 48,
-  "year": 2033,
-  "month": 12,
-  "activeFactionsCount": 481,
+  "round": 49,
+  "year": 2034,
+  "month": 1,
+  "activeFactionsCount": 480,
   "territoryOwner": [
     0,
     1,
@@ -238,7 +238,7 @@
     231,
     232,
     233,
-    234,
+    231,
     235,
     236,
     237,
@@ -2828,7 +2828,7 @@
       "name": "Bangka",
       "province": "Kepulauan Bangka Belitung",
       "color": "#6e9c2b",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2858,10 +2858,10 @@
       "name": "Bangka Tengah",
       "province": "Kepulauan Bangka Belitung",
       "color": "#2f984c",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 49,
+      "eliminatedBy": 231
     },
     {
       "id": 235,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 48,
-    "date": "Desember 2033",
-    "monthNumber": 12,
-    "yearNumber": 2033,
+    "round": 49,
+    "date": "Januari 2034",
+    "monthNumber": 1,
+    "yearNumber": 2034,
     "atkFaction": {
-      "id": 149,
-      "name": "Kota Kediri",
-      "province": "Jawa Timur",
-      "color": "#b33d7a",
-      "count": 1
+      "id": 231,
+      "name": "Bangka",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#6e9c2b",
+      "count": 2
     },
     "defFaction": {
-      "id": 146,
-      "name": "Kediri",
-      "province": "Jawa Timur",
-      "color": "#8538b7",
-      "count": 1
+      "id": 234,
+      "name": "Bangka Tengah",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#2f984c",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 149,
-      "name": "Kota Kediri",
-      "province": "Jawa Timur",
+      "id": 231,
+      "name": "Bangka",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        567.1,
-        608.2
+        387,
+        434.5
       ]
     },
     "defTerritory": {
-      "id": 146,
-      "name": "Kediri",
-      "province": "Jawa Timur",
+      "id": 234,
+      "name": "Bangka Tengah",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        569.3,
-        607.6
+        396.5,
+        449.5
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 481,
+    "success": true,
+    "eliminated": {
+      "id": 234,
+      "name": "Bangka Tengah",
+      "province": "Kepulauan Bangka Belitung"
+    },
+    "activeFactionsCount": 480,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
-      "story": "Rencana serbuan Kota Kediri bocor duluan ke garnisun Kediri gara-gara pejabat intelijen Kota Kediri menjual dokumen taktik seharga kardus suap makelar kasus.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Investor ritel mengamuk aturan papan F...] Kediri sukses menghalau serbuan Kota Kediri!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Bangka sukses merebut tugu perbatasan dan gedung dinas Bangka Tengah. Bendera Bangka Tengah diturunkan dan diganti bendera kejayaan Bangka.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Bangka Tengah resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Bangka Tengah resmi disita dan diubah jadi gerai Mie Gacoan cabang Bangka!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bangka Tengah Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa pembagian royalti tambang tim...] Bangka menjebol Bangka Tengah! 💀 Bangka Tengah RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 49,
+      "date": "Januari 2034",
+      "atk": "Bangka",
+      "def": "Bangka Tengah",
+      "success": true,
+      "elim": "Bangka Tengah",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bangka Tengah Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
+    },
     {
       "round": 48,
       "date": "Desember 2033",
