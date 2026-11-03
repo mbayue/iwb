@@ -1,8 +1,8 @@
 {
-  "round": 51,
+  "round": 52,
   "year": 2034,
-  "month": 3,
-  "activeFactionsCount": 480,
+  "month": 4,
+  "activeFactionsCount": 479,
   "territoryOwner": [
     0,
     1,
@@ -132,7 +132,7 @@
     125,
     126,
     127,
-    128,
+    127,
     129,
     130,
     131,
@@ -1788,7 +1788,7 @@
       "name": "Pemalang",
       "province": "Jawa Tengah",
       "color": "#2fa5ac",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1798,10 +1798,10 @@
       "name": "Purbalingga",
       "province": "Jawa Tengah",
       "color": "#ae4288",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 52,
+      "eliminatedBy": 127
     },
     {
       "id": 129,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 51,
-    "date": "Maret 2034",
-    "monthNumber": 3,
+    "round": 52,
+    "date": "April 2034",
+    "monthNumber": 4,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 361,
-      "name": "Kota Pekanbaru",
-      "province": "Riau",
-      "color": "#a3387f",
-      "count": 1
+      "id": 127,
+      "name": "Pemalang",
+      "province": "Jawa Tengah",
+      "color": "#2fa5ac",
+      "count": 2
     },
     "defFaction": {
-      "id": 363,
-      "name": "Pelalawan",
-      "province": "Riau",
-      "color": "#2b349c",
-      "count": 1
+      "id": 128,
+      "name": "Purbalingga",
+      "province": "Jawa Tengah",
+      "color": "#ae4288",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 361,
-      "name": "Kota Pekanbaru",
-      "province": "Riau",
+      "id": 127,
+      "name": "Pemalang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        255.3,
-        360.6
+        489.6,
+        585.1
       ]
     },
     "defTerritory": {
-      "id": 363,
-      "name": "Pelalawan",
-      "province": "Riau",
+      "id": 128,
+      "name": "Purbalingga",
+      "province": "Jawa Tengah",
       "cScreen": [
-        282.4,
-        369.2
+        490.4,
+        592.7
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 480,
+    "success": true,
+    "eliminated": {
+      "id": 128,
+      "name": "Purbalingga",
+      "province": "Jawa Tengah"
+    },
+    "activeFactionsCount": 479,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
-      "story": "Serangan Kota Pekanbaru terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Pelalawan sukses menghalau serbuan Kota Pekanbaru!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Kabut asap karhutla pekat kiriman kebun sawit kabupaten sebelah bikin jarak pandang tinggal 10 meter dan langit berubah oranye.",
+      "story": "Pasukan elit Pemalang melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Purbalingga kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Purbalingga terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Pemalang!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Purbalingga Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Kabut asap karhutla pekat kiriman kebu...] Pemalang menjebol Purbalingga! 💀 Purbalingga RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 52,
+      "date": "April 2034",
+      "atk": "Pemalang",
+      "def": "Purbalingga",
+      "success": true,
+      "elim": "Purbalingga",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Purbalingga Runtuh & Lenyap dari Peta",
+      "casusBelli": "Kabut asap karhutla pekat kiriman kebun sawit kabupaten sebelah bikin jarak pandang tinggal 10 meter dan langit berubah oranye."
+    },
     {
       "round": 51,
       "date": "Maret 2034",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskannya dengan menyerbu kota sebelah."
-    },
-    {
-      "round": 2,
-      "date": "Februari 2030",
-      "atk": "Takalar",
-      "def": "Kota Makassar",
-      "success": true,
-      "elim": "Kota Makassar",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Makassar Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
     }
   ]
 }
