@@ -1,7 +1,7 @@
 {
-  "round": 52,
+  "round": 53,
   "year": 2034,
-  "month": 4,
+  "month": 5,
   "activeFactionsCount": 479,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 52,
-    "date": "April 2034",
-    "monthNumber": 4,
+    "round": 53,
+    "date": "Mei 2034",
+    "monthNumber": 5,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 127,
-      "name": "Pemalang",
-      "province": "Jawa Tengah",
-      "color": "#2fa5ac",
-      "count": 2
+      "id": 342,
+      "name": "Yalimo",
+      "province": "Papua Pegunungan",
+      "color": "#2f4498",
+      "count": 1
     },
     "defFaction": {
-      "id": 128,
-      "name": "Purbalingga",
-      "province": "Jawa Tengah",
-      "color": "#ae4288",
-      "count": 0
+      "id": 335,
+      "name": "Jayawijaya",
+      "province": "Papua Pegunungan",
+      "color": "#bc3455",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 127,
-      "name": "Pemalang",
-      "province": "Jawa Tengah",
+      "id": 342,
+      "name": "Yalimo",
+      "province": "Papua Pegunungan",
       "cScreen": [
-        489.6,
-        585.1
+        1378.1,
+        489.4
       ]
     },
     "defTerritory": {
-      "id": 128,
-      "name": "Purbalingga",
-      "province": "Jawa Tengah",
+      "id": 335,
+      "name": "Jayawijaya",
+      "province": "Papua Pegunungan",
       "cScreen": [
-        490.4,
-        592.7
+        1358.8,
+        498.3
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 128,
-      "name": "Purbalingga",
-      "province": "Jawa Tengah"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 479,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kabut asap karhutla pekat kiriman kebun sawit kabupaten sebelah bikin jarak pandang tinggal 10 meter dan langit berubah oranye.",
-      "story": "Pasukan elit Pemalang melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Purbalingga kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Purbalingga terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Pemalang!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Purbalingga Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Kabut asap karhutla pekat kiriman kebu...] Pemalang menjebol Purbalingga! 💀 Purbalingga RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\".",
+      "story": "Tank penyerbu Yalimo kehabisan bensin eceran di tengah jalan dan tentaranya malah nongkrong ngopi dan makan gorengan di warkop perbatasan.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Server pertahanan perbatasan lumpuh to...] Jayawijaya sukses menghalau serbuan Yalimo!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 53,
+      "date": "Mei 2034",
+      "atk": "Yalimo",
+      "def": "Jayawijaya",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\"."
+    },
     {
       "round": 52,
       "date": "April 2034",
@@ -6131,16 +6137,6 @@
       "elim": "Teluk Bintuni",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Teluk Bintuni Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
-    },
-    {
-      "round": 3,
-      "date": "Maret 2030",
-      "atk": "Sikka",
-      "def": "Flores Timur",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "IHSG bursa anjlok parah hingga trading halt BEI, pialang saham panik dan melampiaskannya dengan menyerbu kota sebelah."
     }
   ]
 }
