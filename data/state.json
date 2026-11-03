@@ -1,7 +1,7 @@
 {
-  "round": 50,
+  "round": 51,
   "year": 2034,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 480,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 50,
-    "date": "Februari 2034",
-    "monthNumber": 2,
+    "round": 51,
+    "date": "Maret 2034",
+    "monthNumber": 3,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 99,
-      "name": "Purwakarta",
-      "province": "Jawa Barat",
-      "color": "#8f2b9c",
+      "id": 361,
+      "name": "Kota Pekanbaru",
+      "province": "Riau",
+      "color": "#a3387f",
       "count": 1
     },
     "defFaction": {
-      "id": 80,
-      "name": "Bogor",
-      "province": "Jawa Barat",
-      "color": "#4289ae",
+      "id": 363,
+      "name": "Pelalawan",
+      "province": "Riau",
+      "color": "#2b349c",
       "count": 1
     },
     "atkTerritory": {
-      "id": 99,
-      "name": "Purwakarta",
-      "province": "Jawa Barat",
+      "id": 361,
+      "name": "Kota Pekanbaru",
+      "province": "Riau",
       "cScreen": [
-        432,
-        572.2
+        255.3,
+        360.6
       ]
     },
     "defTerritory": {
-      "id": 80,
-      "name": "Bogor",
-      "province": "Jawa Barat",
+      "id": 363,
+      "name": "Pelalawan",
+      "province": "Riau",
       "cScreen": [
-        412.9,
-        570.5
+        282.4,
+        369.2
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.",
-      "story": "Helikopter penyerbu Purwakarta batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.",
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
+      "story": "Serangan Kota Pekanbaru terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pengadaan suku cadang senjata dan bens...] Bogor sukses menghalau serbuan Purwakarta!",
+      "bannerText": "🛡️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Pelalawan sukses menghalau serbuan Kota Pekanbaru!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 51,
+      "date": "Maret 2034",
+      "atk": "Kota Pekanbaru",
+      "def": "Pelalawan",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
+    },
     {
       "round": 50,
       "date": "Februari 2034",
@@ -6127,16 +6137,6 @@
       "elim": "Kota Makassar",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Makassar Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
-    },
-    {
-      "round": 1,
-      "date": "Januari 2030",
-      "atk": "Brebes",
-      "def": "Banyumas",
-      "success": true,
-      "elim": "Banyumas",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banyumas Runtuh & Lenyap dari Peta",
-      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah."
     }
   ]
 }
