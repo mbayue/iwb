@@ -1,7 +1,7 @@
 {
-  "round": 54,
+  "round": 55,
   "year": 2034,
-  "month": 6,
+  "month": 7,
   "activeFactionsCount": 479,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 54,
-    "date": "Juni 2034",
-    "monthNumber": 6,
+    "round": 55,
+    "date": "Juli 2034",
+    "monthNumber": 7,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 435,
-      "name": "Kota Kotamobagu",
-      "province": "Sulawesi Utara",
-      "color": "#9c942b",
+      "id": 112,
+      "name": "Grobogan",
+      "province": "Jawa Tengah",
+      "color": "#803c9f",
       "count": 1
     },
     "defFaction": {
-      "id": 429,
-      "name": "Bolaang Mongondow Timur",
-      "province": "Sulawesi Utara",
-      "color": "#943383",
+      "id": 131,
+      "name": "Semarang",
+      "province": "Jawa Tengah",
+      "color": "#bc5234",
       "count": 1
     },
     "atkTerritory": {
-      "id": 435,
-      "name": "Kota Kotamobagu",
-      "province": "Sulawesi Utara",
+      "id": 112,
+      "name": "Grobogan",
+      "province": "Jawa Tengah",
       "cScreen": [
-        930.3,
-        355.8
+        533.5,
+        587
       ]
     },
     "defTerritory": {
-      "id": 429,
-      "name": "Bolaang Mongondow Timur",
-      "province": "Sulawesi Utara",
+      "id": 131,
+      "name": "Semarang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        935.4,
-        356.1
+        521.5,
+        592.1
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
-      "story": "Rencana serbuan Kota Kotamobagu bocor duluan ke garnisun Bolaang Mongondow Timur gara-gara pejabat intelijen Kota Kotamobagu menjual dokumen taktik seharga kardus suap makelar kasus.",
+      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita.",
+      "story": "Helikopter penyerbu Grobogan batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Bolaang Mongondow Timur sukses menghalau serbuan Kota Kotamobagu!",
+      "bannerText": "🛡️ [PEMICU: Warga murka kabut asap pekat karhutla ...] Semarang sukses menghalau serbuan Grobogan!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 55,
+      "date": "Juli 2034",
+      "atk": "Grobogan",
+      "def": "Semarang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita."
+    },
     {
       "round": 54,
       "date": "Juni 2034",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Rebutan kuota program Makan Bergizi Gratis (MBG) yang jatah susunya tertukar dengan susu kedelai basi."
-    },
-    {
-      "round": 5,
-      "date": "Mei 2030",
-      "atk": "Magelang",
-      "def": "Kulon Progo",
-      "success": true,
-      "elim": "Kulon Progo",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kulon Progo Runtuh & Lenyap dari Peta",
-      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
     }
   ]
 }
