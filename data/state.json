@@ -1,8 +1,8 @@
 {
-  "round": 56,
+  "round": 57,
   "year": 2034,
-  "month": 8,
-  "activeFactionsCount": 479,
+  "month": 9,
+  "activeFactionsCount": 478,
   "territoryOwner": [
     0,
     1,
@@ -290,7 +290,7 @@
     283,
     284,
     285,
-    286,
+    287,
     287,
     288,
     289,
@@ -3378,17 +3378,17 @@
       "name": "Lombok Tengah",
       "province": "Nusa Tenggara Barat",
       "color": "#73a834",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 57,
+      "eliminatedBy": 287
     },
     {
       "id": 287,
       "name": "Lombok Timur",
       "province": "Nusa Tenggara Barat",
       "color": "#3456bc",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 56,
-    "date": "Agustus 2034",
-    "monthNumber": 8,
+    "round": 57,
+    "date": "September 2034",
+    "monthNumber": 9,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 82,
-      "name": "Cianjur",
-      "province": "Jawa Barat",
-      "color": "#3ca834",
+      "id": 287,
+      "name": "Lombok Timur",
+      "province": "Nusa Tenggara Barat",
+      "color": "#3456bc",
       "count": 2
     },
     "defFaction": {
-      "id": 77,
-      "name": "Bandung",
-      "province": "Jawa Barat",
-      "color": "#3db374",
-      "count": 1
+      "id": 286,
+      "name": "Lombok Tengah",
+      "province": "Nusa Tenggara Barat",
+      "color": "#73a834",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 84,
-      "name": "Garut",
-      "province": "Jawa Barat",
+      "id": 287,
+      "name": "Lombok Timur",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        442.8,
-        593.2
+        699.4,
+        630.9
       ]
     },
     "defTerritory": {
-      "id": 77,
-      "name": "Bandung",
-      "province": "Jawa Barat",
+      "id": 286,
+      "name": "Lombok Tengah",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        437.6,
-        584.5
+        692.7,
+        633.9
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 479,
+    "success": true,
+    "eliminated": {
+      "id": 286,
+      "name": "Lombok Tengah",
+      "province": "Nusa Tenggara Barat"
+    },
+    "activeFactionsCount": 478,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\".",
-      "story": "Pasukan Cianjur tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Server pertahanan perbatasan lumpuh to...] Bandung sukses menghalau serbuan Cianjur!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin.",
+      "story": "Laskar Lombok Timur memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Lombok Tengah. Tanpa stok sambal dan amunisi cadangan, garnisun Lombok Tengah lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Lombok Tengah diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Lombok Tengah resmi BUBAR dan disita negara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lombok Tengah Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa proyek tanggul Giant Sea Wall...] Lombok Timur menjebol Lombok Tengah! 💀 Lombok Tengah RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 57,
+      "date": "September 2034",
+      "atk": "Lombok Timur",
+      "def": "Lombok Tengah",
+      "success": true,
+      "elim": "Lombok Tengah",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lombok Tengah Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
+    },
     {
       "round": 56,
       "date": "Agustus 2034",
@@ -6127,16 +6141,6 @@
       "elim": "Pakpak Bharat",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Pakpak Bharat Runtuh & Lenyap dari Peta",
       "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan."
-    },
-    {
-      "round": 7,
-      "date": "Juli 2030",
-      "atk": "Kota Banjarmasin",
-      "def": "Banjar",
-      "success": true,
-      "elim": "Banjar",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Banjar Runtuh & Lenyap dari Peta",
-      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
     }
   ]
 }
