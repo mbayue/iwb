@@ -1,7 +1,7 @@
 {
-  "round": 55,
+  "round": 56,
   "year": 2034,
-  "month": 7,
+  "month": 8,
   "activeFactionsCount": 479,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 55,
-    "date": "Juli 2034",
-    "monthNumber": 7,
+    "round": 56,
+    "date": "Agustus 2034",
+    "monthNumber": 8,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 112,
-      "name": "Grobogan",
-      "province": "Jawa Tengah",
-      "color": "#803c9f",
-      "count": 1
+      "id": 82,
+      "name": "Cianjur",
+      "province": "Jawa Barat",
+      "color": "#3ca834",
+      "count": 2
     },
     "defFaction": {
-      "id": 131,
-      "name": "Semarang",
-      "province": "Jawa Tengah",
-      "color": "#bc5234",
+      "id": 77,
+      "name": "Bandung",
+      "province": "Jawa Barat",
+      "color": "#3db374",
       "count": 1
     },
     "atkTerritory": {
-      "id": 112,
-      "name": "Grobogan",
-      "province": "Jawa Tengah",
+      "id": 84,
+      "name": "Garut",
+      "province": "Jawa Barat",
       "cScreen": [
-        533.5,
-        587
+        442.8,
+        593.2
       ]
     },
     "defTerritory": {
-      "id": 131,
-      "name": "Semarang",
-      "province": "Jawa Tengah",
+      "id": 77,
+      "name": "Bandung",
+      "province": "Jawa Barat",
       "cScreen": [
-        521.5,
-        592.1
+        437.6,
+        584.5
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita.",
-      "story": "Helikopter penyerbu Grobogan batal mendarat setelah dihantam guyuran bom air (water bombing) salah sasaran dari satgas karhutla.",
+      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\".",
+      "story": "Pasukan Cianjur tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga murka kabut asap pekat karhutla ...] Semarang sukses menghalau serbuan Grobogan!",
+      "bannerText": "🛡️ [PEMICU: Server pertahanan perbatasan lumpuh to...] Bandung sukses menghalau serbuan Cianjur!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 56,
+      "date": "Agustus 2034",
+      "atk": "Cianjur",
+      "def": "Bandung",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\"."
+    },
     {
       "round": 55,
       "date": "Juli 2034",
@@ -6127,16 +6137,6 @@
       "elim": "Banjar",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Banjar Runtuh & Lenyap dari Peta",
       "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
-    },
-    {
-      "round": 6,
-      "date": "Juni 2030",
-      "atk": "Pesisir Barat",
-      "def": "Tanggamus",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Rebutan kuota program Makan Bergizi Gratis (MBG) yang jatah susunya tertukar dengan susu kedelai basi."
     }
   ]
 }
