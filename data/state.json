@@ -1,7 +1,7 @@
 {
-  "round": 53,
+  "round": 54,
   "year": 2034,
-  "month": 5,
+  "month": 6,
   "activeFactionsCount": 479,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 53,
-    "date": "Mei 2034",
-    "monthNumber": 5,
+    "round": 54,
+    "date": "Juni 2034",
+    "monthNumber": 6,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 342,
-      "name": "Yalimo",
-      "province": "Papua Pegunungan",
-      "color": "#2f4498",
+      "id": 435,
+      "name": "Kota Kotamobagu",
+      "province": "Sulawesi Utara",
+      "color": "#9c942b",
       "count": 1
     },
     "defFaction": {
-      "id": 335,
-      "name": "Jayawijaya",
-      "province": "Papua Pegunungan",
-      "color": "#bc3455",
+      "id": 429,
+      "name": "Bolaang Mongondow Timur",
+      "province": "Sulawesi Utara",
+      "color": "#943383",
       "count": 1
     },
     "atkTerritory": {
-      "id": 342,
-      "name": "Yalimo",
-      "province": "Papua Pegunungan",
+      "id": 435,
+      "name": "Kota Kotamobagu",
+      "province": "Sulawesi Utara",
       "cScreen": [
-        1378.1,
-        489.4
+        930.3,
+        355.8
       ]
     },
     "defTerritory": {
-      "id": 335,
-      "name": "Jayawijaya",
-      "province": "Papua Pegunungan",
+      "id": 429,
+      "name": "Bolaang Mongondow Timur",
+      "province": "Sulawesi Utara",
       "cScreen": [
-        1358.8,
-        498.3
+        935.4,
+        356.1
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\".",
-      "story": "Tank penyerbu Yalimo kehabisan bensin eceran di tengah jalan dan tentaranya malah nongkrong ngopi dan makan gorengan di warkop perbatasan.",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
+      "story": "Rencana serbuan Kota Kotamobagu bocor duluan ke garnisun Bolaang Mongondow Timur gara-gara pejabat intelijen Kota Kotamobagu menjual dokumen taktik seharga kardus suap makelar kasus.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Server pertahanan perbatasan lumpuh to...] Jayawijaya sukses menghalau serbuan Yalimo!",
+      "bannerText": "🛡️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Bolaang Mongondow Timur sukses menghalau serbuan Kota Kotamobagu!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 54,
+      "date": "Juni 2034",
+      "atk": "Kota Kotamobagu",
+      "def": "Bolaang Mongondow Timur",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
+    },
     {
       "round": 53,
       "date": "Mei 2034",
@@ -6127,16 +6137,6 @@
       "elim": "Kulon Progo",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Kulon Progo Runtuh & Lenyap dari Peta",
       "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
-    },
-    {
-      "round": 4,
-      "date": "April 2030",
-      "atk": "Sorong Selatan",
-      "def": "Teluk Bintuni",
-      "success": true,
-      "elim": "Teluk Bintuni",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Teluk Bintuni Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
     }
   ]
 }
