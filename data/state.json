@@ -1,8 +1,8 @@
 {
-  "round": 57,
+  "round": 58,
   "year": 2034,
-  "month": 9,
-  "activeFactionsCount": 478,
+  "month": 10,
+  "activeFactionsCount": 477,
   "territoryOwner": [
     0,
     1,
@@ -53,7 +53,7 @@
     46,
     47,
     48,
-    49,
+    45,
     50,
     51,
     52,
@@ -968,7 +968,7 @@
       "name": "Kota Bengkulu",
       "province": "Bengkulu",
       "color": "#879433",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1008,10 +1008,10 @@
       "name": "Seluma",
       "province": "Bengkulu",
       "color": "#5838a3",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 58,
+      "eliminatedBy": 45
     },
     {
       "id": 50,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 57,
-    "date": "September 2034",
-    "monthNumber": 9,
+    "round": 58,
+    "date": "Oktober 2034",
+    "monthNumber": 10,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 287,
-      "name": "Lombok Timur",
-      "province": "Nusa Tenggara Barat",
-      "color": "#3456bc",
+      "id": 45,
+      "name": "Kota Bengkulu",
+      "province": "Bengkulu",
+      "color": "#879433",
       "count": 2
     },
     "defFaction": {
-      "id": 286,
-      "name": "Lombok Tengah",
-      "province": "Nusa Tenggara Barat",
-      "color": "#73a834",
+      "id": 49,
+      "name": "Seluma",
+      "province": "Bengkulu",
+      "color": "#5838a3",
       "count": 0
     },
     "atkTerritory": {
-      "id": 287,
-      "name": "Lombok Timur",
-      "province": "Nusa Tenggara Barat",
+      "id": 45,
+      "name": "Kota Bengkulu",
+      "province": "Bengkulu",
       "cScreen": [
-        699.4,
-        630.9
+        280.3,
+        491.1
       ]
     },
     "defTerritory": {
-      "id": 286,
-      "name": "Lombok Tengah",
-      "province": "Nusa Tenggara Barat",
+      "id": 49,
+      "name": "Seluma",
+      "province": "Bengkulu",
       "cScreen": [
-        692.7,
-        633.9
+        293.1,
+        496.2
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 286,
-      "name": "Lombok Tengah",
-      "province": "Nusa Tenggara Barat"
+      "id": 49,
+      "name": "Seluma",
+      "province": "Bengkulu"
     },
-    "activeFactionsCount": 478,
+    "activeFactionsCount": 477,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin.",
-      "story": "Laskar Lombok Timur memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Lombok Tengah. Tanpa stok sambal dan amunisi cadangan, garnisun Lombok Tengah lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Lombok Tengah diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Lombok Tengah resmi BUBAR dan disita negara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lombok Tengah Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa proyek tanggul Giant Sea Wall...] Lombok Timur menjebol Lombok Tengah! 💀 Lombok Tengah RUNTUH!",
+      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah.",
+      "story": "Pasukan elit Kota Bengkulu melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Seluma kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Seluma resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Seluma resmi disita dan diubah jadi gerai Mie Gacoan cabang Kota Bengkulu!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Seluma Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Kurs Rupiah anjlok melemah tembus 17.0...] Kota Bengkulu menjebol Seluma! 💀 Seluma RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 58,
+      "date": "Oktober 2034",
+      "atk": "Kota Bengkulu",
+      "def": "Seluma",
+      "success": true,
+      "elim": "Seluma",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Seluma Runtuh & Lenyap dari Peta",
+      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah."
+    },
     {
       "round": 57,
       "date": "September 2034",
@@ -6131,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
-    },
-    {
-      "round": 8,
-      "date": "Agustus 2030",
-      "atk": "Humbang Hasundutan",
-      "def": "Pakpak Bharat",
-      "success": true,
-      "elim": "Pakpak Bharat",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pakpak Bharat Runtuh & Lenyap dari Peta",
-      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan."
     }
   ]
 }
