@@ -1,8 +1,8 @@
 {
-  "round": 58,
+  "round": 59,
   "year": 2034,
-  "month": 10,
-  "activeFactionsCount": 477,
+  "month": 11,
+  "activeFactionsCount": 476,
   "territoryOwner": [
     0,
     1,
@@ -29,7 +29,7 @@
     22,
     23,
     24,
-    25,
+    31,
     26,
     27,
     28,
@@ -768,10 +768,10 @@
       "name": "Buleleng",
       "province": "Bali",
       "color": "#3884a3",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 59,
+      "eliminatedBy": 31
     },
     {
       "id": 26,
@@ -828,7 +828,7 @@
       "name": "Tabanan",
       "province": "Bali",
       "color": "#ac2fa6",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 58,
-    "date": "Oktober 2034",
-    "monthNumber": 10,
+    "round": 59,
+    "date": "November 2034",
+    "monthNumber": 11,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 45,
-      "name": "Kota Bengkulu",
-      "province": "Bengkulu",
-      "color": "#879433",
+      "id": 31,
+      "name": "Tabanan",
+      "province": "Bali",
+      "color": "#ac2fa6",
       "count": 2
     },
     "defFaction": {
-      "id": 49,
-      "name": "Seluma",
-      "province": "Bengkulu",
-      "color": "#5838a3",
+      "id": 25,
+      "name": "Buleleng",
+      "province": "Bali",
+      "color": "#3884a3",
       "count": 0
     },
     "atkTerritory": {
-      "id": 45,
-      "name": "Kota Bengkulu",
-      "province": "Bengkulu",
+      "id": 31,
+      "name": "Tabanan",
+      "province": "Bali",
       "cScreen": [
-        280.3,
-        491.1
+        658,
+        625.3
       ]
     },
     "defTerritory": {
-      "id": 49,
-      "name": "Seluma",
-      "province": "Bengkulu",
+      "id": 25,
+      "name": "Buleleng",
+      "province": "Bali",
       "cScreen": [
-        293.1,
-        496.2
+        652.1,
+        619.2
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 49,
-      "name": "Seluma",
-      "province": "Bengkulu"
+      "id": 25,
+      "name": "Buleleng",
+      "province": "Bali"
     },
-    "activeFactionsCount": 477,
+    "activeFactionsCount": 476,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah.",
-      "story": "Pasukan elit Kota Bengkulu melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Seluma kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Seluma resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Seluma resmi disita dan diubah jadi gerai Mie Gacoan cabang Kota Bengkulu!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Seluma Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Kurs Rupiah anjlok melemah tembus 17.0...] Kota Bengkulu menjebol Seluma! 💀 Seluma RUNTUH!",
+      "casusBelli": "Pejabat perbatasan pamer naik jet pribadi sewaan dan makan roti 400 ribu di tengah defisit APBD.",
+      "story": "Pasukan elit Tabanan melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Buleleng kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Buleleng bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Tabanan!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buleleng Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pejabat perbatasan pamer naik jet prib...] Tabanan menjebol Buleleng! 💀 Buleleng RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 59,
+      "date": "November 2034",
+      "atk": "Tabanan",
+      "def": "Buleleng",
+      "success": true,
+      "elim": "Buleleng",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buleleng Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pejabat perbatasan pamer naik jet pribadi sewaan dan makan roti 400 ribu di tengah defisit APBD."
+    },
     {
       "round": 58,
       "date": "Oktober 2034",
@@ -6131,16 +6141,6 @@
       "elim": "Bima",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Bima Runtuh & Lenyap dari Peta",
       "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
-    },
-    {
-      "round": 9,
-      "date": "September 2030",
-      "atk": "Boalemo",
-      "def": "Pohuwato",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
     }
   ]
 }
