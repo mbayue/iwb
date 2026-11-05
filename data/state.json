@@ -1,7 +1,7 @@
 {
-  "round": 59,
+  "round": 60,
   "year": 2034,
-  "month": 11,
+  "month": 12,
   "activeFactionsCount": 476,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 59,
-    "date": "November 2034",
-    "monthNumber": 11,
+    "round": 60,
+    "date": "Desember 2034",
+    "monthNumber": 12,
     "yearNumber": 2034,
     "atkFaction": {
-      "id": 31,
-      "name": "Tabanan",
-      "province": "Bali",
-      "color": "#ac2fa6",
-      "count": 2
+      "id": 229,
+      "name": "Nunukan",
+      "province": "Kalimantan Utara",
+      "color": "#38a390",
+      "count": 1
     },
     "defFaction": {
-      "id": 25,
-      "name": "Buleleng",
-      "province": "Bali",
-      "color": "#3884a3",
-      "count": 0
+      "id": 230,
+      "name": "Tana Tidung",
+      "province": "Kalimantan Utara",
+      "color": "#b738a9",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 31,
-      "name": "Tabanan",
-      "province": "Bali",
+      "id": 229,
+      "name": "Nunukan",
+      "province": "Kalimantan Utara",
       "cScreen": [
-        658,
-        625.3
+        706.8,
+        259.4
       ]
     },
     "defTerritory": {
-      "id": 25,
-      "name": "Buleleng",
-      "province": "Bali",
+      "id": 230,
+      "name": "Tana Tidung",
+      "province": "Kalimantan Utara",
       "cScreen": [
-        652.1,
-        619.2
+        721.5,
+        271.6
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 25,
-      "name": "Buleleng",
-      "province": "Bali"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 476,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pejabat perbatasan pamer naik jet pribadi sewaan dan makan roti 400 ribu di tengah defisit APBD.",
-      "story": "Pasukan elit Tabanan melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Buleleng kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Buleleng bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Tabanan!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buleleng Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pejabat perbatasan pamer naik jet prib...] Tabanan menjebol Buleleng! 💀 Buleleng RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring.",
+      "story": "Pasukan penyerbu Nunukan kehilangan semangat tempur dan mogok setelah tahu dana pensiun tentara ludes nyangkut di saham gorengan ARB 7 hari berturut-turut.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Bupati merasa tidak dihargai karena fo...] Tana Tidung sukses menghalau serbuan Nunukan!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 60,
+      "date": "Desember 2034",
+      "atk": "Nunukan",
+      "def": "Tana Tidung",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring."
+    },
     {
       "round": 59,
       "date": "November 2034",
@@ -6130,16 +6136,6 @@
       "success": false,
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
-    },
-    {
-      "round": 10,
-      "date": "Oktober 2030",
-      "atk": "Kota Bima",
-      "def": "Bima",
-      "success": true,
-      "elim": "Bima",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bima Runtuh & Lenyap dari Peta",
       "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
     }
   ]
