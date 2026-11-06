@@ -1,7 +1,7 @@
 {
-  "round": 61,
+  "round": 62,
   "year": 2035,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 475,
   "territoryOwner": [
     0,
@@ -194,7 +194,7 @@
     187,
     188,
     189,
-    196,
+    201,
     191,
     192,
     193,
@@ -2478,7 +2478,7 @@
       "name": "Kota Banjarmasin",
       "province": "Kalimantan Selatan",
       "color": "#9f3c8c",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2528,7 +2528,7 @@
       "name": "Tapin",
       "province": "Kalimantan Selatan",
       "color": "#723394",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 61,
-    "date": "Januari 2035",
-    "monthNumber": 1,
+    "round": 62,
+    "date": "Februari 2035",
+    "monthNumber": 2,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 421,
-      "name": "Konawe Utara",
-      "province": "Sulawesi Tenggara",
-      "color": "#9338a3",
+      "id": 201,
+      "name": "Tapin",
+      "province": "Kalimantan Selatan",
+      "color": "#723394",
       "count": 2
     },
     "defFaction": {
-      "id": 403,
-      "name": "Morowali",
-      "province": "Sulawesi Tengah",
-      "color": "#ac2f62",
-      "count": 0
+      "id": 196,
+      "name": "Kota Banjarmasin",
+      "province": "Kalimantan Selatan",
+      "color": "#9f3c8c",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 421,
-      "name": "Konawe Utara",
-      "province": "Sulawesi Tenggara",
+      "id": 201,
+      "name": "Tapin",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        864.6,
-        477.8
+        658.6,
+        462.8
       ]
     },
     "defTerritory": {
-      "id": 403,
-      "name": "Morowali",
-      "province": "Sulawesi Tengah",
+      "id": 190,
+      "name": "Banjar",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        864.4,
-        462
+        657,
+        474.6
       ]
     },
     "success": true,
-    "eliminated": {
-      "id": 403,
-      "name": "Morowali",
-      "province": "Sulawesi Tengah"
-    },
+    "eliminated": null,
     "activeFactionsCount": 475,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah.",
-      "story": "Pasukan elit Konawe Utara melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Morowali kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Morowali dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Morowali resmi diambil alih oleh Konawe Utara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Morowali Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pegawai Komdigi perbatasan ketahuan me...] Konawe Utara menjebol Morowali! 💀 Morowali RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Tapin sukses merebut tugu perbatasan dan gedung dinas Banjar. Bendera Banjar diturunkan dan diganti bendera kejayaan Tapin.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Konflik ormas razia lisensi Rumah Maka...] Tapin berhasil menaklukkan sektor Banjar!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 62,
+      "date": "Februari 2035",
+      "atk": "Tapin",
+      "def": "Banjar",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli."
+    },
     {
       "round": 61,
       "date": "Januari 2035",
@@ -6131,16 +6137,6 @@
       "elim": "Buton Utara",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Buton Utara Runtuh & Lenyap dari Peta",
       "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
-    },
-    {
-      "round": 12,
-      "date": "Desember 2030",
-      "atk": "Teluk Wondama",
-      "def": "Manokwari Selatan",
-      "success": true,
-      "elim": "Manokwari Selatan",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Manokwari Selatan Runtuh & Lenyap dari Peta",
-      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
     }
   ]
 }
