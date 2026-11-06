@@ -1,8 +1,8 @@
 {
-  "round": 62,
+  "round": 63,
   "year": 2035,
-  "month": 2,
-  "activeFactionsCount": 475,
+  "month": 3,
+  "activeFactionsCount": 474,
   "territoryOwner": [
     0,
     1,
@@ -36,7 +36,7 @@
     29,
     30,
     31,
-    32,
+    38,
     33,
     34,
     35,
@@ -838,10 +838,10 @@
       "name": "Kota Cilegon",
       "province": "Banten",
       "color": "#89ae42",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 63,
+      "eliminatedBy": 38
     },
     {
       "id": 33,
@@ -898,7 +898,7 @@
       "name": "Serang",
       "province": "Banten",
       "color": "#38acb7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 62,
-    "date": "Februari 2035",
-    "monthNumber": 2,
+    "round": 63,
+    "date": "Maret 2035",
+    "monthNumber": 3,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 201,
-      "name": "Tapin",
-      "province": "Kalimantan Selatan",
-      "color": "#723394",
+      "id": 38,
+      "name": "Serang",
+      "province": "Banten",
+      "color": "#38acb7",
       "count": 2
     },
     "defFaction": {
-      "id": 196,
-      "name": "Kota Banjarmasin",
-      "province": "Kalimantan Selatan",
-      "color": "#9f3c8c",
-      "count": 1
+      "id": 32,
+      "name": "Kota Cilegon",
+      "province": "Banten",
+      "color": "#89ae42",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 201,
-      "name": "Tapin",
-      "province": "Kalimantan Selatan",
+      "id": 38,
+      "name": "Serang",
+      "province": "Banten",
       "cScreen": [
-        658.6,
-        462.8
+        393.5,
+        557.5
       ]
     },
     "defTerritory": {
-      "id": 190,
-      "name": "Banjar",
-      "province": "Kalimantan Selatan",
+      "id": 32,
+      "name": "Kota Cilegon",
+      "province": "Banten",
       "cScreen": [
-        657,
-        474.6
+        389.8,
+        554
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 475,
+    "eliminated": {
+      "id": 32,
+      "name": "Kota Cilegon",
+      "province": "Banten"
+    },
+    "activeFactionsCount": 474,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Tapin sukses merebut tugu perbatasan dan gedung dinas Banjar. Bendera Banjar diturunkan dan diganti bendera kejayaan Tapin.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Konflik ormas razia lisensi Rumah Maka...] Tapin berhasil menaklukkan sektor Banjar!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
+      "story": "Pasukan elit Serang melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Kota Cilegon kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nBupati Kota Cilegon dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Kota Cilegon resmi BUBAR!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Cilegon Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Serang menjebol Kota Cilegon! 💀 Kota Cilegon RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 63,
+      "date": "Maret 2035",
+      "atk": "Serang",
+      "def": "Kota Cilegon",
+      "success": true,
+      "elim": "Kota Cilegon",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Cilegon Runtuh & Lenyap dari Peta",
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
+    },
     {
       "round": 62,
       "date": "Februari 2035",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
-    },
-    {
-      "round": 13,
-      "date": "Januari 2031",
-      "atk": "Wakatobi",
-      "def": "Buton Utara",
-      "success": true,
-      "elim": "Buton Utara",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buton Utara Runtuh & Lenyap dari Peta",
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
     }
   ]
 }
