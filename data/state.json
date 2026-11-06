@@ -1,8 +1,8 @@
 {
-  "round": 60,
-  "year": 2034,
-  "month": 12,
-  "activeFactionsCount": 476,
+  "round": 61,
+  "year": 2035,
+  "month": 1,
+  "activeFactionsCount": 475,
   "territoryOwner": [
     0,
     1,
@@ -407,7 +407,7 @@
     400,
     401,
     402,
-    403,
+    421,
     404,
     405,
     406,
@@ -4548,10 +4548,10 @@
       "name": "Morowali",
       "province": "Sulawesi Tengah",
       "color": "#ac2f62",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 61,
+      "eliminatedBy": 421
     },
     {
       "id": 404,
@@ -4728,7 +4728,7 @@
       "name": "Konawe Utara",
       "province": "Sulawesi Tenggara",
       "color": "#9338a3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 60,
-    "date": "Desember 2034",
-    "monthNumber": 12,
-    "yearNumber": 2034,
+    "round": 61,
+    "date": "Januari 2035",
+    "monthNumber": 1,
+    "yearNumber": 2035,
     "atkFaction": {
-      "id": 229,
-      "name": "Nunukan",
-      "province": "Kalimantan Utara",
-      "color": "#38a390",
-      "count": 1
+      "id": 421,
+      "name": "Konawe Utara",
+      "province": "Sulawesi Tenggara",
+      "color": "#9338a3",
+      "count": 2
     },
     "defFaction": {
-      "id": 230,
-      "name": "Tana Tidung",
-      "province": "Kalimantan Utara",
-      "color": "#b738a9",
-      "count": 1
+      "id": 403,
+      "name": "Morowali",
+      "province": "Sulawesi Tengah",
+      "color": "#ac2f62",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 229,
-      "name": "Nunukan",
-      "province": "Kalimantan Utara",
+      "id": 421,
+      "name": "Konawe Utara",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        706.8,
-        259.4
+        864.6,
+        477.8
       ]
     },
     "defTerritory": {
-      "id": 230,
-      "name": "Tana Tidung",
-      "province": "Kalimantan Utara",
+      "id": 403,
+      "name": "Morowali",
+      "province": "Sulawesi Tengah",
       "cScreen": [
-        721.5,
-        271.6
+        864.4,
+        462
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 476,
+    "success": true,
+    "eliminated": {
+      "id": 403,
+      "name": "Morowali",
+      "province": "Sulawesi Tengah"
+    },
+    "activeFactionsCount": 475,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring.",
-      "story": "Pasukan penyerbu Nunukan kehilangan semangat tempur dan mogok setelah tahu dana pensiun tentara ludes nyangkut di saham gorengan ARB 7 hari berturut-turut.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Bupati merasa tidak dihargai karena fo...] Tana Tidung sukses menghalau serbuan Nunukan!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah.",
+      "story": "Pasukan elit Konawe Utara melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Morowali kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Morowali dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Morowali resmi diambil alih oleh Konawe Utara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Morowali Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pegawai Komdigi perbatasan ketahuan me...] Konawe Utara menjebol Morowali! 💀 Morowali RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 61,
+      "date": "Januari 2035",
+      "atk": "Konawe Utara",
+      "def": "Morowali",
+      "success": true,
+      "elim": "Morowali",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Morowali Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah."
+    },
     {
       "round": 60,
       "date": "Desember 2034",
@@ -6127,16 +6141,6 @@
       "elim": "Manokwari Selatan",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Manokwari Selatan Runtuh & Lenyap dari Peta",
       "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
-    },
-    {
-      "round": 11,
-      "date": "November 2030",
-      "atk": "Halmahera Barat",
-      "def": "Halmahera Timur",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
     }
   ]
 }
