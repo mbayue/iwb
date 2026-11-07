@@ -1,7 +1,7 @@
 {
-  "round": 64,
+  "round": 65,
   "year": 2035,
-  "month": 4,
+  "month": 5,
   "activeFactionsCount": 474,
   "territoryOwner": [
     0,
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 64,
-    "date": "April 2035",
-    "monthNumber": 4,
+    "round": 65,
+    "date": "Mei 2035",
+    "monthNumber": 5,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 270,
-      "name": "Seram Bagian Timur",
-      "province": "Maluku",
-      "color": "#98812f",
-      "count": 2
+      "id": 296,
+      "name": "Kupang",
+      "province": "Nusa Tenggara Timur",
+      "color": "#ae6a42",
+      "count": 1
     },
     "defFaction": {
-      "id": 265,
-      "name": "Kota Tual",
-      "province": "Maluku",
-      "color": "#80a338",
+      "id": 311,
+      "name": "Timor Tengah Selatan",
+      "province": "Nusa Tenggara Timur",
+      "color": "#9a34bc",
       "count": 1
     },
     "atkTerritory": {
-      "id": 270,
-      "name": "Seram Bagian Timur",
-      "province": "Maluku",
+      "id": 296,
+      "name": "Kupang",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        1114.1,
-        480.2
+        913.9,
+        671.6
       ]
     },
     "defTerritory": {
-      "id": 265,
-      "name": "Kota Tual",
-      "province": "Maluku",
+      "id": 311,
+      "name": "Timor Tengah Selatan",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        1169.1,
-        540.1
+        931.6,
+        666.2
       ]
     },
-    "success": true,
+    "success": false,
     "eliminated": null,
     "activeFactionsCount": 474,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Armada kapal pendarat Seram Bagian Timur menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Kota Tual. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Seram Bagian Timur berhasil menaklukkan sektor Kota Tual!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Bupati murka jatah mobil dinas Maung Garuda Pindad tertukar dengan mobil pick-up sayur.",
+      "story": "Pasukan penyerbu Kupang gagal masuk karena terjebak macet horor dan jalan rusak berlubang yang belum diaspal sejak zaman Daendels.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Bupati murka jatah mobil dinas Maung G...] Timor Tengah Selatan sukses menghalau serbuan Kupang!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 65,
+      "date": "Mei 2035",
+      "atk": "Kupang",
+      "def": "Timor Tengah Selatan",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Bupati murka jatah mobil dinas Maung Garuda Pindad tertukar dengan mobil pick-up sayur."
+    },
     {
       "round": 64,
       "date": "April 2035",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Ormas Cirebon merazia warung nasi padang murah berujung perang dingin bumbu rendang antar-daerah."
-    },
-    {
-      "round": 15,
-      "date": "Maret 2031",
-      "atk": "Nias Barat",
-      "def": "Nias Utara",
-      "success": true,
-      "elim": "Nias Utara",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Nias Utara Runtuh & Lenyap dari Peta",
-      "casusBelli": "Preman ormas berseragam loreng oranye saling klaim jatah parkir Indomaret di tugu perbatasan."
     }
   ]
 }
