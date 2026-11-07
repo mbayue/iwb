@@ -1,7 +1,7 @@
 {
-  "round": 65,
+  "round": 66,
   "year": 2035,
-  "month": 5,
+  "month": 6,
   "activeFactionsCount": 474,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 65,
-    "date": "Mei 2035",
-    "monthNumber": 5,
+    "round": 66,
+    "date": "Juni 2035",
+    "monthNumber": 6,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 296,
-      "name": "Kupang",
-      "province": "Nusa Tenggara Timur",
-      "color": "#ae6a42",
+      "id": 505,
+      "name": "Tapanuli Utara",
+      "province": "Sumatera Utara",
+      "color": "#a3387d",
       "count": 1
     },
     "defFaction": {
-      "id": 311,
-      "name": "Timor Tengah Selatan",
-      "province": "Nusa Tenggara Timur",
-      "color": "#9a34bc",
+      "id": 506,
+      "name": "Toba",
+      "province": "Sumatera Utara",
+      "color": "#65b738",
       "count": 1
     },
     "atkTerritory": {
-      "id": 296,
-      "name": "Kupang",
-      "province": "Nusa Tenggara Timur",
+      "id": 505,
+      "name": "Tapanuli Utara",
+      "province": "Sumatera Utara",
       "cScreen": [
-        913.9,
-        671.6
+        185.6,
+        316.8
       ]
     },
     "defTerritory": {
-      "id": 311,
-      "name": "Timor Tengah Selatan",
-      "province": "Nusa Tenggara Timur",
+      "id": 506,
+      "name": "Toba",
+      "province": "Sumatera Utara",
       "cScreen": [
-        931.6,
-        666.2
+        188.9,
+        306
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati murka jatah mobil dinas Maung Garuda Pindad tertukar dengan mobil pick-up sayur.",
-      "story": "Pasukan penyerbu Kupang gagal masuk karena terjebak macet horor dan jalan rusak berlubang yang belum diaspal sejak zaman Daendels.",
+      "casusBelli": "Dana investor asing kabur massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan.",
+      "story": "Pasukan penyerbu Tapanuli Utara kehilangan semangat tempur dan mogok setelah tahu dana pensiun tentara ludes nyangkut di saham gorengan ARB 7 hari berturut-turut.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Bupati murka jatah mobil dinas Maung G...] Timor Tengah Selatan sukses menghalau serbuan Kupang!",
+      "bannerText": "🛡️ [PEMICU: Dana investor asing kabur massal dari ...] Toba sukses menghalau serbuan Tapanuli Utara!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 66,
+      "date": "Juni 2035",
+      "atk": "Tapanuli Utara",
+      "def": "Toba",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Dana investor asing kabur massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan."
+    },
     {
       "round": 65,
       "date": "Mei 2035",
@@ -6127,16 +6137,6 @@
       "elim": "Cilacap",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Cilacap Runtuh & Lenyap dari Peta",
       "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah."
-    },
-    {
-      "round": 16,
-      "date": "April 2031",
-      "atk": "Brebes",
-      "def": "Cirebon",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Ormas Cirebon merazia warung nasi padang murah berujung perang dingin bumbu rendang antar-daerah."
     }
   ]
 }
