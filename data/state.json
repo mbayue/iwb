@@ -1,7 +1,7 @@
 {
-  "round": 66,
+  "round": 67,
   "year": 2035,
-  "month": 6,
+  "month": 7,
   "activeFactionsCount": 474,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 66,
-    "date": "Juni 2035",
-    "monthNumber": 6,
+    "round": 67,
+    "date": "Juli 2035",
+    "monthNumber": 7,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 505,
-      "name": "Tapanuli Utara",
-      "province": "Sumatera Utara",
-      "color": "#a3387d",
+      "id": 147,
+      "name": "Kota Batu",
+      "province": "Jawa Timur",
+      "color": "#9c902b",
       "count": 1
     },
     "defFaction": {
-      "id": 506,
-      "name": "Toba",
-      "province": "Sumatera Utara",
-      "color": "#65b738",
-      "count": 1
+      "id": 160,
+      "name": "Mojokerto",
+      "province": "Jawa Timur",
+      "color": "#9f803c",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 505,
-      "name": "Tapanuli Utara",
-      "province": "Sumatera Utara",
+      "id": 147,
+      "name": "Kota Batu",
+      "province": "Jawa Timur",
       "cScreen": [
-        185.6,
-        316.8
+        582.1,
+        607.6
       ]
     },
     "defTerritory": {
-      "id": 506,
-      "name": "Toba",
-      "province": "Sumatera Utara",
+      "id": 159,
+      "name": "Malang",
+      "province": "Jawa Timur",
       "cScreen": [
-        188.9,
-        306
+        584.7,
+        614.8
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Dana investor asing kabur massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan.",
-      "story": "Pasukan penyerbu Tapanuli Utara kehilangan semangat tempur dan mogok setelah tahu dana pensiun tentara ludes nyangkut di saham gorengan ARB 7 hari berturut-turut.",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
+      "story": "Pasukan penyerbu Kota Batu dihadang mobil Maung Pindad yang atapnya bocor dan mogok tepat di tengah jembatan perbatasan.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Dana investor asing kabur massal dari ...] Toba sukses menghalau serbuan Tapanuli Utara!",
+      "bannerText": "🛡️ [PEMICU: Investor ritel mengamuk aturan papan F...] Malang sukses menghalau serbuan Kota Batu!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 67,
+      "date": "Juli 2035",
+      "atk": "Kota Batu",
+      "def": "Malang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
+    },
     {
       "round": 66,
       "date": "Juni 2035",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
       "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
-    },
-    {
-      "round": 17,
-      "date": "Mei 2031",
-      "atk": "Kota Banjar",
-      "def": "Cilacap",
-      "success": true,
-      "elim": "Cilacap",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Cilacap Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah."
     }
   ]
 }
