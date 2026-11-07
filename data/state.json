@@ -1,7 +1,7 @@
 {
-  "round": 63,
+  "round": 64,
   "year": 2035,
-  "month": 3,
+  "month": 4,
   "activeFactionsCount": 474,
   "territoryOwner": [
     0,
@@ -269,7 +269,7 @@
     262,
     263,
     264,
-    265,
+    270,
     266,
     267,
     265,
@@ -3168,7 +3168,7 @@
       "name": "Kota Tual",
       "province": "Maluku",
       "color": "#80a338",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -3218,7 +3218,7 @@
       "name": "Seram Bagian Timur",
       "province": "Maluku",
       "color": "#98812f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 63,
-    "date": "Maret 2035",
-    "monthNumber": 3,
+    "round": 64,
+    "date": "April 2035",
+    "monthNumber": 4,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
-      "color": "#38acb7",
+      "id": 270,
+      "name": "Seram Bagian Timur",
+      "province": "Maluku",
+      "color": "#98812f",
       "count": 2
     },
     "defFaction": {
-      "id": 32,
-      "name": "Kota Cilegon",
-      "province": "Banten",
-      "color": "#89ae42",
-      "count": 0
+      "id": 265,
+      "name": "Kota Tual",
+      "province": "Maluku",
+      "color": "#80a338",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
+      "id": 270,
+      "name": "Seram Bagian Timur",
+      "province": "Maluku",
       "cScreen": [
-        393.5,
-        557.5
+        1114.1,
+        480.2
       ]
     },
     "defTerritory": {
-      "id": 32,
-      "name": "Kota Cilegon",
-      "province": "Banten",
+      "id": 265,
+      "name": "Kota Tual",
+      "province": "Maluku",
       "cScreen": [
-        389.8,
-        554
+        1169.1,
+        540.1
       ]
     },
     "success": true,
-    "eliminated": {
-      "id": 32,
-      "name": "Kota Cilegon",
-      "province": "Banten"
-    },
+    "eliminated": null,
     "activeFactionsCount": 474,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
-      "story": "Pasukan elit Serang melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Kota Cilegon kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nBupati Kota Cilegon dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Kota Cilegon resmi BUBAR!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Cilegon Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Serang menjebol Kota Cilegon! 💀 Kota Cilegon RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Armada kapal pendarat Seram Bagian Timur menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Kota Tual. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Seram Bagian Timur berhasil menaklukkan sektor Kota Tual!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 64,
+      "date": "April 2035",
+      "atk": "Seram Bagian Timur",
+      "def": "Kota Tual",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 63,
       "date": "Maret 2035",
@@ -6131,16 +6137,6 @@
       "elim": "Nias Utara",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Nias Utara Runtuh & Lenyap dari Peta",
       "casusBelli": "Preman ormas berseragam loreng oranye saling klaim jatah parkir Indomaret di tugu perbatasan."
-    },
-    {
-      "round": 14,
-      "date": "Februari 2031",
-      "atk": "Lamandau",
-      "def": "Melawi",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
     }
   ]
 }
