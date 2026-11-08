@@ -1,8 +1,8 @@
 {
-  "round": 71,
+  "round": 72,
   "year": 2035,
-  "month": 11,
-  "activeFactionsCount": 471,
+  "month": 12,
+  "activeFactionsCount": 470,
   "territoryOwner": [
     0,
     1,
@@ -480,7 +480,7 @@
     473,
     474,
     475,
-    476,
+    477,
     477,
     478,
     479,
@@ -5278,17 +5278,17 @@
       "name": "Asahan",
       "province": "Sumatera Utara",
       "color": "#a242ae",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 72,
+      "eliminatedBy": 477
     },
     {
       "id": 477,
       "name": "Batu Bara",
       "province": "Sumatera Utara",
       "color": "#829433",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 71,
-    "date": "November 2035",
-    "monthNumber": 11,
+    "round": 72,
+    "date": "Desember 2035",
+    "monthNumber": 12,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 146,
-      "name": "Kediri",
-      "province": "Jawa Timur",
-      "color": "#8538b7",
+      "id": 477,
+      "name": "Batu Bara",
+      "province": "Sumatera Utara",
+      "color": "#829433",
       "count": 2
     },
     "defFaction": {
-      "id": 174,
-      "name": "Tulungagung",
-      "province": "Jawa Timur",
-      "color": "#2f9880",
+      "id": 476,
+      "name": "Asahan",
+      "province": "Sumatera Utara",
+      "color": "#a242ae",
       "count": 0
     },
     "atkTerritory": {
-      "id": 146,
-      "name": "Kediri",
-      "province": "Jawa Timur",
+      "id": 477,
+      "name": "Batu Bara",
+      "province": "Sumatera Utara",
       "cScreen": [
-        569.3,
-        607.6
+        195.7,
+        282.1
       ]
     },
     "defTerritory": {
-      "id": 174,
-      "name": "Tulungagung",
-      "province": "Jawa Timur",
+      "id": 476,
+      "name": "Asahan",
+      "province": "Sumatera Utara",
       "cScreen": [
-        562.8,
-        615.8
+        198.1,
+        293.5
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 174,
-      "name": "Tulungagung",
-      "province": "Jawa Timur"
+      "id": 476,
+      "name": "Asahan",
+      "province": "Sumatera Utara"
     },
-    "activeFactionsCount": 471,
+    "activeFactionsCount": 470,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Razia iPhone 16 selundupan tanpa sertifikasi TKDN di pos batas yang disita buat dipakai anak camat.",
-      "story": "Konvoi pick-up dan motor brong Kediri menerobos gerbang batas teritorial Tulungagung saat subuh. Pasukan pertahanan Tulungagung tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKantor bupati Tulungagung dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga Kediri, dan nama Tulungagung resmi DIHAPUS DARI PETA NUSANTARA!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tulungagung Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Razia iPhone 16 selundupan tanpa serti...] Kediri menjebol Tulungagung! 💀 Tulungagung RUNTUH!",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
+      "story": "Pasukan elit Batu Bara melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Asahan kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nFaksi Asahan resmi BUBAR! Seluruh warga Asahan kini wajib ganti KTP, bayar retribusi ke dinasti Batu Bara, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Asahan Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Batu Bara menjebol Asahan! 💀 Asahan RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 72,
+      "date": "Desember 2035",
+      "atk": "Batu Bara",
+      "def": "Asahan",
+      "success": true,
+      "elim": "Asahan",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Asahan Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
+    },
     {
       "round": 71,
       "date": "November 2035",
@@ -6131,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
-    },
-    {
-      "round": 22,
-      "date": "Oktober 2031",
-      "atk": "Rembang",
-      "def": "Pati",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pati memerdekakan diri dan menyerang tetangga akibat sengketa perizinan festival Sound Horeg nonstop 24 jam."
     }
   ]
 }
