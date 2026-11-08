@@ -1,7 +1,7 @@
 {
-  "round": 69,
+  "round": 70,
   "year": 2035,
-  "month": 9,
+  "month": 10,
   "activeFactionsCount": 472,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 69,
-    "date": "September 2035",
-    "monthNumber": 9,
+    "round": 70,
+    "date": "Oktober 2035",
+    "monthNumber": 10,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 170,
-      "name": "Situbondo",
-      "province": "Jawa Timur",
-      "color": "#b7386a",
-      "count": 2
+      "id": 419,
+      "name": "Konawe Kepulauan",
+      "province": "Sulawesi Tenggara",
+      "color": "#bc5734",
+      "count": 1
     },
     "defFaction": {
-      "id": 142,
-      "name": "Bondowoso",
-      "province": "Jawa Timur",
-      "color": "#75a834",
-      "count": 0
+      "id": 420,
+      "name": "Konawe Selatan",
+      "province": "Sulawesi Tenggara",
+      "color": "#379068",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 170,
-      "name": "Situbondo",
-      "province": "Jawa Timur",
+      "id": 419,
+      "name": "Konawe Kepulauan",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        625.2,
-        607.3
+        894.2,
+        498.5
       ]
     },
     "defTerritory": {
-      "id": 142,
-      "name": "Bondowoso",
-      "province": "Jawa Timur",
+      "id": 420,
+      "name": "Konawe Selatan",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        623.6,
-        611.3
+        875.5,
+        503.3
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 142,
-      "name": "Bondowoso",
-      "province": "Jawa Timur"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 472,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam.",
-      "story": "Pasukan elit Situbondo melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Bondowoso kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Bondowoso bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Situbondo!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bondowoso Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Gegara tergiur skandal Zarof Ricar, bu...] Situbondo menjebol Bondowoso! 💀 Bondowoso RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.",
+      "story": "Konvoi penyerbu Konawe Kepulauan tersesat dan saling tabrak sendiri karena terhalang kabut asap karhutla pekat dengan jarak pandang cuma 5 meter.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Konflik pecah akibat parade Sound Hore...] Konawe Selatan sukses menghalau serbuan Konawe Kepulauan!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 70,
+      "date": "Oktober 2035",
+      "atk": "Konawe Kepulauan",
+      "def": "Konawe Selatan",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
+    },
     {
       "round": 69,
       "date": "September 2035",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
-    },
-    {
-      "round": 20,
-      "date": "Agustus 2031",
-      "atk": "Sorong Selatan",
-      "def": "Tambrauw",
-      "success": true,
-      "elim": "Tambrauw",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tambrauw Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
     }
   ]
 }
