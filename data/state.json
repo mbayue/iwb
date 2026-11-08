@@ -1,8 +1,8 @@
 {
-  "round": 67,
+  "round": 68,
   "year": 2035,
-  "month": 7,
-  "activeFactionsCount": 474,
+  "month": 8,
+  "activeFactionsCount": 473,
   "territoryOwner": [
     0,
     1,
@@ -504,7 +504,7 @@
     497,
     498,
     480,
-    500,
+    480,
     501,
     502,
     503,
@@ -5318,7 +5318,7 @@
       "name": "Humbang Hasundutan",
       "province": "Sumatera Utara",
       "color": "#37903c",
-      "territoryCount": 2,
+      "territoryCount": 3,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5518,10 +5518,10 @@
       "name": "Samosir",
       "province": "Sumatera Utara",
       "color": "#ae424d",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 68,
+      "eliminatedBy": 480
     },
     {
       "id": 501,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 67,
-    "date": "Juli 2035",
-    "monthNumber": 7,
+    "round": 68,
+    "date": "Agustus 2035",
+    "monthNumber": 8,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 147,
-      "name": "Kota Batu",
-      "province": "Jawa Timur",
-      "color": "#9c902b",
-      "count": 1
+      "id": 480,
+      "name": "Humbang Hasundutan",
+      "province": "Sumatera Utara",
+      "color": "#37903c",
+      "count": 3
     },
     "defFaction": {
-      "id": 160,
-      "name": "Mojokerto",
-      "province": "Jawa Timur",
-      "color": "#9f803c",
-      "count": 2
+      "id": 500,
+      "name": "Samosir",
+      "province": "Sumatera Utara",
+      "color": "#ae424d",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 147,
-      "name": "Kota Batu",
-      "province": "Jawa Timur",
+      "id": 499,
+      "name": "Pakpak Bharat",
+      "province": "Sumatera Utara",
       "cScreen": [
-        582.1,
-        607.6
+        160.9,
+        302.7
       ]
     },
     "defTerritory": {
-      "id": 159,
-      "name": "Malang",
-      "province": "Jawa Timur",
+      "id": 500,
+      "name": "Samosir",
+      "province": "Sumatera Utara",
       "cScreen": [
-        584.7,
-        614.8
+        174.8,
+        302.6
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 474,
+    "success": true,
+    "eliminated": {
+      "id": 500,
+      "name": "Samosir",
+      "province": "Sumatera Utara"
+    },
+    "activeFactionsCount": 473,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
-      "story": "Pasukan penyerbu Kota Batu dihadang mobil Maung Pindad yang atapnya bocor dan mogok tepat di tengah jembatan perbatasan.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Investor ritel mengamuk aturan papan F...] Malang sukses menghalau serbuan Kota Batu!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Humbang Hasundutan sukses merebut tugu perbatasan dan gedung dinas Samosir. Bendera Samosir diturunkan dan diganti bendera kejayaan Humbang Hasundutan.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Samosir dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Samosir resmi diambil alih oleh Humbang Hasundutan!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Samosir Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Humbang Hasundutan menjebol Samosir! 💀 Samosir RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 68,
+      "date": "Agustus 2035",
+      "atk": "Humbang Hasundutan",
+      "def": "Samosir",
+      "success": true,
+      "elim": "Samosir",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Samosir Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
+    },
     {
       "round": 67,
       "date": "Juli 2035",
@@ -6127,16 +6141,6 @@
       "elim": "Kota Pasuruan",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Pasuruan Runtuh & Lenyap dari Peta",
       "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
-    },
-    {
-      "round": 18,
-      "date": "Juni 2031",
-      "atk": "Manggarai Barat",
-      "def": "Bima",
-      "success": true,
-      "elim": null,
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
     }
   ]
 }
