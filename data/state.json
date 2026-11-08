@@ -1,8 +1,8 @@
 {
-  "round": 70,
+  "round": 71,
   "year": 2035,
-  "month": 10,
-  "activeFactionsCount": 472,
+  "month": 11,
+  "activeFactionsCount": 471,
   "territoryOwner": [
     0,
     1,
@@ -178,7 +178,7 @@
     171,
     172,
     173,
-    174,
+    146,
     175,
     176,
     177,
@@ -1978,7 +1978,7 @@
       "name": "Kediri",
       "province": "Jawa Timur",
       "color": "#8538b7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2258,10 +2258,10 @@
       "name": "Tulungagung",
       "province": "Jawa Timur",
       "color": "#2f9880",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 71,
+      "eliminatedBy": 146
     },
     {
       "id": 175,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 70,
-    "date": "Oktober 2035",
-    "monthNumber": 10,
+    "round": 71,
+    "date": "November 2035",
+    "monthNumber": 11,
     "yearNumber": 2035,
     "atkFaction": {
-      "id": 419,
-      "name": "Konawe Kepulauan",
-      "province": "Sulawesi Tenggara",
-      "color": "#bc5734",
-      "count": 1
+      "id": 146,
+      "name": "Kediri",
+      "province": "Jawa Timur",
+      "color": "#8538b7",
+      "count": 2
     },
     "defFaction": {
-      "id": 420,
-      "name": "Konawe Selatan",
-      "province": "Sulawesi Tenggara",
-      "color": "#379068",
-      "count": 1
+      "id": 174,
+      "name": "Tulungagung",
+      "province": "Jawa Timur",
+      "color": "#2f9880",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 419,
-      "name": "Konawe Kepulauan",
-      "province": "Sulawesi Tenggara",
+      "id": 146,
+      "name": "Kediri",
+      "province": "Jawa Timur",
       "cScreen": [
-        894.2,
-        498.5
+        569.3,
+        607.6
       ]
     },
     "defTerritory": {
-      "id": 420,
-      "name": "Konawe Selatan",
-      "province": "Sulawesi Tenggara",
+      "id": 174,
+      "name": "Tulungagung",
+      "province": "Jawa Timur",
       "cScreen": [
-        875.5,
-        503.3
+        562.8,
+        615.8
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 472,
+    "success": true,
+    "eliminated": {
+      "id": 174,
+      "name": "Tulungagung",
+      "province": "Jawa Timur"
+    },
+    "activeFactionsCount": 471,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.",
-      "story": "Konvoi penyerbu Konawe Kepulauan tersesat dan saling tabrak sendiri karena terhalang kabut asap karhutla pekat dengan jarak pandang cuma 5 meter.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Konflik pecah akibat parade Sound Hore...] Konawe Selatan sukses menghalau serbuan Konawe Kepulauan!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Razia iPhone 16 selundupan tanpa sertifikasi TKDN di pos batas yang disita buat dipakai anak camat.",
+      "story": "Konvoi pick-up dan motor brong Kediri menerobos gerbang batas teritorial Tulungagung saat subuh. Pasukan pertahanan Tulungagung tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKantor bupati Tulungagung dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga Kediri, dan nama Tulungagung resmi DIHAPUS DARI PETA NUSANTARA!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tulungagung Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Razia iPhone 16 selundupan tanpa serti...] Kediri menjebol Tulungagung! 💀 Tulungagung RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 71,
+      "date": "November 2035",
+      "atk": "Kediri",
+      "def": "Tulungagung",
+      "success": true,
+      "elim": "Tulungagung",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tulungagung Runtuh & Lenyap dari Peta",
+      "casusBelli": "Razia iPhone 16 selundupan tanpa sertifikasi TKDN di pos batas yang disita buat dipakai anak camat."
+    },
     {
       "round": 70,
       "date": "Oktober 2035",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Pati memerdekakan diri dan menyerang tetangga akibat sengketa perizinan festival Sound Horeg nonstop 24 jam."
-    },
-    {
-      "round": 21,
-      "date": "September 2031",
-      "atk": "Kota Pontianak",
-      "def": "Mempawah",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
     }
   ]
 }
