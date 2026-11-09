@@ -1,7 +1,7 @@
 {
-  "round": 73,
+  "round": 74,
   "year": 2036,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 470,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 73,
-    "date": "Januari 2036",
-    "monthNumber": 1,
+    "round": 74,
+    "date": "Februari 2036",
+    "monthNumber": 2,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 300,
-      "name": "Manggarai Barat",
-      "province": "Nusa Tenggara Timur",
-      "color": "#376090",
-      "count": 2
+      "id": 69,
+      "name": "Kota Jambi",
+      "province": "Jambi",
+      "color": "#339440",
+      "count": 1
     },
     "defFaction": {
-      "id": 299,
-      "name": "Manggarai",
-      "province": "Nusa Tenggara Timur",
-      "color": "#9abc34",
+      "id": 72,
+      "name": "Muaro Jambi",
+      "province": "Jambi",
+      "color": "#378f90",
       "count": 1
     },
     "atkTerritory": {
-      "id": 300,
-      "name": "Manggarai Barat",
-      "province": "Nusa Tenggara Timur",
+      "id": 69,
+      "name": "Kota Jambi",
+      "province": "Jambi",
       "cScreen": [
-        798,
-        631
+        318.8,
+        425
       ]
     },
     "defTerritory": {
-      "id": 299,
-      "name": "Manggarai",
-      "province": "Nusa Tenggara Timur",
+      "id": 72,
+      "name": "Muaro Jambi",
+      "province": "Jambi",
       "cScreen": [
-        813.8,
-        630.2
+        318.7,
+        425.9
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
-      "story": "Serangan mendadak Manggarai Barat batal total setelah seluruh pejabat penyerbu mendadak dipanggil KPK untuk klarifikasi LHKPN.",
+      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita.",
+      "story": "Konvoi tempur Kota Jambi dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Manggarai sukses menghalau serbuan Manggarai Barat!",
+      "bannerText": "🛡️ [PEMICU: Warga murka kabut asap pekat karhutla ...] Muaro Jambi sukses menghalau serbuan Kota Jambi!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 74,
+      "date": "Februari 2036",
+      "atk": "Kota Jambi",
+      "def": "Muaro Jambi",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita."
+    },
     {
       "round": 73,
       "date": "Januari 2036",
@@ -6127,16 +6137,6 @@
       "elim": "Alor",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Alor Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
-    },
-    {
-      "round": 24,
-      "date": "Desember 2031",
-      "atk": "Cianjur",
-      "def": "Garut",
-      "success": true,
-      "elim": "Garut",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Garut Runtuh & Lenyap dari Peta",
-      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
     }
   ]
 }
