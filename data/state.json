@@ -1,7 +1,7 @@
 {
-  "round": 72,
-  "year": 2035,
-  "month": 12,
+  "round": 73,
+  "year": 2036,
+  "month": 1,
   "activeFactionsCount": 470,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 72,
-    "date": "Desember 2035",
-    "monthNumber": 12,
-    "yearNumber": 2035,
+    "round": 73,
+    "date": "Januari 2036",
+    "monthNumber": 1,
+    "yearNumber": 2036,
     "atkFaction": {
-      "id": 477,
-      "name": "Batu Bara",
-      "province": "Sumatera Utara",
-      "color": "#829433",
+      "id": 300,
+      "name": "Manggarai Barat",
+      "province": "Nusa Tenggara Timur",
+      "color": "#376090",
       "count": 2
     },
     "defFaction": {
-      "id": 476,
-      "name": "Asahan",
-      "province": "Sumatera Utara",
-      "color": "#a242ae",
-      "count": 0
+      "id": 299,
+      "name": "Manggarai",
+      "province": "Nusa Tenggara Timur",
+      "color": "#9abc34",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 477,
-      "name": "Batu Bara",
-      "province": "Sumatera Utara",
+      "id": 300,
+      "name": "Manggarai Barat",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        195.7,
-        282.1
+        798,
+        631
       ]
     },
     "defTerritory": {
-      "id": 476,
-      "name": "Asahan",
-      "province": "Sumatera Utara",
+      "id": 299,
+      "name": "Manggarai",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        198.1,
-        293.5
+        813.8,
+        630.2
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 476,
-      "name": "Asahan",
-      "province": "Sumatera Utara"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 470,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
-      "story": "Pasukan elit Batu Bara melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Asahan kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nFaksi Asahan resmi BUBAR! Seluruh warga Asahan kini wajib ganti KTP, bayar retribusi ke dinasti Batu Bara, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Asahan Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Batu Bara menjebol Asahan! 💀 Asahan RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
+      "story": "Serangan mendadak Manggarai Barat batal total setelah seluruh pejabat penyerbu mendadak dipanggil KPK untuk klarifikasi LHKPN.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Manggarai sukses menghalau serbuan Manggarai Barat!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 73,
+      "date": "Januari 2036",
+      "atk": "Manggarai Barat",
+      "def": "Manggarai",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
+    },
     {
       "round": 72,
       "date": "Desember 2035",
@@ -6131,16 +6137,6 @@
       "elim": "Garut",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Garut Runtuh & Lenyap dari Peta",
       "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
-    },
-    {
-      "round": 23,
-      "date": "November 2031",
-      "atk": "Nduga",
-      "def": "Puncak",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
     }
   ]
 }
