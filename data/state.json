@@ -1,7 +1,7 @@
 {
-  "round": 74,
+  "round": 75,
   "year": 2036,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 470,
   "territoryOwner": [
     0,
@@ -128,7 +128,7 @@
     121,
     122,
     123,
-    124,
+    108,
     125,
     126,
     127,
@@ -1598,7 +1598,7 @@
       "name": "Boyolali",
       "province": "Jawa Tengah",
       "color": "#629037",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1758,7 +1758,7 @@
       "name": "Magelang",
       "province": "Jawa Tengah",
       "color": "#3c9f4e",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 74,
-    "date": "Februari 2036",
-    "monthNumber": 2,
+    "round": 75,
+    "date": "Maret 2036",
+    "monthNumber": 3,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 69,
-      "name": "Kota Jambi",
-      "province": "Jambi",
-      "color": "#339440",
-      "count": 1
+      "id": 108,
+      "name": "Boyolali",
+      "province": "Jawa Tengah",
+      "color": "#629037",
+      "count": 2
     },
     "defFaction": {
-      "id": 72,
-      "name": "Muaro Jambi",
-      "province": "Jambi",
-      "color": "#378f90",
+      "id": 124,
+      "name": "Magelang",
+      "province": "Jawa Tengah",
+      "color": "#3c9f4e",
       "count": 1
     },
     "atkTerritory": {
-      "id": 69,
-      "name": "Kota Jambi",
-      "province": "Jambi",
+      "id": 108,
+      "name": "Boyolali",
+      "province": "Jawa Tengah",
       "cScreen": [
-        318.8,
-        425
+        526.8,
+        595.8
       ]
     },
     "defTerritory": {
-      "id": 72,
-      "name": "Muaro Jambi",
-      "province": "Jambi",
+      "id": 124,
+      "name": "Magelang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        318.7,
-        425.9
+        515.8,
+        598
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 470,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita.",
-      "story": "Konvoi tempur Kota Jambi dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga murka kabut asap pekat karhutla ...] Muaro Jambi sukses menghalau serbuan Kota Jambi!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil.",
+      "story": "Laskar Boyolali memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Magelang. Tanpa stok sambal dan amunisi cadangan, garnisun Magelang lumpuh total dan menyatakan menyerah sukarela.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Magelang melancarkan invasi setelah pa...] Boyolali berhasil menaklukkan sektor Magelang!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 75,
+      "date": "Maret 2036",
+      "atk": "Boyolali",
+      "def": "Magelang",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
+    },
     {
       "round": 74,
       "date": "Februari 2036",
@@ -6127,16 +6137,6 @@
       "elim": "Jeneponto",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Jeneponto Runtuh & Lenyap dari Peta",
       "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
-    },
-    {
-      "round": 25,
-      "date": "Januari 2032",
-      "atk": "Belu",
-      "def": "Alor",
-      "success": true,
-      "elim": "Alor",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Alor Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
     }
   ]
 }
