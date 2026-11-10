@@ -1,15 +1,15 @@
 {
-  "round": 77,
+  "round": 78,
   "year": 2036,
-  "month": 5,
-  "activeFactionsCount": 469,
+  "month": 6,
+  "activeFactionsCount": 468,
   "territoryOwner": [
     0,
     1,
     2,
     3,
     4,
-    5,
+    504,
     6,
     7,
     8,
@@ -568,10 +568,10 @@
       "name": "Aceh Singkil",
       "province": "Aceh",
       "color": "#b33d7d",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 78,
+      "eliminatedBy": 504
     },
     {
       "id": 6,
@@ -5558,7 +5558,7 @@
       "name": "Tapanuli Tengah",
       "province": "Sumatera Utara",
       "color": "#378a90",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 77,
-    "date": "Mei 2036",
-    "monthNumber": 5,
+    "round": 78,
+    "date": "Juni 2036",
+    "monthNumber": 6,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 170,
-      "name": "Situbondo",
-      "province": "Jawa Timur",
-      "color": "#b7386a",
-      "count": 3
+      "id": 504,
+      "name": "Tapanuli Tengah",
+      "province": "Sumatera Utara",
+      "color": "#378a90",
+      "count": 2
     },
     "defFaction": {
-      "id": 144,
-      "name": "Jember",
-      "province": "Jawa Timur",
-      "color": "#903837",
+      "id": 5,
+      "name": "Aceh Singkil",
+      "province": "Aceh",
+      "color": "#b33d7d",
       "count": 0
     },
     "atkTerritory": {
-      "id": 142,
-      "name": "Bondowoso",
-      "province": "Jawa Timur",
+      "id": 504,
+      "name": "Tapanuli Tengah",
+      "province": "Sumatera Utara",
       "cScreen": [
-        623.6,
-        611.3
+        172.6,
+        323.7
       ]
     },
     "defTerritory": {
-      "id": 144,
-      "name": "Jember",
-      "province": "Jawa Timur",
+      "id": 5,
+      "name": "Aceh Singkil",
+      "province": "Aceh",
       "cScreen": [
-        613.5,
-        621.1
+        141.8,
+        310.3
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 144,
-      "name": "Jember",
-      "province": "Jawa Timur"
+      "id": 5,
+      "name": "Aceh Singkil",
+      "province": "Aceh"
     },
-    "activeFactionsCount": 469,
+    "activeFactionsCount": 468,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Situbondo sukses merebut tugu perbatasan dan gedung dinas Jember. Bendera Jember diturunkan dan diganti bendera kejayaan Situbondo.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Jember terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Situbondo!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Jember Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa proyek tanggul Giant Sea Wall...] Situbondo menjebol Jember! 💀 Jember RUNTUH!",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Armada kapal pendarat Tapanuli Tengah menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Aceh Singkil. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nKas daerah Aceh Singkil bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Tapanuli Tengah!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Aceh Singkil Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Tapanuli Tengah menjebol Aceh Singkil! 💀 Aceh Singkil RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 78,
+      "date": "Juni 2036",
+      "atk": "Tapanuli Tengah",
+      "def": "Aceh Singkil",
+      "success": true,
+      "elim": "Aceh Singkil",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Aceh Singkil Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 77,
       "date": "Mei 2036",
@@ -6131,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
-    },
-    {
-      "round": 28,
-      "date": "April 2032",
-      "atk": "Kota Sawahlunto",
-      "def": "Sijunjung",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam."
     }
   ]
 }
