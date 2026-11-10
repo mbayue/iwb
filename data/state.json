@@ -1,7 +1,7 @@
 {
-  "round": 75,
+  "round": 76,
   "year": 2036,
-  "month": 3,
+  "month": 4,
   "activeFactionsCount": 470,
   "territoryOwner": [
     0,
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 75,
-    "date": "Maret 2036",
-    "monthNumber": 3,
+    "round": 76,
+    "date": "April 2036",
+    "monthNumber": 4,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 108,
-      "name": "Boyolali",
-      "province": "Jawa Tengah",
-      "color": "#629037",
-      "count": 2
+      "id": 271,
+      "name": "Halmahera Barat",
+      "province": "Maluku Utara",
+      "color": "#2fa3ac",
+      "count": 1
     },
     "defFaction": {
-      "id": 124,
-      "name": "Magelang",
-      "province": "Jawa Tengah",
-      "color": "#3c9f4e",
+      "id": 278,
+      "name": "Kota Tidore Kepulauan",
+      "province": "Maluku Utara",
+      "color": "#a8b738",
       "count": 1
     },
     "atkTerritory": {
-      "id": 108,
-      "name": "Boyolali",
-      "province": "Jawa Tengah",
+      "id": 271,
+      "name": "Halmahera Barat",
+      "province": "Maluku Utara",
       "cScreen": [
-        526.8,
-        595.8
+        1026.9,
+        338.9
       ]
     },
     "defTerritory": {
-      "id": 124,
-      "name": "Magelang",
-      "province": "Jawa Tengah",
+      "id": 278,
+      "name": "Kota Tidore Kepulauan",
+      "province": "Maluku Utara",
       "cScreen": [
-        515.8,
-        598
+        1028.5,
+        363.3
       ]
     },
-    "success": true,
+    "success": false,
     "eliminated": null,
     "activeFactionsCount": 470,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil.",
-      "story": "Laskar Boyolali memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Magelang. Tanpa stok sambal dan amunisi cadangan, garnisun Magelang lumpuh total dan menyatakan menyerah sukarela.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Magelang melancarkan invasi setelah pa...] Boyolali berhasil menaklukkan sektor Magelang!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
+      "story": "Konvoi tempur Halmahera Barat dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Kota Tidore Kepulauan sukses menghalau serbuan Halmahera Barat!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 76,
+      "date": "April 2036",
+      "atk": "Halmahera Barat",
+      "def": "Kota Tidore Kepulauan",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
+    },
     {
       "round": 75,
       "date": "Maret 2036",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
-    },
-    {
-      "round": 26,
-      "date": "Februari 2032",
-      "atk": "Bantaeng",
-      "def": "Jeneponto",
-      "success": true,
-      "elim": "Jeneponto",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Jeneponto Runtuh & Lenyap dari Peta",
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
     }
   ]
 }
