@@ -1,7 +1,7 @@
 {
-  "round": 80,
+  "round": 81,
   "year": 2036,
-  "month": 8,
+  "month": 9,
   "activeFactionsCount": 467,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 80,
-    "date": "Agustus 2036",
-    "monthNumber": 8,
+    "round": 81,
+    "date": "September 2036",
+    "monthNumber": 9,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 99,
-      "name": "Purwakarta",
-      "province": "Jawa Barat",
-      "color": "#8f2b9c",
+      "id": 193,
+      "name": "Hulu Sungai Tengah",
+      "province": "Kalimantan Selatan",
+      "color": "#5a38a3",
       "count": 1
     },
     "defFaction": {
-      "id": 86,
-      "name": "Karawang",
-      "province": "Jawa Barat",
-      "color": "#b738ab",
+      "id": 197,
+      "name": "Kotabaru",
+      "province": "Kalimantan Selatan",
+      "color": "#7ab33d",
       "count": 1
     },
     "atkTerritory": {
-      "id": 99,
-      "name": "Purwakarta",
-      "province": "Jawa Barat",
+      "id": 193,
+      "name": "Hulu Sungai Tengah",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        432,
-        572.2
+        669.4,
+        454.1
       ]
     },
     "defTerritory": {
-      "id": 86,
-      "name": "Karawang",
-      "province": "Jawa Barat",
+      "id": 197,
+      "name": "Kotabaru",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        428.5,
-        561.6
+        687.4,
+        468.7
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan.",
-      "story": "Serangan mendadak Purwakarta batal total setelah seluruh pejabat penyerbu mendadak dipanggil KPK untuk klarifikasi LHKPN.",
+      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring.",
+      "story": "Konvoi tempur Hulu Sungai Tengah dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Debt collector pinjol salah sita motor...] Karawang sukses menghalau serbuan Purwakarta!",
+      "bannerText": "🛡️ [PEMICU: Perang klaim uang donasi pengobatan vi...] Kotabaru sukses menghalau serbuan Hulu Sungai Tengah!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 81,
+      "date": "September 2036",
+      "atk": "Hulu Sungai Tengah",
+      "def": "Kotabaru",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring."
+    },
     {
       "round": 80,
       "date": "Agustus 2036",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati."
-    },
-    {
-      "round": 31,
-      "date": "Juli 2032",
-      "atk": "Pasangkayu",
-      "def": "Sigi",
-      "success": true,
-      "elim": "Sigi",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sigi Runtuh & Lenyap dari Peta",
-      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
     }
   ]
 }
