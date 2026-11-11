@@ -1,7 +1,7 @@
 {
-  "round": 79,
+  "round": 80,
   "year": 2036,
-  "month": 7,
+  "month": 8,
   "activeFactionsCount": 467,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 79,
-    "date": "Juli 2036",
-    "monthNumber": 7,
+    "round": 80,
+    "date": "Agustus 2036",
+    "monthNumber": 8,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 243,
-      "name": "Lingga",
-      "province": "Kepulauan Riau",
-      "color": "#922b9c",
-      "count": 2
+      "id": 99,
+      "name": "Purwakarta",
+      "province": "Jawa Barat",
+      "color": "#8f2b9c",
+      "count": 1
     },
     "defFaction": {
-      "id": 75,
-      "name": "Tanjung Jabung Timur",
-      "province": "Jambi",
-      "color": "#2b389c",
-      "count": 0
+      "id": 86,
+      "name": "Karawang",
+      "province": "Jawa Barat",
+      "color": "#b738ab",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 243,
-      "name": "Lingga",
-      "province": "Kepulauan Riau",
+      "id": 99,
+      "name": "Purwakarta",
+      "province": "Jawa Barat",
       "cScreen": [
-        346.5,
-        382.6
+        432,
+        572.2
       ]
     },
     "defTerritory": {
-      "id": 75,
-      "name": "Tanjung Jabung Timur",
-      "province": "Jambi",
+      "id": 86,
+      "name": "Karawang",
+      "province": "Jawa Barat",
       "cScreen": [
-        329.6,
-        414.3
+        428.5,
+        561.6
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 75,
-      "name": "Tanjung Jabung Timur",
-      "province": "Jambi"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 467,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
-      "story": "Pasukan marinir Lingga menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Tanjung Jabung Timur berhasil diamankan.\n\n💀 NASIB AKHIR:\nFaksi Tanjung Jabung Timur resmi BUBAR! Seluruh warga Tanjung Jabung Timur kini wajib ganti KTP, bayar retribusi ke dinasti Lingga, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tanjung Jabung Timur Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Lingga menjebol Tanjung Jabung Timur! 💀 Tanjung Jabung Timur RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan.",
+      "story": "Serangan mendadak Purwakarta batal total setelah seluruh pejabat penyerbu mendadak dipanggil KPK untuk klarifikasi LHKPN.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Debt collector pinjol salah sita motor...] Karawang sukses menghalau serbuan Purwakarta!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 80,
+      "date": "Agustus 2036",
+      "atk": "Purwakarta",
+      "def": "Karawang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan."
+    },
     {
       "round": 79,
       "date": "Juli 2036",
@@ -6131,16 +6137,6 @@
       "elim": "Sigi",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Sigi Runtuh & Lenyap dari Peta",
       "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
-    },
-    {
-      "round": 30,
-      "date": "Juni 2032",
-      "atk": "Musi Rawas Utara",
-      "def": "Musi Banyuasin",
-      "success": true,
-      "elim": "Musi Banyuasin",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Musi Banyuasin Runtuh & Lenyap dari Peta",
-      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan."
     }
   ]
 }
