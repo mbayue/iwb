@@ -1,8 +1,8 @@
 {
-  "round": 81,
+  "round": 82,
   "year": 2036,
-  "month": 9,
-  "activeFactionsCount": 467,
+  "month": 10,
+  "activeFactionsCount": 466,
   "territoryOwner": [
     0,
     1,
@@ -217,7 +217,7 @@
     210,
     211,
     212,
-    213,
+    205,
     214,
     215,
     216,
@@ -2568,7 +2568,7 @@
       "name": "Gunung Mas",
       "province": "Kalimantan Tengah",
       "color": "#4ba338",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2648,10 +2648,10 @@
       "name": "Pulang Pisau",
       "province": "Kalimantan Tengah",
       "color": "#339442",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 82,
+      "eliminatedBy": 205
     },
     {
       "id": 214,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 81,
-    "date": "September 2036",
-    "monthNumber": 9,
+    "round": 82,
+    "date": "Oktober 2036",
+    "monthNumber": 10,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 193,
-      "name": "Hulu Sungai Tengah",
-      "province": "Kalimantan Selatan",
-      "color": "#5a38a3",
-      "count": 1
+      "id": 205,
+      "name": "Gunung Mas",
+      "province": "Kalimantan Tengah",
+      "color": "#4ba338",
+      "count": 2
     },
     "defFaction": {
-      "id": 197,
-      "name": "Kotabaru",
-      "province": "Kalimantan Selatan",
-      "color": "#7ab33d",
-      "count": 1
+      "id": 213,
+      "name": "Pulang Pisau",
+      "province": "Kalimantan Tengah",
+      "color": "#339442",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 193,
-      "name": "Hulu Sungai Tengah",
-      "province": "Kalimantan Selatan",
+      "id": 205,
+      "name": "Gunung Mas",
+      "province": "Kalimantan Tengah",
       "cScreen": [
-        669.4,
-        454.1
+        611.9,
+        404.5
       ]
     },
     "defTerritory": {
-      "id": 197,
-      "name": "Kotabaru",
-      "province": "Kalimantan Selatan",
+      "id": 213,
+      "name": "Pulang Pisau",
+      "province": "Kalimantan Tengah",
       "cScreen": [
-        687.4,
-        468.7
+        624.7,
+        453.4
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 467,
+    "success": true,
+    "eliminated": {
+      "id": 213,
+      "name": "Pulang Pisau",
+      "province": "Kalimantan Tengah"
+    },
+    "activeFactionsCount": 466,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring.",
-      "story": "Konvoi tempur Hulu Sungai Tengah dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Perang klaim uang donasi pengobatan vi...] Kotabaru sukses menghalau serbuan Hulu Sungai Tengah!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
+      "story": "Armada kapal pendarat Gunung Mas menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Pulang Pisau. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Pulang Pisau terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Gunung Mas!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pulang Pisau Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Gunung Mas menjebol Pulang Pisau! 💀 Pulang Pisau RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 82,
+      "date": "Oktober 2036",
+      "atk": "Gunung Mas",
+      "def": "Pulang Pisau",
+      "success": true,
+      "elim": "Pulang Pisau",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pulang Pisau Runtuh & Lenyap dari Peta",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
+    },
     {
       "round": 81,
       "date": "September 2036",
@@ -6127,16 +6141,6 @@
       "elim": "Malang",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Malang Runtuh & Lenyap dari Peta",
       "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
-    },
-    {
-      "round": 32,
-      "date": "Agustus 2032",
-      "atk": "Mamuju Tengah",
-      "def": "Pasangkayu",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati."
     }
   ]
 }
