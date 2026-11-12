@@ -1,7 +1,7 @@
 {
-  "round": 83,
+  "round": 84,
   "year": 2036,
-  "month": 11,
+  "month": 12,
   "activeFactionsCount": 466,
   "territoryOwner": [
     0,
@@ -113,7 +113,7 @@
     106,
     107,
     108,
-    109,
+    122,
     88,
     111,
     112,
@@ -1608,7 +1608,7 @@
       "name": "Brebes",
       "province": "Jawa Tengah",
       "color": "#384da3",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1738,7 +1738,7 @@
       "name": "Kota Tegal",
       "province": "Jawa Tengah",
       "color": "#386bb7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 83,
-    "date": "November 2036",
-    "monthNumber": 11,
+    "round": 84,
+    "date": "Desember 2036",
+    "monthNumber": 12,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 2,
-      "name": "Aceh Besar",
-      "province": "Aceh",
-      "color": "#8238b7",
-      "count": 1
+      "id": 122,
+      "name": "Kota Tegal",
+      "province": "Jawa Tengah",
+      "color": "#386bb7",
+      "count": 2
     },
     "defFaction": {
-      "id": 20,
-      "name": "Pidie",
-      "province": "Aceh",
-      "color": "#4254ae",
+      "id": 109,
+      "name": "Brebes",
+      "province": "Jawa Tengah",
+      "color": "#384da3",
       "count": 1
     },
     "atkTerritory": {
-      "id": 2,
-      "name": "Aceh Besar",
-      "province": "Aceh",
+      "id": 122,
+      "name": "Kota Tegal",
+      "province": "Jawa Tengah",
       "cScreen": [
-        79.1,
-        217.9
+        481.2,
+        579.7
       ]
     },
     "defTerritory": {
-      "id": 20,
-      "name": "Pidie",
-      "province": "Aceh",
+      "id": 109,
+      "name": "Brebes",
+      "province": "Jawa Tengah",
       "cScreen": [
-        96.1,
-        227.9
+        476.1,
+        585.7
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 466,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis.",
-      "story": "Rencana serbuan Aceh Besar bocor duluan ke garnisun Pidie gara-gara pejabat intelijen Aceh Besar menjual dokumen taktik seharga kardus suap makelar kasus.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga mengamuk ukuran tahu dan tempe g...] Pidie sukses menghalau serbuan Aceh Besar!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Konvoi pick-up dan motor brong Kota Tegal menerobos gerbang batas teritorial Brebes saat subuh. Pasukan pertahanan Brebes tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Kota Tegal berhasil menaklukkan sektor Brebes!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 84,
+      "date": "Desember 2036",
+      "atk": "Kota Tegal",
+      "def": "Brebes",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 83,
       "date": "November 2036",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
-    },
-    {
-      "round": 34,
-      "date": "Oktober 2032",
-      "atk": "Kota Bau Bau",
-      "def": "Buton",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
     }
   ]
 }
