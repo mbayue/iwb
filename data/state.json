@@ -1,7 +1,7 @@
 {
-  "round": 82,
+  "round": 83,
   "year": 2036,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 466,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 82,
-    "date": "Oktober 2036",
-    "monthNumber": 10,
+    "round": 83,
+    "date": "November 2036",
+    "monthNumber": 11,
     "yearNumber": 2036,
     "atkFaction": {
-      "id": 205,
-      "name": "Gunung Mas",
-      "province": "Kalimantan Tengah",
-      "color": "#4ba338",
-      "count": 2
+      "id": 2,
+      "name": "Aceh Besar",
+      "province": "Aceh",
+      "color": "#8238b7",
+      "count": 1
     },
     "defFaction": {
-      "id": 213,
-      "name": "Pulang Pisau",
-      "province": "Kalimantan Tengah",
-      "color": "#339442",
-      "count": 0
+      "id": 20,
+      "name": "Pidie",
+      "province": "Aceh",
+      "color": "#4254ae",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 205,
-      "name": "Gunung Mas",
-      "province": "Kalimantan Tengah",
+      "id": 2,
+      "name": "Aceh Besar",
+      "province": "Aceh",
       "cScreen": [
-        611.9,
-        404.5
+        79.1,
+        217.9
       ]
     },
     "defTerritory": {
-      "id": 213,
-      "name": "Pulang Pisau",
-      "province": "Kalimantan Tengah",
+      "id": 20,
+      "name": "Pidie",
+      "province": "Aceh",
       "cScreen": [
-        624.7,
-        453.4
+        96.1,
+        227.9
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 213,
-      "name": "Pulang Pisau",
-      "province": "Kalimantan Tengah"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 466,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
-      "story": "Armada kapal pendarat Gunung Mas menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Pulang Pisau. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Pulang Pisau terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Gunung Mas!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pulang Pisau Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Gunung Mas menjebol Pulang Pisau! 💀 Pulang Pisau RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis.",
+      "story": "Rencana serbuan Aceh Besar bocor duluan ke garnisun Pidie gara-gara pejabat intelijen Aceh Besar menjual dokumen taktik seharga kardus suap makelar kasus.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Warga mengamuk ukuran tahu dan tempe g...] Pidie sukses menghalau serbuan Aceh Besar!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 83,
+      "date": "November 2036",
+      "atk": "Aceh Besar",
+      "def": "Pidie",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis."
+    },
     {
       "round": 82,
       "date": "Oktober 2036",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
-    },
-    {
-      "round": 33,
-      "date": "September 2032",
-      "atk": "Mojokerto",
-      "def": "Malang",
-      "success": true,
-      "elim": "Malang",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malang Runtuh & Lenyap dari Peta",
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
     }
   ]
 }
