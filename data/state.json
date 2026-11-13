@@ -1,8 +1,8 @@
 {
-  "round": 84,
-  "year": 2036,
-  "month": 12,
-  "activeFactionsCount": 466,
+  "round": 85,
+  "year": 2037,
+  "month": 1,
+  "activeFactionsCount": 465,
   "territoryOwner": [
     0,
     1,
@@ -239,7 +239,7 @@
     232,
     233,
     231,
-    235,
+    233,
     236,
     237,
     238,
@@ -2848,7 +2848,7 @@
       "name": "Bangka Selatan",
       "province": "Kepulauan Bangka Belitung",
       "color": "#b33d3e",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2868,10 +2868,10 @@
       "name": "Belitung",
       "province": "Kepulauan Bangka Belitung",
       "color": "#772fac",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 85,
+      "eliminatedBy": 233
     },
     {
       "id": 236,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 84,
-    "date": "Desember 2036",
-    "monthNumber": 12,
-    "yearNumber": 2036,
+    "round": 85,
+    "date": "Januari 2037",
+    "monthNumber": 1,
+    "yearNumber": 2037,
     "atkFaction": {
-      "id": 122,
-      "name": "Kota Tegal",
-      "province": "Jawa Tengah",
-      "color": "#386bb7",
+      "id": 233,
+      "name": "Bangka Selatan",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#b33d3e",
       "count": 2
     },
     "defFaction": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
-      "color": "#384da3",
-      "count": 1
+      "id": 235,
+      "name": "Belitung",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#772fac",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 122,
-      "name": "Kota Tegal",
-      "province": "Jawa Tengah",
+      "id": 233,
+      "name": "Bangka Selatan",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        481.2,
-        579.7
+        404.5,
+        460.5
       ]
     },
     "defTerritory": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
+      "id": 235,
+      "name": "Belitung",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        476.1,
-        585.7
+        440,
+        461.2
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 466,
+    "eliminated": {
+      "id": 235,
+      "name": "Belitung",
+      "province": "Kepulauan Bangka Belitung"
+    },
+    "activeFactionsCount": 465,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Konvoi pick-up dan motor brong Kota Tegal menerobos gerbang batas teritorial Brebes saat subuh. Pasukan pertahanan Brebes tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Kota Tegal berhasil menaklukkan sektor Brebes!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
+      "story": "Pasukan marinir Bangka Selatan menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Belitung berhasil diamankan.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Belitung resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Belitung resmi disita dan diubah jadi gerai Mie Gacoan cabang Bangka Selatan!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Belitung Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa pembagian royalti tambang tim...] Bangka Selatan menjebol Belitung! 💀 Belitung RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 85,
+      "date": "Januari 2037",
+      "atk": "Bangka Selatan",
+      "def": "Belitung",
+      "success": true,
+      "elim": "Belitung",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Belitung Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
+    },
     {
       "round": 84,
       "date": "Desember 2036",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring."
-    },
-    {
-      "round": 35,
-      "date": "November 2032",
-      "atk": "Ponorogo",
-      "def": "Tulungagung",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
     }
   ]
 }
