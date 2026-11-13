@@ -1,8 +1,8 @@
 {
-  "round": 87,
+  "round": 88,
   "year": 2037,
-  "month": 3,
-  "activeFactionsCount": 464,
+  "month": 4,
+  "activeFactionsCount": 463,
   "territoryOwner": [
     0,
     1,
@@ -69,7 +69,7 @@
     62,
     63,
     64,
-    65,
+    60,
     66,
     67,
     68,
@@ -1118,7 +1118,7 @@
       "name": "Boalemo",
       "province": "Gorontalo",
       "color": "#903763",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1168,10 +1168,10 @@
       "name": "Pohuwato",
       "province": "Gorontalo",
       "color": "#af3db3",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 88,
+      "eliminatedBy": 60
     },
     {
       "id": 66,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 87,
-    "date": "Maret 2037",
-    "monthNumber": 3,
+    "round": 88,
+    "date": "April 2037",
+    "monthNumber": 4,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 469,
-      "name": "Musi Rawas Utara",
-      "province": "Sumatera Selatan",
-      "color": "#a39438",
-      "count": 3
+      "id": 60,
+      "name": "Boalemo",
+      "province": "Gorontalo",
+      "color": "#903763",
+      "count": 2
     },
     "defFaction": {
-      "id": 475,
-      "name": "Penukal Abab Lematang Ilir",
-      "province": "Sumatera Selatan",
-      "color": "#2fac7b",
+      "id": 65,
+      "name": "Pohuwato",
+      "province": "Gorontalo",
+      "color": "#af3db3",
       "count": 0
     },
     "atkTerritory": {
-      "id": 467,
-      "name": "Musi Banyuasin",
-      "province": "Sumatera Selatan",
+      "id": 60,
+      "name": "Boalemo",
+      "province": "Gorontalo",
       "cScreen": [
-        324.5,
-        450.7
+        871.8,
+        357.8
       ]
     },
     "defTerritory": {
-      "id": 475,
-      "name": "Penukal Abab Lematang Ilir",
-      "province": "Sumatera Selatan",
+      "id": 65,
+      "name": "Pohuwato",
+      "province": "Gorontalo",
       "cScreen": [
-        328.6,
-        472
+        850.7,
+        357
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 475,
-      "name": "Penukal Abab Lematang Ilir",
-      "province": "Sumatera Selatan"
+      "id": 65,
+      "name": "Pohuwato",
+      "province": "Gorontalo"
     },
-    "activeFactionsCount": 464,
+    "activeFactionsCount": 463,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga.",
-      "story": "Laskar Musi Rawas Utara memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Penukal Abab Lematang Ilir. Tanpa stok sambal dan amunisi cadangan, garnisun Penukal Abab Lematang Ilir lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Penukal Abab Lematang Ilir resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Penukal Abab Lematang Ilir resmi disita dan diubah jadi gerai Mie Gacoan cabang Musi Rawas Utara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Penukal Abab Lematang Ilir Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Dinas PUPR kota sebelah salah pasang p...] Musi Rawas Utara menjebol Penukal Abab Lematang Ilir! 💀 Penukal Abab Lematang Ilir RUNTUH!",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Laskar Boalemo memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Pohuwato. Tanpa stok sambal dan amunisi cadangan, garnisun Pohuwato lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Pohuwato terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Boalemo!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pohuwato Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Boalemo menjebol Pohuwato! 💀 Pohuwato RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 88,
+      "date": "April 2037",
+      "atk": "Boalemo",
+      "def": "Pohuwato",
+      "success": true,
+      "elim": "Pohuwato",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pohuwato Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 87,
       "date": "Maret 2037",
@@ -6131,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
-    },
-    {
-      "round": 38,
-      "date": "Februari 2033",
-      "atk": "Pulau Morotai",
-      "def": "Halmahera Timur",
-      "success": true,
-      "elim": "Halmahera Timur",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Halmahera Timur Runtuh & Lenyap dari Peta",
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
     }
   ]
 }
