@@ -1,8 +1,8 @@
 {
-  "round": 86,
+  "round": 87,
   "year": 2037,
-  "month": 2,
-  "activeFactionsCount": 465,
+  "month": 3,
+  "activeFactionsCount": 464,
   "territoryOwner": [
     0,
     1,
@@ -479,7 +479,7 @@
     472,
     473,
     474,
-    475,
+    469,
     477,
     477,
     478,
@@ -5208,7 +5208,7 @@
       "name": "Musi Rawas Utara",
       "province": "Sumatera Selatan",
       "color": "#a39438",
-      "territoryCount": 2,
+      "territoryCount": 3,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5268,10 +5268,10 @@
       "name": "Penukal Abab Lematang Ilir",
       "province": "Sumatera Selatan",
       "color": "#2fac7b",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 87,
+      "eliminatedBy": 469
     },
     {
       "id": 476,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 86,
-    "date": "Februari 2037",
-    "monthNumber": 2,
+    "round": 87,
+    "date": "Maret 2037",
+    "monthNumber": 3,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 175,
-      "name": "Bengkayang",
-      "province": "Kalimantan Barat",
-      "color": "#ac2fa4",
-      "count": 1
+      "id": 469,
+      "name": "Musi Rawas Utara",
+      "province": "Sumatera Selatan",
+      "color": "#a39438",
+      "count": 3
     },
     "defFaction": {
-      "id": 182,
-      "name": "Landak",
-      "province": "Kalimantan Barat",
-      "color": "#38aab7",
-      "count": 1
+      "id": 475,
+      "name": "Penukal Abab Lematang Ilir",
+      "province": "Sumatera Selatan",
+      "color": "#2fac7b",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 175,
-      "name": "Bengkayang",
-      "province": "Kalimantan Barat",
+      "id": 467,
+      "name": "Musi Banyuasin",
+      "province": "Sumatera Selatan",
       "cScreen": [
-        491.8,
-        348.7
+        324.5,
+        450.7
       ]
     },
     "defTerritory": {
-      "id": 182,
-      "name": "Landak",
-      "province": "Kalimantan Barat",
+      "id": 475,
+      "name": "Penukal Abab Lematang Ilir",
+      "province": "Sumatera Selatan",
       "cScreen": [
-        498.5,
-        361.8
+        328.6,
+        472
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 465,
+    "success": true,
+    "eliminated": {
+      "id": 475,
+      "name": "Penukal Abab Lematang Ilir",
+      "province": "Sumatera Selatan"
+    },
+    "activeFactionsCount": 464,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Konvoi tempur Bengkayang dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga geram diekspor kabut asap karhut...] Landak sukses menghalau serbuan Bengkayang!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga.",
+      "story": "Laskar Musi Rawas Utara memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Penukal Abab Lematang Ilir. Tanpa stok sambal dan amunisi cadangan, garnisun Penukal Abab Lematang Ilir lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Penukal Abab Lematang Ilir resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Penukal Abab Lematang Ilir resmi disita dan diubah jadi gerai Mie Gacoan cabang Musi Rawas Utara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Penukal Abab Lematang Ilir Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Dinas PUPR kota sebelah salah pasang p...] Musi Rawas Utara menjebol Penukal Abab Lematang Ilir! 💀 Penukal Abab Lematang Ilir RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 87,
+      "date": "Maret 2037",
+      "atk": "Musi Rawas Utara",
+      "def": "Penukal Abab Lematang Ilir",
+      "success": true,
+      "elim": "Penukal Abab Lematang Ilir",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Penukal Abab Lematang Ilir Runtuh & Lenyap dari Peta",
+      "casusBelli": "Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga."
+    },
     {
       "round": 86,
       "date": "Februari 2037",
@@ -6127,16 +6141,6 @@
       "elim": "Halmahera Timur",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Halmahera Timur Runtuh & Lenyap dari Peta",
       "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
-    },
-    {
-      "round": 37,
-      "date": "Januari 2033",
-      "atk": "Wajo",
-      "def": "Soppeng",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman."
     }
   ]
 }
