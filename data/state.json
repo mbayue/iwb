@@ -1,7 +1,7 @@
 {
-  "round": 85,
+  "round": 86,
   "year": 2037,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 465,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 85,
-    "date": "Januari 2037",
-    "monthNumber": 1,
+    "round": 86,
+    "date": "Februari 2037",
+    "monthNumber": 2,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 233,
-      "name": "Bangka Selatan",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#b33d3e",
-      "count": 2
+      "id": 175,
+      "name": "Bengkayang",
+      "province": "Kalimantan Barat",
+      "color": "#ac2fa4",
+      "count": 1
     },
     "defFaction": {
-      "id": 235,
-      "name": "Belitung",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#772fac",
-      "count": 0
+      "id": 182,
+      "name": "Landak",
+      "province": "Kalimantan Barat",
+      "color": "#38aab7",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 233,
-      "name": "Bangka Selatan",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 175,
+      "name": "Bengkayang",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        404.5,
-        460.5
+        491.8,
+        348.7
       ]
     },
     "defTerritory": {
-      "id": 235,
-      "name": "Belitung",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 182,
+      "name": "Landak",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        440,
-        461.2
+        498.5,
+        361.8
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 235,
-      "name": "Belitung",
-      "province": "Kepulauan Bangka Belitung"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 465,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
-      "story": "Pasukan marinir Bangka Selatan menerobos selat di tengah kabut fajar. Dengan bantuan nelayan lokal yang diberi sembako gratis, seluruh pangkalan pantai Belitung berhasil diamankan.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Belitung resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Belitung resmi disita dan diubah jadi gerai Mie Gacoan cabang Bangka Selatan!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Belitung Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa pembagian royalti tambang tim...] Bangka Selatan menjebol Belitung! 💀 Belitung RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Konvoi tempur Bengkayang dihadang razia Bea Cukai perbatasan yang mengenakan denda pajak impor alutsista sebesar 200%.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Warga geram diekspor kabut asap karhut...] Landak sukses menghalau serbuan Bengkayang!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 86,
+      "date": "Februari 2037",
+      "atk": "Bengkayang",
+      "def": "Landak",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 85,
       "date": "Januari 2037",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman."
-    },
-    {
-      "round": 36,
-      "date": "Desember 2032",
-      "atk": "Tanggamus",
-      "def": "Pringsewu",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring."
     }
   ]
 }
