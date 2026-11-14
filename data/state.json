@@ -1,8 +1,8 @@
 {
-  "round": 88,
+  "round": 89,
   "year": 2037,
-  "month": 4,
-  "activeFactionsCount": 463,
+  "month": 5,
+  "activeFactionsCount": 462,
   "territoryOwner": [
     0,
     1,
@@ -388,7 +388,7 @@
     393,
     382,
     383,
-    384,
+    382,
     418,
     386,
     387,
@@ -4338,7 +4338,7 @@
       "name": "Kota Palopo",
       "province": "Sulawesi Selatan",
       "color": "#a83472",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4358,10 +4358,10 @@
       "name": "Luwu",
       "province": "Sulawesi Selatan",
       "color": "#3b3790",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 89,
+      "eliminatedBy": 382
     },
     {
       "id": 385,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 88,
-    "date": "April 2037",
-    "monthNumber": 4,
+    "round": 89,
+    "date": "Mei 2037",
+    "monthNumber": 5,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 60,
-      "name": "Boalemo",
-      "province": "Gorontalo",
-      "color": "#903763",
+      "id": 382,
+      "name": "Kota Palopo",
+      "province": "Sulawesi Selatan",
+      "color": "#a83472",
       "count": 2
     },
     "defFaction": {
-      "id": 65,
-      "name": "Pohuwato",
-      "province": "Gorontalo",
-      "color": "#af3db3",
+      "id": 384,
+      "name": "Luwu",
+      "province": "Sulawesi Selatan",
+      "color": "#3b3790",
       "count": 0
     },
     "atkTerritory": {
-      "id": 60,
-      "name": "Boalemo",
-      "province": "Gorontalo",
+      "id": 382,
+      "name": "Kota Palopo",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        871.8,
-        357.8
+        806.4,
+        464.8
       ]
     },
     "defTerritory": {
-      "id": 65,
-      "name": "Pohuwato",
-      "province": "Gorontalo",
+      "id": 384,
+      "name": "Luwu",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        850.7,
-        357
+        807.1,
+        469.3
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 65,
-      "name": "Pohuwato",
-      "province": "Gorontalo"
+      "id": 384,
+      "name": "Luwu",
+      "province": "Sulawesi Selatan"
     },
-    "activeFactionsCount": 463,
+    "activeFactionsCount": 462,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Laskar Boalemo memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Pohuwato. Tanpa stok sambal dan amunisi cadangan, garnisun Pohuwato lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Pohuwato terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Boalemo!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pohuwato Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Boalemo menjebol Pohuwato! 💀 Pohuwato RUNTUH!",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
+      "story": "Konvoi pick-up dan motor brong Kota Palopo menerobos gerbang batas teritorial Luwu saat subuh. Pasukan pertahanan Luwu tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKas daerah Luwu bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kota Palopo!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Kota Palopo menjebol Luwu! 💀 Luwu RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 89,
+      "date": "Mei 2037",
+      "atk": "Kota Palopo",
+      "def": "Luwu",
+      "success": true,
+      "elim": "Luwu",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
+    },
     {
       "round": 88,
       "date": "April 2037",
@@ -6131,16 +6141,6 @@
       "elim": "Gayo Lues",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Gayo Lues Runtuh & Lenyap dari Peta",
       "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
-    },
-    {
-      "round": 39,
-      "date": "Maret 2033",
-      "atk": "Bolaang Mongondow Timur",
-      "def": "Minahasa Selatan",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
     }
   ]
 }
