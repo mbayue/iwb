@@ -1,7 +1,7 @@
 {
-  "round": 89,
+  "round": 90,
   "year": 2037,
-  "month": 5,
+  "month": 6,
   "activeFactionsCount": 462,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 89,
-    "date": "Mei 2037",
-    "monthNumber": 5,
+    "round": 90,
+    "date": "Juni 2037",
+    "monthNumber": 6,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 382,
-      "name": "Kota Palopo",
-      "province": "Sulawesi Selatan",
-      "color": "#a83472",
-      "count": 2
+      "id": 365,
+      "name": "Rokan Hulu",
+      "province": "Riau",
+      "color": "#3db379",
+      "count": 1
     },
     "defFaction": {
-      "id": 384,
-      "name": "Luwu",
-      "province": "Sulawesi Selatan",
-      "color": "#3b3790",
-      "count": 0
+      "id": 358,
+      "name": "Kampar",
+      "province": "Riau",
+      "color": "#6934a8",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 382,
-      "name": "Kota Palopo",
-      "province": "Sulawesi Selatan",
+      "id": 365,
+      "name": "Rokan Hulu",
+      "province": "Riau",
       "cScreen": [
-        806.4,
-        464.8
+        227.4,
+        350.4
       ]
     },
     "defTerritory": {
-      "id": 384,
-      "name": "Luwu",
-      "province": "Sulawesi Selatan",
+      "id": 358,
+      "name": "Kampar",
+      "province": "Riau",
       "cScreen": [
-        807.1,
-        469.3
+        243.5,
+        369.8
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 384,
-      "name": "Luwu",
-      "province": "Sulawesi Selatan"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 462,
     "gameOver": false,
     "winner": null,
     "warReport": {
       "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan.",
-      "story": "Konvoi pick-up dan motor brong Kota Palopo menerobos gerbang batas teritorial Luwu saat subuh. Pasukan pertahanan Luwu tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKas daerah Luwu bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kota Palopo!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga marah postingan lawas akun Kasku...] Kota Palopo menjebol Luwu! 💀 Luwu RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "story": "Serangan Rokan Hulu terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Warga marah postingan lawas akun Kasku...] Kampar sukses menghalau serbuan Rokan Hulu!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 90,
+      "date": "Juni 2037",
+      "atk": "Rokan Hulu",
+      "def": "Kampar",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
+    },
     {
       "round": 89,
       "date": "Mei 2037",
@@ -6131,16 +6137,6 @@
       "elim": "Luwu Timur",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Timur Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa kepemilikan karang pulau tak berpenghuni yang ternyata kaya tambang pasir laut."
-    },
-    {
-      "round": 40,
-      "date": "April 2033",
-      "atk": "Langkat",
-      "def": "Gayo Lues",
-      "success": true,
-      "elim": "Gayo Lues",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Gayo Lues Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
     }
   ]
 }
