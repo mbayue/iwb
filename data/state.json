@@ -1,7 +1,7 @@
 {
-  "round": 91,
+  "round": 92,
   "year": 2037,
-  "month": 7,
+  "month": 8,
   "activeFactionsCount": 461,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 91,
-    "date": "Juli 2037",
-    "monthNumber": 7,
+    "round": 92,
+    "date": "Agustus 2037",
+    "monthNumber": 8,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 387,
-      "name": "Maros",
-      "province": "Sulawesi Selatan",
-      "color": "#942b9c",
-      "count": 2
+      "id": 34,
+      "name": "Kota Tangerang",
+      "province": "Banten",
+      "color": "#a8343d",
+      "count": 1
     },
     "defFaction": {
-      "id": 388,
-      "name": "Pangkajene Kepulauan",
-      "province": "Sulawesi Selatan",
-      "color": "#8a9f3c",
-      "count": 0
+      "id": 52,
+      "name": "Kota Administrasi Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "color": "#9f3c8e",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 387,
-      "name": "Maros",
-      "province": "Sulawesi Selatan",
+      "id": 34,
+      "name": "Kota Tangerang",
+      "province": "Banten",
       "cScreen": [
-        794.7,
-        524.1
+        409.2,
+        559.2
       ]
     },
     "defTerritory": {
-      "id": 388,
-      "name": "Pangkajene Kepulauan",
-      "province": "Sulawesi Selatan",
+      "id": 52,
+      "name": "Kota Administrasi Jakarta Selatan",
+      "province": "DKI Jakarta",
       "cScreen": [
-        792.3,
-        517.7
+        413,
+        561.9
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 388,
-      "name": "Pangkajene Kepulauan",
-      "province": "Sulawesi Selatan"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 461,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Maros sukses merebut tugu perbatasan dan gedung dinas Pangkajene Kepulauan. Bendera Pangkajene Kepulauan diturunkan dan diganti bendera kejayaan Maros.\n\n💀 NASIB AKHIR:\nKas daerah Pangkajene Kepulauan bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Maros!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Pangkajene Kepulauan Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Maros menjebol Pangkajene Kepulauan! 💀 Pangkajene Kepulauan RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Kepanikan di kawasan SCBD setelah IHSG anjlok bebas dan aturan bursa FCA bikin investor ritel demo di depan gedung BEI.",
+      "story": "Konvoi tempur Kota Tangerang dipukul mundur secara memalukan oleh barisan emak-emak naik motor matic sein kiri tapi belok kanan.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Kepanikan di kawasan SCBD setelah IHSG...] Kota Administrasi Jakarta Selatan sukses menghalau serbuan Kota Tangerang!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 92,
+      "date": "Agustus 2037",
+      "atk": "Kota Tangerang",
+      "def": "Kota Administrasi Jakarta Selatan",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Kepanikan di kawasan SCBD setelah IHSG anjlok bebas dan aturan bursa FCA bikin investor ritel demo di depan gedung BEI."
+    },
     {
       "round": 91,
       "date": "Juli 2037",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
-    },
-    {
-      "round": 42,
-      "date": "Juni 2033",
-      "atk": "Kapuas",
-      "def": "Barito Utara",
-      "success": true,
-      "elim": "Barito Utara",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Barito Utara Runtuh & Lenyap dari Peta",
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
     }
   ]
 }
