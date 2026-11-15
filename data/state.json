@@ -1,8 +1,8 @@
 {
-  "round": 95,
+  "round": 96,
   "year": 2037,
-  "month": 11,
-  "activeFactionsCount": 458,
+  "month": 12,
+  "activeFactionsCount": 457,
   "territoryOwner": [
     0,
     1,
@@ -48,7 +48,7 @@
     41,
     42,
     43,
-    44,
+    460,
     45,
     46,
     47,
@@ -958,10 +958,10 @@
       "name": "Kepahiang",
       "province": "Bengkulu",
       "color": "#9c42ae",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 96,
+      "eliminatedBy": 460
     },
     {
       "id": 45,
@@ -5118,7 +5118,7 @@
       "name": "Empat Lawang",
       "province": "Sumatera Selatan",
       "color": "#533c9f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 95,
-    "date": "November 2037",
-    "monthNumber": 11,
+    "round": 96,
+    "date": "Desember 2037",
+    "monthNumber": 12,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 143,
-      "name": "Gresik",
-      "province": "Jawa Timur",
-      "color": "#3459bc",
+      "id": 460,
+      "name": "Empat Lawang",
+      "province": "Sumatera Selatan",
+      "color": "#533c9f",
       "count": 2
     },
     "defFaction": {
-      "id": 169,
-      "name": "Sidoarjo",
-      "province": "Jawa Timur",
-      "color": "#3882a3",
+      "id": 44,
+      "name": "Kepahiang",
+      "province": "Bengkulu",
+      "color": "#9c42ae",
       "count": 0
     },
     "atkTerritory": {
-      "id": 143,
-      "name": "Gresik",
-      "province": "Jawa Timur",
+      "id": 460,
+      "name": "Empat Lawang",
+      "province": "Sumatera Selatan",
       "cScreen": [
-        582.6,
-        578.7
+        299.4,
+        486.7
       ]
     },
     "defTerritory": {
-      "id": 169,
-      "name": "Sidoarjo",
-      "province": "Jawa Timur",
+      "id": 44,
+      "name": "Kepahiang",
+      "province": "Bengkulu",
       "cScreen": [
-        587.4,
-        597.4
+        290.6,
+        484.3
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 169,
-      "name": "Sidoarjo",
-      "province": "Jawa Timur"
+      "id": 44,
+      "name": "Kepahiang",
+      "province": "Bengkulu"
     },
-    "activeFactionsCount": 458,
+    "activeFactionsCount": 457,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Gresik sukses merebut tugu perbatasan dan gedung dinas Sidoarjo. Bendera Sidoarjo diturunkan dan diganti bendera kejayaan Gresik.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Sidoarjo resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Sidoarjo resmi disita dan diubah jadi gerai Mie Gacoan cabang Gresik!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sidoarjo Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Helikopter pemadam karhutla salah sasa...] Gresik menjebol Sidoarjo! 💀 Sidoarjo RUNTUH!",
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
+      "story": "Pasukan elit Empat Lawang melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Kepahiang kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Kepahiang resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Kepahiang resmi disita dan diubah jadi gerai Mie Gacoan cabang Empat Lawang!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kepahiang Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Empat Lawang menjebol Kepahiang! 💀 Kepahiang RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 96,
+      "date": "Desember 2037",
+      "atk": "Empat Lawang",
+      "def": "Kepahiang",
+      "success": true,
+      "elim": "Kepahiang",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kepahiang Runtuh & Lenyap dari Peta",
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
+    },
     {
       "round": 95,
       "date": "November 2037",
@@ -6131,16 +6141,6 @@
       "elim": "Sanggau",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Sanggau Runtuh & Lenyap dari Peta",
       "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
-    },
-    {
-      "round": 46,
-      "date": "Oktober 2033",
-      "atk": "Nganjuk",
-      "def": "Madiun",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring."
     }
   ]
 }
