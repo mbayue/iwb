@@ -1,8 +1,8 @@
 {
-  "round": 92,
+  "round": 93,
   "year": 2037,
-  "month": 8,
-  "activeFactionsCount": 461,
+  "month": 9,
+  "activeFactionsCount": 460,
   "territoryOwner": [
     0,
     1,
@@ -246,7 +246,7 @@
     239,
     240,
     241,
-    242,
+    241,
     243,
     244,
     245,
@@ -2928,7 +2928,7 @@
       "name": "Kota Batam",
       "province": "Kepulauan Riau",
       "color": "#a35b38",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2938,10 +2938,10 @@
       "name": "Kota Tanjung Pinang",
       "province": "Kepulauan Riau",
       "color": "#38b786",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 93,
+      "eliminatedBy": 241
     },
     {
       "id": 243,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 92,
-    "date": "Agustus 2037",
-    "monthNumber": 8,
+    "round": 93,
+    "date": "September 2037",
+    "monthNumber": 9,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 34,
-      "name": "Kota Tangerang",
-      "province": "Banten",
-      "color": "#a8343d",
-      "count": 1
+      "id": 241,
+      "name": "Kota Batam",
+      "province": "Kepulauan Riau",
+      "color": "#a35b38",
+      "count": 2
     },
     "defFaction": {
-      "id": 52,
-      "name": "Kota Administrasi Jakarta Selatan",
-      "province": "DKI Jakarta",
-      "color": "#9f3c8e",
-      "count": 1
+      "id": 242,
+      "name": "Kota Tanjung Pinang",
+      "province": "Kepulauan Riau",
+      "color": "#38b786",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 34,
-      "name": "Kota Tangerang",
-      "province": "Banten",
+      "id": 241,
+      "name": "Kota Batam",
+      "province": "Kepulauan Riau",
       "cScreen": [
-        409.2,
-        559.2
+        333,
+        349.4
       ]
     },
     "defTerritory": {
-      "id": 52,
-      "name": "Kota Administrasi Jakarta Selatan",
-      "province": "DKI Jakarta",
+      "id": 242,
+      "name": "Kota Tanjung Pinang",
+      "province": "Kepulauan Riau",
       "cScreen": [
-        413,
-        561.9
+        344.7,
+        349.2
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 461,
+    "success": true,
+    "eliminated": {
+      "id": 242,
+      "name": "Kota Tanjung Pinang",
+      "province": "Kepulauan Riau"
+    },
+    "activeFactionsCount": 460,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kepanikan di kawasan SCBD setelah IHSG anjlok bebas dan aturan bursa FCA bikin investor ritel demo di depan gedung BEI.",
-      "story": "Konvoi tempur Kota Tangerang dipukul mundur secara memalukan oleh barisan emak-emak naik motor matic sein kiri tapi belok kanan.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Kepanikan di kawasan SCBD setelah IHSG...] Kota Administrasi Jakarta Selatan sukses menghalau serbuan Kota Tangerang!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
+      "story": "Konvoi pick-up dan motor brong Kota Batam menerobos gerbang batas teritorial Kota Tanjung Pinang saat subuh. Pasukan pertahanan Kota Tanjung Pinang tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati Kota Tanjung Pinang dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Kota Tanjung Pinang resmi BUBAR!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Tanjung Pinang Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Kota Batam menjebol Kota Tanjung Pinang! 💀 Kota Tanjung Pinang RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 93,
+      "date": "September 2037",
+      "atk": "Kota Batam",
+      "def": "Kota Tanjung Pinang",
+      "success": true,
+      "elim": "Kota Tanjung Pinang",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Tanjung Pinang Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
+    },
     {
       "round": 92,
       "date": "Agustus 2037",
@@ -6127,16 +6141,6 @@
       "elim": "Maluku Tenggara",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tenggara Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa gelar doktor kilat 1 tahun 8 bulan milik bupati yang mendadak ditangguhkan senat kampus."
-    },
-    {
-      "round": 43,
-      "date": "Juli 2033",
-      "atk": "Tabalong",
-      "def": "Barito Utara",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
     }
   ]
 }
