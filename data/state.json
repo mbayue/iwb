@@ -1,8 +1,8 @@
 {
-  "round": 93,
+  "round": 94,
   "year": 2037,
-  "month": 9,
-  "activeFactionsCount": 460,
+  "month": 10,
+  "activeFactionsCount": 459,
   "territoryOwner": [
     0,
     1,
@@ -348,7 +348,7 @@
     341,
     342,
     343,
-    344,
+    346,
     345,
     346,
     347,
@@ -3958,10 +3958,10 @@
       "name": "Boven Digoel",
       "province": "Papua Selatan",
       "color": "#42ae6b",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 94,
+      "eliminatedBy": 346
     },
     {
       "id": 345,
@@ -3978,7 +3978,7 @@
       "name": "Merauke",
       "province": "Papua Selatan",
       "color": "#a8a334",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 93,
-    "date": "September 2037",
-    "monthNumber": 9,
+    "round": 94,
+    "date": "Oktober 2037",
+    "monthNumber": 10,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 241,
-      "name": "Kota Batam",
-      "province": "Kepulauan Riau",
-      "color": "#a35b38",
+      "id": 346,
+      "name": "Merauke",
+      "province": "Papua Selatan",
+      "color": "#a8a334",
       "count": 2
     },
     "defFaction": {
-      "id": 242,
-      "name": "Kota Tanjung Pinang",
-      "province": "Kepulauan Riau",
-      "color": "#38b786",
+      "id": 344,
+      "name": "Boven Digoel",
+      "province": "Papua Selatan",
+      "color": "#42ae6b",
       "count": 0
     },
     "atkTerritory": {
-      "id": 241,
-      "name": "Kota Batam",
-      "province": "Kepulauan Riau",
+      "id": 346,
+      "name": "Merauke",
+      "province": "Papua Selatan",
       "cScreen": [
-        333,
-        349.4
+        1372.7,
+        606.4
       ]
     },
     "defTerritory": {
-      "id": 242,
-      "name": "Kota Tanjung Pinang",
-      "province": "Kepulauan Riau",
+      "id": 344,
+      "name": "Boven Digoel",
+      "province": "Papua Selatan",
       "cScreen": [
-        344.7,
-        349.2
+        1401.6,
+        561.1
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 242,
-      "name": "Kota Tanjung Pinang",
-      "province": "Kepulauan Riau"
+      "id": 344,
+      "name": "Boven Digoel",
+      "province": "Papua Selatan"
     },
-    "activeFactionsCount": 460,
+    "activeFactionsCount": 459,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
-      "story": "Konvoi pick-up dan motor brong Kota Batam menerobos gerbang batas teritorial Kota Tanjung Pinang saat subuh. Pasukan pertahanan Kota Tanjung Pinang tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nBupati Kota Tanjung Pinang dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Kota Tanjung Pinang resmi BUBAR!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Tanjung Pinang Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Kota Batam menjebol Kota Tanjung Pinang! 💀 Kota Tanjung Pinang RUNTUH!",
+      "casusBelli": "Sengketa batas proyek cetak sawah food estate satu juta hektar yang bablas ke hutan lindung tetangga.",
+      "story": "Armada kapal pendarat Merauke menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Boven Digoel. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nKas daerah Boven Digoel bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Merauke!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Boven Digoel Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa batas proyek cetak sawah food...] Merauke menjebol Boven Digoel! 💀 Boven Digoel RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 94,
+      "date": "Oktober 2037",
+      "atk": "Merauke",
+      "def": "Boven Digoel",
+      "success": true,
+      "elim": "Boven Digoel",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Boven Digoel Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa batas proyek cetak sawah food estate satu juta hektar yang bablas ke hutan lindung tetangga."
+    },
     {
       "round": 93,
       "date": "September 2037",
@@ -6131,16 +6141,6 @@
       "elim": "Lebak",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Lebak Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa pembagian setoran makelar kasus perizinan tambang pasir yang macet di meja panitera."
-    },
-    {
-      "round": 44,
-      "date": "Agustus 2033",
-      "atk": "Kota Tual",
-      "def": "Maluku Tenggara",
-      "success": true,
-      "elim": "Maluku Tenggara",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tenggara Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa gelar doktor kilat 1 tahun 8 bulan milik bupati yang mendadak ditangguhkan senat kampus."
     }
   ]
 }
