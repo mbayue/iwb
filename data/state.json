@@ -1,8 +1,8 @@
 {
-  "round": 94,
+  "round": 95,
   "year": 2037,
-  "month": 10,
-  "activeFactionsCount": 459,
+  "month": 11,
+  "activeFactionsCount": 458,
   "territoryOwner": [
     0,
     1,
@@ -173,7 +173,7 @@
     166,
     167,
     168,
-    169,
+    143,
     170,
     171,
     172,
@@ -1948,7 +1948,7 @@
       "name": "Gresik",
       "province": "Jawa Timur",
       "color": "#3459bc",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2208,10 +2208,10 @@
       "name": "Sidoarjo",
       "province": "Jawa Timur",
       "color": "#3882a3",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 95,
+      "eliminatedBy": 143
     },
     {
       "id": 170,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 94,
-    "date": "Oktober 2037",
-    "monthNumber": 10,
+    "round": 95,
+    "date": "November 2037",
+    "monthNumber": 11,
     "yearNumber": 2037,
     "atkFaction": {
-      "id": 346,
-      "name": "Merauke",
-      "province": "Papua Selatan",
-      "color": "#a8a334",
+      "id": 143,
+      "name": "Gresik",
+      "province": "Jawa Timur",
+      "color": "#3459bc",
       "count": 2
     },
     "defFaction": {
-      "id": 344,
-      "name": "Boven Digoel",
-      "province": "Papua Selatan",
-      "color": "#42ae6b",
+      "id": 169,
+      "name": "Sidoarjo",
+      "province": "Jawa Timur",
+      "color": "#3882a3",
       "count": 0
     },
     "atkTerritory": {
-      "id": 346,
-      "name": "Merauke",
-      "province": "Papua Selatan",
+      "id": 143,
+      "name": "Gresik",
+      "province": "Jawa Timur",
       "cScreen": [
-        1372.7,
-        606.4
+        582.6,
+        578.7
       ]
     },
     "defTerritory": {
-      "id": 344,
-      "name": "Boven Digoel",
-      "province": "Papua Selatan",
+      "id": 169,
+      "name": "Sidoarjo",
+      "province": "Jawa Timur",
       "cScreen": [
-        1401.6,
-        561.1
+        587.4,
+        597.4
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 344,
-      "name": "Boven Digoel",
-      "province": "Papua Selatan"
+      "id": 169,
+      "name": "Sidoarjo",
+      "province": "Jawa Timur"
     },
-    "activeFactionsCount": 459,
+    "activeFactionsCount": 458,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa batas proyek cetak sawah food estate satu juta hektar yang bablas ke hutan lindung tetangga.",
-      "story": "Armada kapal pendarat Merauke menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Boven Digoel. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nKas daerah Boven Digoel bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Merauke!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Boven Digoel Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa batas proyek cetak sawah food...] Merauke menjebol Boven Digoel! 💀 Boven Digoel RUNTUH!",
+      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Gresik sukses merebut tugu perbatasan dan gedung dinas Sidoarjo. Bendera Sidoarjo diturunkan dan diganti bendera kejayaan Gresik.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Sidoarjo resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Sidoarjo resmi disita dan diubah jadi gerai Mie Gacoan cabang Gresik!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sidoarjo Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Helikopter pemadam karhutla salah sasa...] Gresik menjebol Sidoarjo! 💀 Sidoarjo RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 95,
+      "date": "November 2037",
+      "atk": "Gresik",
+      "def": "Sidoarjo",
+      "success": true,
+      "elim": "Sidoarjo",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sidoarjo Runtuh & Lenyap dari Peta",
+      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan."
+    },
     {
       "round": 94,
       "date": "Oktober 2037",
@@ -6131,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring."
-    },
-    {
-      "round": 45,
-      "date": "September 2033",
-      "atk": "Sukabumi",
-      "def": "Lebak",
-      "success": true,
-      "elim": "Lebak",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lebak Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa pembagian setoran makelar kasus perizinan tambang pasir yang macet di meja panitera."
     }
   ]
 }
