@@ -1,7 +1,7 @@
 {
-  "round": 97,
+  "round": 98,
   "year": 2038,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 457,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 97,
-    "date": "Januari 2038",
-    "monthNumber": 1,
+    "round": 98,
+    "date": "Februari 2038",
+    "monthNumber": 2,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 233,
-      "name": "Bangka Selatan",
-      "province": "Kepulauan Bangka Belitung",
-      "color": "#b33d3e",
-      "count": 2
+      "id": 443,
+      "name": "Dharmasraya",
+      "province": "Sumatera Barat",
+      "color": "#98bc34",
+      "count": 1
     },
     "defFaction": {
-      "id": 178,
-      "name": "Ketapang",
-      "province": "Kalimantan Barat",
-      "color": "#a8343b",
-      "count": 2
+      "id": 455,
+      "name": "Sijunjung",
+      "province": "Sumatera Barat",
+      "color": "#9c34bc",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 235,
-      "name": "Belitung",
-      "province": "Kepulauan Bangka Belitung",
+      "id": 443,
+      "name": "Dharmasraya",
+      "province": "Sumatera Barat",
       "cScreen": [
-        440,
-        461.2
+        257.1,
+        411.8
       ]
     },
     "defTerritory": {
-      "id": 178,
-      "name": "Ketapang",
-      "province": "Kalimantan Barat",
+      "id": 455,
+      "name": "Sijunjung",
+      "province": "Sumatera Barat",
       "cScreen": [
-        523.9,
-        424.4
+        245.2,
+        396.6
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
-      "story": "Kapal penyerbu Bangka Selatan terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai Ketapang mengusir mereka dengan mercon.",
+      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.",
+      "story": "Konvoi penyerbu Dharmasraya tersesat dan saling tabrak sendiri karena terhalang kabut asap karhutla pekat dengan jarak pandang cuma 5 meter.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa pembagian royalti tambang tim...] Ketapang sukses menghalau serbuan Bangka Selatan!",
+      "bannerText": "🛡️ [PEMICU: Bupati tersinggung karena anggaran per...] Sijunjung sukses menghalau serbuan Dharmasraya!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 98,
+      "date": "Februari 2038",
+      "atk": "Dharmasraya",
+      "def": "Sijunjung",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman."
+    },
     {
       "round": 97,
       "date": "Januari 2038",
@@ -6127,16 +6137,6 @@
       "elim": "Bangka Tengah",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Bangka Tengah Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
-    },
-    {
-      "round": 48,
-      "date": "Desember 2033",
-      "atk": "Kota Kediri",
-      "def": "Kediri",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
     }
   ]
 }
