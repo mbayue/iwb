@@ -1,7 +1,7 @@
 {
-  "round": 98,
+  "round": 99,
   "year": 2038,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 457,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 98,
-    "date": "Februari 2038",
-    "monthNumber": 2,
+    "round": 99,
+    "date": "Maret 2038",
+    "monthNumber": 3,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 443,
-      "name": "Dharmasraya",
-      "province": "Sumatera Barat",
-      "color": "#98bc34",
+      "id": 157,
+      "name": "Madiun",
+      "province": "Jawa Timur",
+      "color": "#a3384c",
       "count": 1
     },
     "defFaction": {
-      "id": 455,
-      "name": "Sijunjung",
-      "province": "Sumatera Barat",
-      "color": "#9c34bc",
+      "id": 162,
+      "name": "Ngawi",
+      "province": "Jawa Timur",
+      "color": "#982f7c",
       "count": 1
     },
     "atkTerritory": {
-      "id": 443,
-      "name": "Dharmasraya",
-      "province": "Sumatera Barat",
+      "id": 157,
+      "name": "Madiun",
+      "province": "Jawa Timur",
       "cScreen": [
-        257.1,
-        411.8
+        555,
+        602.4
       ]
     },
     "defTerritory": {
-      "id": 455,
-      "name": "Sijunjung",
-      "province": "Sumatera Barat",
+      "id": 162,
+      "name": "Ngawi",
+      "province": "Jawa Timur",
       "cScreen": [
-        245.2,
-        396.6
+        547.3,
+        596.6
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.",
-      "story": "Konvoi penyerbu Dharmasraya tersesat dan saling tabrak sendiri karena terhalang kabut asap karhutla pekat dengan jarak pandang cuma 5 meter.",
+      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.",
+      "story": "Pasukan penyerbu Madiun dihadang mobil Maung Pindad yang atapnya bocor dan mogok tepat di tengah jembatan perbatasan.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Bupati tersinggung karena anggaran per...] Sijunjung sukses menghalau serbuan Dharmasraya!",
+      "bannerText": "🛡️ [PEMICU: Pengadaan suku cadang senjata dan bens...] Ngawi sukses menghalau serbuan Madiun!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 99,
+      "date": "Maret 2038",
+      "atk": "Madiun",
+      "def": "Ngawi",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai."
+    },
     {
       "round": 98,
       "date": "Februari 2038",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai."
-    },
-    {
-      "round": 49,
-      "date": "Januari 2034",
-      "atk": "Bangka",
-      "def": "Bangka Tengah",
-      "success": true,
-      "elim": "Bangka Tengah",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bangka Tengah Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
     }
   ]
 }
