@@ -1,7 +1,7 @@
 {
-  "round": 96,
-  "year": 2037,
-  "month": 12,
+  "round": 97,
+  "year": 2038,
+  "month": 1,
   "activeFactionsCount": 457,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 96,
-    "date": "Desember 2037",
-    "monthNumber": 12,
-    "yearNumber": 2037,
+    "round": 97,
+    "date": "Januari 2038",
+    "monthNumber": 1,
+    "yearNumber": 2038,
     "atkFaction": {
-      "id": 460,
-      "name": "Empat Lawang",
-      "province": "Sumatera Selatan",
-      "color": "#533c9f",
+      "id": 233,
+      "name": "Bangka Selatan",
+      "province": "Kepulauan Bangka Belitung",
+      "color": "#b33d3e",
       "count": 2
     },
     "defFaction": {
-      "id": 44,
-      "name": "Kepahiang",
-      "province": "Bengkulu",
-      "color": "#9c42ae",
-      "count": 0
+      "id": 178,
+      "name": "Ketapang",
+      "province": "Kalimantan Barat",
+      "color": "#a8343b",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 460,
-      "name": "Empat Lawang",
-      "province": "Sumatera Selatan",
+      "id": 235,
+      "name": "Belitung",
+      "province": "Kepulauan Bangka Belitung",
       "cScreen": [
-        299.4,
-        486.7
+        440,
+        461.2
       ]
     },
     "defTerritory": {
-      "id": 44,
-      "name": "Kepahiang",
-      "province": "Bengkulu",
+      "id": 178,
+      "name": "Ketapang",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        290.6,
-        484.3
+        523.9,
+        424.4
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 44,
-      "name": "Kepahiang",
-      "province": "Bengkulu"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 457,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
-      "story": "Pasukan elit Empat Lawang melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Kepahiang kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nBupati dan seluruh pejabat Kepahiang resmi kabur ke luar negeri dengan modus dinas studi banding. Kantor Pemda Kepahiang resmi disita dan diubah jadi gerai Mie Gacoan cabang Empat Lawang!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kepahiang Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Empat Lawang menjebol Kepahiang! 💀 Kepahiang RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal.",
+      "story": "Kapal penyerbu Bangka Selatan terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai Ketapang mengusir mereka dengan mercon.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa pembagian royalti tambang tim...] Ketapang sukses menghalau serbuan Bangka Selatan!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 97,
+      "date": "Januari 2038",
+      "atk": "Bangka Selatan",
+      "def": "Ketapang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
+    },
     {
       "round": 96,
       "date": "Desember 2037",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
-    },
-    {
-      "round": 47,
-      "date": "November 2033",
-      "atk": "Ketapang",
-      "def": "Sanggau",
-      "success": true,
-      "elim": "Sanggau",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sanggau Runtuh & Lenyap dari Peta",
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
     }
   ]
 }
