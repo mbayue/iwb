@@ -1,7 +1,7 @@
 {
-  "round": 99,
+  "round": 100,
   "year": 2038,
-  "month": 3,
+  "month": 4,
   "activeFactionsCount": 457,
   "territoryOwner": [
     0,
@@ -411,7 +411,7 @@
     404,
     405,
     406,
-    371,
+    402,
     408,
     409,
     410,
@@ -4228,7 +4228,7 @@
       "name": "Pasangkayu",
       "province": "Sulawesi Barat",
       "color": "#5734bc",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4538,7 +4538,7 @@
       "name": "Kota Palu",
       "province": "Sulawesi Tengah",
       "color": "#2f7898",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 99,
-    "date": "Maret 2038",
-    "monthNumber": 3,
+    "round": 100,
+    "date": "April 2038",
+    "monthNumber": 4,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 157,
-      "name": "Madiun",
-      "province": "Jawa Timur",
-      "color": "#a3384c",
-      "count": 1
+      "id": 402,
+      "name": "Kota Palu",
+      "province": "Sulawesi Tengah",
+      "color": "#2f7898",
+      "count": 2
     },
     "defFaction": {
-      "id": 162,
-      "name": "Ngawi",
-      "province": "Jawa Timur",
-      "color": "#982f7c",
+      "id": 371,
+      "name": "Pasangkayu",
+      "province": "Sulawesi Barat",
+      "color": "#5734bc",
       "count": 1
     },
     "atkTerritory": {
-      "id": 157,
-      "name": "Madiun",
-      "province": "Jawa Timur",
+      "id": 402,
+      "name": "Kota Palu",
+      "province": "Sulawesi Tengah",
       "cScreen": [
-        555,
-        602.4
+        799.2,
+        401.7
       ]
     },
     "defTerritory": {
-      "id": 162,
-      "name": "Ngawi",
-      "province": "Jawa Timur",
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah",
       "cScreen": [
-        547.3,
-        596.6
+        802,
+        419.2
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 457,
     "gameOver": false,
     "winner": null,
     "warReport": {
       "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.",
-      "story": "Pasukan penyerbu Madiun dihadang mobil Maung Pindad yang atapnya bocor dan mogok tepat di tengah jembatan perbatasan.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pengadaan suku cadang senjata dan bens...] Ngawi sukses menghalau serbuan Madiun!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "story": "Pasukan elit Kota Palu melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Sigi kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Pengadaan suku cadang senjata dan bens...] Kota Palu berhasil menaklukkan sektor Sigi!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 100,
+      "date": "April 2038",
+      "atk": "Kota Palu",
+      "def": "Sigi",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai."
+    },
     {
       "round": 99,
       "date": "Maret 2038",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
-    },
-    {
-      "round": 50,
-      "date": "Februari 2034",
-      "atk": "Purwakarta",
-      "def": "Bogor",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai."
     }
   ]
 }
