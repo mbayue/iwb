@@ -1,8 +1,8 @@
 {
-  "round": 100,
+  "round": 101,
   "year": 2038,
-  "month": 4,
-  "activeFactionsCount": 457,
+  "month": 5,
+  "activeFactionsCount": 456,
   "territoryOwner": [
     0,
     1,
@@ -429,7 +429,7 @@
     422,
     423,
     424,
-    425,
+    424,
     426,
     427,
     428,
@@ -4758,7 +4758,7 @@
       "name": "Muna",
       "province": "Sulawesi Tenggara",
       "color": "#9f3c58",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4768,10 +4768,10 @@
       "name": "Muna Barat",
       "province": "Sulawesi Tenggara",
       "color": "#3db33f",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 101,
+      "eliminatedBy": 424
     },
     {
       "id": 426,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 100,
-    "date": "April 2038",
-    "monthNumber": 4,
+    "round": 101,
+    "date": "Mei 2038",
+    "monthNumber": 5,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 402,
-      "name": "Kota Palu",
-      "province": "Sulawesi Tengah",
-      "color": "#2f7898",
+      "id": 424,
+      "name": "Muna",
+      "province": "Sulawesi Tenggara",
+      "color": "#9f3c58",
       "count": 2
     },
     "defFaction": {
-      "id": 371,
-      "name": "Pasangkayu",
-      "province": "Sulawesi Barat",
-      "color": "#5734bc",
-      "count": 1
+      "id": 425,
+      "name": "Muna Barat",
+      "province": "Sulawesi Tenggara",
+      "color": "#3db33f",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 402,
-      "name": "Kota Palu",
-      "province": "Sulawesi Tengah",
+      "id": 424,
+      "name": "Muna",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        799.2,
-        401.7
+        880.8,
+        522.2
       ]
     },
     "defTerritory": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah",
+      "id": 425,
+      "name": "Muna Barat",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        802,
-        419.2
+        876.8,
+        519.3
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 457,
+    "eliminated": {
+      "id": 425,
+      "name": "Muna Barat",
+      "province": "Sulawesi Tenggara"
+    },
+    "activeFactionsCount": 456,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pengadaan suku cadang senjata dan bensin impor macet total karena importir minta dibayar pakai Dolar Amerika tunai.",
-      "story": "Pasukan elit Kota Palu melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Sigi kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Pengadaan suku cadang senjata dan bens...] Kota Palu berhasil menaklukkan sektor Sigi!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Muna sukses merebut tugu perbatasan dan gedung dinas Muna Barat. Bendera Muna Barat diturunkan dan diganti bendera kejayaan Muna.\n\n💀 NASIB AKHIR:\nKantor bupati Muna Barat dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga Muna, dan nama Muna Barat resmi DIHAPUS DARI PETA NUSANTARA!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Muna Barat Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Muna menjebol Muna Barat! 💀 Muna Barat RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 101,
+      "date": "Mei 2038",
+      "atk": "Muna",
+      "def": "Muna Barat",
+      "success": true,
+      "elim": "Muna Barat",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Muna Barat Runtuh & Lenyap dari Peta",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 100,
       "date": "April 2038",
@@ -6127,16 +6141,6 @@
       "elim": "Purbalingga",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Purbalingga Runtuh & Lenyap dari Peta",
       "casusBelli": "Kabut asap karhutla pekat kiriman kebun sawit kabupaten sebelah bikin jarak pandang tinggal 10 meter dan langit berubah oranye."
-    },
-    {
-      "round": 51,
-      "date": "Maret 2034",
-      "atk": "Kota Pekanbaru",
-      "def": "Pelalawan",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
     }
   ]
 }
