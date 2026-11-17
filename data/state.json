@@ -1,7 +1,7 @@
 {
-  "round": 101,
+  "round": 102,
   "year": 2038,
-  "month": 5,
+  "month": 6,
   "activeFactionsCount": 456,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 101,
-    "date": "Mei 2038",
-    "monthNumber": 5,
+    "round": 102,
+    "date": "Juni 2038",
+    "monthNumber": 6,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 424,
-      "name": "Muna",
+      "id": 411,
+      "name": "Buton",
       "province": "Sulawesi Tenggara",
-      "color": "#9f3c58",
-      "count": 2
+      "color": "#9c2b33",
+      "count": 1
     },
     "defFaction": {
-      "id": 425,
-      "name": "Muna Barat",
+      "id": 426,
+      "name": "Wakatobi",
       "province": "Sulawesi Tenggara",
-      "color": "#3db33f",
-      "count": 0
+      "color": "#4f2f98",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 424,
-      "name": "Muna",
+      "id": 411,
+      "name": "Buton",
       "province": "Sulawesi Tenggara",
       "cScreen": [
-        880.8,
-        522.2
+        888.1,
+        534.3
       ]
     },
     "defTerritory": {
-      "id": 425,
-      "name": "Muna Barat",
+      "id": 414,
+      "name": "Buton Utara",
       "province": "Sulawesi Tenggara",
       "cScreen": [
-        876.8,
-        519.3
+        891.5,
+        518.2
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 425,
-      "name": "Muna Barat",
-      "province": "Sulawesi Tenggara"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 456,
     "gameOver": false,
     "winner": null,
     "warReport": {
       "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Muna sukses merebut tugu perbatasan dan gedung dinas Muna Barat. Bendera Muna Barat diturunkan dan diganti bendera kejayaan Muna.\n\n💀 NASIB AKHIR:\nKantor bupati Muna Barat dilelang di balai lelang negara, APBD dialihkan buat traktir makan siang warga Muna, dan nama Muna Barat resmi DIHAPUS DARI PETA NUSANTARA!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Muna Barat Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Muna menjebol Muna Barat! 💀 Muna Barat RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "story": "Operasi invasi Buton macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Warga geram diekspor kabut asap karhut...] Buton Utara sukses menghalau serbuan Buton!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 102,
+      "date": "Juni 2038",
+      "atk": "Buton",
+      "def": "Buton Utara",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 101,
       "date": "Mei 2038",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\"."
-    },
-    {
-      "round": 52,
-      "date": "April 2034",
-      "atk": "Pemalang",
-      "def": "Purbalingga",
-      "success": true,
-      "elim": "Purbalingga",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Purbalingga Runtuh & Lenyap dari Peta",
-      "casusBelli": "Kabut asap karhutla pekat kiriman kebun sawit kabupaten sebelah bikin jarak pandang tinggal 10 meter dan langit berubah oranye."
     }
   ]
 }
