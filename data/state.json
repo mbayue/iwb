@@ -1,8 +1,8 @@
 {
-  "round": 102,
+  "round": 103,
   "year": 2038,
-  "month": 6,
-  "activeFactionsCount": 456,
+  "month": 7,
+  "activeFactionsCount": 455,
   "territoryOwner": [
     0,
     1,
@@ -110,7 +110,7 @@
     103,
     104,
     109,
-    106,
+    118,
     107,
     108,
     122,
@@ -1578,10 +1578,10 @@
       "name": "Batang",
       "province": "Jawa Tengah",
       "color": "#34a8a0",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 103,
+      "eliminatedBy": 118
     },
     {
       "id": 107,
@@ -1698,7 +1698,7 @@
       "name": "Kota Pekalongan",
       "province": "Jawa Tengah",
       "color": "#a86634",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 102,
-    "date": "Juni 2038",
-    "monthNumber": 6,
+    "round": 103,
+    "date": "Juli 2038",
+    "monthNumber": 7,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 411,
-      "name": "Buton",
-      "province": "Sulawesi Tenggara",
-      "color": "#9c2b33",
-      "count": 1
-    },
-    "defFaction": {
-      "id": 426,
-      "name": "Wakatobi",
-      "province": "Sulawesi Tenggara",
-      "color": "#4f2f98",
+      "id": 118,
+      "name": "Kota Pekalongan",
+      "province": "Jawa Tengah",
+      "color": "#a86634",
       "count": 2
     },
+    "defFaction": {
+      "id": 106,
+      "name": "Batang",
+      "province": "Jawa Tengah",
+      "color": "#34a8a0",
+      "count": 0
+    },
     "atkTerritory": {
-      "id": 411,
-      "name": "Buton",
-      "province": "Sulawesi Tenggara",
+      "id": 118,
+      "name": "Kota Pekalongan",
+      "province": "Jawa Tengah",
       "cScreen": [
-        888.1,
-        534.3
+        498,
+        580.7
       ]
     },
     "defTerritory": {
-      "id": 414,
-      "name": "Buton Utara",
-      "province": "Sulawesi Tenggara",
+      "id": 106,
+      "name": "Batang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        891.5,
-        518.2
+        503.5,
+        584.7
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 456,
+    "success": true,
+    "eliminated": {
+      "id": 106,
+      "name": "Batang",
+      "province": "Jawa Tengah"
+    },
+    "activeFactionsCount": 455,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Operasi invasi Buton macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga geram diekspor kabut asap karhut...] Buton Utara sukses menghalau serbuan Buton!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
+      "story": "Pasukan elit Kota Pekalongan melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Batang kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Batang menyatakan resign massal. Wilayah Batang kini resmi turun derajat menjadi kecamatan bawahan Kota Pekalongan!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Batang Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Kota Pekalongan menjebol Batang! 💀 Batang RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 103,
+      "date": "Juli 2038",
+      "atk": "Kota Pekalongan",
+      "def": "Batang",
+      "success": true,
+      "elim": "Batang",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Batang Runtuh & Lenyap dari Peta",
+      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
+    },
     {
       "round": 102,
       "date": "Juni 2038",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
-    },
-    {
-      "round": 53,
-      "date": "Mei 2034",
-      "atk": "Yalimo",
-      "def": "Jayawijaya",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\"."
     }
   ]
 }
