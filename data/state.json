@@ -1,8 +1,8 @@
 {
-  "round": 104,
+  "round": 105,
   "year": 2038,
-  "month": 8,
-  "activeFactionsCount": 455,
+  "month": 9,
+  "activeFactionsCount": 454,
   "territoryOwner": [
     0,
     1,
@@ -267,7 +267,7 @@
     260,
     261,
     262,
-    263,
+    266,
     264,
     270,
     266,
@@ -3148,10 +3148,10 @@
       "name": "Kepulauan Tanimbar",
       "province": "Maluku",
       "color": "#34bc99",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 105,
+      "eliminatedBy": 266
     },
     {
       "id": 264,
@@ -3178,7 +3178,7 @@
       "name": "Maluku Barat Daya",
       "province": "Maluku",
       "color": "#3869b7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 104,
-    "date": "Agustus 2038",
-    "monthNumber": 8,
+    "round": 105,
+    "date": "September 2038",
+    "monthNumber": 9,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 37,
-      "name": "Pandeglang",
-      "province": "Banten",
-      "color": "#a38e38",
-      "count": 1
-    },
-    "defFaction": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
-      "color": "#38acb7",
+      "id": 266,
+      "name": "Maluku Barat Daya",
+      "province": "Maluku",
+      "color": "#3869b7",
       "count": 2
     },
+    "defFaction": {
+      "id": 263,
+      "name": "Kepulauan Tanimbar",
+      "province": "Maluku",
+      "color": "#34bc99",
+      "count": 0
+    },
     "atkTerritory": {
-      "id": 37,
-      "name": "Pandeglang",
-      "province": "Banten",
+      "id": 266,
+      "name": "Maluku Barat Daya",
+      "province": "Maluku",
       "cScreen": [
-        380.4,
-        571
+        1033,
+        609.7
       ]
     },
     "defTerritory": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
+      "id": 263,
+      "name": "Kepulauan Tanimbar",
+      "province": "Maluku",
       "cScreen": [
-        393.5,
-        557.5
+        1136.2,
+        599
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 455,
+    "success": true,
+    "eliminated": {
+      "id": 263,
+      "name": "Kepulauan Tanimbar",
+      "province": "Maluku"
+    },
+    "activeFactionsCount": 454,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.",
-      "story": "Serangan mendadak Pandeglang gagal total setelah dihadang ormas setempat yang meminta \"uang koordinasi wilayah\" sebesar Rp50.000 per tank tempur.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Bupati tersinggung karena anggaran per...] Serang sukses menghalau serbuan Pandeglang!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
+      "story": "Armada kapal pendarat Maluku Barat Daya menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Kepulauan Tanimbar. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Kepulauan Tanimbar menyatakan resign massal. Wilayah Kepulauan Tanimbar kini resmi turun derajat menjadi kecamatan bawahan Maluku Barat Daya!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kepulauan Tanimbar Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Maluku Barat Daya menjebol Kepulauan Tanimbar! 💀 Kepulauan Tanimbar RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 105,
+      "date": "September 2038",
+      "atk": "Maluku Barat Daya",
+      "def": "Kepulauan Tanimbar",
+      "success": true,
+      "elim": "Kepulauan Tanimbar",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kepulauan Tanimbar Runtuh & Lenyap dari Peta",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
+    },
     {
       "round": 104,
       "date": "Agustus 2038",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\"."
-    },
-    {
-      "round": 55,
-      "date": "Juli 2034",
-      "atk": "Grobogan",
-      "def": "Semarang",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita."
     }
   ]
 }
