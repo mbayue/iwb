@@ -1,7 +1,7 @@
 {
-  "round": 103,
+  "round": 104,
   "year": 2038,
-  "month": 7,
+  "month": 8,
   "activeFactionsCount": 455,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 103,
-    "date": "Juli 2038",
-    "monthNumber": 7,
+    "round": 104,
+    "date": "Agustus 2038",
+    "monthNumber": 8,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 118,
-      "name": "Kota Pekalongan",
-      "province": "Jawa Tengah",
-      "color": "#a86634",
-      "count": 2
+      "id": 37,
+      "name": "Pandeglang",
+      "province": "Banten",
+      "color": "#a38e38",
+      "count": 1
     },
     "defFaction": {
-      "id": 106,
-      "name": "Batang",
-      "province": "Jawa Tengah",
-      "color": "#34a8a0",
-      "count": 0
+      "id": 38,
+      "name": "Serang",
+      "province": "Banten",
+      "color": "#38acb7",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 118,
-      "name": "Kota Pekalongan",
-      "province": "Jawa Tengah",
+      "id": 37,
+      "name": "Pandeglang",
+      "province": "Banten",
       "cScreen": [
-        498,
-        580.7
+        380.4,
+        571
       ]
     },
     "defTerritory": {
-      "id": 106,
-      "name": "Batang",
-      "province": "Jawa Tengah",
+      "id": 38,
+      "name": "Serang",
+      "province": "Banten",
       "cScreen": [
-        503.5,
-        584.7
+        393.5,
+        557.5
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 106,
-      "name": "Batang",
-      "province": "Jawa Tengah"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 455,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah.",
-      "story": "Pasukan elit Kota Pekalongan melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Batang kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Batang menyatakan resign massal. Wilayah Batang kini resmi turun derajat menjadi kecamatan bawahan Kota Pekalongan!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Batang Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Skandal suap vonis bebas 3 hakim perba...] Kota Pekalongan menjebol Batang! 💀 Batang RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman.",
+      "story": "Serangan mendadak Pandeglang gagal total setelah dihadang ormas setempat yang meminta \"uang koordinasi wilayah\" sebesar Rp50.000 per tank tempur.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Bupati tersinggung karena anggaran per...] Serang sukses menghalau serbuan Pandeglang!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 104,
+      "date": "Agustus 2038",
+      "atk": "Pandeglang",
+      "def": "Serang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Bupati tersinggung karena anggaran perbaikan jalan dialihkan buat sewa mobil dinas paman."
+    },
     {
       "round": 103,
       "date": "Juli 2038",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita."
-    },
-    {
-      "round": 54,
-      "date": "Juni 2034",
-      "atk": "Kota Kotamobagu",
-      "def": "Bolaang Mongondow Timur",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
     }
   ]
 }
