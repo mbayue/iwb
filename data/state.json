@@ -1,8 +1,8 @@
 {
-  "round": 105,
+  "round": 106,
   "year": 2038,
-  "month": 9,
-  "activeFactionsCount": 454,
+  "month": 10,
+  "activeFactionsCount": 453,
   "territoryOwner": [
     0,
     1,
@@ -460,7 +460,7 @@
     453,
     454,
     455,
-    456,
+    454,
     457,
     458,
     459,
@@ -5058,7 +5058,7 @@
       "name": "Pesisir Selatan",
       "province": "Sumatera Barat",
       "color": "#34a86b",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5078,10 +5078,10 @@
       "name": "Solok",
       "province": "Sumatera Barat",
       "color": "#8b9037",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 106,
+      "eliminatedBy": 454
     },
     {
       "id": 457,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 105,
-    "date": "September 2038",
-    "monthNumber": 9,
+    "round": 106,
+    "date": "Oktober 2038",
+    "monthNumber": 10,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 266,
-      "name": "Maluku Barat Daya",
-      "province": "Maluku",
-      "color": "#3869b7",
+      "id": 454,
+      "name": "Pesisir Selatan",
+      "province": "Sumatera Barat",
+      "color": "#34a86b",
       "count": 2
     },
     "defFaction": {
-      "id": 263,
-      "name": "Kepulauan Tanimbar",
-      "province": "Maluku",
-      "color": "#34bc99",
+      "id": 456,
+      "name": "Solok",
+      "province": "Sumatera Barat",
+      "color": "#8b9037",
       "count": 0
     },
     "atkTerritory": {
-      "id": 266,
-      "name": "Maluku Barat Daya",
-      "province": "Maluku",
+      "id": 454,
+      "name": "Pesisir Selatan",
+      "province": "Sumatera Barat",
       "cScreen": [
-        1033,
-        609.7
+        236.2,
+        424.8
       ]
     },
     "defTerritory": {
-      "id": 263,
-      "name": "Kepulauan Tanimbar",
-      "province": "Maluku",
+      "id": 456,
+      "name": "Solok",
+      "province": "Sumatera Barat",
       "cScreen": [
-        1136.2,
-        599
+        236.4,
+        405
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 263,
-      "name": "Kepulauan Tanimbar",
-      "province": "Maluku"
+      "id": 456,
+      "name": "Solok",
+      "province": "Sumatera Barat"
     },
-    "activeFactionsCount": 454,
+    "activeFactionsCount": 453,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
-      "story": "Armada kapal pendarat Maluku Barat Daya menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Kepulauan Tanimbar. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nSetelah kalah total, seluruh aparatur sipil Kepulauan Tanimbar menyatakan resign massal. Wilayah Kepulauan Tanimbar kini resmi turun derajat menjadi kecamatan bawahan Maluku Barat Daya!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kepulauan Tanimbar Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Maluku Barat Daya menjebol Kepulauan Tanimbar! 💀 Kepulauan Tanimbar RUNTUH!",
+      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Pesisir Selatan sukses merebut tugu perbatasan dan gedung dinas Solok. Bendera Solok diturunkan dan diganti bendera kejayaan Pesisir Selatan.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Solok dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Solok resmi diambil alih oleh Pesisir Selatan!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Solok Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa jalur zonasi PPDB sekolah fav...] Pesisir Selatan menjebol Solok! 💀 Solok RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 106,
+      "date": "Oktober 2038",
+      "atk": "Pesisir Selatan",
+      "def": "Solok",
+      "success": true,
+      "elim": "Solok",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Solok Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta."
+    },
     {
       "round": 105,
       "date": "September 2038",
@@ -6131,16 +6141,6 @@
       "elim": "Lombok Tengah",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Lombok Tengah Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
-    },
-    {
-      "round": 56,
-      "date": "Agustus 2034",
-      "atk": "Cianjur",
-      "def": "Bandung",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Server pertahanan perbatasan lumpuh total gara-gara password admin diganti jadi \"Admin#1234\"."
     }
   ]
 }
