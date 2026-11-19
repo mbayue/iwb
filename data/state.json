@@ -1,7 +1,7 @@
 {
-  "round": 106,
+  "round": 107,
   "year": 2038,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 453,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 106,
-    "date": "Oktober 2038",
-    "monthNumber": 10,
+    "round": 107,
+    "date": "November 2038",
+    "monthNumber": 11,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 454,
-      "name": "Pesisir Selatan",
-      "province": "Sumatera Barat",
-      "color": "#34a86b",
-      "count": 2
+      "id": 244,
+      "name": "Natuna",
+      "province": "Kepulauan Riau",
+      "color": "#8b9f3c",
+      "count": 1
     },
     "defFaction": {
-      "id": 456,
-      "name": "Solok",
-      "province": "Sumatera Barat",
-      "color": "#8b9037",
-      "count": 0
+      "id": 240,
+      "name": "Kepulauan Anambas",
+      "province": "Kepulauan Riau",
+      "color": "#393790",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 454,
-      "name": "Pesisir Selatan",
-      "province": "Sumatera Barat",
+      "id": 244,
+      "name": "Natuna",
+      "province": "Kepulauan Riau",
       "cScreen": [
-        236.2,
-        424.8
+        457.5,
+        265.6
       ]
     },
     "defTerritory": {
-      "id": 456,
-      "name": "Solok",
-      "province": "Sumatera Barat",
+      "id": 240,
+      "name": "Kepulauan Anambas",
+      "province": "Kepulauan Riau",
       "cScreen": [
-        236.4,
-        405
+        392.1,
+        286.8
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 456,
-      "name": "Solok",
-      "province": "Sumatera Barat"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 453,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jalur zonasi PPDB sekolah favorit yang membuat anak bupati terlempar ke sekolah swasta.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Pesisir Selatan sukses merebut tugu perbatasan dan gedung dinas Solok. Bendera Solok diturunkan dan diganti bendera kejayaan Pesisir Selatan.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Solok dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Solok resmi diambil alih oleh Pesisir Selatan!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Solok Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa jalur zonasi PPDB sekolah fav...] Pesisir Selatan menjebol Solok! 💀 Solok RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Kapal penyerbu Natuna terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai Kepulauan Anambas mengusir mereka dengan mercon.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Kepulauan Anambas sukses menghalau serbuan Natuna!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 107,
+      "date": "November 2038",
+      "atk": "Natuna",
+      "def": "Kepulauan Anambas",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 106,
       "date": "Oktober 2038",
@@ -6131,16 +6137,6 @@
       "elim": "Seluma",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Seluma Runtuh & Lenyap dari Peta",
       "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah."
-    },
-    {
-      "round": 57,
-      "date": "September 2034",
-      "atk": "Lombok Timur",
-      "def": "Lombok Tengah",
-      "success": true,
-      "elim": "Lombok Tengah",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Lombok Tengah Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
     }
   ]
 }
