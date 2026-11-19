@@ -1,7 +1,7 @@
 {
-  "round": 107,
+  "round": 108,
   "year": 2038,
-  "month": 11,
+  "month": 12,
   "activeFactionsCount": 453,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 107,
-    "date": "November 2038",
-    "monthNumber": 11,
+    "round": 108,
+    "date": "Desember 2038",
+    "monthNumber": 12,
     "yearNumber": 2038,
     "atkFaction": {
-      "id": 244,
-      "name": "Natuna",
-      "province": "Kepulauan Riau",
-      "color": "#8b9f3c",
+      "id": 26,
+      "name": "Gianyar",
+      "province": "Bali",
+      "color": "#b7386d",
       "count": 1
     },
     "defFaction": {
-      "id": 240,
-      "name": "Kepulauan Anambas",
-      "province": "Kepulauan Riau",
-      "color": "#393790",
+      "id": 30,
+      "name": "Kota Denpasar",
+      "province": "Bali",
+      "color": "#2f987e",
       "count": 1
     },
     "atkTerritory": {
-      "id": 244,
-      "name": "Natuna",
-      "province": "Kepulauan Riau",
+      "id": 26,
+      "name": "Gianyar",
+      "province": "Bali",
       "cScreen": [
-        457.5,
-        265.6
+        663.7,
+        627.4
       ]
     },
     "defTerritory": {
-      "id": 240,
-      "name": "Kepulauan Anambas",
-      "province": "Kepulauan Riau",
+      "id": 30,
+      "name": "Kota Denpasar",
+      "province": "Bali",
       "cScreen": [
-        392.1,
-        286.8
+        661.4,
+        632.9
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Kapal penyerbu Natuna terdampar di karang dangkal akibat nakhoda sibuk live TikTok, memudahkan penjaga pantai Kepulauan Anambas mengusir mereka dengan mercon.",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
+      "story": "Serangan Gianyar terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Kepulauan Anambas sukses menghalau serbuan Natuna!",
+      "bannerText": "🛡️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Kota Denpasar sukses menghalau serbuan Gianyar!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 108,
+      "date": "Desember 2038",
+      "atk": "Gianyar",
+      "def": "Kota Denpasar",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
+    },
     {
       "round": 107,
       "date": "November 2038",
@@ -6127,16 +6137,6 @@
       "elim": "Buleleng",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Buleleng Runtuh & Lenyap dari Peta",
       "casusBelli": "Pejabat perbatasan pamer naik jet pribadi sewaan dan makan roti 400 ribu di tengah defisit APBD."
-    },
-    {
-      "round": 58,
-      "date": "Oktober 2034",
-      "atk": "Kota Bengkulu",
-      "def": "Seluma",
-      "success": true,
-      "elim": "Seluma",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Seluma Runtuh & Lenyap dari Peta",
-      "casusBelli": "Kurs Rupiah anjlok melemah tembus 17.000 per Dolar AS, bupati panik anggaran tekor lalu nekat merampas kas valas kota sebelah."
     }
   ]
 }
