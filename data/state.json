@@ -1,7 +1,7 @@
 {
-  "round": 109,
+  "round": 110,
   "year": 2039,
-  "month": 1,
+  "month": 2,
   "activeFactionsCount": 453,
   "territoryOwner": [
     0,
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 109,
-    "date": "Januari 2039",
-    "monthNumber": 1,
+    "round": 110,
+    "date": "Februari 2039",
+    "monthNumber": 2,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 101,
-      "name": "Sukabumi",
-      "province": "Jawa Barat",
-      "color": "#3d7bb3",
-      "count": 3
+      "id": 53,
+      "name": "Kota Administrasi Jakarta Timur",
+      "province": "DKI Jakarta",
+      "color": "#7cb33d",
+      "count": 1
     },
     "defFaction": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
-      "color": "#38acb7",
+      "id": 93,
+      "name": "Kota Depok",
+      "province": "Jawa Barat",
+      "color": "#338794",
       "count": 1
     },
     "atkTerritory": {
-      "id": 36,
-      "name": "Lebak",
-      "province": "Banten",
+      "id": 53,
+      "name": "Kota Administrasi Jakarta Timur",
+      "province": "DKI Jakarta",
       "cScreen": [
-        395.2,
-        572.9
+        415.9,
+        561.9
       ]
     },
     "defTerritory": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
+      "id": 93,
+      "name": "Kota Depok",
+      "province": "Jawa Barat",
       "cScreen": [
-        393.5,
-        557.5
+        413.7,
+        565.3
       ]
     },
-    "success": true,
+    "success": false,
     "eliminated": null,
     "activeFactionsCount": 453,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.",
-      "story": "Konvoi pick-up dan motor brong Sukabumi menerobos gerbang batas teritorial Serang saat subuh. Pasukan pertahanan Serang tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Sengketa jatah impor gula dan kuota be...] Sukabumi berhasil menaklukkan sektor Serang!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Warga Depok mendeklarasikan aneksasi wilayah setelah seekor babi ngepet kabur melintasi batas kota.",
+      "story": "Pasukan Kota Administrasi Jakarta Timur tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Warga Depok mendeklarasikan aneksasi w...] Kota Depok sukses menghalau serbuan Kota Administrasi Jakarta Timur!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 110,
+      "date": "Februari 2039",
+      "atk": "Kota Administrasi Jakarta Timur",
+      "def": "Kota Depok",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga Depok mendeklarasikan aneksasi wilayah setelah seekor babi ngepet kabur melintasi batas kota."
+    },
     {
       "round": 109,
       "date": "Januari 2039",
@@ -6127,16 +6137,6 @@
       "elim": "Morowali",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Morowali Runtuh & Lenyap dari Peta",
       "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah."
-    },
-    {
-      "round": 60,
-      "date": "Desember 2034",
-      "atk": "Nunukan",
-      "def": "Tana Tidung",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring."
     }
   ]
 }
