@@ -1,7 +1,7 @@
 {
-  "round": 110,
+  "round": 111,
   "year": 2039,
-  "month": 2,
+  "month": 3,
   "activeFactionsCount": 453,
   "territoryOwner": [
     0,
@@ -29,7 +29,7 @@
     22,
     23,
     24,
-    31,
+    27,
     26,
     27,
     28,
@@ -788,7 +788,7 @@
       "name": "Jembrana",
       "province": "Bali",
       "color": "#399c2b",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -828,7 +828,7 @@
       "name": "Tabanan",
       "province": "Bali",
       "color": "#ac2fa6",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 110,
-    "date": "Februari 2039",
-    "monthNumber": 2,
+    "round": 111,
+    "date": "Maret 2039",
+    "monthNumber": 3,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 53,
-      "name": "Kota Administrasi Jakarta Timur",
-      "province": "DKI Jakarta",
-      "color": "#7cb33d",
-      "count": 1
+      "id": 27,
+      "name": "Jembrana",
+      "province": "Bali",
+      "color": "#399c2b",
+      "count": 2
     },
     "defFaction": {
-      "id": 93,
-      "name": "Kota Depok",
-      "province": "Jawa Barat",
-      "color": "#338794",
+      "id": 31,
+      "name": "Tabanan",
+      "province": "Bali",
+      "color": "#ac2fa6",
       "count": 1
     },
     "atkTerritory": {
-      "id": 53,
-      "name": "Kota Administrasi Jakarta Timur",
-      "province": "DKI Jakarta",
+      "id": 27,
+      "name": "Jembrana",
+      "province": "Bali",
       "cScreen": [
-        415.9,
-        561.9
+        645.7,
+        621.5
       ]
     },
     "defTerritory": {
-      "id": 93,
-      "name": "Kota Depok",
-      "province": "Jawa Barat",
+      "id": 25,
+      "name": "Buleleng",
+      "province": "Bali",
       "cScreen": [
-        413.7,
-        565.3
+        652.1,
+        619.2
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 453,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga Depok mendeklarasikan aneksasi wilayah setelah seekor babi ngepet kabur melintasi batas kota.",
-      "story": "Pasukan Kota Administrasi Jakarta Timur tersesat di tengah perkebunan sawit karena supir konvoi mengikuti arahan Google Maps rute jalan setapak.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga Depok mendeklarasikan aneksasi w...] Kota Depok sukses menghalau serbuan Kota Administrasi Jakarta Timur!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Antrean kapal feri Ketapang-Gilimanuk macet 18 jam gara-gara sistem tiket online servernya down.",
+      "story": "Pasukan elit Jembrana melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Buleleng kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Antrean kapal feri Ketapang-Gilimanuk ...] Jembrana berhasil menaklukkan sektor Buleleng!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 111,
+      "date": "Maret 2039",
+      "atk": "Jembrana",
+      "def": "Buleleng",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Antrean kapal feri Ketapang-Gilimanuk macet 18 jam gara-gara sistem tiket online servernya down."
+    },
     {
       "round": 110,
       "date": "Februari 2039",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
       "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli."
-    },
-    {
-      "round": 61,
-      "date": "Januari 2035",
-      "atk": "Konawe Utara",
-      "def": "Morowali",
-      "success": true,
-      "elim": "Morowali",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Morowali Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pegawai Komdigi perbatasan ketahuan membekingi situs slot online kakek zeus milik bandar kota sebelah."
     }
   ]
 }
