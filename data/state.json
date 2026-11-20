@@ -1,7 +1,7 @@
 {
-  "round": 108,
-  "year": 2038,
-  "month": 12,
+  "round": 109,
+  "year": 2039,
+  "month": 1,
   "activeFactionsCount": 453,
   "territoryOwner": [
     0,
@@ -42,7 +42,7 @@
     35,
     101,
     37,
-    38,
+    101,
     39,
     40,
     41,
@@ -898,7 +898,7 @@
       "name": "Serang",
       "province": "Banten",
       "color": "#38acb7",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1528,7 +1528,7 @@
       "name": "Sukabumi",
       "province": "Jawa Barat",
       "color": "#3d7bb3",
-      "territoryCount": 2,
+      "territoryCount": 3,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 108,
-    "date": "Desember 2038",
-    "monthNumber": 12,
-    "yearNumber": 2038,
+    "round": 109,
+    "date": "Januari 2039",
+    "monthNumber": 1,
+    "yearNumber": 2039,
     "atkFaction": {
-      "id": 26,
-      "name": "Gianyar",
-      "province": "Bali",
-      "color": "#b7386d",
-      "count": 1
+      "id": 101,
+      "name": "Sukabumi",
+      "province": "Jawa Barat",
+      "color": "#3d7bb3",
+      "count": 3
     },
     "defFaction": {
-      "id": 30,
-      "name": "Kota Denpasar",
-      "province": "Bali",
-      "color": "#2f987e",
+      "id": 38,
+      "name": "Serang",
+      "province": "Banten",
+      "color": "#38acb7",
       "count": 1
     },
     "atkTerritory": {
-      "id": 26,
-      "name": "Gianyar",
-      "province": "Bali",
+      "id": 36,
+      "name": "Lebak",
+      "province": "Banten",
       "cScreen": [
-        663.7,
-        627.4
+        395.2,
+        572.9
       ]
     },
     "defTerritory": {
-      "id": 30,
-      "name": "Kota Denpasar",
-      "province": "Bali",
+      "id": 38,
+      "name": "Serang",
+      "province": "Banten",
       "cScreen": [
-        661.4,
-        632.9
+        393.5,
+        557.5
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 453,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah.",
-      "story": "Serangan Gianyar terpaksa ditarik mundur setelah seluruh kompi terkena diare massal akibat jajan cilok berformalin di pos batas.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Pasukan penyerbu marah besar kena poto...] Kota Denpasar sukses menghalau serbuan Gianyar!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.",
+      "story": "Konvoi pick-up dan motor brong Sukabumi menerobos gerbang batas teritorial Serang saat subuh. Pasukan pertahanan Serang tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Sengketa jatah impor gula dan kuota be...] Sukabumi berhasil menaklukkan sektor Serang!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 109,
+      "date": "Januari 2039",
+      "atk": "Sukabumi",
+      "def": "Serang",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati."
+    },
     {
       "round": 108,
       "date": "Desember 2038",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Bupati merasa tidak dihargai karena fotonya di baliho selamat datang perbatasan dipasang miring."
-    },
-    {
-      "round": 59,
-      "date": "November 2034",
-      "atk": "Tabanan",
-      "def": "Buleleng",
-      "success": true,
-      "elim": "Buleleng",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Buleleng Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pejabat perbatasan pamer naik jet pribadi sewaan dan makan roti 400 ribu di tengah defisit APBD."
     }
   ]
 }
