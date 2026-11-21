@@ -1,7 +1,7 @@
 {
-  "round": 114,
+  "round": 115,
   "year": 2039,
-  "month": 6,
+  "month": 7,
   "activeFactionsCount": 452,
   "territoryOwner": [
     0,
@@ -114,7 +114,7 @@
     107,
     112,
     122,
-    88,
+    109,
     111,
     162,
     113,
@@ -1398,7 +1398,7 @@
       "name": "Kota Banjar",
       "province": "Jawa Barat",
       "color": "#3c5c9f",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -1608,7 +1608,7 @@
       "name": "Brebes",
       "province": "Jawa Tengah",
       "color": "#384da3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 114,
-    "date": "Juni 2039",
-    "monthNumber": 6,
+    "round": 115,
+    "date": "Juli 2039",
+    "monthNumber": 7,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 162,
-      "name": "Ngawi",
-      "province": "Jawa Timur",
-      "color": "#982f7c",
+      "id": 109,
+      "name": "Brebes",
+      "province": "Jawa Tengah",
+      "color": "#384da3",
       "count": 2
     },
     "defFaction": {
-      "id": 112,
-      "name": "Grobogan",
-      "province": "Jawa Tengah",
-      "color": "#803c9f",
+      "id": 88,
+      "name": "Kota Banjar",
+      "province": "Jawa Barat",
+      "color": "#3c5c9f",
       "count": 1
     },
     "atkTerritory": {
-      "id": 162,
-      "name": "Ngawi",
-      "province": "Jawa Timur",
+      "id": 105,
+      "name": "Banyumas",
+      "province": "Jawa Tengah",
       "cScreen": [
-        547.3,
-        596.6
+        483.9,
+        597.5
       ]
     },
     "defTerritory": {
-      "id": 112,
-      "name": "Grobogan",
+      "id": 110,
+      "name": "Cilacap",
       "province": "Jawa Tengah",
       "cScreen": [
-        533.5,
-        587
+        475.2,
+        598.6
       ]
     },
     "success": true,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita.",
-      "story": "Laskar Ngawi memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Grobogan. Tanpa stok sambal dan amunisi cadangan, garnisun Grobogan lumpuh total dan menyatakan menyerah sukarela.",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Pasukan elit Brebes melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Cilacap kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.",
       "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Warga murka kabut asap pekat karhutla ...] Ngawi berhasil menaklukkan sektor Grobogan!",
+      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Brebes berhasil menaklukkan sektor Cilacap!",
       "impact": "Wilayah Berpindah Tangan",
       "atmosphere": "Penyerbuan Berhasil"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 115,
+      "date": "Juli 2039",
+      "atk": "Brebes",
+      "def": "Cilacap",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 114,
       "date": "Juni 2039",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Dana investor asing kabur massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan."
-    },
-    {
-      "round": 65,
-      "date": "Mei 2035",
-      "atk": "Kupang",
-      "def": "Timor Tengah Selatan",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Bupati murka jatah mobil dinas Maung Garuda Pindad tertukar dengan mobil pick-up sayur."
     }
   ]
 }
