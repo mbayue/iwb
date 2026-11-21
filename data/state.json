@@ -1,8 +1,8 @@
 {
-  "round": 111,
+  "round": 112,
   "year": 2039,
-  "month": 3,
-  "activeFactionsCount": 453,
+  "month": 4,
+  "activeFactionsCount": 452,
   "territoryOwner": [
     0,
     1,
@@ -400,7 +400,7 @@
     393,
     394,
     395,
-    396,
+    390,
     397,
     398,
     399,
@@ -4418,7 +4418,7 @@
       "name": "Sidenreng Rappang",
       "province": "Sulawesi Selatan",
       "color": "#982f44",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4478,10 +4478,10 @@
       "name": "Wajo",
       "province": "Sulawesi Selatan",
       "color": "#5f9037",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 112,
+      "eliminatedBy": 390
     },
     {
       "id": 397,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 111,
-    "date": "Maret 2039",
-    "monthNumber": 3,
+    "round": 112,
+    "date": "April 2039",
+    "monthNumber": 4,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 27,
-      "name": "Jembrana",
-      "province": "Bali",
-      "color": "#399c2b",
+      "id": 390,
+      "name": "Sidenreng Rappang",
+      "province": "Sulawesi Selatan",
+      "color": "#982f44",
       "count": 2
     },
     "defFaction": {
-      "id": 31,
-      "name": "Tabanan",
-      "province": "Bali",
-      "color": "#ac2fa6",
-      "count": 1
+      "id": 396,
+      "name": "Wajo",
+      "province": "Sulawesi Selatan",
+      "color": "#5f9037",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 27,
-      "name": "Jembrana",
-      "province": "Bali",
+      "id": 390,
+      "name": "Sidenreng Rappang",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        645.7,
-        621.5
+        802.3,
+        489.4
       ]
     },
     "defTerritory": {
-      "id": 25,
-      "name": "Buleleng",
-      "province": "Bali",
+      "id": 396,
+      "name": "Wajo",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        652.1,
-        619.2
+        806.8,
+        495.2
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 453,
+    "eliminated": {
+      "id": 396,
+      "name": "Wajo",
+      "province": "Sulawesi Selatan"
+    },
+    "activeFactionsCount": 452,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Antrean kapal feri Ketapang-Gilimanuk macet 18 jam gara-gara sistem tiket online servernya down.",
-      "story": "Pasukan elit Jembrana melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Buleleng kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Antrean kapal feri Ketapang-Gilimanuk ...] Jembrana berhasil menaklukkan sektor Buleleng!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan.",
+      "story": "Laskar Sidenreng Rappang memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Wajo. Tanpa stok sambal dan amunisi cadangan, garnisun Wajo lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Wajo dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Wajo resmi BUBAR!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Wajo Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Konflik pecah akibat parade Sound Hore...] Sidenreng Rappang menjebol Wajo! 💀 Wajo RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 112,
+      "date": "April 2039",
+      "atk": "Sidenreng Rappang",
+      "def": "Wajo",
+      "success": true,
+      "elim": "Wajo",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Wajo Runtuh & Lenyap dari Peta",
+      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
+    },
     {
       "round": 111,
       "date": "Maret 2039",
@@ -6127,16 +6141,6 @@
       "elim": "Kota Cilegon",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Kota Cilegon Runtuh & Lenyap dari Peta",
       "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
-    },
-    {
-      "round": 62,
-      "date": "Februari 2035",
-      "atk": "Tapin",
-      "def": "Banjar",
-      "success": true,
-      "elim": null,
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli."
     }
   ]
 }
