@@ -1,8 +1,8 @@
 {
-  "round": 115,
+  "round": 116,
   "year": 2039,
-  "month": 7,
-  "activeFactionsCount": 452,
+  "month": 8,
+  "activeFactionsCount": 451,
   "territoryOwner": [
     0,
     1,
@@ -232,7 +232,7 @@
     225,
     226,
     227,
-    228,
+    223,
     229,
     230,
     231,
@@ -2748,7 +2748,7 @@
       "name": "Mahakam Ulu",
       "province": "Kalimantan Timur",
       "color": "#a3ac2f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -2798,10 +2798,10 @@
       "name": "Malinau",
       "province": "Kalimantan Utara",
       "color": "#906637",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 116,
+      "eliminatedBy": 223
     },
     {
       "id": 229,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 115,
-    "date": "Juli 2039",
-    "monthNumber": 7,
+    "round": 116,
+    "date": "Agustus 2039",
+    "monthNumber": 8,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 109,
-      "name": "Brebes",
-      "province": "Jawa Tengah",
-      "color": "#384da3",
+      "id": 223,
+      "name": "Mahakam Ulu",
+      "province": "Kalimantan Timur",
+      "color": "#a3ac2f",
       "count": 2
     },
     "defFaction": {
-      "id": 88,
-      "name": "Kota Banjar",
-      "province": "Jawa Barat",
-      "color": "#3c5c9f",
-      "count": 1
+      "id": 228,
+      "name": "Malinau",
+      "province": "Kalimantan Utara",
+      "color": "#906637",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 105,
-      "name": "Banyumas",
-      "province": "Jawa Tengah",
+      "id": 223,
+      "name": "Mahakam Ulu",
+      "province": "Kalimantan Timur",
       "cScreen": [
-        483.9,
-        597.5
+        649.7,
+        356.6
       ]
     },
     "defTerritory": {
-      "id": 110,
-      "name": "Cilacap",
-      "province": "Jawa Tengah",
+      "id": 228,
+      "name": "Malinau",
+      "province": "Kalimantan Utara",
       "cScreen": [
-        475.2,
-        598.6
+        674.2,
+        303.2
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 452,
+    "eliminated": {
+      "id": 228,
+      "name": "Malinau",
+      "province": "Kalimantan Utara"
+    },
+    "activeFactionsCount": 451,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Pasukan elit Brebes melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Cilacap kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Warga geram diekspor kabut asap karhut...] Brebes berhasil menaklukkan sektor Cilacap!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
+      "story": "Armada kapal pendarat Mahakam Ulu menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Malinau. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Malinau dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Malinau resmi diambil alih oleh Mahakam Ulu!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malinau Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Mahakam Ulu menjebol Malinau! 💀 Malinau RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 116,
+      "date": "Agustus 2039",
+      "atk": "Mahakam Ulu",
+      "def": "Malinau",
+      "success": true,
+      "elim": "Malinau",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malinau Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
+    },
     {
       "round": 115,
       "date": "Juli 2039",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
-    },
-    {
-      "round": 66,
-      "date": "Juni 2035",
-      "atk": "Tapanuli Utara",
-      "def": "Toba",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Dana investor asing kabur massal dari bursa efek, memicu krisis likuiditas dan penjarahan kas pemda perbatasan."
     }
   ]
 }
