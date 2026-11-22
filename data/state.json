@@ -1,8 +1,8 @@
 {
-  "round": 116,
+  "round": 117,
   "year": 2039,
-  "month": 8,
-  "activeFactionsCount": 451,
+  "month": 9,
+  "activeFactionsCount": 450,
   "territoryOwner": [
     0,
     1,
@@ -307,7 +307,7 @@
     300,
     301,
     302,
-    303,
+    301,
     304,
     305,
     306,
@@ -3528,7 +3528,7 @@
       "name": "Manggarai Timur",
       "province": "Nusa Tenggara Timur",
       "color": "#a3384a",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -3548,10 +3548,10 @@
       "name": "Ngada",
       "province": "Nusa Tenggara Timur",
       "color": "#5a2b9c",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 117,
+      "eliminatedBy": 301
     },
     {
       "id": 304,
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 116,
-    "date": "Agustus 2039",
-    "monthNumber": 8,
+    "round": 117,
+    "date": "September 2039",
+    "monthNumber": 9,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 223,
-      "name": "Mahakam Ulu",
-      "province": "Kalimantan Timur",
-      "color": "#a3ac2f",
+      "id": 301,
+      "name": "Manggarai Timur",
+      "province": "Nusa Tenggara Timur",
+      "color": "#a3384a",
       "count": 2
     },
     "defFaction": {
-      "id": 228,
-      "name": "Malinau",
-      "province": "Kalimantan Utara",
-      "color": "#906637",
+      "id": 303,
+      "name": "Ngada",
+      "province": "Nusa Tenggara Timur",
+      "color": "#5a2b9c",
       "count": 0
     },
     "atkTerritory": {
-      "id": 223,
-      "name": "Mahakam Ulu",
-      "province": "Kalimantan Timur",
+      "id": 301,
+      "name": "Manggarai Timur",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        649.7,
-        356.6
+        822.8,
+        629.2
       ]
     },
     "defTerritory": {
-      "id": 228,
-      "name": "Malinau",
-      "province": "Kalimantan Utara",
+      "id": 303,
+      "name": "Ngada",
+      "province": "Nusa Tenggara Timur",
       "cScreen": [
-        674.2,
-        303.2
+        831.7,
+        632.2
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 228,
-      "name": "Malinau",
-      "province": "Kalimantan Utara"
+      "id": 303,
+      "name": "Ngada",
+      "province": "Nusa Tenggara Timur"
     },
-    "activeFactionsCount": 451,
+    "activeFactionsCount": 450,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak.",
-      "story": "Armada kapal pendarat Mahakam Ulu menyamar sebagai rombongan ziarah wali sanga dan sukses merapat di pelabuhan Malinau. Sebelum satpol PP sadar, seluruh dermaga dan pos karcis telah diambil alih.\n\n💀 NASIB AKHIR:\nGelar kehormatan bupati Malinau dicabut kampus, aset rekening dibekukan PPATK, dan wilayah Malinau resmi diambil alih oleh Mahakam Ulu!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Malinau Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Pungli karcis masuk pulau wisata panta...] Mahakam Ulu menjebol Malinau! 💀 Malinau RUNTUH!",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Manggarai Timur sukses merebut tugu perbatasan dan gedung dinas Ngada. Bendera Ngada diturunkan dan diganti bendera kejayaan Manggarai Timur.\n\n💀 NASIB AKHIR:\nBupati Ngada diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Ngada resmi BUBAR dan disita negara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Ngada Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Investor ritel mengamuk aturan papan F...] Manggarai Timur menjebol Ngada! 💀 Ngada RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 117,
+      "date": "September 2039",
+      "atk": "Manggarai Timur",
+      "def": "Ngada",
+      "success": true,
+      "elim": "Ngada",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Ngada Runtuh & Lenyap dari Peta",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
+    },
     {
       "round": 116,
       "date": "Agustus 2039",
@@ -6131,16 +6141,6 @@
       "elim": "Samosir",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Samosir Runtuh & Lenyap dari Peta",
       "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
-    },
-    {
-      "round": 67,
-      "date": "Juli 2035",
-      "atk": "Kota Batu",
-      "def": "Malang",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
     }
   ]
 }
