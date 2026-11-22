@@ -1,7 +1,7 @@
 {
-  "round": 117,
+  "round": 118,
   "year": 2039,
-  "month": 9,
+  "month": 10,
   "activeFactionsCount": 450,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 117,
-    "date": "September 2039",
-    "monthNumber": 9,
+    "round": 118,
+    "date": "Oktober 2039",
+    "monthNumber": 10,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 301,
-      "name": "Manggarai Timur",
-      "province": "Nusa Tenggara Timur",
-      "color": "#a3384a",
-      "count": 2
+      "id": 7,
+      "name": "Aceh Tengah",
+      "province": "Aceh",
+      "color": "#342fac",
+      "count": 1
     },
     "defFaction": {
-      "id": 303,
-      "name": "Ngada",
-      "province": "Nusa Tenggara Timur",
-      "color": "#5a2b9c",
-      "count": 0
+      "id": 20,
+      "name": "Pidie",
+      "province": "Aceh",
+      "color": "#4254ae",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 301,
-      "name": "Manggarai Timur",
-      "province": "Nusa Tenggara Timur",
+      "id": 7,
+      "name": "Aceh Tengah",
+      "province": "Aceh",
       "cScreen": [
-        822.8,
-        629.2
+        119.6,
+        242.9
       ]
     },
     "defTerritory": {
-      "id": 303,
-      "name": "Ngada",
-      "province": "Nusa Tenggara Timur",
+      "id": 20,
+      "name": "Pidie",
+      "province": "Aceh",
       "cScreen": [
-        831.7,
-        632.2
+        96.1,
+        227.9
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 303,
-      "name": "Ngada",
-      "province": "Nusa Tenggara Timur"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 450,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Manggarai Timur sukses merebut tugu perbatasan dan gedung dinas Ngada. Bendera Ngada diturunkan dan diganti bendera kejayaan Manggarai Timur.\n\n💀 NASIB AKHIR:\nBupati Ngada diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Ngada resmi BUBAR dan disita negara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Ngada Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Investor ritel mengamuk aturan papan F...] Manggarai Timur menjebol Ngada! 💀 Ngada RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.",
+      "story": "Operasi invasi Aceh Tengah macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Sengketa jatah impor gula dan kuota be...] Pidie sukses menghalau serbuan Aceh Tengah!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 118,
+      "date": "Oktober 2039",
+      "atk": "Aceh Tengah",
+      "def": "Pidie",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati."
+    },
     {
       "round": 117,
       "date": "September 2039",
@@ -6131,16 +6137,6 @@
       "elim": "Bondowoso",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Bondowoso Runtuh & Lenyap dari Peta",
       "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam."
-    },
-    {
-      "round": 68,
-      "date": "Agustus 2035",
-      "atk": "Humbang Hasundutan",
-      "def": "Samosir",
-      "success": true,
-      "elim": "Samosir",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Samosir Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pasukan penyerbu marah besar kena potongan Tapera dan rencana PPN naik 12%, lalu melampiaskannya ke kota sebelah."
     }
   ]
 }
