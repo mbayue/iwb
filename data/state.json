@@ -1,7 +1,7 @@
 {
-  "round": 119,
+  "round": 120,
   "year": 2039,
-  "month": 11,
+  "month": 12,
   "activeFactionsCount": 450,
   "territoryOwner": [
     0,
@@ -411,7 +411,7 @@
     404,
     405,
     406,
-    402,
+    371,
     408,
     409,
     410,
@@ -4228,7 +4228,7 @@
       "name": "Pasangkayu",
       "province": "Sulawesi Barat",
       "color": "#5734bc",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4538,7 +4538,7 @@
       "name": "Kota Palu",
       "province": "Sulawesi Tengah",
       "color": "#2f7898",
-      "territoryCount": 2,
+      "territoryCount": 1,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 119,
-    "date": "November 2039",
-    "monthNumber": 11,
+    "round": 120,
+    "date": "Desember 2039",
+    "monthNumber": 12,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 410,
-      "name": "Bombana",
-      "province": "Sulawesi Tenggara",
-      "color": "#3867b7",
-      "count": 1
+      "id": 371,
+      "name": "Pasangkayu",
+      "province": "Sulawesi Barat",
+      "color": "#5734bc",
+      "count": 2
     },
     "defFaction": {
-      "id": 415,
-      "name": "Kolaka",
-      "province": "Sulawesi Tenggara",
-      "color": "#2fa0ac",
+      "id": 402,
+      "name": "Kota Palu",
+      "province": "Sulawesi Tengah",
+      "color": "#2f7898",
       "count": 1
     },
     "atkTerritory": {
-      "id": 410,
-      "name": "Bombana",
-      "province": "Sulawesi Tenggara",
+      "id": 371,
+      "name": "Pasangkayu",
+      "province": "Sulawesi Barat",
       "cScreen": [
-        857.5,
-        520.6
+        788.3,
+        418.1
       ]
     },
     "defTerritory": {
-      "id": 415,
-      "name": "Kolaka",
-      "province": "Sulawesi Tenggara",
+      "id": 407,
+      "name": "Sigi",
+      "province": "Sulawesi Tengah",
       "cScreen": [
-        847.3,
-        497.6
+        802,
+        419.2
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 450,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.",
-      "story": "Tank penyerbu Bombana kehabisan bensin eceran di tengah jalan dan tentaranya malah nongkrong ngopi dan makan gorengan di warkop perbatasan.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Helikopter pemadam karhutla salah sasa...] Kolaka sukses menghalau serbuan Bombana!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis.",
+      "story": "Laskar Pasangkayu memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Sigi. Tanpa stok sambal dan amunisi cadangan, garnisun Sigi lumpuh total dan menyatakan menyerah sukarela.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Warga mengamuk ukuran tahu dan tempe g...] Pasangkayu berhasil menaklukkan sektor Sigi!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 120,
+      "date": "Desember 2039",
+      "atk": "Pasangkayu",
+      "def": "Sigi",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis."
+    },
     {
       "round": 119,
       "date": "November 2039",
@@ -6127,16 +6137,6 @@
       "elim": "Tulungagung",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Tulungagung Runtuh & Lenyap dari Peta",
       "casusBelli": "Razia iPhone 16 selundupan tanpa sertifikasi TKDN di pos batas yang disita buat dipakai anak camat."
-    },
-    {
-      "round": 70,
-      "date": "Oktober 2035",
-      "atk": "Konawe Kepulauan",
-      "def": "Konawe Selatan",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
     }
   ]
 }
