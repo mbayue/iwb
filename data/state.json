@@ -1,7 +1,7 @@
 {
-  "round": 118,
+  "round": 119,
   "year": 2039,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 450,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 118,
-    "date": "Oktober 2039",
-    "monthNumber": 10,
+    "round": 119,
+    "date": "November 2039",
+    "monthNumber": 11,
     "yearNumber": 2039,
     "atkFaction": {
-      "id": 7,
-      "name": "Aceh Tengah",
-      "province": "Aceh",
-      "color": "#342fac",
+      "id": 410,
+      "name": "Bombana",
+      "province": "Sulawesi Tenggara",
+      "color": "#3867b7",
       "count": 1
     },
     "defFaction": {
-      "id": 20,
-      "name": "Pidie",
-      "province": "Aceh",
-      "color": "#4254ae",
+      "id": 415,
+      "name": "Kolaka",
+      "province": "Sulawesi Tenggara",
+      "color": "#2fa0ac",
       "count": 1
     },
     "atkTerritory": {
-      "id": 7,
-      "name": "Aceh Tengah",
-      "province": "Aceh",
+      "id": 410,
+      "name": "Bombana",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        119.6,
-        242.9
+        857.5,
+        520.6
       ]
     },
     "defTerritory": {
-      "id": 20,
-      "name": "Pidie",
-      "province": "Aceh",
+      "id": 415,
+      "name": "Kolaka",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        96.1,
-        227.9
+        847.3,
+        497.6
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jatah impor gula dan kuota beras Bulog yang malah ditimbun di gudang pupuk bupati.",
-      "story": "Operasi invasi Aceh Tengah macet total karena harga bensin impor melambung tinggi akibat kurs Rupiah jebol, membuat konvoi mogok massal di SPBU.",
+      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan.",
+      "story": "Tank penyerbu Bombana kehabisan bensin eceran di tengah jalan dan tentaranya malah nongkrong ngopi dan makan gorengan di warkop perbatasan.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa jatah impor gula dan kuota be...] Pidie sukses menghalau serbuan Aceh Tengah!",
+      "bannerText": "🛡️ [PEMICU: Helikopter pemadam karhutla salah sasa...] Kolaka sukses menghalau serbuan Bombana!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 119,
+      "date": "November 2039",
+      "atk": "Bombana",
+      "def": "Kolaka",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Helikopter pemadam karhutla salah sasaran dan malah menyiram kuah bakso hajatan kepala desa di perbatasan."
+    },
     {
       "round": 118,
       "date": "Oktober 2039",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Konflik pecah akibat parade Sound Horeg 100.000 watt yang merontokkan genteng warga perbatasan."
-    },
-    {
-      "round": 69,
-      "date": "September 2035",
-      "atk": "Situbondo",
-      "def": "Bondowoso",
-      "success": true,
-      "elim": "Bondowoso",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bondowoso Runtuh & Lenyap dari Peta",
-      "casusBelli": "Gegara tergiur skandal Zarof Ricar, bupati menyerbu kota tetangga demi mencari tumpukan uang tunai 1 triliun dan 51 kg emas batangan Antam."
     }
   ]
 }
