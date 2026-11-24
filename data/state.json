@@ -1,8 +1,8 @@
 {
-  "round": 120,
-  "year": 2039,
-  "month": 12,
-  "activeFactionsCount": 450,
+  "round": 121,
+  "year": 2040,
+  "month": 1,
+  "activeFactionsCount": 449,
   "territoryOwner": [
     0,
     1,
@@ -293,7 +293,7 @@
     287,
     287,
     288,
-    289,
+    290,
     290,
     292,
     292,
@@ -3408,17 +3408,17 @@
       "name": "Sumbawa",
       "province": "Nusa Tenggara Barat",
       "color": "#38a35b",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 121,
+      "eliminatedBy": 290
     },
     {
       "id": 290,
       "name": "Sumbawa Barat",
       "province": "Nusa Tenggara Barat",
       "color": "#8738b7",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 120,
-    "date": "Desember 2039",
-    "monthNumber": 12,
-    "yearNumber": 2039,
+    "round": 121,
+    "date": "Januari 2040",
+    "monthNumber": 1,
+    "yearNumber": 2040,
     "atkFaction": {
-      "id": 371,
-      "name": "Pasangkayu",
-      "province": "Sulawesi Barat",
-      "color": "#5734bc",
+      "id": 290,
+      "name": "Sumbawa Barat",
+      "province": "Nusa Tenggara Barat",
+      "color": "#8738b7",
       "count": 2
     },
     "defFaction": {
-      "id": 402,
-      "name": "Kota Palu",
-      "province": "Sulawesi Tengah",
-      "color": "#2f7898",
-      "count": 1
+      "id": 289,
+      "name": "Sumbawa",
+      "province": "Nusa Tenggara Barat",
+      "color": "#38a35b",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 371,
-      "name": "Pasangkayu",
-      "province": "Sulawesi Barat",
+      "id": 290,
+      "name": "Sumbawa Barat",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        788.3,
-        418.1
+        712,
+        638.1
       ]
     },
     "defTerritory": {
-      "id": 407,
-      "name": "Sigi",
-      "province": "Sulawesi Tengah",
+      "id": 289,
+      "name": "Sumbawa",
+      "province": "Nusa Tenggara Barat",
       "cScreen": [
-        802,
-        419.2
+        729.2,
+        632.3
       ]
     },
     "success": true,
-    "eliminated": null,
-    "activeFactionsCount": 450,
+    "eliminated": {
+      "id": 289,
+      "name": "Sumbawa",
+      "province": "Nusa Tenggara Barat"
+    },
+    "activeFactionsCount": 449,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis.",
-      "story": "Laskar Pasangkayu memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Sigi. Tanpa stok sambal dan amunisi cadangan, garnisun Sigi lumpuh total dan menyatakan menyerah sukarela.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Warga mengamuk ukuran tahu dan tempe g...] Pasangkayu berhasil menaklukkan sektor Sigi!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga.",
+      "story": "Pasukan elit Sumbawa Barat melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Sumbawa kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Sumbawa bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Sumbawa Barat!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sumbawa Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Dinas PUPR kota sebelah salah pasang p...] Sumbawa Barat menjebol Sumbawa! 💀 Sumbawa RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 121,
+      "date": "Januari 2040",
+      "atk": "Sumbawa Barat",
+      "def": "Sumbawa",
+      "success": true,
+      "elim": "Sumbawa",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sumbawa Runtuh & Lenyap dari Peta",
+      "casusBelli": "Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga."
+    },
     {
       "round": 120,
       "date": "Desember 2039",
@@ -6127,16 +6141,6 @@
       "elim": "Asahan",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Asahan Runtuh & Lenyap dari Peta",
       "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
-    },
-    {
-      "round": 71,
-      "date": "November 2035",
-      "atk": "Kediri",
-      "def": "Tulungagung",
-      "success": true,
-      "elim": "Tulungagung",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tulungagung Runtuh & Lenyap dari Peta",
-      "casusBelli": "Razia iPhone 16 selundupan tanpa sertifikasi TKDN di pos batas yang disita buat dipakai anak camat."
     }
   ]
 }
