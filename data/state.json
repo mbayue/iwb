@@ -1,8 +1,8 @@
 {
-  "round": 121,
+  "round": 122,
   "year": 2040,
-  "month": 1,
-  "activeFactionsCount": 449,
+  "month": 2,
+  "activeFactionsCount": 448,
   "territoryOwner": [
     0,
     1,
@@ -271,7 +271,7 @@
     264,
     270,
     266,
-    267,
+    269,
     265,
     269,
     270,
@@ -3188,10 +3188,10 @@
       "name": "Maluku Tengah",
       "province": "Maluku",
       "color": "#9c2b35",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 122,
+      "eliminatedBy": 269
     },
     {
       "id": 268,
@@ -3208,7 +3208,7 @@
       "name": "Seram Bagian Barat",
       "province": "Maluku",
       "color": "#773db3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 121,
-    "date": "Januari 2040",
-    "monthNumber": 1,
+    "round": 122,
+    "date": "Februari 2040",
+    "monthNumber": 2,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 290,
-      "name": "Sumbawa Barat",
-      "province": "Nusa Tenggara Barat",
-      "color": "#8738b7",
+      "id": 269,
+      "name": "Seram Bagian Barat",
+      "province": "Maluku",
+      "color": "#773db3",
       "count": 2
     },
     "defFaction": {
-      "id": 289,
-      "name": "Sumbawa",
-      "province": "Nusa Tenggara Barat",
-      "color": "#38a35b",
+      "id": 267,
+      "name": "Maluku Tengah",
+      "province": "Maluku",
+      "color": "#9c2b35",
       "count": 0
     },
     "atkTerritory": {
-      "id": 290,
-      "name": "Sumbawa Barat",
-      "province": "Nusa Tenggara Barat",
+      "id": 269,
+      "name": "Seram Bagian Barat",
+      "province": "Maluku",
       "cScreen": [
-        712,
-        638.1
+        1043.9,
+        470.3
       ]
     },
     "defTerritory": {
-      "id": 289,
-      "name": "Sumbawa",
-      "province": "Nusa Tenggara Barat",
+      "id": 267,
+      "name": "Maluku Tengah",
+      "province": "Maluku",
       "cScreen": [
-        729.2,
-        632.3
+        1066.3,
+        475.3
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 289,
-      "name": "Sumbawa",
-      "province": "Nusa Tenggara Barat"
+      "id": 267,
+      "name": "Maluku Tengah",
+      "province": "Maluku"
     },
-    "activeFactionsCount": 449,
+    "activeFactionsCount": 448,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Dinas PUPR kota sebelah salah pasang plang batas wilayah sejauh 5 kilometer ke arah sawah warga.",
-      "story": "Pasukan elit Sumbawa Barat melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Sumbawa kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nKas daerah Sumbawa bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Sumbawa Barat!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Sumbawa Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Dinas PUPR kota sebelah salah pasang p...] Sumbawa Barat menjebol Sumbawa! 💀 Sumbawa RUNTUH!",
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur.",
+      "story": "Laskar Seram Bagian Barat memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Maluku Tengah. Tanpa stok sambal dan amunisi cadangan, garnisun Maluku Tengah lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Maluku Tengah terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Seram Bagian Barat!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tengah Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pejabat perbatasan dipaksa ikut retret...] Seram Bagian Barat menjebol Maluku Tengah! 💀 Maluku Tengah RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 122,
+      "date": "Februari 2040",
+      "atk": "Seram Bagian Barat",
+      "def": "Maluku Tengah",
+      "success": true,
+      "elim": "Maluku Tengah",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Maluku Tengah Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
+    },
     {
       "round": 121,
       "date": "Januari 2040",
@@ -6131,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga."
-    },
-    {
-      "round": 72,
-      "date": "Desember 2035",
-      "atk": "Batu Bara",
-      "def": "Asahan",
-      "success": true,
-      "elim": "Asahan",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Asahan Runtuh & Lenyap dari Peta",
-      "casusBelli": "Warga marah postingan lawas akun Kaskus \"Fufufafa\" terbongkar dan membongkar aib tokoh perbatasan."
     }
   ]
 }
