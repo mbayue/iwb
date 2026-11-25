@@ -1,8 +1,8 @@
 {
-  "round": 125,
+  "round": 126,
   "year": 2040,
-  "month": 5,
-  "activeFactionsCount": 448,
+  "month": 6,
+  "activeFactionsCount": 447,
   "territoryOwner": [
     0,
     1,
@@ -179,7 +179,7 @@
     172,
     173,
     146,
-    175,
+    185,
     176,
     177,
     178,
@@ -2268,10 +2268,10 @@
       "name": "Bengkayang",
       "province": "Kalimantan Barat",
       "color": "#ac2fa4",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 126,
+      "eliminatedBy": 185
     },
     {
       "id": 176,
@@ -2368,7 +2368,7 @@
       "name": "Sambas",
       "province": "Kalimantan Barat",
       "color": "#3d3fb3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 125,
-    "date": "Mei 2040",
-    "monthNumber": 5,
+    "round": 126,
+    "date": "Juni 2040",
+    "monthNumber": 6,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 333,
-      "name": "Sorong Selatan",
-      "province": "Papua Barat Daya",
-      "color": "#849433",
+      "id": 185,
+      "name": "Sambas",
+      "province": "Kalimantan Barat",
+      "color": "#3d3fb3",
       "count": 2
     },
     "defFaction": {
-      "id": 326,
-      "name": "Pegunungan Arfak",
-      "province": "Papua Barat",
-      "color": "#38a7b7",
-      "count": 1
+      "id": 175,
+      "name": "Bengkayang",
+      "province": "Kalimantan Barat",
+      "color": "#ac2fa4",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 334,
-      "name": "Tambrauw",
-      "province": "Papua Barat Daya",
+      "id": 185,
+      "name": "Sambas",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        1176.5,
-        401.2
+        488,
+        335.1
       ]
     },
     "defTerritory": {
-      "id": 326,
-      "name": "Pegunungan Arfak",
-      "province": "Papua Barat",
+      "id": 175,
+      "name": "Bengkayang",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        1206.2,
-        414
+        491.8,
+        348.7
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 448,
+    "success": true,
+    "eliminated": {
+      "id": 175,
+      "name": "Bengkayang",
+      "province": "Kalimantan Barat"
+    },
+    "activeFactionsCount": 447,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
-      "story": "Upaya pendaratan laut Sorong Selatan digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Pegunungan Arfak yang memaksa bayar tunai.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Pegunungan Arfak sukses menghalau serbuan Sorong Selatan!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
+      "story": "Pasukan elit Sambas melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Bengkayang kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nFaksi Bengkayang resmi BUBAR! Seluruh warga Bengkayang kini wajib ganti KTP, bayar retribusi ke dinasti Sambas, dan dilarang membanggakan kuliner asalnya.",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bengkayang Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Investor ritel mengamuk aturan papan F...] Sambas menjebol Bengkayang! 💀 Bengkayang RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 126,
+      "date": "Juni 2040",
+      "atk": "Sambas",
+      "def": "Bengkayang",
+      "success": true,
+      "elim": "Bengkayang",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bengkayang Runtuh & Lenyap dari Peta",
+      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona."
+    },
     {
       "round": 125,
       "date": "Mei 2040",
@@ -6127,16 +6141,6 @@
       "elim": "Jember",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Jember Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
-    },
-    {
-      "round": 76,
-      "date": "April 2036",
-      "atk": "Halmahera Barat",
-      "def": "Kota Tidore Kepulauan",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
     }
   ]
 }
