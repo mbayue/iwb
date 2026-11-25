@@ -1,7 +1,7 @@
 {
-  "round": 124,
+  "round": 125,
   "year": 2040,
-  "month": 4,
+  "month": 5,
   "activeFactionsCount": 448,
   "territoryOwner": [
     0,
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 124,
-    "date": "April 2040",
-    "monthNumber": 4,
+    "round": 125,
+    "date": "Mei 2040",
+    "monthNumber": 5,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 330,
-      "name": "Maybrat",
-      "province": "Papua Barat Daya",
-      "color": "#984e2f",
-      "count": 2
-    },
-    "defFaction": {
       "id": 333,
       "name": "Sorong Selatan",
       "province": "Papua Barat Daya",
       "color": "#849433",
       "count": 2
     },
+    "defFaction": {
+      "id": 326,
+      "name": "Pegunungan Arfak",
+      "province": "Papua Barat",
+      "color": "#38a7b7",
+      "count": 1
+    },
     "atkTerritory": {
-      "id": 330,
-      "name": "Maybrat",
+      "id": 334,
+      "name": "Tambrauw",
       "province": "Papua Barat Daya",
       "cScreen": [
-        1171.5,
-        418.5
+        1176.5,
+        401.2
       ]
     },
     "defTerritory": {
-      "id": 333,
-      "name": "Sorong Selatan",
-      "province": "Papua Barat Daya",
+      "id": 326,
+      "name": "Pegunungan Arfak",
+      "province": "Papua Barat",
       "cScreen": [
-        1161.1,
-        426.7
+        1206.2,
+        414
       ]
     },
-    "success": true,
+    "success": false,
     "eliminated": null,
     "activeFactionsCount": 448,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Bupati tekor ratusan miliar akibat nyangkut di saham gorengan yang kena ARB berjilid-jilid setelah termakan rekomendasi influencer.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Maybrat sukses merebut tugu perbatasan dan gedung dinas Sorong Selatan. Bendera Sorong Selatan diturunkan dan diganti bendera kejayaan Maybrat.",
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "bannerText": "⚔️ [PEMICU: Bupati tekor ratusan miliar akibat nya...] Maybrat berhasil menaklukkan sektor Sorong Selatan!",
-      "impact": "Wilayah Berpindah Tangan",
-      "atmosphere": "Penyerbuan Berhasil"
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin.",
+      "story": "Upaya pendaratan laut Sorong Selatan digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Pegunungan Arfak yang memaksa bayar tunai.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Kapal nelayan dituduh melanggar batas ...] Pegunungan Arfak sukses menghalau serbuan Sorong Selatan!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 125,
+      "date": "Mei 2040",
+      "atk": "Sorong Selatan",
+      "def": "Pegunungan Arfak",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
+    },
     {
       "round": 124,
       "date": "April 2040",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Skandal suap vonis bebas 3 hakim perbatasan terbongkar; kardus isi uang miliaran disita berujung perang terbuka antar-daerah."
-    },
-    {
-      "round": 75,
-      "date": "Maret 2036",
-      "atk": "Boyolali",
-      "def": "Magelang",
-      "success": true,
-      "elim": null,
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
     }
   ]
 }
