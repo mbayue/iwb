@@ -1,7 +1,7 @@
 {
-  "round": 123,
+  "round": 124,
   "year": 2040,
-  "month": 3,
+  "month": 4,
   "activeFactionsCount": 448,
   "territoryOwner": [
     0,
@@ -337,7 +337,7 @@
     330,
     331,
     332,
-    333,
+    330,
     333,
     335,
     336,
@@ -3818,7 +3818,7 @@
       "name": "Maybrat",
       "province": "Papua Barat Daya",
       "color": "#984e2f",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -3848,7 +3848,7 @@
       "name": "Sorong Selatan",
       "province": "Papua Barat Daya",
       "color": "#849433",
-      "territoryCount": 3,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 123,
-    "date": "Maret 2040",
-    "monthNumber": 3,
+    "round": 124,
+    "date": "April 2040",
+    "monthNumber": 4,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 248,
-      "name": "Lampung Selatan",
-      "province": "Lampung",
-      "color": "#6942ae",
-      "count": 1
+      "id": 330,
+      "name": "Maybrat",
+      "province": "Papua Barat Daya",
+      "color": "#984e2f",
+      "count": 2
     },
     "defFaction": {
-      "id": 101,
-      "name": "Sukabumi",
-      "province": "Jawa Barat",
-      "color": "#3d7bb3",
-      "count": 3
+      "id": 333,
+      "name": "Sorong Selatan",
+      "province": "Papua Barat Daya",
+      "color": "#849433",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 248,
-      "name": "Lampung Selatan",
-      "province": "Lampung",
+      "id": 330,
+      "name": "Maybrat",
+      "province": "Papua Barat Daya",
       "cScreen": [
-        373.8,
-        538.3
+        1171.5,
+        418.5
       ]
     },
     "defTerritory": {
-      "id": 38,
-      "name": "Serang",
-      "province": "Banten",
+      "id": 333,
+      "name": "Sorong Selatan",
+      "province": "Papua Barat Daya",
       "cScreen": [
-        393.5,
-        557.5
+        1161.1,
+        426.7
       ]
     },
-    "success": false,
+    "success": true,
     "eliminated": null,
     "activeFactionsCount": 448,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa jalan provinsi yang berlubang parah tapi di laporan pertanggungjawaban diklaim mulus beraspal.",
-      "story": "Upaya pendaratan laut Lampung Selatan digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Serang yang memaksa bayar tunai.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Sengketa jalan provinsi yang berlubang...] Serang sukses menghalau serbuan Lampung Selatan!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Bupati tekor ratusan miliar akibat nyangkut di saham gorengan yang kena ARB berjilid-jilid setelah termakan rekomendasi influencer.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Maybrat sukses merebut tugu perbatasan dan gedung dinas Sorong Selatan. Bendera Sorong Selatan diturunkan dan diganti bendera kejayaan Maybrat.",
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "bannerText": "⚔️ [PEMICU: Bupati tekor ratusan miliar akibat nya...] Maybrat berhasil menaklukkan sektor Sorong Selatan!",
+      "impact": "Wilayah Berpindah Tangan",
+      "atmosphere": "Penyerbuan Berhasil"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 124,
+      "date": "April 2040",
+      "atk": "Maybrat",
+      "def": "Sorong Selatan",
+      "success": true,
+      "elim": null,
+      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
+      "casusBelli": "Bupati tekor ratusan miliar akibat nyangkut di saham gorengan yang kena ARB berjilid-jilid setelah termakan rekomendasi influencer."
+    },
     {
       "round": 123,
       "date": "Maret 2040",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
       "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
-    },
-    {
-      "round": 74,
-      "date": "Februari 2036",
-      "atk": "Kota Jambi",
-      "def": "Muaro Jambi",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Warga murka kabut asap pekat karhutla dari kebun sawit perbatasan membuat langit berubah oranye gelap gulita."
     }
   ]
 }
