@@ -1,8 +1,8 @@
 {
-  "round": 126,
+  "round": 127,
   "year": 2040,
-  "month": 6,
-  "activeFactionsCount": 447,
+  "month": 7,
+  "activeFactionsCount": 446,
   "territoryOwner": [
     0,
     1,
@@ -84,7 +84,7 @@
     77,
     78,
     79,
-    80,
+    101,
     81,
     82,
     83,
@@ -1318,10 +1318,10 @@
       "name": "Bogor",
       "province": "Jawa Barat",
       "color": "#4289ae",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 127,
+      "eliminatedBy": 101
     },
     {
       "id": 81,
@@ -1528,7 +1528,7 @@
       "name": "Sukabumi",
       "province": "Jawa Barat",
       "color": "#3d7bb3",
-      "territoryCount": 3,
+      "territoryCount": 4,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 126,
-    "date": "Juni 2040",
-    "monthNumber": 6,
+    "round": 127,
+    "date": "Juli 2040",
+    "monthNumber": 7,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 185,
-      "name": "Sambas",
-      "province": "Kalimantan Barat",
-      "color": "#3d3fb3",
-      "count": 2
+      "id": 101,
+      "name": "Sukabumi",
+      "province": "Jawa Barat",
+      "color": "#3d7bb3",
+      "count": 4
     },
     "defFaction": {
-      "id": 175,
-      "name": "Bengkayang",
-      "province": "Kalimantan Barat",
-      "color": "#ac2fa4",
+      "id": 80,
+      "name": "Bogor",
+      "province": "Jawa Barat",
+      "color": "#4289ae",
       "count": 0
     },
     "atkTerritory": {
-      "id": 185,
-      "name": "Sambas",
-      "province": "Kalimantan Barat",
+      "id": 101,
+      "name": "Sukabumi",
+      "province": "Jawa Barat",
       "cScreen": [
-        488,
-        335.1
+        410.5,
+        584.2
       ]
     },
     "defTerritory": {
-      "id": 175,
-      "name": "Bengkayang",
-      "province": "Kalimantan Barat",
+      "id": 80,
+      "name": "Bogor",
+      "province": "Jawa Barat",
       "cScreen": [
-        491.8,
-        348.7
+        412.9,
+        570.5
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 175,
-      "name": "Bengkayang",
-      "province": "Kalimantan Barat"
+      "id": 80,
+      "name": "Bogor",
+      "province": "Jawa Barat"
     },
-    "activeFactionsCount": 447,
+    "activeFactionsCount": 446,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Investor ritel mengamuk aturan papan Full Call Auction (FCA) bursa bikin portofolio saham kebakaran merah merona.",
-      "story": "Pasukan elit Sambas melancarkan infiltrasi senyap lewat jalur tikus sambil membunyikan sound horeg. Pertahanan Bengkayang kocar-kacir setelah kaca pos penjagaan retak bergetar dan garnisun lokal memilih nobar ketimbang bertempur.\n\n💀 NASIB AKHIR:\nFaksi Bengkayang resmi BUBAR! Seluruh warga Bengkayang kini wajib ganti KTP, bayar retribusi ke dinasti Sambas, dan dilarang membanggakan kuliner asalnya.",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bengkayang Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Investor ritel mengamuk aturan papan F...] Sambas menjebol Bengkayang! 💀 Bengkayang RUNTUH!",
+      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli.",
+      "story": "Laskar Sukabumi memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Bogor. Tanpa stok sambal dan amunisi cadangan, garnisun Bogor lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Bogor diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Bogor resmi BUBAR dan disita negara!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bogor Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Konflik ormas razia lisensi Rumah Maka...] Sukabumi menjebol Bogor! 💀 Bogor RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 127,
+      "date": "Juli 2040",
+      "atk": "Sukabumi",
+      "def": "Bogor",
+      "success": true,
+      "elim": "Bogor",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bogor Runtuh & Lenyap dari Peta",
+      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli."
+    },
     {
       "round": 126,
       "date": "Juni 2040",
@@ -6131,16 +6141,6 @@
       "elim": "Aceh Singkil",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Aceh Singkil Runtuh & Lenyap dari Peta",
       "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
-    },
-    {
-      "round": 77,
-      "date": "Mei 2036",
-      "atk": "Situbondo",
-      "def": "Jember",
-      "success": true,
-      "elim": "Jember",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Jember Runtuh & Lenyap dari Peta",
-      "casusBelli": "Sengketa proyek tanggul Giant Sea Wall Pantai Utara yang pasirnya dikeruk dari pantai tetangga tanpa izin."
     }
   ]
 }
