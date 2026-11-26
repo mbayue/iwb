@@ -1,8 +1,8 @@
 {
-  "round": 127,
+  "round": 128,
   "year": 2040,
-  "month": 7,
-  "activeFactionsCount": 446,
+  "month": 8,
+  "activeFactionsCount": 445,
   "territoryOwner": [
     0,
     1,
@@ -196,7 +196,7 @@
     189,
     201,
     191,
-    192,
+    193,
     193,
     194,
     195,
@@ -2438,17 +2438,17 @@
       "name": "Hulu Sungai Selatan",
       "province": "Kalimantan Selatan",
       "color": "#379039",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 128,
+      "eliminatedBy": 193
     },
     {
       "id": 193,
       "name": "Hulu Sungai Tengah",
       "province": "Kalimantan Selatan",
       "color": "#5a38a3",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,56 +5585,56 @@
     }
   ],
   "lastBattle": {
-    "round": 127,
-    "date": "Juli 2040",
-    "monthNumber": 7,
+    "round": 128,
+    "date": "Agustus 2040",
+    "monthNumber": 8,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 101,
-      "name": "Sukabumi",
-      "province": "Jawa Barat",
-      "color": "#3d7bb3",
-      "count": 4
+      "id": 193,
+      "name": "Hulu Sungai Tengah",
+      "province": "Kalimantan Selatan",
+      "color": "#5a38a3",
+      "count": 2
     },
     "defFaction": {
-      "id": 80,
-      "name": "Bogor",
-      "province": "Jawa Barat",
-      "color": "#4289ae",
+      "id": 192,
+      "name": "Hulu Sungai Selatan",
+      "province": "Kalimantan Selatan",
+      "color": "#379039",
       "count": 0
     },
     "atkTerritory": {
-      "id": 101,
-      "name": "Sukabumi",
-      "province": "Jawa Barat",
+      "id": 193,
+      "name": "Hulu Sungai Tengah",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        410.5,
-        584.2
+        669.4,
+        454.1
       ]
     },
     "defTerritory": {
-      "id": 80,
-      "name": "Bogor",
-      "province": "Jawa Barat",
+      "id": 192,
+      "name": "Hulu Sungai Selatan",
+      "province": "Kalimantan Selatan",
       "cScreen": [
-        412.9,
-        570.5
+        662.6,
+        457.9
       ]
     },
     "success": true,
     "eliminated": {
-      "id": 80,
-      "name": "Bogor",
-      "province": "Jawa Barat"
+      "id": 192,
+      "name": "Hulu Sungai Selatan",
+      "province": "Kalimantan Selatan"
     },
-    "activeFactionsCount": 446,
+    "activeFactionsCount": 445,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Konflik ormas razia lisensi Rumah Makan Padang yang juru masaknya ternyata bukan orang Minang asli.",
-      "story": "Laskar Sukabumi memblokade pasar induk dan menyita seluruh pasokan cabai rawit ke Bogor. Tanpa stok sambal dan amunisi cadangan, garnisun Bogor lumpuh total dan menyatakan menyerah sukarela.\n\n💀 NASIB AKHIR:\nBupati Bogor diciduk tim Kejaksaan Agung bersama sitaan brankas uang tunai 1 triliun dan 51 kg emas batangan di balik kasur! Faksi Bogor resmi BUBAR dan disita negara!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Bogor Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Konflik ormas razia lisensi Rumah Maka...] Sukabumi menjebol Bogor! 💀 Bogor RUNTUH!",
+      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Hulu Sungai Tengah sukses merebut tugu perbatasan dan gedung dinas Hulu Sungai Selatan. Bendera Hulu Sungai Selatan diturunkan dan diganti bendera kejayaan Hulu Sungai Tengah.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Hulu Sungai Selatan terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Hulu Sungai Tengah!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Hulu Sungai Selatan Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Sengketa pembagian beras bansos yang t...] Hulu Sungai Tengah menjebol Hulu Sungai Selatan! 💀 Hulu Sungai Selatan RUNTUH!",
       "impact": "Kekalahan Total (Bupati Kabur)",
       "atmosphere": "Dikuasai Penuh"
     }
@@ -5642,6 +5642,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 128,
+      "date": "Agustus 2040",
+      "atk": "Hulu Sungai Tengah",
+      "def": "Hulu Sungai Selatan",
+      "success": true,
+      "elim": "Hulu Sungai Selatan",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Hulu Sungai Selatan Runtuh & Lenyap dari Peta",
+      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa."
+    },
     {
       "round": 127,
       "date": "Juli 2040",
@@ -6131,16 +6141,6 @@
       "elim": "Tanjung Jabung Timur",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Tanjung Jabung Timur Runtuh & Lenyap dari Peta",
       "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
-    },
-    {
-      "round": 78,
-      "date": "Juni 2036",
-      "atk": "Tapanuli Tengah",
-      "def": "Aceh Singkil",
-      "success": true,
-      "elim": "Aceh Singkil",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Aceh Singkil Runtuh & Lenyap dari Peta",
-      "casusBelli": "Pungli karcis masuk pulau wisata pantai pasir putih naik 5 kali lipat secara sepihak."
     }
   ]
 }
