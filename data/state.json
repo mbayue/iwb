@@ -1,7 +1,7 @@
 {
-  "round": 128,
+  "round": 129,
   "year": 2040,
-  "month": 8,
+  "month": 9,
   "activeFactionsCount": 445,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 128,
-    "date": "Agustus 2040",
-    "monthNumber": 8,
+    "round": 129,
+    "date": "September 2040",
+    "monthNumber": 9,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 193,
-      "name": "Hulu Sungai Tengah",
-      "province": "Kalimantan Selatan",
-      "color": "#5a38a3",
-      "count": 2
+      "id": 124,
+      "name": "Magelang",
+      "province": "Jawa Tengah",
+      "color": "#3c9f4e",
+      "count": 1
     },
     "defFaction": {
-      "id": 192,
-      "name": "Hulu Sungai Selatan",
-      "province": "Kalimantan Selatan",
-      "color": "#379039",
-      "count": 0
+      "id": 108,
+      "name": "Boyolali",
+      "province": "Jawa Tengah",
+      "color": "#629037",
+      "count": 1
     },
     "atkTerritory": {
-      "id": 193,
-      "name": "Hulu Sungai Tengah",
-      "province": "Kalimantan Selatan",
+      "id": 58,
+      "name": "Kulon Progo",
+      "province": "Daerah Istimewa Yogyakarta",
       "cScreen": [
-        669.4,
-        454.1
+        512.2,
+        607.6
       ]
     },
     "defTerritory": {
-      "id": 192,
-      "name": "Hulu Sungai Selatan",
-      "province": "Kalimantan Selatan",
+      "id": 124,
+      "name": "Magelang",
+      "province": "Jawa Tengah",
       "cScreen": [
-        662.6,
-        457.9
+        515.8,
+        598
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 192,
-      "name": "Hulu Sungai Selatan",
-      "province": "Kalimantan Selatan"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 445,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Sengketa pembagian beras bansos yang ternyata isinya karung pasir dan mie instan kadaluarsa.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Hulu Sungai Tengah sukses merebut tugu perbatasan dan gedung dinas Hulu Sungai Selatan. Bendera Hulu Sungai Selatan diturunkan dan diganti bendera kejayaan Hulu Sungai Tengah.\n\n💀 NASIB AKHIR:\nSeluruh kantor dinas Hulu Sungai Selatan terkepung kabut asap karhutla level berbahaya; aparatur pemda mengungsi permanen menyerahkan kekuasaan kota ke Hulu Sungai Tengah!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Hulu Sungai Selatan Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Sengketa pembagian beras bansos yang t...] Hulu Sungai Tengah menjebol Hulu Sungai Selatan! 💀 Hulu Sungai Selatan RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil.",
+      "story": "Serangan mendadak Magelang gagal total setelah dihadang ormas setempat yang meminta \"uang koordinasi wilayah\" sebesar Rp50.000 per tank tempur.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Magelang melancarkan invasi setelah pa...] Magelang sukses menghalau serbuan Magelang!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 129,
+      "date": "September 2040",
+      "atk": "Magelang",
+      "def": "Magelang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil."
+    },
     {
       "round": 128,
       "date": "Agustus 2040",
@@ -6131,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan."
-    },
-    {
-      "round": 79,
-      "date": "Juli 2036",
-      "atk": "Lingga",
-      "def": "Tanjung Jabung Timur",
-      "success": true,
-      "elim": "Tanjung Jabung Timur",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Tanjung Jabung Timur Runtuh & Lenyap dari Peta",
-      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
     }
   ]
 }
