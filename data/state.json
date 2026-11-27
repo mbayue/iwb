@@ -1,7 +1,7 @@
 {
-  "round": 130,
+  "round": 131,
   "year": 2040,
-  "month": 10,
+  "month": 11,
   "activeFactionsCount": 444,
   "territoryOwner": [
     0,
@@ -5585,63 +5585,69 @@
     }
   ],
   "lastBattle": {
-    "round": 130,
-    "date": "Oktober 2040",
-    "monthNumber": 10,
+    "round": 131,
+    "date": "November 2040",
+    "monthNumber": 11,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 418,
-      "name": "Konawe",
-      "province": "Sulawesi Tenggara",
-      "color": "#3437a8",
-      "count": 3
+      "id": 326,
+      "name": "Pegunungan Arfak",
+      "province": "Papua Barat",
+      "color": "#38a7b7",
+      "count": 1
     },
     "defFaction": {
-      "id": 386,
-      "name": "Luwu Utara",
-      "province": "Sulawesi Selatan",
-      "color": "#38b789",
-      "count": 0
+      "id": 333,
+      "name": "Sorong Selatan",
+      "province": "Papua Barat Daya",
+      "color": "#849433",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 385,
-      "name": "Luwu Timur",
-      "province": "Sulawesi Selatan",
+      "id": 326,
+      "name": "Pegunungan Arfak",
+      "province": "Papua Barat",
       "cScreen": [
-        834.2,
-        451.4
+        1206.2,
+        414
       ]
     },
     "defTerritory": {
-      "id": 386,
-      "name": "Luwu Utara",
-      "province": "Sulawesi Selatan",
+      "id": 334,
+      "name": "Tambrauw",
+      "province": "Papua Barat Daya",
       "cScreen": [
-        807.1,
-        447
+        1176.5,
+        401.2
       ]
     },
-    "success": true,
-    "eliminated": {
-      "id": 386,
-      "name": "Luwu Utara",
-      "province": "Sulawesi Selatan"
-    },
+    "success": false,
+    "eliminated": null,
     "activeFactionsCount": 444,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
-      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Konawe sukses merebut tugu perbatasan dan gedung dinas Luwu Utara. Bendera Luwu Utara diturunkan dan diganti bendera kejayaan Konawe.\n\n💀 NASIB AKHIR:\nBupati Luwu Utara dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Luwu Utara resmi BUBAR!",
-      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Utara Runtuh & Lenyap dari Peta",
-      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Konawe menjebol Luwu Utara! 💀 Luwu Utara RUNTUH!",
-      "impact": "Kekalahan Total (Bupati Kabur)",
-      "atmosphere": "Dikuasai Penuh"
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan.",
+      "story": "Upaya pendaratan laut Pegunungan Arfak digagalkan oleh ombak pasang dan hadangan calo tiket kapal penyeberangan Tambrauw yang memaksa bayar tunai.",
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "bannerText": "🛡️ [PEMICU: Antrean tiket kapal feri ASDP macet ho...] Tambrauw sukses menghalau serbuan Pegunungan Arfak!",
+      "impact": "Kerugian Logistik Penyerbu",
+      "atmosphere": "Garnisun Sukses Bertahan"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 131,
+      "date": "November 2040",
+      "atk": "Pegunungan Arfak",
+      "def": "Tambrauw",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Antrean tiket kapal feri ASDP macet horor 24 jam di dermaga pelabuhan penyeberangan."
+    },
     {
       "round": 130,
       "date": "Oktober 2040",
@@ -6131,16 +6137,6 @@
       "elim": "Pulang Pisau",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Pulang Pisau Runtuh & Lenyap dari Peta",
       "casusBelli": "Kapal nelayan dituduh melanggar batas zona tangkap cumi-cumi dan kepiting bakau tanpa izin."
-    },
-    {
-      "round": 81,
-      "date": "September 2036",
-      "atk": "Hulu Sungai Tengah",
-      "def": "Kotabaru",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring."
     }
   ]
 }
