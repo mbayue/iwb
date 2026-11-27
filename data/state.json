@@ -1,8 +1,8 @@
 {
-  "round": 129,
+  "round": 130,
   "year": 2040,
-  "month": 9,
-  "activeFactionsCount": 445,
+  "month": 10,
+  "activeFactionsCount": 444,
   "territoryOwner": [
     0,
     1,
@@ -390,7 +390,7 @@
     383,
     382,
     418,
-    386,
+    418,
     387,
     387,
     389,
@@ -4378,10 +4378,10 @@
       "name": "Luwu Utara",
       "province": "Sulawesi Selatan",
       "color": "#38b789",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 130,
+      "eliminatedBy": 418
     },
     {
       "id": 387,
@@ -4698,7 +4698,7 @@
       "name": "Konawe",
       "province": "Sulawesi Tenggara",
       "color": "#3437a8",
-      "territoryCount": 2,
+      "territoryCount": 3,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 129,
-    "date": "September 2040",
-    "monthNumber": 9,
+    "round": 130,
+    "date": "Oktober 2040",
+    "monthNumber": 10,
     "yearNumber": 2040,
     "atkFaction": {
-      "id": 124,
-      "name": "Magelang",
-      "province": "Jawa Tengah",
-      "color": "#3c9f4e",
-      "count": 1
+      "id": 418,
+      "name": "Konawe",
+      "province": "Sulawesi Tenggara",
+      "color": "#3437a8",
+      "count": 3
     },
     "defFaction": {
-      "id": 108,
-      "name": "Boyolali",
-      "province": "Jawa Tengah",
-      "color": "#629037",
-      "count": 1
+      "id": 386,
+      "name": "Luwu Utara",
+      "province": "Sulawesi Selatan",
+      "color": "#38b789",
+      "count": 0
     },
     "atkTerritory": {
-      "id": 58,
-      "name": "Kulon Progo",
-      "province": "Daerah Istimewa Yogyakarta",
+      "id": 385,
+      "name": "Luwu Timur",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        512.2,
-        607.6
+        834.2,
+        451.4
       ]
     },
     "defTerritory": {
-      "id": 124,
-      "name": "Magelang",
-      "province": "Jawa Tengah",
+      "id": 386,
+      "name": "Luwu Utara",
+      "province": "Sulawesi Selatan",
       "cScreen": [
-        515.8,
-        598
+        807.1,
+        447
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 445,
+    "success": true,
+    "eliminated": {
+      "id": 386,
+      "name": "Luwu Utara",
+      "province": "Sulawesi Selatan"
+    },
+    "activeFactionsCount": 444,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Magelang melancarkan invasi setelah para menteri kabinet selesai digembleng baris-berbaris di Akmil.",
-      "story": "Serangan mendadak Magelang gagal total setelah dihadang ormas setempat yang meminta \"uang koordinasi wilayah\" sebesar Rp50.000 per tank tempur.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Magelang melancarkan invasi setelah pa...] Magelang sukses menghalau serbuan Magelang!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati.",
+      "story": "Mengandalkan serbuan kilat di jalur bypass, divisi komando Konawe sukses merebut tugu perbatasan dan gedung dinas Luwu Utara. Bendera Luwu Utara diturunkan dan diganti bendera kejayaan Konawe.\n\n💀 NASIB AKHIR:\nBupati Luwu Utara dijemput helikopter KPK saat sarapan roti seharga 400 ribu; kantor dinas dilelang dan faksi Luwu Utara resmi BUBAR!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Utara Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Petugas Bea Cukai perbatasan menahan k...] Konawe menjebol Luwu Utara! 💀 Luwu Utara RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 130,
+      "date": "Oktober 2040",
+      "atk": "Konawe",
+      "def": "Luwu Utara",
+      "success": true,
+      "elim": "Luwu Utara",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Luwu Utara Runtuh & Lenyap dari Peta",
+      "casusBelli": "Petugas Bea Cukai perbatasan menahan kiriman peti jenazah dan mainan robot action figure koleksi bupati."
+    },
     {
       "round": 129,
       "date": "September 2040",
@@ -6127,16 +6141,6 @@
       "elim": null,
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
       "casusBelli": "Perang klaim uang donasi pengobatan viral yang ternyata dialihkan buat bayar utang kerabat dan belanja daring."
-    },
-    {
-      "round": 80,
-      "date": "Agustus 2036",
-      "atk": "Purwakarta",
-      "def": "Karawang",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Debt collector pinjol salah sita motor dinas milik komandan satpol PP perbatasan."
     }
   ]
 }
