@@ -1,8 +1,8 @@
 {
-  "round": 133,
+  "round": 134,
   "year": 2041,
-  "month": 1,
-  "activeFactionsCount": 444,
+  "month": 2,
+  "activeFactionsCount": 443,
   "territoryOwner": [
     0,
     1,
@@ -420,7 +420,7 @@
     413,
     426,
     415,
-    416,
+    415,
     417,
     418,
     419,
@@ -4668,7 +4668,7 @@
       "name": "Kolaka",
       "province": "Sulawesi Tenggara",
       "color": "#2fa0ac",
-      "territoryCount": 1,
+      "territoryCount": 2,
       "eliminated": false,
       "eliminatedInRound": null,
       "eliminatedBy": null
@@ -4678,10 +4678,10 @@
       "name": "Kolaka Timur",
       "province": "Sulawesi Tenggara",
       "color": "#ae4284",
-      "territoryCount": 1,
-      "eliminated": false,
-      "eliminatedInRound": null,
-      "eliminatedBy": null
+      "territoryCount": 0,
+      "eliminated": true,
+      "eliminatedInRound": 134,
+      "eliminatedBy": 415
     },
     {
       "id": 417,
@@ -5585,59 +5585,73 @@
     }
   ],
   "lastBattle": {
-    "round": 133,
-    "date": "Januari 2041",
-    "monthNumber": 1,
+    "round": 134,
+    "date": "Februari 2041",
+    "monthNumber": 2,
     "yearNumber": 2041,
     "atkFaction": {
-      "id": 182,
-      "name": "Landak",
-      "province": "Kalimantan Barat",
-      "color": "#38aab7",
-      "count": 1
-    },
-    "defFaction": {
-      "id": 185,
-      "name": "Sambas",
-      "province": "Kalimantan Barat",
-      "color": "#3d3fb3",
+      "id": 415,
+      "name": "Kolaka",
+      "province": "Sulawesi Tenggara",
+      "color": "#2fa0ac",
       "count": 2
     },
+    "defFaction": {
+      "id": 416,
+      "name": "Kolaka Timur",
+      "province": "Sulawesi Tenggara",
+      "color": "#ae4284",
+      "count": 0
+    },
     "atkTerritory": {
-      "id": 182,
-      "name": "Landak",
-      "province": "Kalimantan Barat",
+      "id": 415,
+      "name": "Kolaka",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        498.5,
-        361.8
+        847.3,
+        497.6
       ]
     },
     "defTerritory": {
-      "id": 175,
-      "name": "Bengkayang",
-      "province": "Kalimantan Barat",
+      "id": 416,
+      "name": "Kolaka Timur",
+      "province": "Sulawesi Tenggara",
       "cScreen": [
-        491.8,
-        348.7
+        850.1,
+        489.3
       ]
     },
-    "success": false,
-    "eliminated": null,
-    "activeFactionsCount": 444,
+    "success": true,
+    "eliminated": {
+      "id": 416,
+      "name": "Kolaka Timur",
+      "province": "Sulawesi Tenggara"
+    },
+    "activeFactionsCount": 443,
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
-      "story": "Pasukan penyerbu Landak gagal masuk karena terjebak macet horor dan jalan rusak berlubang yang belum diaspal sejak zaman Daendels.",
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Warga geram diekspor kabut asap karhut...] Bengkayang sukses menghalau serbuan Landak!",
-      "impact": "Kerugian Logistik Penyerbu",
-      "atmosphere": "Garnisun Sukses Bertahan"
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur.",
+      "story": "Konvoi pick-up dan motor brong Kolaka menerobos gerbang batas teritorial Kolaka Timur saat subuh. Pasukan pertahanan Kolaka Timur tertidur pulas akibat begadang nonton bola, sehingga kantor pemda berhasil diduduki tanpa perlawanan berarti.\n\n💀 NASIB AKHIR:\nKas daerah Kolaka Timur bangkrut total akibat bupati terjebak anjloknya bursa saham IHSG dan kurs Rupiah; seluruh aset dinas resmi disita faksi Kolaka!",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kolaka Timur Runtuh & Lenyap dari Peta",
+      "bannerText": "⚔️ [PEMICU: Pejabat perbatasan dipaksa ikut retret...] Kolaka menjebol Kolaka Timur! 💀 Kolaka Timur RUNTUH!",
+      "impact": "Kekalahan Total (Bupati Kabur)",
+      "atmosphere": "Dikuasai Penuh"
     }
   },
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 134,
+      "date": "Februari 2041",
+      "atk": "Kolaka",
+      "def": "Kolaka Timur",
+      "success": true,
+      "elim": "Kolaka Timur",
+      "shortOutcome": "JATUH & DIANEKSASI | 💀 Kolaka Timur Runtuh & Lenyap dari Peta",
+      "casusBelli": "Pejabat perbatasan dipaksa ikut retret ala Akmil Magelang dan push-up di tengah sawah berlumpur."
+    },
     {
       "round": 133,
       "date": "Januari 2041",
@@ -6127,16 +6141,6 @@
       "elim": "Belitung",
       "shortOutcome": "JATUH & DIANEKSASI | 💀 Belitung Runtuh & Lenyap dari Peta",
       "casusBelli": "Sengketa pembagian royalti tambang timah 300 triliun dan perebutan kapal isap pasir timah ilegal."
-    },
-    {
-      "round": 84,
-      "date": "Desember 2036",
-      "atk": "Kota Tegal",
-      "def": "Brebes",
-      "success": true,
-      "elim": null,
-      "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
-      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
     }
   ]
 }
