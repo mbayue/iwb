@@ -1,7 +1,7 @@
 {
-  "round": 132,
-  "year": 2040,
-  "month": 12,
+  "round": 133,
+  "year": 2041,
+  "month": 1,
   "activeFactionsCount": 444,
   "territoryOwner": [
     0,
@@ -5585,40 +5585,40 @@
     }
   ],
   "lastBattle": {
-    "round": 132,
-    "date": "Desember 2040",
-    "monthNumber": 12,
-    "yearNumber": 2040,
+    "round": 133,
+    "date": "Januari 2041",
+    "monthNumber": 1,
+    "yearNumber": 2041,
     "atkFaction": {
-      "id": 405,
-      "name": "Parigi Moutong",
-      "province": "Sulawesi Tengah",
-      "color": "#443394",
+      "id": 182,
+      "name": "Landak",
+      "province": "Kalimantan Barat",
+      "color": "#38aab7",
       "count": 1
     },
     "defFaction": {
-      "id": 409,
-      "name": "Toli Toli",
-      "province": "Sulawesi Tengah",
-      "color": "#7ea338",
-      "count": 1
+      "id": 185,
+      "name": "Sambas",
+      "province": "Kalimantan Barat",
+      "color": "#3d3fb3",
+      "count": 2
     },
     "atkTerritory": {
-      "id": 405,
-      "name": "Parigi Moutong",
-      "province": "Sulawesi Tengah",
+      "id": 182,
+      "name": "Landak",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        813.8,
-        378.2
+        498.5,
+        361.8
       ]
     },
     "defTerritory": {
-      "id": 409,
-      "name": "Toli Toli",
-      "province": "Sulawesi Tengah",
+      "id": 175,
+      "name": "Bengkayang",
+      "province": "Kalimantan Barat",
       "cScreen": [
-        823,
-        349.3
+        491.8,
+        348.7
       ]
     },
     "success": false,
@@ -5627,10 +5627,10 @@
     "gameOver": false,
     "winner": null,
     "warReport": {
-      "casusBelli": "Komandan pos perbatasan kalah judi online (judol) lalu mengerahkan anak buahnya merampas kas kota tetangga.",
-      "story": "Pertahanan Toli Toli sukses mengusir musuh berkat tembakan basoka Sound Horeg 80.000 watt yang bikin telinga pasukan penyerbu berdenging 3 hari 3 malam.",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan.",
+      "story": "Pasukan penyerbu Landak gagal masuk karena terjebak macet horor dan jalan rusak berlubang yang belum diaspal sejak zaman Daendels.",
       "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "bannerText": "🛡️ [PEMICU: Komandan pos perbatasan kalah judi onl...] Toli Toli sukses menghalau serbuan Parigi Moutong!",
+      "bannerText": "🛡️ [PEMICU: Warga geram diekspor kabut asap karhut...] Bengkayang sukses menghalau serbuan Landak!",
       "impact": "Kerugian Logistik Penyerbu",
       "atmosphere": "Garnisun Sukses Bertahan"
     }
@@ -5638,6 +5638,16 @@
   "gameOver": false,
   "winner": null,
   "history": [
+    {
+      "round": 133,
+      "date": "Januari 2041",
+      "atk": "Landak",
+      "def": "Bengkayang",
+      "success": false,
+      "elim": null,
+      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
+      "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
+    },
     {
       "round": 132,
       "date": "Desember 2040",
@@ -6127,16 +6137,6 @@
       "elim": null,
       "shortOutcome": "JATUH & DIANEKSASI (Pos batas & pemda diduduki)",
       "casusBelli": "Warga geram diekspor kabut asap karhutla tiap kemarau lalu melancarkan serangan balasan ke sumber titik api perbatasan."
-    },
-    {
-      "round": 83,
-      "date": "November 2036",
-      "atk": "Aceh Besar",
-      "def": "Pidie",
-      "success": false,
-      "elim": null,
-      "shortOutcome": "SERANGAN GAGAL (Dipukul mundur / terjebak jalan rusak)",
-      "casusBelli": "Warga mengamuk ukuran tahu dan tempe gorengan mengecil setipis kartu ATM akibat harga kedelai impor meroket drastis."
     }
   ]
 }
